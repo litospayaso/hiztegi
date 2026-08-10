@@ -7,6 +7,7 @@ import { defaultReporter } from '@web/test-runner';
 import { junitReporter } from '@web/test-runner-junit-reporter';
 import { fromRollup } from '@web/dev-server-rollup';
 import { typescriptPaths } from 'rollup-plugin-typescript-paths';
+import commonjs from '@rollup/plugin-commonjs';
 
 const timeout = 8000;
 
@@ -16,7 +17,7 @@ const getLogs = ({ type }) => {
 
 export default {
   filterBrowserLogs: getLogs,
-  files: ['src/components/**/*.test.ts'],
+  files: ['src/components/**/*.test.ts', 'src/shared/**/*.test.ts'],
   rootDir: '.',
   port: 6969,
   plugins: [
@@ -26,6 +27,9 @@ export default {
       transform(route) {
         return path.join(process.cwd(), route);
       },
+    }),
+    fromRollup(commonjs)({
+      include: [/node_modules\/jszip\//],
     }),
     esbuildPlugin({
       ts: true,
@@ -42,7 +46,6 @@ export default {
   browsers: [
     playwrightLauncher({ product: 'chromium', launchOptions: { timeout } }),
     playwrightLauncher({ product: 'firefox', launchOptions: { timeout } }),
-    playwrightLauncher({ product: 'webkit', launchOptions: { timeout } }),
   ],
   reporters: [
     defaultReporter({ reportTestResults: true, reportTestProgress: true }),
@@ -53,11 +56,16 @@ export default {
   coverageConfig: {
     report: true,
     reportDir: 'coverage',
-    sourcemapInclude: ['src/components/**/*.ts'],
-    include: ['src/components/**/*.ts'],
+    sourcemapInclude: ['src/components/**/*.ts', 'src/shared/**/*.ts'],
+    include: ['src/components/**/*.ts', 'src/shared/**/*.ts'],
     exclude: [
       'node_modules/**/*',
-      'src/shared/**.ts',
+      'src/**/*.test.ts',
+      'src/shared/httpRequest.ts',
+      'src/shared/httpEndpoints.ts',
+      'src/shared/functions.ts',
+      'src/shared/page.ts',
+      'src/shared/test-helper.ts',
     ],
     threshold: {
       statements: 80,

@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "page-app",
+  "version": "0.0.1",
+  "description": "SPA base page with hash-based navigation",
+  "author": "Angel Hita",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tx2z/wc-base-typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tx2z/wc-base-typescript/issues"
+  },
+  "homepage": "https://github.com/tx2z/wc-base-typescript"
+}

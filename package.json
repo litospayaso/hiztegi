@@ -1,7 +1,7 @@
 {
-  "name": "wc-storybook-template",
-  "version": "2.0.0",
-  "description": "Storybook web-components in lit-html",
+  "name": "Hiztegi",
+  "version": "0.0.0",
+  "description": "An app for reading basque text",
   "private": true,
   "author": "Angel Hita",
   "license": "ISC",
@@ -20,11 +20,14 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "lit": "^3.3.1"
+    "jszip": "^3.10.1",
+    "lit": "^3.3.1",
+    "pdfjs-dist": "^5.6.205"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^5.0.0",
     "@esm-bundle/chai": "^4.3.4-fix.0",
+    "@rollup/plugin-commonjs": "^29.0.3",
     "@storybook/addon-a11y": "^10.2.6",
     "@storybook/addon-docs": "^10.2.6",
     "@storybook/addon-vitest": "^10.2.6",
