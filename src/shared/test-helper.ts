@@ -7,6 +7,24 @@ import type { AxePlugin, AxeResults } from 'axe-core';
 type CreateComponentType = (component: ComponentData) => Promise<ComponentObject>;
 
 /**
+ * Load the global theme sheet into the test document so the --hzt-app-* theme
+ * drivers resolve (dark themes, real token values). Runs once per test page.
+ */
+const injectGlobalStyles = (): void => {
+  const id = 'hzt-global-styles';
+  if (document.getElementById(id)) {
+    return;
+  }
+  const link = document.createElement('link');
+  link.id = id;
+  link.rel = 'stylesheet';
+  link.href = '/src/shared/styles/global.css';
+  document.head.append(link);
+};
+
+injectGlobalStyles();
+
+/**
  * Object to create component function for test a web-component
  *
  * @interface ComponentData

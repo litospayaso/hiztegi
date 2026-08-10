@@ -35,6 +35,10 @@ describe('page-app Component Spec:', () => {
       expect((element as unknown as PageApp).getHostname()).to.equal(window.location.hostname);
     });
 
+    it('paints the paper background on the host', () => {
+      expect(getComputedStyle(element).backgroundColor).to.equal('rgb(241, 234, 220)');
+    });
+
     afterEach(() => {
       document.body.removeChild(element);
       window.location.hash = '';

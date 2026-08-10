@@ -1,63 +1,55 @@
 import { LitElement, css, html } from 'lit';
 import { property } from 'lit/decorators.js';
+import { styles } from '../../shared/styles';
 import type { Book, ReadingProgress } from '../../shared/types';
 
 export default class ComponentLibraryBookCard extends LitElement {
-  static styles = css`
-    :host {
-      display: block;
-    }
+  static styles = [
+    styles.hostStyle,
+    styles.designTokens,
+    styles.themeTokens,
+    styles.accentTokens,
+    styles.headerStyle,
+    styles.cardStyle,
+    styles.buttonStyle,
+    css`
+      .book-card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+      }
 
-    .book-card {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 1rem;
-      padding: 1rem;
-      border: 1px solid #e2e8f0;
-      border-radius: 8px;
-      background: #fff;
-    }
+      .book-info {
+        min-width: 0;
+      }
 
-    .book-info h2 {
-      margin: 0 0 0.25rem;
-      font-size: 1.1rem;
-    }
+      .book-info h2 {
+        margin-bottom: 0.25rem;
+      }
 
-    .format {
-      margin: 0;
-      font-size: 0.8rem;
-      color: #4a5568;
-      text-transform: uppercase;
-    }
+      .format {
+        margin: 0;
+        font-size: var(--hzt-size-stamp);
+        color: var(--hzt-muted);
+        letter-spacing: var(--hzt-tracking-stamp);
+        text-transform: uppercase;
+      }
 
-    .progress {
-      margin: 0.25rem 0 0;
-      font-size: 0.85rem;
-      color: #2b6cb0;
-    }
+      .progress {
+        margin: 0.25rem 0 0;
+        font-size: var(--hzt-size-body);
+        color: var(--hzt-accent);
+      }
 
-    .actions {
-      display: flex;
-      gap: 0.5rem;
-    }
-
-    button {
-      border: 1px solid #2563eb;
-      border-radius: 5px;
-      background: #2563eb;
-      color: #fff;
-      padding: 0.5rem 0.9rem;
-      cursor: pointer;
-      font-size: 0.9rem;
-    }
-
-    button.danger {
-      background: #fff;
-      border-color: #c53030;
-      color: #c53030;
-    }
-  `;
+      .actions {
+        display: flex;
+        gap: 0.5rem;
+        flex-shrink: 0;
+      }
+    `,
+  ];
 
   @property({ type: Object })
   book?: Book;
@@ -72,15 +64,15 @@ export default class ComponentLibraryBookCard extends LitElement {
       : '';
 
     return html`
-      <article class="book-card">
+      <article class="book-card hzt-card">
         <div class="book-info">
           <h2>${this.book?.title ?? ''}</h2>
           <p class="format">${this.book?.format ?? ''}</p>
           ${progressText ? html`<p class="progress">${progressText}</p>` : ''}
         </div>
         <div class="actions">
-          <button @click=${this.emitRead}>Leer</button>
-          <button class="danger" @click=${this.emitDelete}>Eliminar</button>
+          <button class="hzt-button hzt-button--primary" @click=${this.emitRead}>Leer</button>
+          <button class="hzt-button hzt-button--destructive" @click=${this.emitDelete}>Eliminar</button>
         </div>
       </article>
     `;

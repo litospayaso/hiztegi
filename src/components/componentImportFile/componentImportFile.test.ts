@@ -27,6 +27,11 @@ describe('component-import-file Component Spec:', () => {
     expect(shadow).to.not.be.undefined;
   });
 
+  it('paints the panel background on the drop zone', () => {
+    const zone = shadow.querySelector('.drop-zone') as HTMLElement;
+    expect(getComputedStyle(zone).backgroundColor).to.equal('rgb(250, 245, 234)');
+  });
+
   it('should be accessible', async () => {
     const result = await accessibilityCheck(element);
     expect(result.length).to.be.equal(0);

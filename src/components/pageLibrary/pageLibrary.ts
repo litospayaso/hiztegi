@@ -3,6 +3,7 @@ import { state } from 'lit/decorators.js';
 import { api } from '../../shared/api.decorator';
 import { deleteBook, getBooks, getProgress, importBook } from '../../shared/bookStore';
 import { parseBook } from '../../shared/parsers';
+import { styles } from '../../shared/styles';
 import type { Book, ReadingProgress } from '../../shared/types';
 import PageApp from '../pageApp/pageApp';
 import '../componentImportFile/index';
@@ -19,17 +20,15 @@ interface PageLibraryApi {
 @api({ getBooks, importBook, deleteBook, getProgress, parseBook })
 export default class PageLibrary extends PageApp<PageLibraryApi> {
   static styles = [
-    PageApp.styles,
+    ...PageApp.styles,
+    styles.headerStyle,
     css`
       :host {
-        display: block;
         padding: 1rem;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #2d3748;
       }
 
       h1 {
-        font-size: 1.5rem;
+        margin-bottom: 0.75rem;
       }
 
       .books {
@@ -39,7 +38,7 @@ export default class PageLibrary extends PageApp<PageLibraryApi> {
       }
 
       .empty {
-        color: #4a5568;
+        color: var(--hzt-muted);
       }
     `,
   ];

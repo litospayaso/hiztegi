@@ -91,6 +91,14 @@ describe('page-library Component Spec:', () => {
     expect(shadow.querySelector('.empty')?.textContent).to.include('Aún no hay');
   });
 
+  it('paints the paper background and ink title', async () => {
+    await createPage();
+    await waitFor(() => shadow.querySelector('h1') !== null);
+    expect(getComputedStyle(element).backgroundColor).to.equal('rgb(241, 234, 220)');
+    const title = shadow.querySelector('h1') as HTMLElement;
+    expect(getComputedStyle(title).color).to.equal('rgb(27, 21, 13)');
+  });
+
   it('renders a card for every book', async () => {
     await createPage({ ...defaultApi(), getBooks: async () => [sampleBook] });
     await waitFor(() => shadow.querySelector('component-library-book-card') !== null);

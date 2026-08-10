@@ -1,0 +1,80 @@
+/*
+ * Hiztegi global theme sheet (document level).
+ *
+ * The active theme/accent is chosen here by setting data-theme / data-accent on
+ * <html> (document.documentElement). The --hzt-app-* driver variables cascade
+ * into every component's shadow root, where src/shared/styles.ts resolves them
+ * into the --hzt-* tokens. Components fall back to the Day palette when this
+ * sheet is not loaded.
+ *
+ * Link this file from the app entry (index.html) and Storybook
+ * (.storybook/preview-head.html):
+ *   <link rel="stylesheet" href="/src/shared/styles/global.css">
+ */
+
+:root {
+  color-scheme: light;
+  --hzt-app-paper: #f1eadc;
+  --hzt-app-panel: #faf5ea;
+  --hzt-app-well: #e7dec9;
+  --hzt-app-ink: #1b150d;
+  --hzt-app-muted: #695f50;
+  --hzt-app-shadow: #1b150d;
+  --hzt-app-error: #b3261e;
+  --hzt-app-on-error: #ffffff;
+  --hzt-app-grid-opacity: 0.05;
+  --hzt-app-screentone-opacity: 0.16;
+  --hzt-app-accent: #d8202a;
+  --hzt-app-on-accent: #ffffff;
+
+  background-color: var(--hzt-app-paper);
+  color: var(--hzt-app-ink);
+}
+
+:root[data-theme='night'] {
+  color-scheme: dark;
+  --hzt-app-paper: #0c0a07;
+  --hzt-app-panel: #16120c;
+  --hzt-app-well: #211b12;
+  --hzt-app-ink: #f0e9da;
+  --hzt-app-muted: #968b77;
+  --hzt-app-shadow: #000000;
+  --hzt-app-error: #ff6b5e;
+  --hzt-app-on-error: #1b150d;
+  --hzt-app-grid-opacity: 0.06;
+  --hzt-app-screentone-opacity: 0.2;
+}
+
+:root[data-theme='nord'] {
+  color-scheme: dark;
+  --hzt-app-paper: #2e3440;
+  --hzt-app-panel: #3b4252;
+  --hzt-app-well: #434c5e;
+  --hzt-app-ink: #eceff4;
+  --hzt-app-muted: #9aa5bd;
+  --hzt-app-shadow: #20242e;
+  --hzt-app-error: #e5818a;
+  --hzt-app-on-error: #20242e;
+  --hzt-app-grid-opacity: 0.05;
+  --hzt-app-screentone-opacity: 0.16;
+}
+
+:root[data-accent='cobalt'] {
+  --hzt-app-accent: #1f4ed8;
+  --hzt-app-on-accent: #ffffff;
+}
+
+:root[data-accent='sun'] {
+  --hzt-app-accent: #f5a300;
+  --hzt-app-on-accent: #1b150d;
+}
+
+:root[data-accent='frost'] {
+  --hzt-app-accent: #88c0d0;
+  --hzt-app-on-accent: #2e3440;
+}
+
+:root[data-accent='mono'] {
+  --hzt-app-accent: var(--hzt-app-ink);
+  --hzt-app-on-accent: var(--hzt-app-paper);
+}

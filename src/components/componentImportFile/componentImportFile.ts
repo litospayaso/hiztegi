@@ -1,33 +1,39 @@
 import { LitElement, css, html } from 'lit';
 import { state } from 'lit/decorators.js';
+import { styles } from '../../shared/styles';
 
 export default class ComponentImportFile extends LitElement {
-  static styles = css`
-    :host {
-      display: block;
-    }
+  static styles = [
+    styles.hostStyle,
+    styles.designTokens,
+    styles.themeTokens,
+    styles.accentTokens,
+    css`
+      .drop-zone {
+        border: 2px dashed var(--hzt-ink);
+        border-radius: var(--hzt-corner);
+        padding: 2rem;
+        text-align: center;
+        background: var(--hzt-panel);
+        color: var(--hzt-ink);
+        cursor: pointer;
+        transition:
+          background-color var(--hzt-motion-card) var(--hzt-ease),
+          border-color var(--hzt-motion-card) var(--hzt-ease);
+      }
 
-    .drop-zone {
-      border: 2px dashed #8f9bb3;
-      border-radius: 8px;
-      padding: 2rem;
-      text-align: center;
-      color: #4a5568;
-      cursor: pointer;
-      transition: background-color 0.15s ease, border-color 0.15s ease;
-    }
+      .drop-zone:hover,
+      .drop-zone.active {
+        border-color: var(--hzt-accent);
+        background-color: var(--hzt-well);
+      }
 
-    .drop-zone:hover,
-    .drop-zone.active {
-      border-color: #2f80ed;
-      background-color: #eaf2ff;
-    }
-
-    .drop-zone:focus-visible {
-      outline: 3px solid #2f80ed;
-      outline-offset: 2px;
-    }
-  `;
+      .drop-zone:focus-visible {
+        outline: var(--hzt-border-chip) solid var(--hzt-accent);
+        outline-offset: 2px;
+      }
+    `,
+  ];
 
   @state()
   private active = false;
