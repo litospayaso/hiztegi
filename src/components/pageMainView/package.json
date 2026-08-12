@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "component-example",
+  "name": "page-main-view",
   "version": "0.0.1",
-  "description": "An example web component",
+  "description": "Hash router that renders the active page and the navigation bar",
   "author": "Angel Hita",
   "license": "ISC",
   "repository": {

@@ -12,11 +12,12 @@
   "scripts": {
     "dev": "vite",
     "build": "node esbuild.js",
+    "build:app": "vite build",
     "start": "npm run storybook",
     "test": "web-test-runner --config wtr.config.mjs --coverage",
     "test:watch": "web-test-runner --config wtr.config.mjs --watch --chromium",
     "preview": "vite preview",
-    "storybook": "storybook dev -p 6006",
+    "storybook": "storybook dev -p 6006 --no-version-updates --disable-telemetry",
     "build-storybook": "storybook build"
   },
   "dependencies": {

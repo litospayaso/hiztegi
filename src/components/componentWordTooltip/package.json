@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "page-example",
+  "name": "component-word-tooltip",
   "version": "0.0.1",
-  "description": "An example of a page web component",
+  "description": "Popup with the dictionary entry for a clicked word",
   "author": "Angel Hita",
   "license": "ISC",
   "repository": {

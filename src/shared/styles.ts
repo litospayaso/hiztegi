@@ -91,6 +91,8 @@ const themeTokens = css`
     --hzt-shadow: var(--hzt-app-shadow, #1b150d);
     --hzt-error: var(--hzt-app-error, #b3261e);
     --hzt-on-error: var(--hzt-app-on-error, #ffffff);
+    --hzt-mark: var(--hzt-app-mark, #ffd60a);
+    --hzt-on-mark: var(--hzt-app-on-mark, #1b150d);
     --hzt-grid-opacity: var(--hzt-app-grid-opacity, 0.05);
     --hzt-screentone-opacity: var(--hzt-app-screentone-opacity, 0.16);
   }
@@ -105,6 +107,8 @@ const themeTokens = css`
     --hzt-shadow: #1b150d;
     --hzt-error: #b3261e;
     --hzt-on-error: #ffffff;
+    --hzt-mark: #ffd60a;
+    --hzt-on-mark: #1b150d;
     --hzt-grid-opacity: 0.05;
     --hzt-screentone-opacity: 0.16;
   }
@@ -119,6 +123,8 @@ const themeTokens = css`
     --hzt-shadow: #000000;
     --hzt-error: #ff6b5e;
     --hzt-on-error: #1b150d;
+    --hzt-mark: #e0b400;
+    --hzt-on-mark: #0c0a07;
     --hzt-grid-opacity: 0.06;
     --hzt-screentone-opacity: 0.2;
   }
@@ -133,6 +139,8 @@ const themeTokens = css`
     --hzt-shadow: #20242e;
     --hzt-error: #e5818a;
     --hzt-on-error: #20242e;
+    --hzt-mark: #ebcb8b;
+    --hzt-on-mark: #2e3440;
     --hzt-grid-opacity: 0.05;
     --hzt-screentone-opacity: 0.16;
   }
