@@ -5,7 +5,7 @@ import { deleteBook, getBooks, getProgress, importBook } from '../../shared/book
 import { parseBook } from '../../shared/parsers';
 import { styles } from '../../shared/styles';
 import type { Book, ReadingProgress } from '../../shared/types';
-import PageApp from '../pageApp/pageApp';
+import Page from '../../shared/page';
 import '../componentImportFile/index';
 import '../componentLibraryBookCard/index';
 
@@ -18,9 +18,9 @@ interface PageLibraryApi {
 }
 
 @api({ getBooks, importBook, deleteBook, getProgress, parseBook })
-export default class PageLibrary extends PageApp<PageLibraryApi> {
+export default class PageLibrary extends Page<PageLibraryApi> {
   static styles = [
-    ...PageApp.styles,
+    ...Page.styles,
     styles.headerStyle,
     css`
       :host {
@@ -90,7 +90,7 @@ export default class PageLibrary extends PageApp<PageLibraryApi> {
 
   private onReadBook(event: Event): void {
     const { id } = (event as CustomEvent<{ id: string }>).detail;
-    this.navigate(`/read/${id}`);
+    this.triggerPageNavigation({ page: 'reading', bookId: id });
   }
 
   render() {

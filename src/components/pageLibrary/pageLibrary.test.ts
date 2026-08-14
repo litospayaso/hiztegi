@@ -179,9 +179,14 @@ describe('page-library Component Spec:', () => {
     await createPage(api);
     await waitFor(() => shadow.querySelector('component-library-book-card') !== null);
 
+    let navigation: { page: string; bookId: string } | undefined;
+    element.addEventListener('page-navigation', (event: Event) => {
+      navigation = (event as CustomEvent<{ page: string; bookId: string }>).detail;
+    });
+
     const readButton = cardButtons().find(button => button.textContent?.includes('Leer')) as HTMLButtonElement;
     readButton.click();
 
-    expect(window.location.hash).to.equal('#/read/b1');
+    expect(navigation).to.deep.equal({ page: 'reading', bookId: 'b1' });
   });
 });

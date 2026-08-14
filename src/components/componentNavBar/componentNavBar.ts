@@ -12,9 +12,8 @@ interface NavItem {
 }
 
 const NAV_ITEMS: NavItem[] = [
-  { path: '/', label: 'Inicio' },
-  { path: '/library', label: 'Biblioteca' },
-  { path: '/dictionary', label: 'Diccionario' },
+  { path: 'library', label: 'Inicio' },
+  { path: 'dictionary', label: 'Diccionario' },
 ];
 
 export default class ComponentNavBar extends LitElement {
@@ -85,17 +84,25 @@ export default class ComponentNavBar extends LitElement {
   @property({ type: String })
   active = '';
 
+  triggerNavigation(path: string) {
+    this.dispatchEvent(new CustomEvent('nav-bar-navigation', {
+      detail: { page: path },
+      bubbles: true,
+      composed: true
+    }));
+  }
+
   render() {
-    const current = this.active === '' ? '/' : this.active;
+    const current = this.active || NAV_ITEMS[0].path;
     return html`
       <nav class="nav-bar" aria-label="Navegación principal">
         ${NAV_ITEMS.map(
           item => html`
-            <a
+            <button
               class="nav-link ${current === item.path ? 'nav-link--active' : ''}"
-              href="#${item.path}"
+              @click=${() => this.triggerNavigation(item.path)}
               aria-current=${current === item.path ? 'page' : 'false'}
-              >${item.label}</a
+              >${item.label}</button
             >
           `
         )}

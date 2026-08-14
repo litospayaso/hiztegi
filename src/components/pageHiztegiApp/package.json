@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "page-main-view",
+  "name": "page-hiztegi-app",
   "version": "0.0.1",
-  "description": "Hash router that renders the active page and the navigation bar",
+  "description": "SPA base page with hash-based navigation",
   "author": "Angel Hita",
   "license": "ISC",
   "repository": {

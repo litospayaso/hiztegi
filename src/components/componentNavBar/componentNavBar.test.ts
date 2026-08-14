@@ -25,9 +25,17 @@ describe('component-nav-bar Component Spec:', () => {
     return navBar;
   };
 
-  const links = (): NodeListOf<HTMLAnchorElement> => shadow.querySelectorAll('a.nav-link');
-  const linkByLabel = (label: string): HTMLAnchorElement | undefined =>
-    Array.from(links()).find(link => link.textContent?.trim() === label);
+  const buttons = (): NodeListOf<HTMLButtonElement> => shadow.querySelectorAll('button.nav-link');
+  const buttonByLabel = (label: string): HTMLButtonElement | undefined =>
+    Array.from(buttons()).find(button => button.textContent?.trim() === label);
+  const clickNavigation = (label: string): CustomEvent | undefined => {
+    let received: CustomEvent | undefined;
+    element.addEventListener('nav-bar-navigation', (event: Event) => {
+      received = event as CustomEvent;
+    });
+    buttonByLabel(label)?.click();
+    return received;
+  };
 
   it('should contain shadow root', async () => {
     await createNavBar();
@@ -35,46 +43,54 @@ describe('component-nav-bar Component Spec:', () => {
   });
 
   it('should be accessible', async () => {
-    await createNavBar('/library');
+    await createNavBar('library');
     const result = await accessibilityCheck(element);
     expect(result.length).to.be.equal(0);
   });
 
-  it('renders hash links to home, library and dictionary', async () => {
+  it('renders buttons for home (library) and dictionary', async () => {
     await createNavBar();
-    expect(links().length).to.equal(3);
-    expect(linkByLabel('Inicio')?.getAttribute('href')).to.equal('#/');
-    expect(linkByLabel('Biblioteca')?.getAttribute('href')).to.equal('#/library');
-    expect(linkByLabel('Diccionario')?.getAttribute('href')).to.equal('#/dictionary');
+    expect(buttons().length).to.equal(2);
+    expect(buttonByLabel('Inicio')).to.not.be.undefined;
+    expect(buttonByLabel('Diccionario')).to.not.be.undefined;
   });
 
-  it('marks the active link for the given route', async () => {
-    await createNavBar('/library');
-    const active = linkByLabel('Biblioteca') as HTMLAnchorElement;
+  it('dispatches a nav-bar-navigation event with the target page', async () => {
+    await createNavBar();
+    const event = clickNavigation('Inicio');
+    expect(event).to.not.be.undefined;
+    expect((event as unknown as { detail: { page: string } }).detail.page).to.equal('library');
+
+    const event2 = clickNavigation('Diccionario');
+    expect((event2 as unknown as { detail: { page: string } }).detail.page).to.equal('dictionary');
+  });
+
+  it('marks the active button for the given route', async () => {
+    await createNavBar('library');
+    const active = buttonByLabel('Inicio') as HTMLButtonElement;
     expect(active.classList.contains('nav-link--active')).to.be.true;
     expect(active.getAttribute('aria-current')).to.equal('page');
-    expect(linkByLabel('Inicio')?.getAttribute('aria-current')).to.equal('false');
-    expect(linkByLabel('Diccionario')?.getAttribute('aria-current')).to.equal('false');
+    expect(buttonByLabel('Diccionario')?.getAttribute('aria-current')).to.equal('false');
   });
 
   it('treats an empty active route as home', async () => {
     await createNavBar('');
-    expect(linkByLabel('Inicio')?.classList.contains('nav-link--active')).to.be.true;
+    expect(buttonByLabel('Inicio')?.classList.contains('nav-link--active')).to.be.true;
   });
 
-  it('marks no link active for an unknown route', async () => {
-    await createNavBar('/read/b1');
-    Array.from(links()).forEach(link => {
-      expect(link.classList.contains('nav-link--active')).to.be.false;
+  it('marks no button active for an unknown route', async () => {
+    await createNavBar('reading');
+    Array.from(buttons()).forEach(button => {
+      expect(button.classList.contains('nav-link--active')).to.be.false;
     });
   });
 
-  it('updates the active link when the route changes', async () => {
-    const navBar = await createNavBar('/library');
-    expect(linkByLabel('Biblioteca')?.classList.contains('nav-link--active')).to.be.true;
-    navBar.active = '/dictionary';
+  it('updates the active button when the route changes', async () => {
+    const navBar = await createNavBar('library');
+    expect(buttonByLabel('Inicio')?.classList.contains('nav-link--active')).to.be.true;
+    navBar.active = 'dictionary';
     await navBar.updateComplete;
-    expect(linkByLabel('Diccionario')?.classList.contains('nav-link--active')).to.be.true;
-    expect(linkByLabel('Biblioteca')?.classList.contains('nav-link--active')).to.be.false;
+    expect(buttonByLabel('Diccionario')?.classList.contains('nav-link--active')).to.be.true;
+    expect(buttonByLabel('Inicio')?.classList.contains('nav-link--active')).to.be.false;
   });
 });

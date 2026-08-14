@@ -6,6 +6,7 @@ import litPlugin from 'esbuild-plugin-lit';
 import { exec } from 'node:child_process';
 
 const outDir = 'dist';
+let finalVersion = '0.0.0';
 
 if (fs.existsSync('./dist')) {
   fs.rm('./dist', { recursive: true }, () => {});
@@ -31,7 +32,7 @@ const asyncForEach = async (array, callback) => {
 };
 
 
-asyncForEach(glob.sync('./src/components/**/index.ts'), async file => {
+await asyncForEach(glob.sync('./src/components/**/index.ts'), async file => {
   file = file.replace(/\\/g,'/')
   const componentPath = file.replace('/index.ts', '');
   let packageJson = fs.readFileSync(`${componentPath}/package.json`);
@@ -46,6 +47,10 @@ asyncForEach(glob.sync('./src/components/**/index.ts'), async file => {
   const componentClass = file.replace('/index', `/${componentName}`);
   console.log('\x1b[32m%s', '\n-----------------------------');
   console.log('\x1b[32m%s\x1b[36m%s\x1b[0m', '[component]: ', componentName);
+
+  if (componentName === 'pageHiztegiApp') {
+    finalVersion = version;
+  }
 
   await build({
     entryPoints: [`${componentPath}/index.ts`],
@@ -85,4 +90,17 @@ asyncForEach(glob.sync('./src/components/**/index.ts'), async file => {
 
   console.log('\x1b[32m%s\x1b[36m%s\x1b[0m', '[gzip]:      ', zip);
   console.log('\x1b[32m%s\x1b[0m', '-----------------------------');
+});
+
+
+fs.copyFile(`./dist/components/pageHiztegiApp/${finalVersion}/pageHiztegiApp.js`, './gh-pages/pageHiztegiApp.js', err => {
+  if (err) {
+    console.log('\x1b[32m%s\x1b[0m', '\n-----------------------------');
+    console.log('\x1b[32m%s\x1b[36m%s\x1b[0m', '[ERROR]:      ', err);
+    console.log('\x1b[32m%s\x1b[0m', '-----------------------------');
+  } else {
+    console.log('\x1b[32m%s\x1b[0m', '\n-----------------------------');
+    console.log('\x1b[32m%s\x1b[36m%s\x1b[0m', '[pageHiztegiApp.js]:      ', ' Lib copy correctly!');
+    console.log('\x1b[32m%s\x1b[0m', '-----------------------------');
+  }
 });

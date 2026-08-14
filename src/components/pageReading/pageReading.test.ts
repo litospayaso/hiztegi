@@ -61,25 +61,18 @@ describe('page-reading Component Spec:', () => {
   let element: HTMLElement;
   let shadow: ShadowRoot;
 
-  beforeEach(() => {
-    window.location.hash = '#/read/b1';
-  });
-
   afterEach(() => {
     if (element?.isConnected) {
       document.body.removeChild(element);
     }
-    window.location.hash = '';
   });
 
-  const createPage = async (api: PageReadingApi = defaultApi(), hash?: string): Promise<void> => {
-    if (hash !== undefined) {
-      window.location.hash = hash;
-    }
+  const createPage = async (api: PageReadingApi = defaultApi(), bookId = 'b1'): Promise<void> => {
     const component = await createComponent({
       class: PageReading,
       name: 'page-reading',
       api,
+      properties: { bookId },
     });
     shadow = component.shadow;
     element = component.element;
@@ -186,7 +179,6 @@ describe('page-reading Component Spec:', () => {
     await waitFor(() => shadow.querySelector('.error') !== null);
     expect(shadow.querySelector('.error')?.textContent).to.equal('No se ha indicado ningún libro.');
   });
-
   it('shows an empty message when the book has no chapters', async () => {
     const api: PageReadingApi = { ...defaultApi(), getChapters: async () => [] };
     await createPage(api);
@@ -272,8 +264,12 @@ describe('page-reading Component Spec:', () => {
   it('navigates back to the library', async () => {
     await createPage();
     await waitFor(() => buttonByText('Volver a la biblioteca') !== undefined);
+    let navigation: { page: string } | undefined;
+    element.addEventListener('page-navigation', (event: Event) => {
+      navigation = (event as CustomEvent<{ page: string }>).detail;
+    });
     buttonByText('Volver a la biblioteca')?.click();
-    expect(window.location.hash).to.equal('#/library');
+    expect(navigation).to.deep.equal({ page: 'library' });
   });
 
   it('reloads when the bookId property changes', async () => {

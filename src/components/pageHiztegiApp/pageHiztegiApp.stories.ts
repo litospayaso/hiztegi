@@ -1,10 +1,10 @@
 import './index';
 import type { Meta, StoryObj } from '@storybook/web-components-vite';
 
-const render = () => document.createElement('page-app');
+const render = () => document.createElement('page-hiztegi-app');
 
 const meta = {
-  title: 'Pages/page-app',
+  title: 'Pages/page-hiztegi-app',
   tags: ['autodocs'],
   render,
 } satisfies Meta;
@@ -12,6 +12,6 @@ const meta = {
 export default meta;
 type Story = StoryObj;
 
-export const pageApp: Story = {
+export const pageHiztegiApp: Story = {
   render,
 };

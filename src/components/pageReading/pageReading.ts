@@ -6,7 +6,7 @@ import { getBook, getChapters, getProgress, saveProgress } from '../../shared/bo
 import { getAllEntries, lookup, upsertEntry } from '../../shared/dictionaryStore';
 import { styles } from '../../shared/styles';
 import type { Book, Chapter, DictionaryEntry } from '../../shared/types';
-import PageApp from '../pageApp/pageApp';
+import Page from '../../shared/page';
 import '../componentTextReader/index';
 import '../componentWordTooltip/index';
 
@@ -35,9 +35,9 @@ interface WordTooltipData {
   lookupWord: lookup,
   upsertEntry,
 })
-export default class PageReading extends PageApp<PageReadingApi> {
+export default class PageReading extends Page<PageReadingApi> {
   static styles = [
-    ...PageApp.styles,
+    ...Page.styles,
     styles.headerStyle,
     styles.buttonStyle,
     css`
@@ -128,16 +128,6 @@ export default class PageReading extends PageApp<PageReadingApi> {
 
   private loadStarted = false;
 
-  connectedCallback(): void {
-    super.connectedCallback();
-    window.addEventListener('hashchange', this.onHashChange);
-  }
-
-  disconnectedCallback(): void {
-    window.removeEventListener('hashchange', this.onHashChange);
-    super.disconnectedCallback();
-  }
-
   protected willUpdate(changed: PropertyValues): void {
     if (changed.has('bookId') && this.bookId) {
       void this.ensureLoaded();
@@ -154,24 +144,16 @@ export default class PageReading extends PageApp<PageReadingApi> {
     }
     this.loadStarted = true;
     try {
-      const id = this.bookId || this.getBookIdFromHash();
+      const id = this.bookId || this.getBookIdFromQuery();
       await this.loadBook(id);
     } finally {
       this.loadStarted = false;
     }
   }
 
-  private getBookIdFromHash(): string {
-    const match = /^#\/read\/([^/?#]+)/.exec(window.location.hash);
-    return match ? decodeURIComponent(match[1]) : '';
+  private getBookIdFromQuery(): string {
+    return this.getQueryParamsURL().get('bookId') ?? '';
   }
-
-  private onHashChange = (): void => {
-    const id = this.getBookIdFromHash();
-    if (id && id !== this.bookId) {
-      this.bookId = id;
-    }
-  };
 
   private async loadBook(id: string): Promise<void> {
     if (!id) {
@@ -205,7 +187,7 @@ export default class PageReading extends PageApp<PageReadingApi> {
 
   private async persistProgress(): Promise<void> {
     await this.api.saveProgress({
-      bookId: this.bookId || this.getBookIdFromHash(),
+      bookId: this.bookId,
       chapterIndex: this.chapterIndex,
       pageIndex: this.pageIndex,
     });
@@ -259,7 +241,7 @@ export default class PageReading extends PageApp<PageReadingApi> {
       return html`
         <div>
           <p class="error" role="alert">${this.error}</p>
-          <button class="hzt-button" @click=${() => this.navigate('/library')}>
+          <button class="hzt-button" @click=${() => this.triggerPageNavigation({ page: 'library' })}>
             Volver a la biblioteca
           </button>
         </div>
@@ -280,7 +262,7 @@ export default class PageReading extends PageApp<PageReadingApi> {
         <header>
           <div class="toolbar">
             <h1>${this.book.title}</h1>
-            <button class="hzt-button hzt-button--text" @click=${() => this.navigate('/library')}>
+          <button class="hzt-button hzt-button--text" @click=${() => this.triggerPageNavigation({ page: 'library' })}>
               Volver a la biblioteca
             </button>
           </div>

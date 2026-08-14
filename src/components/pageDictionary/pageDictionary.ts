@@ -4,7 +4,7 @@ import { api } from '../../shared/api.decorator';
 import { getAllEntries, removeEntry, upsertEntry } from '../../shared/dictionaryStore';
 import { styles } from '../../shared/styles';
 import type { DictionaryEntry } from '../../shared/types';
-import PageApp from '../pageApp/pageApp';
+import Page from '../../shared/page';
 import '../componentDictionaryEntryRow/index';
 import '../componentDictionaryForm/index';
 
@@ -15,9 +15,9 @@ interface PageDictionaryApi {
 }
 
 @api({ getEntries: getAllEntries, upsertEntry, deleteEntry: removeEntry })
-export default class PageDictionary extends PageApp<PageDictionaryApi> {
+export default class PageDictionary extends Page<PageDictionaryApi> {
   static styles = [
-    ...PageApp.styles,
+    ...Page.styles,
     styles.headerStyle,
     styles.buttonStyle,
     css`
