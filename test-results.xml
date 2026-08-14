@@ -1,556 +1,556 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Chromium_playwright_/src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts" id="0" tests="8" skipped="0" errors="0" failures="0" time="1.7569999999999997">
+  <testsuite name="Chromium_playwright_/src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts" id="0" tests="8" skipped="0" errors="0" failures="0" time="1.1219999999999999">
     <properties>
       <property name="test.fileName" value="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
       <property name="browser.name" value="Chromium"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="should contain shadow root" time="0.001" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
-    <testcase name="should be accessible" time="1.75" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
-    <testcase name="renders the word and the known status badge" time="0.001" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
-    <testcase name="shows the unknown status badge" time="0.002" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
+    <testcase name="should contain shadow root" time="0" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
+    <testcase name="should be accessible" time="1.121" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
+    <testcase name="renders the word and the known status badge" time="0" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
+    <testcase name="shows the unknown status badge" time="0" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
     <testcase name="renders the note when there is one" time="0" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
-    <testcase name="does not render the note when there is none" time="0.001" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
-    <testcase name="emits edit-entry with the word" time="0.002" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
-    <testcase name="emits delete-entry with the word" time="0" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
-  </testsuite>
-  <testsuite name="Firefox_playwright_/src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts" id="0" tests="8" skipped="0" errors="0" failures="0" time="2.0099999999999993">
-    <properties>
-      <property name="test.fileName" value="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
-      <property name="browser.name" value="Firefox"/>
-      <property name="browser.launcher" value="playwright"/>
-    </properties>
-    <testcase name="should contain shadow root" time="0.001" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
-    <testcase name="should be accessible" time="1.999" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
-    <testcase name="renders the word and the known status badge" time="0.001" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
-    <testcase name="shows the unknown status badge" time="0.005" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
-    <testcase name="renders the note when there is one" time="0.002" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
-    <testcase name="does not render the note when there is none" time="0.001" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
+    <testcase name="does not render the note when there is none" time="0" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
     <testcase name="emits edit-entry with the word" time="0.001" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
     <testcase name="emits delete-entry with the word" time="0" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
   </testsuite>
-  <testsuite name="Chromium_playwright_/src/components/componentDictionaryForm/componentDictionaryForm.test.ts" id="0" tests="9" skipped="0" errors="0" failures="0" time="1.7409999999999994">
+  <testsuite name="Firefox_playwright_/src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts" id="0" tests="8" skipped="0" errors="0" failures="0" time="1.161">
+    <properties>
+      <property name="test.fileName" value="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
+      <property name="browser.name" value="Firefox"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="should contain shadow root" time="0" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
+    <testcase name="should be accessible" time="1.161" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
+    <testcase name="renders the word and the known status badge" time="0" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
+    <testcase name="shows the unknown status badge" time="0" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
+    <testcase name="renders the note when there is one" time="0" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
+    <testcase name="does not render the note when there is none" time="0" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
+    <testcase name="emits edit-entry with the word" time="0" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
+    <testcase name="emits delete-entry with the word" time="0" classname="component-dictionary-entry-row Component Spec:" file="src/components/componentDictionaryEntryRow/componentDictionaryEntryRow.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_/src/components/componentDictionaryForm/componentDictionaryForm.test.ts" id="0" tests="9" skipped="0" errors="0" failures="0" time="1.1659999999999995">
     <properties>
       <property name="test.fileName" value="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
       <property name="browser.name" value="Chromium"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="should contain shadow root" time="0.003" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
-    <testcase name="should be accessible" time="1.727" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
-    <testcase name="renders the new-entry mode with empty fields" time="0.001" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
-    <testcase name="prefills the fields in edit mode" time="0.002" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
-    <testcase name="emits save-entry with a normalized entry" time="0.003" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
+    <testcase name="should contain shadow root" time="0.001" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
+    <testcase name="should be accessible" time="1.161" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
+    <testcase name="renders the new-entry mode with empty fields" time="0" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
+    <testcase name="prefills the fields in edit mode" time="0.001" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
+    <testcase name="emits save-entry with a normalized entry" time="0.001" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
     <testcase name="omits empty translation and note from the emitted entry" time="0.001" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
-    <testcase name="shows an error and does not emit when the word is empty" time="0.002" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
+    <testcase name="shows an error and does not emit when the word is empty" time="0" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
+    <testcase name="clears the error once the user types a word" time="0" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
+    <testcase name="emits cancel-entry" time="0.001" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
+  </testsuite>
+  <testsuite name="Firefox_playwright_/src/components/componentDictionaryForm/componentDictionaryForm.test.ts" id="0" tests="9" skipped="0" errors="0" failures="0" time="1.1589999999999996">
+    <properties>
+      <property name="test.fileName" value="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
+      <property name="browser.name" value="Firefox"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="should contain shadow root" time="0" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
+    <testcase name="should be accessible" time="1.155" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
+    <testcase name="renders the new-entry mode with empty fields" time="0" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
+    <testcase name="prefills the fields in edit mode" time="0" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
+    <testcase name="emits save-entry with a normalized entry" time="0.001" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
+    <testcase name="omits empty translation and note from the emitted entry" time="0" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
+    <testcase name="shows an error and does not emit when the word is empty" time="0.001" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
     <testcase name="clears the error once the user types a word" time="0.001" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
     <testcase name="emits cancel-entry" time="0.001" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
   </testsuite>
-  <testsuite name="Firefox_playwright_/src/components/componentDictionaryForm/componentDictionaryForm.test.ts" id="0" tests="9" skipped="0" errors="0" failures="0" time="2.1579999999999995">
-    <properties>
-      <property name="test.fileName" value="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
-      <property name="browser.name" value="Firefox"/>
-      <property name="browser.launcher" value="playwright"/>
-    </properties>
-    <testcase name="should contain shadow root" time="0.002" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
-    <testcase name="should be accessible" time="2.063" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
-    <testcase name="renders the new-entry mode with empty fields" time="0.001" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
-    <testcase name="prefills the fields in edit mode" time="0.002" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
-    <testcase name="emits save-entry with a normalized entry" time="0.044" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
-    <testcase name="omits empty translation and note from the emitted entry" time="0.003" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
-    <testcase name="shows an error and does not emit when the word is empty" time="0.038" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
-    <testcase name="clears the error once the user types a word" time="0.004" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
-    <testcase name="emits cancel-entry" time="0.001" classname="component-dictionary-form Component Spec:" file="src/components/componentDictionaryForm/componentDictionaryForm.test.ts"/>
-  </testsuite>
-  <testsuite name="Chromium_playwright_/src/components/componentImportFile/componentImportFile.test.ts" id="0" tests="7" skipped="0" errors="0" failures="0" time="1.5479999999999996">
+  <testsuite name="Chromium_playwright_/src/components/componentImportFile/componentImportFile.test.ts" id="0" tests="7" skipped="0" errors="0" failures="0" time="1.098">
     <properties>
       <property name="test.fileName" value="src/components/componentImportFile/componentImportFile.test.ts"/>
       <property name="browser.name" value="Chromium"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="should contain shadow root" time="0.002" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
-    <testcase name="paints the panel background on the drop zone" time="0.001" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
-    <testcase name="should be accessible" time="1.533" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
-    <testcase name="opens the file picker when the drop zone is clicked" time="0.001" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
-    <testcase name="emits files-selected when files are dropped" time="0.008" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
+    <testcase name="should contain shadow root" time="0" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
+    <testcase name="paints the panel background on the drop zone" time="0" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
+    <testcase name="should be accessible" time="1.094" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
+    <testcase name="opens the file picker when the drop zone is clicked" time="0" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
+    <testcase name="emits files-selected when files are dropped" time="0.002" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
     <testcase name="emits files-selected when the input changes" time="0.002" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
-    <testcase name="selectFiles ignores empty lists" time="0.001" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
+    <testcase name="selectFiles ignores empty lists" time="0" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
   </testsuite>
-  <testsuite name="Firefox_playwright_/src/components/componentImportFile/componentImportFile.test.ts" id="0" tests="7" skipped="0" errors="0" failures="0" time="1.6649999999999996">
+  <testsuite name="Firefox_playwright_/src/components/componentImportFile/componentImportFile.test.ts" id="0" tests="7" skipped="0" errors="0" failures="0" time="1.13">
     <properties>
       <property name="test.fileName" value="src/components/componentImportFile/componentImportFile.test.ts"/>
       <property name="browser.name" value="Firefox"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="should contain shadow root" time="0.001" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
-    <testcase name="paints the panel background on the drop zone" time="0.005" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
-    <testcase name="should be accessible" time="1.652" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
-    <testcase name="opens the file picker when the drop zone is clicked" time="0.001" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
-    <testcase name="emits files-selected when files are dropped" time="0.003" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
-    <testcase name="emits files-selected when the input changes" time="0.002" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
-    <testcase name="selectFiles ignores empty lists" time="0.001" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
+    <testcase name="should contain shadow root" time="0" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
+    <testcase name="paints the panel background on the drop zone" time="0" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
+    <testcase name="should be accessible" time="1.129" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
+    <testcase name="opens the file picker when the drop zone is clicked" time="0" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
+    <testcase name="emits files-selected when files are dropped" time="0.001" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
+    <testcase name="emits files-selected when the input changes" time="0" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
+    <testcase name="selectFiles ignores empty lists" time="0" classname="component-import-file Component Spec:" file="src/components/componentImportFile/componentImportFile.test.ts"/>
   </testsuite>
-  <testsuite name="Chromium_playwright_/src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts" id="0" tests="7" skipped="0" errors="0" failures="0" time="1.8339999999999996">
+  <testsuite name="Chromium_playwright_/src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts" id="0" tests="7" skipped="0" errors="0" failures="0" time="1.1429999999999998">
     <properties>
       <property name="test.fileName" value="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
       <property name="browser.name" value="Chromium"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="should contain shadow root" time="0.003" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
-    <testcase name="should be accessible" time="1.826" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
+    <testcase name="should contain shadow root" time="0" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
+    <testcase name="should be accessible" time="1.142" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
     <testcase name="renders the book title and format" time="0" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
     <testcase name="does not render progress when there is none" time="0" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
-    <testcase name="renders the reading progress" time="0.003" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
-    <testcase name="emits read-book with the book id" time="0.001" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
-    <testcase name="emits delete-book with the book id" time="0.001" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
+    <testcase name="renders the reading progress" time="0.001" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
+    <testcase name="emits read-book with the book id" time="0" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
+    <testcase name="emits delete-book with the book id" time="0" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
   </testsuite>
-  <testsuite name="Firefox_playwright_/src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts" id="0" tests="7" skipped="0" errors="0" failures="0" time="1.9459999999999995">
+  <testsuite name="Firefox_playwright_/src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts" id="0" tests="7" skipped="0" errors="0" failures="0" time="1.126">
     <properties>
       <property name="test.fileName" value="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
       <property name="browser.name" value="Firefox"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="should contain shadow root" time="0.001" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
-    <testcase name="should be accessible" time="1.939" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
-    <testcase name="renders the book title and format" time="0.001" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
-    <testcase name="does not render progress when there is none" time="0.001" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
-    <testcase name="renders the reading progress" time="0.003" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
-    <testcase name="emits read-book with the book id" time="0.001" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
+    <testcase name="should contain shadow root" time="0" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
+    <testcase name="should be accessible" time="1.126" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
+    <testcase name="renders the book title and format" time="0" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
+    <testcase name="does not render progress when there is none" time="0" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
+    <testcase name="renders the reading progress" time="0" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
+    <testcase name="emits read-book with the book id" time="0" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
     <testcase name="emits delete-book with the book id" time="0" classname="component-library-book-card Component Spec:" file="src/components/componentLibraryBookCard/componentLibraryBookCard.test.ts"/>
   </testsuite>
-  <testsuite name="Chromium_playwright_/src/components/componentNavBar/componentNavBar.test.ts" id="0" tests="8" skipped="0" errors="0" failures="0" time="1.5809999999999997">
+  <testsuite name="Chromium_playwright_/src/components/componentNavBar/componentNavBar.test.ts" id="0" tests="8" skipped="0" errors="0" failures="0" time="1.1109999999999993">
     <properties>
       <property name="test.fileName" value="src/components/componentNavBar/componentNavBar.test.ts"/>
       <property name="browser.name" value="Chromium"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="should contain shadow root" time="0.033" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
-    <testcase name="should be accessible" time="1.534" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
-    <testcase name="renders buttons for home (library) and dictionary" time="0.002" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
-    <testcase name="dispatches a nav-bar-navigation event with the target page" time="0.002" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
-    <testcase name="marks the active button for the given route" time="0.003" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
-    <testcase name="treats an empty active route as home" time="0.002" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
-    <testcase name="marks no button active for an unknown route" time="0.002" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
-    <testcase name="updates the active button when the route changes" time="0.003" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
+    <testcase name="should contain shadow root" time="0.011" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
+    <testcase name="should be accessible" time="1.095" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
+    <testcase name="renders buttons for home (library) and dictionary" time="0.001" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
+    <testcase name="dispatches a nav-bar-navigation event with the target page" time="0.001" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
+    <testcase name="marks the active button for the given route" time="0" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
+    <testcase name="treats an empty active route as home" time="0.001" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
+    <testcase name="marks no button active for an unknown route" time="0.001" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
+    <testcase name="updates the active button when the route changes" time="0.001" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
   </testsuite>
-  <testsuite name="Firefox_playwright_/src/components/componentNavBar/componentNavBar.test.ts" id="0" tests="8" skipped="0" errors="0" failures="0" time="1.5859999999999999">
+  <testsuite name="Firefox_playwright_/src/components/componentNavBar/componentNavBar.test.ts" id="0" tests="8" skipped="0" errors="0" failures="0" time="1.1589999999999996">
     <properties>
       <property name="test.fileName" value="src/components/componentNavBar/componentNavBar.test.ts"/>
       <property name="browser.name" value="Firefox"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="should contain shadow root" time="0.012" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
-    <testcase name="should be accessible" time="1.553" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
-    <testcase name="renders buttons for home (library) and dictionary" time="0.002" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
-    <testcase name="dispatches a nav-bar-navigation event with the target page" time="0.008" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
-    <testcase name="marks the active button for the given route" time="0.005" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
-    <testcase name="treats an empty active route as home" time="0.002" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
-    <testcase name="marks no button active for an unknown route" time="0.002" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
-    <testcase name="updates the active button when the route changes" time="0.002" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
+    <testcase name="should contain shadow root" time="0.006" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
+    <testcase name="should be accessible" time="1.149" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
+    <testcase name="renders buttons for home (library) and dictionary" time="0.001" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
+    <testcase name="dispatches a nav-bar-navigation event with the target page" time="0.001" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
+    <testcase name="marks the active button for the given route" time="0.001" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
+    <testcase name="treats an empty active route as home" time="0" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
+    <testcase name="marks no button active for an unknown route" time="0" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
+    <testcase name="updates the active button when the route changes" time="0.001" classname="component-nav-bar Component Spec:" file="src/components/componentNavBar/componentNavBar.test.ts"/>
   </testsuite>
-  <testsuite name="Chromium_playwright_/src/components/componentTextReader/componentTextReader.test.ts" id="0" tests="12" skipped="0" errors="0" failures="0" time="1.8189999999999993">
+  <testsuite name="Chromium_playwright_/src/components/componentTextReader/componentTextReader.test.ts" id="0" tests="12" skipped="0" errors="0" failures="0" time="1.1149999999999989">
     <properties>
       <property name="test.fileName" value="src/components/componentTextReader/componentTextReader.test.ts"/>
       <property name="browser.name" value="Chromium"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="should contain shadow root" time="0.072" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
-    <testcase name="should be accessible" time="1.688" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
-    <testcase name="preserves the full text including whitespace" time="0.004" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
-    <testcase name="marks known, unknown and plain words with the right classes" time="0.003" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
-    <testcase name="paginates by word count" time="0.004" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
-    <testcase name="navigates to the next page and emits page-change" time="0.013" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
-    <testcase name="navigates back and emits page-change" time="0.007" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
-    <testcase name="disables previous on the first page and next on the last page" time="0.007" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
-    <testcase name="emits word-click with the word and click coordinates" time="0.007" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
-    <testcase name="resets to the first page when the text changes" time="0.004" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
-    <testcase name="renders a single empty page for empty text" time="0.007" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
-    <testcase name="does not paginate into a trailing empty page" time="0.003" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
+    <testcase name="should contain shadow root" time="0.007" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
+    <testcase name="should be accessible" time="1.097" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
+    <testcase name="preserves the full text including whitespace" time="0.001" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
+    <testcase name="marks known, unknown and plain words with the right classes" time="0.001" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
+    <testcase name="paginates by word count" time="0" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
+    <testcase name="navigates to the next page and emits page-change" time="0.001" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
+    <testcase name="navigates back and emits page-change" time="0.001" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
+    <testcase name="disables previous on the first page and next on the last page" time="0.001" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
+    <testcase name="emits word-click with the word and click coordinates" time="0.003" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
+    <testcase name="resets to the first page when the text changes" time="0.001" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
+    <testcase name="renders a single empty page for empty text" time="0.001" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
+    <testcase name="does not paginate into a trailing empty page" time="0.001" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
   </testsuite>
-  <testsuite name="Firefox_playwright_/src/components/componentTextReader/componentTextReader.test.ts" id="0" tests="12" skipped="0" errors="0" failures="0" time="1.7339999999999993">
+  <testsuite name="Firefox_playwright_/src/components/componentTextReader/componentTextReader.test.ts" id="0" tests="12" skipped="0" errors="0" failures="0" time="1.1359999999999992">
     <properties>
       <property name="test.fileName" value="src/components/componentTextReader/componentTextReader.test.ts"/>
       <property name="browser.name" value="Firefox"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="should contain shadow root" time="0.023" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
-    <testcase name="should be accessible" time="1.656" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
-    <testcase name="preserves the full text including whitespace" time="0.005" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
-    <testcase name="marks known, unknown and plain words with the right classes" time="0.004" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
-    <testcase name="paginates by word count" time="0.006" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
-    <testcase name="navigates to the next page and emits page-change" time="0.007" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
-    <testcase name="navigates back and emits page-change" time="0.008" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
-    <testcase name="disables previous on the first page and next on the last page" time="0.005" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
-    <testcase name="emits word-click with the word and click coordinates" time="0.004" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
-    <testcase name="resets to the first page when the text changes" time="0.005" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
-    <testcase name="renders a single empty page for empty text" time="0.004" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
-    <testcase name="does not paginate into a trailing empty page" time="0.007" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
+    <testcase name="should contain shadow root" time="0.008" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
+    <testcase name="should be accessible" time="1.114" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
+    <testcase name="preserves the full text including whitespace" time="0.001" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
+    <testcase name="marks known, unknown and plain words with the right classes" time="0.001" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
+    <testcase name="paginates by word count" time="0.001" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
+    <testcase name="navigates to the next page and emits page-change" time="0.001" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
+    <testcase name="navigates back and emits page-change" time="0.002" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
+    <testcase name="disables previous on the first page and next on the last page" time="0.002" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
+    <testcase name="emits word-click with the word and click coordinates" time="0.001" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
+    <testcase name="resets to the first page when the text changes" time="0.003" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
+    <testcase name="renders a single empty page for empty text" time="0.001" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
+    <testcase name="does not paginate into a trailing empty page" time="0.001" classname="component-text-reader Component Spec:" file="src/components/componentTextReader/componentTextReader.test.ts"/>
   </testsuite>
-  <testsuite name="Chromium_playwright_/src/components/componentWordTooltip/componentWordTooltip.test.ts" id="0" tests="14" skipped="0" errors="0" failures="0" time="2.0619999999999994">
+  <testsuite name="Chromium_playwright_/src/components/componentWordTooltip/componentWordTooltip.test.ts" id="0" tests="14" skipped="0" errors="0" failures="0" time="1.1539999999999997">
     <properties>
       <property name="test.fileName" value="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
       <property name="browser.name" value="Chromium"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="should contain shadow root" time="0.119" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="should be accessible" time="1.838" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="renders the word as title" time="0.007" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="renders the known badge, translation and note" time="0.007" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="renders the unknown badge" time="0.008" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="shows the not-in-dictionary hint and add button when there is no entry" time="0.006" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="emits save-entry with an unknown status when adding a word to the dictionary" time="0.028" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="emits save-entry with known status when marking as known" time="0.011" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="emits save-entry with unknown status when marking as new" time="0.008" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="emits close when the close button is clicked" time="0.006" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="emits close when clicking outside the tooltip" time="0.009" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="emits close on Escape" time="0.006" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="clamps the position inside the viewport" time="0.006" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="does not emit save-entry when the word is empty" time="0.003" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="should contain shadow root" time="0.024" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="should be accessible" time="1.109" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="renders the word as title" time="0.001" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="renders the known badge, translation and note" time="0.002" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="renders the unknown badge" time="0.002" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="shows the not-in-dictionary hint and add button when there is no entry" time="0.001" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="emits save-entry with an unknown status when adding a word to the dictionary" time="0.002" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="emits save-entry with known status when marking as known" time="0.002" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="emits save-entry with unknown status when marking as new" time="0.002" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="emits close when the close button is clicked" time="0.002" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="emits close when clicking outside the tooltip" time="0.002" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="emits close on Escape" time="0.002" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="clamps the position inside the viewport" time="0.002" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="does not emit save-entry when the word is empty" time="0.001" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
   </testsuite>
-  <testsuite name="Firefox_playwright_/src/components/componentWordTooltip/componentWordTooltip.test.ts" id="0" tests="14" skipped="0" errors="0" failures="0" time="1.8229999999999997">
+  <testsuite name="Firefox_playwright_/src/components/componentWordTooltip/componentWordTooltip.test.ts" id="0" tests="14" skipped="0" errors="0" failures="0" time="1.2309999999999992">
     <properties>
       <property name="test.fileName" value="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
       <property name="browser.name" value="Firefox"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="should contain shadow root" time="0.123" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="should be accessible" time="1.555" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="renders the word as title" time="0.011" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="renders the known badge, translation and note" time="0.01" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="renders the unknown badge" time="0.012" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="shows the not-in-dictionary hint and add button when there is no entry" time="0.012" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="emits save-entry with an unknown status when adding a word to the dictionary" time="0.015" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="emits save-entry with known status when marking as known" time="0.016" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="emits save-entry with unknown status when marking as new" time="0.012" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="emits close when the close button is clicked" time="0.014" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="emits close when clicking outside the tooltip" time="0.012" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="emits close on Escape" time="0.01" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="clamps the position inside the viewport" time="0.01" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
-    <testcase name="does not emit save-entry when the word is empty" time="0.011" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="should contain shadow root" time="0.027" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="should be accessible" time="1.166" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="renders the word as title" time="0.003" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="renders the known badge, translation and note" time="0.004" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="renders the unknown badge" time="0.004" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="shows the not-in-dictionary hint and add button when there is no entry" time="0.003" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="emits save-entry with an unknown status when adding a word to the dictionary" time="0.003" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="emits save-entry with known status when marking as known" time="0.004" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="emits save-entry with unknown status when marking as new" time="0.004" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="emits close when the close button is clicked" time="0.003" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="emits close when clicking outside the tooltip" time="0.003" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="emits close on Escape" time="0.003" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="clamps the position inside the viewport" time="0.002" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
+    <testcase name="does not emit save-entry when the word is empty" time="0.002" classname="component-word-tooltip Component Spec:" file="src/components/componentWordTooltip/componentWordTooltip.test.ts"/>
   </testsuite>
-  <testsuite name="Chromium_playwright_/src/components/pageDictionary/pageDictionary.test.ts" id="0" tests="11" skipped="0" errors="0" failures="0" time="2.003999999999999">
+  <testsuite name="Chromium_playwright_/src/components/pageDictionary/pageDictionary.test.ts" id="0" tests="11" skipped="0" errors="0" failures="0" time="1.2789999999999997">
     <properties>
       <property name="test.fileName" value="src/components/pageDictionary/pageDictionary.test.ts"/>
       <property name="browser.name" value="Chromium"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="should contain shadow root" time="0.025" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
-    <testcase name="should be accessible" time="1.776" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
-    <testcase name="renders the empty state when there are no entries" time="0.013" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
-    <testcase name="renders a row for every entry" time="0.015" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
-    <testcase name="filters entries by the search query" time="0.005" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
-    <testcase name="shows a no-results message when the search matches nothing" time="0.005" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
-    <testcase name="opens the add form when clicking Añadir" time="0.024" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
-    <testcase name="adds a new entry through the form" time="0.049" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
-    <testcase name="prefills the form when editing an entry" time="0.031" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
-    <testcase name="deletes an entry after confirmation" time="0.007" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
-    <testcase name="does not delete when confirmation is cancelled" time="0.054" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
-  </testsuite>
-  <testsuite name="Firefox_playwright_/src/components/pageDictionary/pageDictionary.test.ts" id="0" tests="11" skipped="0" errors="0" failures="0" time="1.9319999999999995">
-    <properties>
-      <property name="test.fileName" value="src/components/pageDictionary/pageDictionary.test.ts"/>
-      <property name="browser.name" value="Firefox"/>
-      <property name="browser.launcher" value="playwright"/>
-    </properties>
-    <testcase name="should contain shadow root" time="0.014" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
-    <testcase name="should be accessible" time="1.656" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
+    <testcase name="should contain shadow root" time="0.005" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
+    <testcase name="should be accessible" time="1.127" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
     <testcase name="renders the empty state when there are no entries" time="0.003" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
-    <testcase name="renders a row for every entry" time="0.009" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
-    <testcase name="filters entries by the search query" time="0.011" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
-    <testcase name="shows a no-results message when the search matches nothing" time="0.008" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
-    <testcase name="opens the add form when clicking Añadir" time="0.087" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
-    <testcase name="adds a new entry through the form" time="0.05" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
-    <testcase name="prefills the form when editing an entry" time="0.03" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
-    <testcase name="deletes an entry after confirmation" time="0.009" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
-    <testcase name="does not delete when confirmation is cancelled" time="0.055" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
+    <testcase name="renders a row for every entry" time="0.002" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
+    <testcase name="filters entries by the search query" time="0.001" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
+    <testcase name="shows a no-results message when the search matches nothing" time="0.001" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
+    <testcase name="opens the add form when clicking Añadir" time="0.022" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
+    <testcase name="adds a new entry through the form" time="0.042" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
+    <testcase name="prefills the form when editing an entry" time="0.022" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
+    <testcase name="deletes an entry after confirmation" time="0.002" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
+    <testcase name="does not delete when confirmation is cancelled" time="0.052" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
   </testsuite>
-  <testsuite name="Chromium_playwright_/src/components/pageHiztegiApp/pageHiztegiApp.test.ts" id="0" tests="9" skipped="0" errors="0" failures="0" time="2.4">
+  <testsuite name="Firefox_playwright_/src/components/pageDictionary/pageDictionary.test.ts" id="0" tests="11" skipped="0" errors="0" failures="0" time="1.3009999999999995">
+    <properties>
+      <property name="test.fileName" value="src/components/pageDictionary/pageDictionary.test.ts"/>
+      <property name="browser.name" value="Firefox"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="should contain shadow root" time="0.002" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
+    <testcase name="should be accessible" time="1.153" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
+    <testcase name="renders the empty state when there are no entries" time="0.001" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
+    <testcase name="renders a row for every entry" time="0.002" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
+    <testcase name="filters entries by the search query" time="0.002" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
+    <testcase name="shows a no-results message when the search matches nothing" time="0.003" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
+    <testcase name="opens the add form when clicking Añadir" time="0.021" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
+    <testcase name="adds a new entry through the form" time="0.043" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
+    <testcase name="prefills the form when editing an entry" time="0.022" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
+    <testcase name="deletes an entry after confirmation" time="0.001" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
+    <testcase name="does not delete when confirmation is cancelled" time="0.051" classname="page-dictionary Component Spec:" file="src/components/pageDictionary/pageDictionary.test.ts"/>
+  </testsuite>
+  <testsuite name="Chromium_playwright_/src/components/pageHiztegiApp/pageHiztegiApp.test.ts" id="0" tests="9" skipped="0" errors="0" failures="0" time="1.5379999999999998">
     <properties>
       <property name="test.fileName" value="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
       <property name="browser.name" value="Chromium"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="should contain shadow root" time="0.044" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
-    <testcase name="should be accessible" time="1.986" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
-    <testcase name="renders the library page by default" time="0.104" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
-    <testcase name="renders the page declared in the page query param" time="0.11" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
-    <testcase name="renders the reading page passing the bookId from the query param" time="0.121" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
-    <testcase name="navigates by calling navigateToPage and swaps the rendered page on page-navigation" time="0.011" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
-    <testcase name="navigates when a nav bar button is clicked" time="0.008" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
-    <testcase name="inherits the Page helpers" time="0.005" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
-    <testcase name="paints the paper background on the host" time="0.011" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
+    <testcase name="should contain shadow root" time="0.023" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
+    <testcase name="should be accessible" time="1.205" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
+    <testcase name="renders the library page by default" time="0.101" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
+    <testcase name="renders the page declared in the page query param" time="0.102" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
+    <testcase name="renders the reading page passing the bookId from the query param" time="0.102" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
+    <testcase name="navigates by calling navigateToPage and swaps the rendered page on page-navigation" time="0.002" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
+    <testcase name="navigates when a nav bar button is clicked" time="0.001" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
+    <testcase name="inherits the Page helpers" time="0.001" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
+    <testcase name="paints the paper background on the host" time="0.001" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
   </testsuite>
-  <testsuite name="Firefox_playwright_/src/components/pageHiztegiApp/pageHiztegiApp.test.ts" id="0" tests="9" skipped="0" errors="0" failures="0" time="2.0909999999999997">
+  <testsuite name="Firefox_playwright_/src/components/pageHiztegiApp/pageHiztegiApp.test.ts" id="0" tests="9" skipped="0" errors="0" failures="0" time="1.5629999999999997">
     <properties>
       <property name="test.fileName" value="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
       <property name="browser.name" value="Firefox"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="should contain shadow root" time="0.033" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
-    <testcase name="should be accessible" time="1.699" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
-    <testcase name="renders the library page by default" time="0.107" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
-    <testcase name="renders the page declared in the page query param" time="0.111" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
-    <testcase name="renders the reading page passing the bookId from the query param" time="0.109" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
-    <testcase name="navigates by calling navigateToPage and swaps the rendered page on page-navigation" time="0.009" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
-    <testcase name="navigates when a nav bar button is clicked" time="0.01" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
-    <testcase name="inherits the Page helpers" time="0.006" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
-    <testcase name="paints the paper background on the host" time="0.007" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
+    <testcase name="should contain shadow root" time="0.004" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
+    <testcase name="should be accessible" time="1.234" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
+    <testcase name="renders the library page by default" time="0.109" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
+    <testcase name="renders the page declared in the page query param" time="0.103" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
+    <testcase name="renders the reading page passing the bookId from the query param" time="0.103" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
+    <testcase name="navigates by calling navigateToPage and swaps the rendered page on page-navigation" time="0.004" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
+    <testcase name="navigates when a nav bar button is clicked" time="0.003" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
+    <testcase name="inherits the Page helpers" time="0.001" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
+    <testcase name="paints the paper background on the host" time="0.002" classname="page-hiztegi-app Component Spec:" file="src/components/pageHiztegiApp/pageHiztegiApp.test.ts"/>
   </testsuite>
-  <testsuite name="Chromium_playwright_/src/components/pageLibrary/pageLibrary.test.ts" id="0" tests="9" skipped="0" errors="0" failures="0" time="2.058">
+  <testsuite name="Chromium_playwright_/src/components/pageLibrary/pageLibrary.test.ts" id="0" tests="9" skipped="0" errors="0" failures="0" time="1.2739999999999996">
     <properties>
       <property name="test.fileName" value="src/components/pageLibrary/pageLibrary.test.ts"/>
       <property name="browser.name" value="Chromium"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="should contain shadow root" time="0.103" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
-    <testcase name="should be accessible" time="1.745" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
-    <testcase name="renders the empty state when there are no books" time="0.012" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
-    <testcase name="paints the paper background and ink title" time="0.003" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
-    <testcase name="renders a card for every book" time="0.03" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
-    <testcase name="imports txt files and refreshes the list" time="0.027" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
-    <testcase name="deletes a book after confirmation" time="0.026" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
-    <testcase name="does not delete when confirmation is cancelled" time="0.075" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
-    <testcase name="navigates to the reader on read-book" time="0.037" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
+    <testcase name="should contain shadow root" time="0.006" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
+    <testcase name="should be accessible" time="1.108" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
+    <testcase name="renders the empty state when there are no books" time="0.001" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
+    <testcase name="paints the paper background and ink title" time="0.001" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
+    <testcase name="renders a card for every book" time="0.021" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
+    <testcase name="imports txt files and refreshes the list" time="0.021" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
+    <testcase name="deletes a book after confirmation" time="0.022" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
+    <testcase name="does not delete when confirmation is cancelled" time="0.071" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
+    <testcase name="navigates to the reader on read-book" time="0.023" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
   </testsuite>
-  <testsuite name="Firefox_playwright_/src/components/pageLibrary/pageLibrary.test.ts" id="0" tests="9" skipped="0" errors="0" failures="0" time="1.7999999999999998">
+  <testsuite name="Firefox_playwright_/src/components/pageLibrary/pageLibrary.test.ts" id="0" tests="9" skipped="0" errors="0" failures="0" time="1.2879999999999996">
     <properties>
       <property name="test.fileName" value="src/components/pageLibrary/pageLibrary.test.ts"/>
       <property name="browser.name" value="Firefox"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="should contain shadow root" time="0.022" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
-    <testcase name="should be accessible" time="1.587" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
-    <testcase name="renders the empty state when there are no books" time="0.004" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
-    <testcase name="paints the paper background and ink title" time="0.007" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
-    <testcase name="renders a card for every book" time="0.025" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
-    <testcase name="imports txt files and refreshes the list" time="0.026" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
-    <testcase name="deletes a book after confirmation" time="0.028" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
-    <testcase name="does not delete when confirmation is cancelled" time="0.075" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
-    <testcase name="navigates to the reader on read-book" time="0.026" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
+    <testcase name="should contain shadow root" time="0.003" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
+    <testcase name="should be accessible" time="1.127" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
+    <testcase name="renders the empty state when there are no books" time="0" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
+    <testcase name="paints the paper background and ink title" time="0.002" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
+    <testcase name="renders a card for every book" time="0.021" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
+    <testcase name="imports txt files and refreshes the list" time="0.021" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
+    <testcase name="deletes a book after confirmation" time="0.022" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
+    <testcase name="does not delete when confirmation is cancelled" time="0.071" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
+    <testcase name="navigates to the reader on read-book" time="0.021" classname="page-library Component Spec:" file="src/components/pageLibrary/pageLibrary.test.ts"/>
   </testsuite>
-  <testsuite name="Chromium_playwright_/src/components/pageReading/pageReading.test.ts" id="0" tests="17" skipped="0" errors="0" failures="0" time="2.7089999999999996">
+  <testsuite name="Chromium_playwright_/src/components/pageReading/pageReading.test.ts" id="0" tests="17" skipped="0" errors="0" failures="0" time="1.6269999999999993">
     <properties>
       <property name="test.fileName" value="src/components/pageReading/pageReading.test.ts"/>
       <property name="browser.name" value="Chromium"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="should contain shadow root" time="0.044" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="should be accessible" time="1.992" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="renders the book title, chapter title and chapter info" time="0.024" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="loads the chapter text into the reader" time="0.034" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="saves progress when the page changes" time="0.029" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="navigates to the next chapter and saves progress" time="0.05" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="disables chapter navigation at the first and last chapter" time="0.046" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="restores the saved chapter from progress" time="0.028" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="shows an error when the book is not found" time="0.004" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="shows an error when there is no book id" time="0.003" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="shows an empty message when the book has no chapters" time="0.024" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="opens the tooltip with the dictionary entry on word-click" time="0.059" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="opens the tooltip with the not-in-dictionary hint when there is no entry" time="0.073" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="closes the tooltip on the close event" time="0.146" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="saves the entry from the tooltip and refreshes the reader dictionary" time="0.078" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="navigates back to the library" time="0.024" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="reloads when the bookId property changes" time="0.051" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="should contain shadow root" time="0.018" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="should be accessible" time="1.144" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="renders the book title, chapter title and chapter info" time="0.021" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="loads the chapter text into the reader" time="0.022" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="saves progress when the page changes" time="0.028" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="navigates to the next chapter and saves progress" time="0.043" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="disables chapter navigation at the first and last chapter" time="0.042" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="restores the saved chapter from progress" time="0.021" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="shows an error when the book is not found" time="0" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="shows an error when there is no book id" time="0" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="shows an empty message when the book has no chapters" time="0.021" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="opens the tooltip with the dictionary entry on word-click" time="0.041" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="opens the tooltip with the not-in-dictionary hint when there is no entry" time="0.041" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="closes the tooltip on the close event" time="0.062" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="saves the entry from the tooltip and refreshes the reader dictionary" time="0.061" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="navigates back to the library" time="0.021" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="reloads when the bookId property changes" time="0.041" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
   </testsuite>
-  <testsuite name="Firefox_playwright_/src/components/pageReading/pageReading.test.ts" id="0" tests="17" skipped="0" errors="0" failures="0" time="2.244">
+  <testsuite name="Firefox_playwright_/src/components/pageReading/pageReading.test.ts" id="0" tests="17" skipped="0" errors="0" failures="0" time="1.6229999999999996">
     <properties>
       <property name="test.fileName" value="src/components/pageReading/pageReading.test.ts"/>
       <property name="browser.name" value="Firefox"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="should contain shadow root" time="0.019" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="should be accessible" time="1.671" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="renders the book title, chapter title and chapter info" time="0.024" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="loads the chapter text into the reader" time="0.049" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="saves progress when the page changes" time="0.03" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="navigates to the next chapter and saves progress" time="0.046" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="disables chapter navigation at the first and last chapter" time="0.046" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="restores the saved chapter from progress" time="0.023" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="should contain shadow root" time="0.003" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="should be accessible" time="1.144" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="renders the book title, chapter title and chapter info" time="0.021" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="loads the chapter text into the reader" time="0.021" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="saves progress when the page changes" time="0.022" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="navigates to the next chapter and saves progress" time="0.042" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="disables chapter navigation at the first and last chapter" time="0.042" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="restores the saved chapter from progress" time="0.022" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
     <testcase name="shows an error when the book is not found" time="0.002" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="shows an error when there is no book id" time="0.002" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="shows an error when there is no book id" time="0.001" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
     <testcase name="shows an empty message when the book has no chapters" time="0.023" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="opens the tooltip with the dictionary entry on word-click" time="0.07" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="opens the tooltip with the not-in-dictionary hint when there is no entry" time="0.045" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="closes the tooltip on the close event" time="0.064" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="opens the tooltip with the dictionary entry on word-click" time="0.042" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="opens the tooltip with the not-in-dictionary hint when there is no entry" time="0.044" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="closes the tooltip on the close event" time="0.062" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
     <testcase name="saves the entry from the tooltip and refreshes the reader dictionary" time="0.064" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
-    <testcase name="navigates back to the library" time="0.023" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
+    <testcase name="navigates back to the library" time="0.025" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
     <testcase name="reloads when the bookId property changes" time="0.043" classname="page-reading Component Spec:" file="src/components/pageReading/pageReading.test.ts"/>
   </testsuite>
-  <testsuite name="Chromium_playwright_/src/shared/styles.test.ts" id="0" tests="5" skipped="0" errors="0" failures="0" time="0.031">
+  <testsuite name="Chromium_playwright_/src/shared/styles.test.ts" id="0" tests="5" skipped="0" errors="0" failures="0" time="0.013000000000000001">
     <properties>
       <property name="test.fileName" value="src/shared/styles.test.ts"/>
       <property name="browser.name" value="Chromium"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="falls back to the Day palette when no theme is set" time="0.019" classname="global styles" file="src/shared/styles.test.ts"/>
-    <testcase name="applies Night from data-theme on the document root" time="0.005" classname="global styles" file="src/shared/styles.test.ts"/>
-    <testcase name="applies Nord from data-theme on the document root" time="0.003" classname="global styles" file="src/shared/styles.test.ts"/>
-    <testcase name="applies Night when the host element itself opts in" time="0.002" classname="global styles" file="src/shared/styles.test.ts"/>
-    <testcase name="switches the accent from data-accent on the document root" time="0.002" classname="global styles" file="src/shared/styles.test.ts"/>
+    <testcase name="falls back to the Day palette when no theme is set" time="0.01" classname="global styles" file="src/shared/styles.test.ts"/>
+    <testcase name="applies Night from data-theme on the document root" time="0.001" classname="global styles" file="src/shared/styles.test.ts"/>
+    <testcase name="applies Nord from data-theme on the document root" time="0.001" classname="global styles" file="src/shared/styles.test.ts"/>
+    <testcase name="applies Night when the host element itself opts in" time="0.001" classname="global styles" file="src/shared/styles.test.ts"/>
+    <testcase name="switches the accent from data-accent on the document root" time="0" classname="global styles" file="src/shared/styles.test.ts"/>
   </testsuite>
-  <testsuite name="Firefox_playwright_/src/shared/styles.test.ts" id="0" tests="5" skipped="0" errors="0" failures="0" time="0.022000000000000002">
+  <testsuite name="Firefox_playwright_/src/shared/styles.test.ts" id="0" tests="5" skipped="0" errors="0" failures="0" time="0.029000000000000005">
     <properties>
       <property name="test.fileName" value="src/shared/styles.test.ts"/>
       <property name="browser.name" value="Firefox"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="falls back to the Day palette when no theme is set" time="0.009" classname="global styles" file="src/shared/styles.test.ts"/>
-    <testcase name="applies Night from data-theme on the document root" time="0.004" classname="global styles" file="src/shared/styles.test.ts"/>
-    <testcase name="applies Nord from data-theme on the document root" time="0.003" classname="global styles" file="src/shared/styles.test.ts"/>
-    <testcase name="applies Night when the host element itself opts in" time="0.002" classname="global styles" file="src/shared/styles.test.ts"/>
-    <testcase name="switches the accent from data-accent on the document root" time="0.004" classname="global styles" file="src/shared/styles.test.ts"/>
+    <testcase name="falls back to the Day palette when no theme is set" time="0.002" classname="global styles" file="src/shared/styles.test.ts"/>
+    <testcase name="applies Night from data-theme on the document root" time="0.025" classname="global styles" file="src/shared/styles.test.ts"/>
+    <testcase name="applies Nord from data-theme on the document root" time="0" classname="global styles" file="src/shared/styles.test.ts"/>
+    <testcase name="applies Night when the host element itself opts in" time="0.001" classname="global styles" file="src/shared/styles.test.ts"/>
+    <testcase name="switches the accent from data-accent on the document root" time="0.001" classname="global styles" file="src/shared/styles.test.ts"/>
   </testsuite>
-  <testsuite name="Chromium_playwright_/src/shared/parsers/txt.test.ts" id="0" tests="10" skipped="0" errors="0" failures="0" time="0.05600000000000001">
+  <testsuite name="Chromium_playwright_/src/shared/parsers/txt.test.ts" id="0" tests="10" skipped="0" errors="0" failures="0" time="0.014000000000000002">
     <properties>
       <property name="test.fileName" value="src/shared/parsers/txt.test.ts"/>
       <property name="browser.name" value="Chromium"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="splits the sample fixture into chapters of 15 paragraphs" time="0.027" classname="txt parser Spec:" file="src/shared/parsers/txt.test.ts"/>
-    <testcase name="preserves paragraph order and content across chapters" time="0.012" classname="txt parser Spec:" file="src/shared/parsers/txt.test.ts"/>
-    <testcase name="derives the title from the file name without the extension" time="0.004" classname="txt parser Spec:" file="src/shared/parsers/txt.test.ts"/>
-    <testcase name="handles an empty file as a single empty chapter" time="0.001" classname="txt parser Spec:" file="src/shared/parsers/txt.test.ts"/>
-    <testcase name="treats text without blank lines as a single chapter" time="0.003" classname="txt parser Spec:" file="src/shared/parsers/txt.test.ts"/>
-    <testcase name="trims paragraphs and collapses blank-line runs" time="0.002" classname="txt parser Spec:" file="src/shared/parsers/txt.test.ts"/>
-    <testcase name="parses txt files" time="0.003" classname="parseBook Spec:" file="src/shared/parsers/txt.test.ts"/>
-    <testcase name="rejects epub as not implemented yet" time="0.001" classname="parseBook Spec:" file="src/shared/parsers/txt.test.ts"/>
-    <testcase name="rejects pdf as not implemented yet" time="0.002" classname="parseBook Spec:" file="src/shared/parsers/txt.test.ts"/>
-    <testcase name="rejects unsupported extensions" time="0.001" classname="parseBook Spec:" file="src/shared/parsers/txt.test.ts"/>
-  </testsuite>
-  <testsuite name="Firefox_playwright_/src/shared/parsers/txt.test.ts" id="0" tests="10" skipped="0" errors="0" failures="0" time="0.04300000000000001">
-    <properties>
-      <property name="test.fileName" value="src/shared/parsers/txt.test.ts"/>
-      <property name="browser.name" value="Firefox"/>
-      <property name="browser.launcher" value="playwright"/>
-    </properties>
-    <testcase name="splits the sample fixture into chapters of 15 paragraphs" time="0.017" classname="txt parser Spec:" file="src/shared/parsers/txt.test.ts"/>
-    <testcase name="preserves paragraph order and content across chapters" time="0.016" classname="txt parser Spec:" file="src/shared/parsers/txt.test.ts"/>
+    <testcase name="splits the sample fixture into chapters of 15 paragraphs" time="0.008" classname="txt parser Spec:" file="src/shared/parsers/txt.test.ts"/>
+    <testcase name="preserves paragraph order and content across chapters" time="0.003" classname="txt parser Spec:" file="src/shared/parsers/txt.test.ts"/>
     <testcase name="derives the title from the file name without the extension" time="0.001" classname="txt parser Spec:" file="src/shared/parsers/txt.test.ts"/>
-    <testcase name="handles an empty file as a single empty chapter" time="0.001" classname="txt parser Spec:" file="src/shared/parsers/txt.test.ts"/>
-    <testcase name="treats text without blank lines as a single chapter" time="0.002" classname="txt parser Spec:" file="src/shared/parsers/txt.test.ts"/>
+    <testcase name="handles an empty file as a single empty chapter" time="0" classname="txt parser Spec:" file="src/shared/parsers/txt.test.ts"/>
+    <testcase name="treats text without blank lines as a single chapter" time="0.001" classname="txt parser Spec:" file="src/shared/parsers/txt.test.ts"/>
+    <testcase name="trims paragraphs and collapses blank-line runs" time="0" classname="txt parser Spec:" file="src/shared/parsers/txt.test.ts"/>
+    <testcase name="parses txt files" time="0.001" classname="parseBook Spec:" file="src/shared/parsers/txt.test.ts"/>
+    <testcase name="rejects epub as not implemented yet" time="0" classname="parseBook Spec:" file="src/shared/parsers/txt.test.ts"/>
+    <testcase name="rejects pdf as not implemented yet" time="0" classname="parseBook Spec:" file="src/shared/parsers/txt.test.ts"/>
+    <testcase name="rejects unsupported extensions" time="0" classname="parseBook Spec:" file="src/shared/parsers/txt.test.ts"/>
+  </testsuite>
+  <testsuite name="Firefox_playwright_/src/shared/parsers/txt.test.ts" id="0" tests="10" skipped="0" errors="0" failures="0" time="0.010000000000000002">
+    <properties>
+      <property name="test.fileName" value="src/shared/parsers/txt.test.ts"/>
+      <property name="browser.name" value="Firefox"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="splits the sample fixture into chapters of 15 paragraphs" time="0.006" classname="txt parser Spec:" file="src/shared/parsers/txt.test.ts"/>
+    <testcase name="preserves paragraph order and content across chapters" time="0.002" classname="txt parser Spec:" file="src/shared/parsers/txt.test.ts"/>
+    <testcase name="derives the title from the file name without the extension" time="0.001" classname="txt parser Spec:" file="src/shared/parsers/txt.test.ts"/>
+    <testcase name="handles an empty file as a single empty chapter" time="0" classname="txt parser Spec:" file="src/shared/parsers/txt.test.ts"/>
+    <testcase name="treats text without blank lines as a single chapter" time="0" classname="txt parser Spec:" file="src/shared/parsers/txt.test.ts"/>
     <testcase name="trims paragraphs and collapses blank-line runs" time="0.001" classname="txt parser Spec:" file="src/shared/parsers/txt.test.ts"/>
-    <testcase name="parses txt files" time="0.002" classname="parseBook Spec:" file="src/shared/parsers/txt.test.ts"/>
-    <testcase name="rejects epub as not implemented yet" time="0.001" classname="parseBook Spec:" file="src/shared/parsers/txt.test.ts"/>
-    <testcase name="rejects pdf as not implemented yet" time="0.001" classname="parseBook Spec:" file="src/shared/parsers/txt.test.ts"/>
-    <testcase name="rejects unsupported extensions" time="0.001" classname="parseBook Spec:" file="src/shared/parsers/txt.test.ts"/>
+    <testcase name="parses txt files" time="0" classname="parseBook Spec:" file="src/shared/parsers/txt.test.ts"/>
+    <testcase name="rejects epub as not implemented yet" time="0" classname="parseBook Spec:" file="src/shared/parsers/txt.test.ts"/>
+    <testcase name="rejects pdf as not implemented yet" time="0" classname="parseBook Spec:" file="src/shared/parsers/txt.test.ts"/>
+    <testcase name="rejects unsupported extensions" time="0" classname="parseBook Spec:" file="src/shared/parsers/txt.test.ts"/>
   </testsuite>
-  <testsuite name="Chromium_playwright_/src/shared/tests/bookStore.test.ts" id="0" tests="7" skipped="0" errors="0" failures="0" time="0.125">
+  <testsuite name="Chromium_playwright_/src/shared/tests/bookStore.test.ts" id="0" tests="7" skipped="0" errors="0" failures="0" time="0.009000000000000001">
     <properties>
       <property name="test.fileName" value="src/shared/tests/bookStore.test.ts"/>
       <property name="browser.name" value="Chromium"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="imports a book together with its chapters" time="0.041" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
-    <testcase name="returns all books" time="0.023" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
-    <testcase name="gets a single book by id" time="0.008" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
-    <testcase name="returns chapters sorted by their index" time="0.011" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
-    <testcase name="gets a single chapter by id" time="0.012" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
-    <testcase name="saves and retrieves the reading progress" time="0.017" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
-    <testcase name="deletes a book cascading chapters and progress" time="0.013" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
+    <testcase name="imports a book together with its chapters" time="0.003" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
+    <testcase name="returns all books" time="0.001" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
+    <testcase name="gets a single book by id" time="0.001" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
+    <testcase name="returns chapters sorted by their index" time="0.002" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
+    <testcase name="gets a single chapter by id" time="0" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
+    <testcase name="saves and retrieves the reading progress" time="0.001" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
+    <testcase name="deletes a book cascading chapters and progress" time="0.001" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
   </testsuite>
-  <testsuite name="Firefox_playwright_/src/shared/tests/bookStore.test.ts" id="0" tests="7" skipped="0" errors="0" failures="0" time="0.06899999999999999">
+  <testsuite name="Firefox_playwright_/src/shared/tests/bookStore.test.ts" id="0" tests="7" skipped="0" errors="0" failures="0" time="0.012000000000000002">
     <properties>
       <property name="test.fileName" value="src/shared/tests/bookStore.test.ts"/>
       <property name="browser.name" value="Firefox"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="imports a book together with its chapters" time="0.012" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
-    <testcase name="returns all books" time="0.013" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
-    <testcase name="gets a single book by id" time="0.007" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
-    <testcase name="returns chapters sorted by their index" time="0.007" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
-    <testcase name="gets a single chapter by id" time="0.008" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
-    <testcase name="saves and retrieves the reading progress" time="0.012" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
-    <testcase name="deletes a book cascading chapters and progress" time="0.01" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
+    <testcase name="imports a book together with its chapters" time="0.002" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
+    <testcase name="returns all books" time="0.001" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
+    <testcase name="gets a single book by id" time="0.002" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
+    <testcase name="returns chapters sorted by their index" time="0.003" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
+    <testcase name="gets a single chapter by id" time="0.001" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
+    <testcase name="saves and retrieves the reading progress" time="0.001" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
+    <testcase name="deletes a book cascading chapters and progress" time="0.002" classname="bookStore Spec:" file="src/shared/tests/bookStore.test.ts"/>
   </testsuite>
-  <testsuite name="Chromium_playwright_/src/shared/tests/dictionaryStore.test.ts" id="0" tests="5" skipped="0" errors="0" failures="0" time="0.05">
+  <testsuite name="Chromium_playwright_/src/shared/tests/dictionaryStore.test.ts" id="0" tests="5" skipped="0" errors="0" failures="0" time="0.005">
     <properties>
       <property name="test.fileName" value="src/shared/tests/dictionaryStore.test.ts"/>
       <property name="browser.name" value="Chromium"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="upserts an entry normalizing the word key" time="0.01" classname="dictionaryStore Spec:" file="src/shared/tests/dictionaryStore.test.ts"/>
-    <testcase name="updates an existing entry instead of duplicating it" time="0.012" classname="dictionaryStore Spec:" file="src/shared/tests/dictionaryStore.test.ts"/>
-    <testcase name="returns all entries" time="0.012" classname="dictionaryStore Spec:" file="src/shared/tests/dictionaryStore.test.ts"/>
-    <testcase name="looks up an entry with normalization" time="0.007" classname="dictionaryStore Spec:" file="src/shared/tests/dictionaryStore.test.ts"/>
-    <testcase name="removes an entry" time="0.009" classname="dictionaryStore Spec:" file="src/shared/tests/dictionaryStore.test.ts"/>
+    <testcase name="upserts an entry normalizing the word key" time="0.001" classname="dictionaryStore Spec:" file="src/shared/tests/dictionaryStore.test.ts"/>
+    <testcase name="updates an existing entry instead of duplicating it" time="0.001" classname="dictionaryStore Spec:" file="src/shared/tests/dictionaryStore.test.ts"/>
+    <testcase name="returns all entries" time="0.001" classname="dictionaryStore Spec:" file="src/shared/tests/dictionaryStore.test.ts"/>
+    <testcase name="looks up an entry with normalization" time="0.001" classname="dictionaryStore Spec:" file="src/shared/tests/dictionaryStore.test.ts"/>
+    <testcase name="removes an entry" time="0.001" classname="dictionaryStore Spec:" file="src/shared/tests/dictionaryStore.test.ts"/>
   </testsuite>
-  <testsuite name="Firefox_playwright_/src/shared/tests/dictionaryStore.test.ts" id="0" tests="5" skipped="0" errors="0" failures="0" time="0.059000000000000004">
+  <testsuite name="Firefox_playwright_/src/shared/tests/dictionaryStore.test.ts" id="0" tests="5" skipped="0" errors="0" failures="0" time="0.011000000000000001">
     <properties>
       <property name="test.fileName" value="src/shared/tests/dictionaryStore.test.ts"/>
       <property name="browser.name" value="Firefox"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="upserts an entry normalizing the word key" time="0.008" classname="dictionaryStore Spec:" file="src/shared/tests/dictionaryStore.test.ts"/>
-    <testcase name="updates an existing entry instead of duplicating it" time="0.011" classname="dictionaryStore Spec:" file="src/shared/tests/dictionaryStore.test.ts"/>
-    <testcase name="returns all entries" time="0.015" classname="dictionaryStore Spec:" file="src/shared/tests/dictionaryStore.test.ts"/>
-    <testcase name="looks up an entry with normalization" time="0.017" classname="dictionaryStore Spec:" file="src/shared/tests/dictionaryStore.test.ts"/>
-    <testcase name="removes an entry" time="0.008" classname="dictionaryStore Spec:" file="src/shared/tests/dictionaryStore.test.ts"/>
+    <testcase name="upserts an entry normalizing the word key" time="0.003" classname="dictionaryStore Spec:" file="src/shared/tests/dictionaryStore.test.ts"/>
+    <testcase name="updates an existing entry instead of duplicating it" time="0.002" classname="dictionaryStore Spec:" file="src/shared/tests/dictionaryStore.test.ts"/>
+    <testcase name="returns all entries" time="0.002" classname="dictionaryStore Spec:" file="src/shared/tests/dictionaryStore.test.ts"/>
+    <testcase name="looks up an entry with normalization" time="0.002" classname="dictionaryStore Spec:" file="src/shared/tests/dictionaryStore.test.ts"/>
+    <testcase name="removes an entry" time="0.002" classname="dictionaryStore Spec:" file="src/shared/tests/dictionaryStore.test.ts"/>
   </testsuite>
-  <testsuite name="Chromium_playwright_/src/shared/tests/storage.test.ts" id="0" tests="11" skipped="0" errors="0" failures="0" time="0.08900000000000001">
+  <testsuite name="Chromium_playwright_/src/shared/tests/storage.test.ts" id="0" tests="11" skipped="0" errors="0" failures="0" time="0.010000000000000002">
     <properties>
       <property name="test.fileName" value="src/shared/tests/storage.test.ts"/>
       <property name="browser.name" value="Chromium"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="opens the database with all the expected stores" time="0.005" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
-    <testcase name="puts and gets a record" time="0.009" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
-    <testcase name="returns undefined when getting a missing record" time="0.01" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
-    <testcase name="getAll returns every record in the store" time="0.013" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
-    <testcase name="remove deletes a record" time="0.006" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
-    <testcase name="clear empties the store" time="0.008" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
-    <testcase name="transaction runs the callback and awaits completion" time="0.011" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
-    <testcase name="transaction aborts when the callback throws" time="0.002" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
-    <testcase name="transaction rejects when a request fails" time="0.007" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
-    <testcase name="getByIndex rejects when the index does not exist" time="0.004" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
-    <testcase name="deleteDatabase wipes the persisted data" time="0.014" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
+    <testcase name="opens the database with all the expected stores" time="0.001" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
+    <testcase name="puts and gets a record" time="0.002" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
+    <testcase name="returns undefined when getting a missing record" time="0.001" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
+    <testcase name="getAll returns every record in the store" time="0.001" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
+    <testcase name="remove deletes a record" time="0.001" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
+    <testcase name="clear empties the store" time="0.001" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
+    <testcase name="transaction runs the callback and awaits completion" time="0.001" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
+    <testcase name="transaction aborts when the callback throws" time="0" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
+    <testcase name="transaction rejects when a request fails" time="0.001" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
+    <testcase name="getByIndex rejects when the index does not exist" time="0" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
+    <testcase name="deleteDatabase wipes the persisted data" time="0.001" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
   </testsuite>
-  <testsuite name="Firefox_playwright_/src/shared/tests/storage.test.ts" id="0" tests="11" skipped="0" errors="0" failures="0" time="0.12399999999999999">
+  <testsuite name="Firefox_playwright_/src/shared/tests/storage.test.ts" id="0" tests="11" skipped="0" errors="0" failures="0" time="0.022000000000000002">
     <properties>
       <property name="test.fileName" value="src/shared/tests/storage.test.ts"/>
       <property name="browser.name" value="Firefox"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="opens the database with all the expected stores" time="0.012" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
-    <testcase name="puts and gets a record" time="0.013" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
-    <testcase name="returns undefined when getting a missing record" time="0.007" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
-    <testcase name="getAll returns every record in the store" time="0.016" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
-    <testcase name="remove deletes a record" time="0.012" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
-    <testcase name="clear empties the store" time="0.012" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
-    <testcase name="transaction runs the callback and awaits completion" time="0.01" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
-    <testcase name="transaction aborts when the callback throws" time="0.008" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
-    <testcase name="transaction rejects when a request fails" time="0.009" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
-    <testcase name="getByIndex rejects when the index does not exist" time="0.008" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
-    <testcase name="deleteDatabase wipes the persisted data" time="0.017" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
+    <testcase name="opens the database with all the expected stores" time="0.002" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
+    <testcase name="puts and gets a record" time="0.002" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
+    <testcase name="returns undefined when getting a missing record" time="0.002" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
+    <testcase name="getAll returns every record in the store" time="0.002" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
+    <testcase name="remove deletes a record" time="0.002" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
+    <testcase name="clear empties the store" time="0.002" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
+    <testcase name="transaction runs the callback and awaits completion" time="0.002" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
+    <testcase name="transaction aborts when the callback throws" time="0.001" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
+    <testcase name="transaction rejects when a request fails" time="0.002" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
+    <testcase name="getByIndex rejects when the index does not exist" time="0.002" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
+    <testcase name="deleteDatabase wipes the persisted data" time="0.003" classname="storage Spec:" file="src/shared/tests/storage.test.ts"/>
   </testsuite>
-  <testsuite name="Chromium_playwright_/src/shared/tests/tokenizer.test.ts" id="0" tests="9" skipped="0" errors="0" failures="0" time="0.015000000000000003">
+  <testsuite name="Chromium_playwright_/src/shared/tests/tokenizer.test.ts" id="0" tests="9" skipped="0" errors="0" failures="0" time="0.001">
     <properties>
       <property name="test.fileName" value="src/shared/tests/tokenizer.test.ts"/>
       <property name="browser.name" value="Chromium"/>
       <property name="browser.launcher" value="playwright"/>
     </properties>
-    <testcase name="returns no tokens for an empty string" time="0.006" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
-    <testcase name="splits text into word, space and punct tokens" time="0.004" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
-    <testcase name="preserves whitespace runs as single tokens" time="0" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
-    <testcase name="preserves newlines in space tokens" time="0.001" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
-    <testcase name="groups consecutive punctuation" time="0" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
-    <testcase name="treats Unicode letters as word characters" time="0.001" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
-    <testcase name="treats digits and symbols as punctuation" time="0.001" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
-    <testcase name="handles text made only of whitespace" time="0.001" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
-    <testcase name="is lossless: rejoining tokens reproduces the original text" time="0.001" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
-  </testsuite>
-  <testsuite name="Firefox_playwright_/src/shared/tests/tokenizer.test.ts" id="0" tests="9" skipped="0" errors="0" failures="0" time="0.005">
-    <properties>
-      <property name="test.fileName" value="src/shared/tests/tokenizer.test.ts"/>
-      <property name="browser.name" value="Firefox"/>
-      <property name="browser.launcher" value="playwright"/>
-    </properties>
-    <testcase name="returns no tokens for an empty string" time="0.001" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
-    <testcase name="splits text into word, space and punct tokens" time="0.002" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
-    <testcase name="preserves whitespace runs as single tokens" time="0" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
-    <testcase name="preserves newlines in space tokens" time="0.001" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
+    <testcase name="returns no tokens for an empty string" time="0" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
+    <testcase name="splits text into word, space and punct tokens" time="0" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
+    <testcase name="preserves whitespace runs as single tokens" time="0.001" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
+    <testcase name="preserves newlines in space tokens" time="0" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
     <testcase name="groups consecutive punctuation" time="0" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
     <testcase name="treats Unicode letters as word characters" time="0" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
-    <testcase name="treats digits and symbols as punctuation" time="0.001" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
+    <testcase name="treats digits and symbols as punctuation" time="0" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
+    <testcase name="handles text made only of whitespace" time="0" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
+    <testcase name="is lossless: rejoining tokens reproduces the original text" time="0" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
+  </testsuite>
+  <testsuite name="Firefox_playwright_/src/shared/tests/tokenizer.test.ts" id="0" tests="9" skipped="0" errors="0" failures="0" time="0.002">
+    <properties>
+      <property name="test.fileName" value="src/shared/tests/tokenizer.test.ts"/>
+      <property name="browser.name" value="Firefox"/>
+      <property name="browser.launcher" value="playwright"/>
+    </properties>
+    <testcase name="returns no tokens for an empty string" time="0" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
+    <testcase name="splits text into word, space and punct tokens" time="0" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
+    <testcase name="preserves whitespace runs as single tokens" time="0.002" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
+    <testcase name="preserves newlines in space tokens" time="0" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
+    <testcase name="groups consecutive punctuation" time="0" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
+    <testcase name="treats Unicode letters as word characters" time="0" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
+    <testcase name="treats digits and symbols as punctuation" time="0" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
     <testcase name="handles text made only of whitespace" time="0" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
     <testcase name="is lossless: rejoining tokens reproduces the original text" time="0" classname="tokenizer Spec:" file="src/shared/tests/tokenizer.test.ts"/>
   </testsuite>
