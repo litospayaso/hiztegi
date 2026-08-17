@@ -1,5 +1,5 @@
 import { expect } from '@esm-bundle/chai';
-import { parseBook } from './index';
+import { getBookFormat, parseBook } from './index';
 import { parseTxt } from './txt';
 
 const FIXTURE_URL = new URL('./__fixtures__/sample.txt', import.meta.url);
@@ -74,6 +74,35 @@ describe('parseBook Spec:', () => {
     expect(book.chapters[0].text).to.equal('Kaixo mundua!');
   });
 
+  it('parses markdown files', async () => {
+    const book = await parseBook(makeFile('book.md', '# Kapitulua\n\nKaixo mundua!'));
+    expect(book.title).to.equal('book');
+    expect(book.chapters).to.have.length(1);
+    expect(book.chapters[0].title).to.equal('Kapitulua');
+    expect(book.chapters[0].text).to.equal('Kaixo mundua!');
+  });
+
+  it('parses markdown files with the .markdown extension', async () => {
+    const book = await parseBook(makeFile('book.markdown', 'Kaixo mundua!'));
+    expect(book.title).to.equal('book');
+    expect(book.chapters).to.have.length(1);
+    expect(book.chapters[0].text).to.equal('Kaixo mundua!');
+  });
+
+  it('parses html files', async () => {
+    const book = await parseBook(makeFile('book.html', '<html><body><p>Kaixo mundua!</p></body></html>'));
+    expect(book.title).to.equal('book');
+    expect(book.chapters).to.have.length(1);
+    expect(book.chapters[0].text).to.equal('Kaixo mundua!');
+  });
+
+  it('parses html files with the .htm extension', async () => {
+    const book = await parseBook(makeFile('book.htm', '<html><body><p>Kaixo</p></body></html>'));
+    expect(book.title).to.equal('book');
+    expect(book.chapters).to.have.length(1);
+    expect(book.chapters[0].text).to.equal('Kaixo');
+  });
+
   it('rejects epub as not implemented yet', async () => {
     let error: Error | undefined;
     try {
@@ -98,6 +127,28 @@ describe('parseBook Spec:', () => {
     let error: Error | undefined;
     try {
       await parseBook(makeFile('book.doc', ''));
+    } catch (err) {
+      error = err as Error;
+    }
+    expect(error?.message).to.match(/Unsupported file format/);
+  });
+});
+
+describe('getBookFormat Spec:', () => {
+  it('maps known extensions to their formats', () => {
+    expect(getBookFormat('book.txt')).to.equal('txt');
+    expect(getBookFormat('book.md')).to.equal('md');
+    expect(getBookFormat('book.markdown')).to.equal('md');
+    expect(getBookFormat('book.html')).to.equal('html');
+    expect(getBookFormat('book.HTM')).to.equal('html');
+    expect(getBookFormat('book.epub')).to.equal('epub');
+    expect(getBookFormat('book.pdf')).to.equal('pdf');
+  });
+
+  it('rejects unsupported extensions', () => {
+    let error: Error | undefined;
+    try {
+      getBookFormat('book.doc');
     } catch (err) {
       error = err as Error;
     }

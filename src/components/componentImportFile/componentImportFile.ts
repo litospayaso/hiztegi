@@ -50,16 +50,22 @@ export default class ComponentImportFile extends LitElement {
         class="${this.active ? 'drop-zone active' : 'drop-zone'}"
         role="button"
         tabindex="0"
-        aria-label="Añadir archivos txt"
+        aria-label="Añadir archivos txt, markdown o html"
         @click=${this.openPicker}
         @keydown=${this.onKeyDown}
         @dragover=${this.onDragOver}
         @dragleave=${this.onDragLeave}
         @drop=${this.onDrop}
       >
-        <slot>Arrastra los archivos txt aquí o haz clic para seleccionarlos</slot>
+        <slot>Arrastra los archivos txt, markdown o html aquí o haz clic para seleccionarlos</slot>
       </div>
-      <input type="file" accept=".txt,text/plain" multiple hidden @change=${this.onInputChange} />
+      <input
+        type="file"
+        accept=".txt,.md,.markdown,.html,.htm,text/plain,text/markdown,text/html"
+        multiple
+        hidden
+        @change=${this.onInputChange}
+      />
     `;
   }
 

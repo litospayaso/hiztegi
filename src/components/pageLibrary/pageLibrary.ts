@@ -2,7 +2,7 @@ import { css, html } from 'lit';
 import { state } from 'lit/decorators.js';
 import { api } from '../../shared/api.decorator';
 import { deleteBook, getBooks, getProgress, importBook } from '../../shared/bookStore';
-import { parseBook } from '../../shared/parsers';
+import { getBookFormat, parseBook } from '../../shared/parsers';
 import { styles } from '../../shared/styles';
 import type { Book, ReadingProgress } from '../../shared/types';
 import Page from '../../shared/page';
@@ -71,7 +71,7 @@ export default class PageLibrary extends Page<PageLibraryApi> {
     try {
       for (const file of files) {
         const parsed = await this.api.parseBook(file);
-        await this.api.importBook(parsed, 'txt');
+        await this.api.importBook(parsed, getBookFormat(file.name));
       }
       await this.loadBooks();
     } finally {

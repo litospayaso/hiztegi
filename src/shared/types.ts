@@ -1,4 +1,4 @@
-export type BookFormat = 'txt' | 'epub' | 'pdf';
+export type BookFormat = 'txt' | 'md' | 'html' | 'epub' | 'pdf';
 
 export type WordStatus = 'known' | 'unknown' | 'none';
 

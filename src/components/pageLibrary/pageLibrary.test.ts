@@ -131,6 +131,32 @@ describe('page-library Component Spec:', () => {
     expect(cardShadow()?.querySelector('h2')?.textContent).to.equal('Fitxategia');
   });
 
+  it('imports markdown files with the md format', async () => {
+    const store: Book[] = [];
+    let importedFormat: BookFormat | undefined;
+    const api: PageLibraryApi = {
+      ...defaultApi(),
+      getBooks: async () => [...store],
+      importBook: async (parsed, format) => {
+        importedFormat = format;
+        const book: Book = { ...sampleBook, id: 'new', title: parsed.title };
+        store.push(book);
+        return book;
+      },
+    };
+    await createPage(api);
+
+    const file = new File(['# Kapitulua\n\nKaixo'], 'liburu.md', { type: 'text/markdown' });
+    const importZone = shadow.querySelector('component-import-file') as HTMLElement;
+    importZone.dispatchEvent(
+      new CustomEvent('files-selected', { detail: { files: [file] }, bubbles: true, composed: true })
+    );
+
+    await waitFor(() => shadow.querySelectorAll('component-library-book-card').length === 1);
+    expect(importedFormat).to.equal('md');
+    expect(cardShadow()?.querySelector('h2')?.textContent).to.equal('Fitxategia');
+  });
+
   it('deletes a book after confirmation', async () => {
     window.confirm = () => true;
     let deleted: string | undefined;

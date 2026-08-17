@@ -47,6 +47,16 @@ describe('component-import-file Component Spec:', () => {
     expect(clicked).to.equal(true);
   });
 
+  it('accepts txt, markdown and html files', () => {
+    const input = shadow.querySelector('input[type="file"]') as HTMLInputElement;
+    expect(input.accept).to.equal('.txt,.md,.markdown,.html,.htm,text/plain,text/markdown,text/html');
+  });
+
+  it('announces the supported formats on the drop zone', () => {
+    const zone = shadow.querySelector('.drop-zone') as HTMLElement;
+    expect(zone.getAttribute('aria-label')).to.equal('Añadir archivos txt, markdown o html');
+  });
+
   it('emits files-selected when files are dropped', done => {
     const dataTransfer = new DataTransfer();
     dataTransfer.items.add(makeFile());

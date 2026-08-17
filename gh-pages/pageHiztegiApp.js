@@ -1322,9 +1322,7 @@
 
   // src/shared/parsers/txt.ts
   var PARAGRAPHS_PER_CHAPTER = 15;
-  var parseTxt = async (file) => {
-    const text = await file.text();
-    const paragraphs = text.split(/\n\s*\n+/).map((paragraph) => paragraph.trim()).filter((paragraph) => paragraph.length > 0);
+  var chaptersFromParagraphs = (paragraphs) => {
     const chapters = [];
     for (let index = 0; index < paragraphs.length; index += PARAGRAPHS_PER_CHAPTER) {
       chapters.push({
@@ -1335,17 +1333,198 @@
     if (chapters.length === 0) {
       chapters.push({ title: "1", text: "" });
     }
-    const title = file.name.replace(/\.[^.]+$/, "").trim() || "Untitled";
-    return { title, chapters };
+    return chapters;
+  };
+  var titleFromFileName = (name) => name.replace(/\.[^.]+$/, "").trim() || "Untitled";
+  var parseTxt = async (file) => {
+    const text = await file.text();
+    const paragraphs = text.split(/\n\s*\n+/).map((paragraph) => paragraph.trim()).filter((paragraph) => paragraph.length > 0);
+    return {
+      title: titleFromFileName(file.name),
+      chapters: chaptersFromParagraphs(paragraphs)
+    };
+  };
+
+  // src/shared/parsers/html.ts
+  var parseHtml = async (file) => {
+    const text = await file.text();
+    const document2 = new DOMParser().parseFromString(text, "text/html");
+    const body = document2.body;
+    const chapters = [];
+    let currentTitle = null;
+    let paragraphs = [];
+    const flushChapter = () => {
+      if (currentTitle === null) {
+        return;
+      }
+      chapters.push({
+        title: currentTitle,
+        text: paragraphs.filter((paragraph) => paragraph !== "").join("\n\n")
+      });
+      currentTitle = null;
+      paragraphs = [];
+    };
+    const startChapter = (title) => {
+      if (currentTitle !== null) {
+        flushChapter();
+      }
+      currentTitle = title;
+    };
+    for (const node of Array.from(body.childNodes)) {
+      if (node.nodeType === Node.ELEMENT_NODE) {
+        const element = node;
+        const tag = element.tagName.toLocaleLowerCase();
+        if (tag === "h1" || tag === "h2") {
+          startChapter(element.textContent?.trim() ?? "");
+          continue;
+        }
+        const blockText = (element.textContent ?? "").replace(/\s*\n\s*/g, " ").trim();
+        if (blockText !== "") {
+          paragraphs.push(blockText);
+        }
+      } else if (node.nodeType === Node.TEXT_NODE) {
+        const textContent = (node.textContent ?? "").trim();
+        if (textContent !== "") {
+          paragraphs.push(textContent);
+        }
+      }
+    }
+    flushChapter();
+    return {
+      title: titleFromFileName(file.name),
+      chapters: chapters.length > 0 ? chapters : chaptersFromParagraphs(paragraphs)
+    };
+  };
+
+  // src/shared/parsers/markdown.ts
+  var HEADING_RE = /^(#{1,6})\s+(.*)$/;
+  var FENCE_RE = /^(?:```|~~~)/;
+  var BLOCKQUOTE_RE = /^>\s?/;
+  var LIST_MARKER_RE = /^\s*(?:[-*+]|\d+[.)])\s+/;
+  var HR_RE = /^\s*(?:-{3,}|\*{3,}|_{3,})\s*$/;
+  var stripInline = (line) => line.replace(/!\[[^\]]*\]\([^)]*\)/g, "").replace(/\[([^\]]+)\]\([^)]*\)/g, "$1").replace(/`([^`]+)`/g, "$1").replace(/\*\*([^*]+)\*\*/g, "$1").replace(/__([^_]+)__/g, "$1").replace(/\*([^*]+)\*/g, "$1").replace(/_([^_]+)_/g, "$1").replace(/~~([^~]+)~~/g, "$1").trim();
+  var paragraphsFromLines = (lines) => {
+    const paragraphs = [];
+    let buffer = [];
+    for (const line of lines) {
+      if (line === "") {
+        if (buffer.length > 0) {
+          paragraphs.push(buffer.join("\n"));
+          buffer = [];
+        }
+      } else {
+        buffer.push(line);
+      }
+    }
+    if (buffer.length > 0) {
+      paragraphs.push(buffer.join("\n"));
+    }
+    return paragraphs;
+  };
+  var parseMarkdown = async (file) => {
+    const text = await file.text();
+    const lines = text.split("\n");
+    const chapters = [];
+    let currentTitle = null;
+    let buffer = [];
+    let inFence = false;
+    const flushChapter = () => {
+      if (currentTitle === null) {
+        return;
+      }
+      chapters.push({
+        title: currentTitle,
+        text: paragraphsFromLines(buffer).join("\n\n")
+      });
+      currentTitle = null;
+      buffer = [];
+    };
+    const startChapter = (title) => {
+      if (currentTitle !== null) {
+        flushChapter();
+      }
+      currentTitle = title;
+    };
+    for (const rawLine of lines) {
+      const trimmed = rawLine.trim();
+      if (!inFence && FENCE_RE.test(trimmed)) {
+        inFence = true;
+        continue;
+      }
+      if (inFence) {
+        if (FENCE_RE.test(trimmed)) {
+          inFence = false;
+        } else {
+          buffer.push(rawLine);
+        }
+        continue;
+      }
+      if (trimmed === "") {
+        if (buffer.length > 0) {
+          buffer.push("");
+        }
+        continue;
+      }
+      const heading = HEADING_RE.exec(rawLine);
+      if (heading !== null) {
+        const level = heading[1].length;
+        if (level <= 2) {
+          startChapter(stripInline(heading[2]));
+        } else {
+          const content2 = stripInline(heading[2]);
+          if (content2 !== "") {
+            buffer.push(content2);
+          }
+        }
+        continue;
+      }
+      if (HR_RE.test(trimmed)) {
+        continue;
+      }
+      let content = stripInline(rawLine.replace(BLOCKQUOTE_RE, "").replace(LIST_MARKER_RE, ""));
+      if (content !== "") {
+        buffer.push(content);
+      }
+    }
+    flushChapter();
+    return {
+      title: titleFromFileName(file.name),
+      chapters: chapters.length > 0 ? chapters : chaptersFromParagraphs(paragraphsFromLines(buffer))
+    };
   };
 
   // src/shared/parsers/index.ts
   var getExtension = (name) => name.split(".").pop()?.toLocaleLowerCase() ?? "";
+  var getBookFormat = (fileName) => {
+    const extension = getExtension(fileName);
+    switch (extension) {
+      case "txt":
+        return "txt";
+      case "md":
+      case "markdown":
+        return "md";
+      case "html":
+      case "htm":
+        return "html";
+      case "epub":
+        return "epub";
+      case "pdf":
+        return "pdf";
+      default:
+        throw new Error(`Unsupported file format: "${extension}"`);
+    }
+  };
   var parseBook = async (file) => {
     const extension = getExtension(file.name);
     switch (extension) {
       case "txt":
         return parseTxt(file);
+      case "md":
+      case "markdown":
+        return parseMarkdown(file);
+      case "html":
+      case "htm":
+        return parseHtml(file);
       case "epub":
       case "pdf":
         throw new Error(`Parser for "${extension}" is not implemented yet`);
@@ -1402,16 +1581,22 @@
         class="${this.active ? "drop-zone active" : "drop-zone"}"
         role="button"
         tabindex="0"
-        aria-label="Añadir archivos txt"
+        aria-label="Añadir archivos txt, markdown o html"
         @click=${this.openPicker}
         @keydown=${this.onKeyDown}
         @dragover=${this.onDragOver}
         @dragleave=${this.onDragLeave}
         @drop=${this.onDrop}
       >
-        <slot>Arrastra los archivos txt aquí o haz clic para seleccionarlos</slot>
+        <slot>Arrastra los archivos txt, markdown o html aquí o haz clic para seleccionarlos</slot>
       </div>
-      <input type="file" accept=".txt,text/plain" multiple hidden @change=${this.onInputChange} />
+      <input
+        type="file"
+        accept=".txt,.md,.markdown,.html,.htm,text/plain,text/markdown,text/html"
+        multiple
+        hidden
+        @change=${this.onInputChange}
+      />
     `;
     }
     selectFiles(files) {
@@ -1590,7 +1775,7 @@
       try {
         for (const file of files) {
           const parsed = await this.api.parseBook(file);
-          await this.api.importBook(parsed, "txt");
+          await this.api.importBook(parsed, getBookFormat(file.name));
         }
         await this.loadBooks();
       } finally {
