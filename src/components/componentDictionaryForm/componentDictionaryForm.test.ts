@@ -27,7 +27,9 @@ describe('component-dictionary-form Component Spec:', () => {
 
     shadow = component.shadow;
     element = component.element;
-    await (element as unknown as ComponentDictionaryForm).updateComplete;
+    const form = element as unknown as ComponentDictionaryForm;
+    form.open = true;
+    await form.updateComplete;
   });
 
   afterEach(() => {
@@ -59,6 +61,13 @@ describe('component-dictionary-form Component Spec:', () => {
     expect((shadow.querySelector('input[name="translation"]') as HTMLInputElement).value).to.equal('Casa');
     expect((shadow.querySelector('textarea[name="note"]') as HTMLTextAreaElement).value).to.equal('Vive en una casa grande.');
     expect((shadow.querySelector('input[name="status"][value="known"]') as HTMLInputElement).checked).to.be.true;
+  });
+
+  it('renders nothing when open is false', async () => {
+    const form = element as unknown as ComponentDictionaryForm;
+    form.open = false;
+    await form.updateComplete;
+    expect(shadow.querySelector('form')).to.equal(null);
   });
 
   it('emits save-entry with a normalized entry', async () => {
@@ -123,11 +132,18 @@ describe('component-dictionary-form Component Spec:', () => {
     expect((shadow.querySelector('input[name="word"]') as HTMLInputElement).getAttribute('aria-invalid')).to.equal('false');
   });
 
-  it('emits cancel-entry', done => {
-    element.addEventListener('cancel-entry', () => {
+  it('emits close when cancel is clicked', done => {
+    element.addEventListener('close', () => {
       done();
     });
     const buttons = shadow.querySelectorAll('button');
     (buttons[0] as HTMLButtonElement).click();
+  });
+
+  it('emits close when Escape is pressed', done => {
+    element.addEventListener('close', () => {
+      done();
+    });
+    document.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape' }));
   });
 });

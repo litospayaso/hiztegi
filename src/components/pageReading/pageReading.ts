@@ -9,6 +9,7 @@ import type { Book, Chapter, DictionaryEntry } from '../../shared/types';
 import Page from '../../shared/page';
 import '../componentTextReader/index';
 import '../componentWordTooltip/index';
+import '../componentDictionaryForm/index';
 
 interface PageReadingApi {
   getBook: typeof getBook;
@@ -126,6 +127,12 @@ export default class PageReading extends Page<PageReadingApi> {
   @state()
   private error = '';
 
+  @state()
+  private showDictForm = false;
+
+  @state()
+  private dictFormEntry?: DictionaryEntry;
+
   private loadStarted = false;
 
   protected willUpdate(changed: PropertyValues): void {
@@ -165,6 +172,8 @@ export default class PageReading extends Page<PageReadingApi> {
     this.error = '';
     this.tooltip = undefined;
     this.tooltipEntry = undefined;
+    this.showDictForm = false;
+    this.dictFormEntry = undefined;
     const book = await this.api.getBook(id);
     if (!book) {
       this.error = 'Libro no encontrado.';
@@ -236,6 +245,28 @@ export default class PageReading extends Page<PageReadingApi> {
     this.dictionary = await this.api.getAllEntries();
   }
 
+  private onOpenAddModal(event: Event): void {
+    const { word } = (event as CustomEvent<{ word: string }>).detail;
+    this.tooltip = undefined;
+    this.tooltipEntry = undefined;
+    this.dictFormEntry = { word, status: 'unknown' };
+    this.showDictForm = true;
+  }
+
+  private async onDictFormSave(event: Event): Promise<void> {
+    const { entry } = (event as CustomEvent<{ entry: DictionaryEntry }>).detail;
+    const saved = await this.api.upsertEntry(entry);
+    this.showDictForm = false;
+    this.dictFormEntry = undefined;
+    this.dictionary = await this.api.getAllEntries();
+    this.tooltipEntry = saved;
+  }
+
+  private onDictFormClose(): void {
+    this.showDictForm = false;
+    this.dictFormEntry = undefined;
+  }
+
   render() {
     if (this.error) {
       return html`
@@ -300,10 +331,18 @@ export default class PageReading extends Page<PageReadingApi> {
                 .x=${this.tooltip.x}
                 .y=${this.tooltip.y}
                 @save-entry=${this.onTooltipSave}
+                @open-add-modal=${this.onOpenAddModal}
                 @close=${this.onTooltipClose}
               ></component-word-tooltip>
             `
           : ''}
+
+        <component-dictionary-form
+          .open=${this.showDictForm}
+          .entry=${this.dictFormEntry}
+          @save-entry=${this.onDictFormSave}
+          @close=${this.onDictFormClose}
+        ></component-dictionary-form>
       </div>
     `;
   }

@@ -68,7 +68,10 @@ describe('page-dictionary Component Spec:', () => {
 
   const formShadow = (): ShadowRoot | undefined => {
     const form = shadow.querySelector('component-dictionary-form') as HTMLElement | null;
-    return form?.shadowRoot ?? undefined;
+    if (!form?.shadowRoot) {
+      return undefined;
+    }
+    return form.shadowRoot.querySelector('form') ? form.shadowRoot : undefined;
   };
 
   const setInput = (input: HTMLInputElement, value: string): void => {
@@ -157,7 +160,7 @@ describe('page-dictionary Component Spec:', () => {
     await waitFor(() => shadow.querySelectorAll('component-dictionary-entry-row').length === 3);
     expect(saved[0].word).to.equal('ura');
     expect(saved[0].status).to.equal('unknown');
-    expect(shadow.querySelector('.form-wrap')).to.equal(null);
+    expect((shadow.querySelector('component-dictionary-form') as HTMLElement).hasAttribute('open')).to.be.false;
   });
 
   it('prefills the form when editing an entry', async () => {

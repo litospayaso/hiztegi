@@ -84,15 +84,15 @@ describe('component-word-tooltip Component Spec:', () => {
     expect(buttonByText('Añadir al diccionario')).to.not.be.undefined;
   });
 
-  it('emits save-entry with an unknown status when adding a word to the dictionary', async () => {
+  it('emits open-add-modal with the word when adding a word to the dictionary', async () => {
     await createTooltip('Mendi');
-    let detail: { entry: DictionaryEntry } | undefined;
-    element.addEventListener('save-entry', (event: Event) => {
-      detail = (event as CustomEvent<{ entry: DictionaryEntry }>).detail;
+    let detail: { word: string } | undefined;
+    element.addEventListener('open-add-modal', (event: Event) => {
+      detail = (event as CustomEvent<{ word: string }>).detail;
     });
     buttonByText('Añadir al diccionario')?.click();
     await (element as unknown as ComponentWordTooltip).updateComplete;
-    expect(detail?.entry).to.deep.equal({ word: 'mendi', status: 'unknown' });
+    expect(detail?.word).to.equal('mendi');
   });
 
   it('emits save-entry with known status when marking as known', async () => {

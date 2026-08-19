@@ -2227,7 +2227,17 @@
       );
     }
     emitAdd() {
-      this.emitSave("unknown");
+      const word = this.normalizeWord();
+      if (!word) {
+        return;
+      }
+      this.dispatchEvent(
+        new CustomEvent("open-add-modal", {
+          detail: { word },
+          bubbles: true,
+          composed: true
+        })
+      );
     }
     emitClose() {
       this.dispatchEvent(new CustomEvent("close", { bubbles: true, composed: true }));
@@ -2304,6 +2314,312 @@
   // src/components/componentWordTooltip/index.ts
   register("component-word-tooltip", ComponentWordTooltip);
 
+  // src/components/componentDictionaryForm/componentDictionaryForm.ts
+  var ComponentDictionaryForm = class extends i4 {
+    constructor() {
+      super(...arguments);
+      this.open = false;
+      this.draft = { word: "", status: "unknown", translation: "", note: "" };
+      this.showError = false;
+      this.onKeyDown = (event) => {
+        if (event.key === "Escape" && this.open) {
+          this.emitClose();
+        }
+      };
+    }
+    static {
+      this.styles = [
+        styles.hostStyle,
+        styles.designTokens,
+        styles.themeTokens,
+        styles.accentTokens,
+        styles.headerStyle,
+        styles.cardStyle,
+        styles.buttonStyle,
+        i`
+      :host {
+        display: none;
+      }
+
+      :host([open]) {
+        display: block;
+      }
+
+      .backdrop {
+        position: fixed;
+        inset: 0;
+        z-index: 999;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .modal {
+        position: relative;
+        max-width: 420px;
+        width: calc(100% - 2rem);
+        max-height: calc(100vh - 2rem);
+        overflow-y: auto;
+      }
+
+      .entry-form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1.25rem;
+      }
+
+      .entry-form h2 {
+        margin-bottom: 0.25rem;
+      }
+
+      .field {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        margin: 0;
+        padding: 0;
+        border: 0;
+      }
+
+      .field span,
+      .field legend {
+        font-size: var(--hzt-size-label);
+        font-weight: 900;
+        letter-spacing: var(--hzt-tracking-label);
+        text-transform: uppercase;
+        color: var(--hzt-muted);
+      }
+
+      input[type='text'],
+      textarea {
+        font-family: var(--hzt-font-body);
+        font-size: var(--hzt-size-body);
+        line-height: var(--hzt-line-body);
+        color: var(--hzt-ink);
+        background: var(--hzt-panel);
+        border: var(--hzt-border-button) solid var(--hzt-ink);
+        border-radius: var(--hzt-corner);
+        padding: 0.5rem 0.6rem;
+      }
+
+      textarea {
+        resize: vertical;
+        min-height: 4.5rem;
+      }
+
+      input[type='text']:focus-visible,
+      textarea:focus-visible {
+        outline: var(--hzt-border-chip) solid var(--hzt-accent);
+        outline-offset: 3px;
+      }
+
+      input[type='text'][aria-invalid='true'] {
+        border-color: var(--hzt-error);
+      }
+
+      .status-options {
+        display: flex;
+        gap: 1rem;
+      }
+
+      .status-options label {
+        display: flex;
+        align-items: center;
+        gap: 0.35rem;
+        font-size: var(--hzt-size-body);
+      }
+
+      input[type='radio'] {
+        accent-color: var(--hzt-accent);
+      }
+
+      .error {
+        margin: 0;
+        font-size: var(--hzt-size-label);
+        font-weight: 700;
+        color: var(--hzt-error);
+      }
+
+      .actions {
+        display: flex;
+        gap: 0.5rem;
+        justify-content: flex-end;
+      }
+    `
+      ];
+    }
+    connectedCallback() {
+      super.connectedCallback();
+      document.addEventListener("keydown", this.onKeyDown);
+    }
+    disconnectedCallback() {
+      document.removeEventListener("keydown", this.onKeyDown);
+      super.disconnectedCallback();
+    }
+    willUpdate(changed) {
+      if (changed.has("entry")) {
+        this.draft = this.entry ? {
+          word: this.entry.word,
+          status: this.entry.status,
+          translation: this.entry.translation ?? "",
+          note: this.entry.note ?? ""
+        } : { word: "", status: "unknown", translation: "", note: "" };
+        this.showError = false;
+      }
+    }
+    render() {
+      if (!this.open) {
+        return b2``;
+      }
+      return b2`
+      <div class="backdrop" @click=${this.onBackdropClick}>
+        <div
+          class="modal hzt-card"
+          role="dialog"
+          aria-label="${this.entry ? "Editar entrada" : "Nueva entrada"}"
+          @click=${(e5) => e5.stopPropagation()}
+        >
+          <form class="entry-form" @submit=${this.handleSubmit}>
+            <h2>${this.entry ? "Editar entrada" : "Nueva entrada"}</h2>
+
+            <label class="field">
+              <span>Palabra</span>
+              <input
+                type="text"
+                name="word"
+                .value=${this.draft.word}
+                aria-invalid=${this.showError}
+                @input=${this.handleWordInput}
+              />
+            </label>
+
+            <fieldset class="field">
+              <legend>Estado</legend>
+              <div class="status-options">
+                <label>
+                  <input
+                    type="radio"
+                    name="status"
+                    value="known"
+                    .checked=${this.draft.status === "known"}
+                    @change=${this.selectKnown}
+                  />
+                  Conocida
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="status"
+                    value="unknown"
+                    .checked=${this.draft.status === "unknown"}
+                    @change=${this.selectUnknown}
+                  />
+                  Nueva
+                </label>
+              </div>
+            </fieldset>
+
+            <label class="field">
+              <span>Traducción</span>
+              <input
+                type="text"
+                name="translation"
+                .value=${this.draft.translation}
+                @input=${this.handleTranslationInput}
+              />
+            </label>
+
+            <label class="field">
+              <span>Nota</span>
+              <textarea
+                name="note"
+                .value=${this.draft.note}
+                @input=${this.handleNoteInput}
+              ></textarea>
+            </label>
+
+            ${this.showError ? b2`<p class="error" role="alert">La palabra es obligatoria</p>` : ""}
+
+            <div class="actions">
+              <button type="button" class="hzt-button hzt-button--outline" @click=${this.emitClose}>
+                Cancelar
+              </button>
+              <button type="submit" class="hzt-button hzt-button--primary">Guardar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    `;
+    }
+    onBackdropClick() {
+      this.emitClose();
+    }
+    handleWordInput(event) {
+      const value = event.target.value;
+      this.draft = { ...this.draft, word: value };
+      if (this.showError) {
+        this.showError = false;
+      }
+    }
+    handleTranslationInput(event) {
+      const value = event.target.value;
+      this.draft = { ...this.draft, translation: value };
+    }
+    handleNoteInput(event) {
+      const value = event.target.value;
+      this.draft = { ...this.draft, note: value };
+    }
+    selectKnown() {
+      this.draft = { ...this.draft, status: "known" };
+    }
+    selectUnknown() {
+      this.draft = { ...this.draft, status: "unknown" };
+    }
+    handleSubmit(event) {
+      event.preventDefault();
+      const word = this.draft.word.trim();
+      if (!word) {
+        this.showError = true;
+        return;
+      }
+      const translation = this.draft.translation.trim();
+      const note = this.draft.note.trim();
+      const entry = {
+        word,
+        status: this.draft.status,
+        ...translation ? { translation } : {},
+        ...note ? { note } : {}
+      };
+      this.dispatchEvent(
+        new CustomEvent("save-entry", {
+          detail: { entry },
+          bubbles: true,
+          composed: true
+        })
+      );
+    }
+    emitClose() {
+      this.dispatchEvent(new CustomEvent("close", { bubbles: true, composed: true }));
+    }
+  };
+  __decorateClass([
+    n4({ type: Boolean, reflect: true })
+  ], ComponentDictionaryForm.prototype, "open", 2);
+  __decorateClass([
+    n4({ type: Object })
+  ], ComponentDictionaryForm.prototype, "entry", 2);
+  __decorateClass([
+    r5()
+  ], ComponentDictionaryForm.prototype, "draft", 2);
+  __decorateClass([
+    r5()
+  ], ComponentDictionaryForm.prototype, "showError", 2);
+
+  // src/components/componentDictionaryForm/index.ts
+  register("component-dictionary-form", ComponentDictionaryForm);
+
   // src/components/pageReading/pageReading.ts
   var PageReading = class extends Page {
     constructor() {
@@ -2315,6 +2631,7 @@
       this.dictionary = [];
       this.loading = true;
       this.error = "";
+      this.showDictForm = false;
       this.loadStarted = false;
     }
     willUpdate(changed) {
@@ -2350,6 +2667,8 @@
       this.error = "";
       this.tooltip = void 0;
       this.tooltipEntry = void 0;
+      this.showDictForm = false;
+      this.dictFormEntry = void 0;
       const book = await this.api.getBook(id);
       if (!book) {
         this.error = "Libro no encontrado.";
@@ -2411,6 +2730,25 @@
       const saved = await this.api.upsertEntry(entry);
       this.tooltipEntry = saved;
       this.dictionary = await this.api.getAllEntries();
+    }
+    onOpenAddModal(event) {
+      const { word } = event.detail;
+      this.tooltip = void 0;
+      this.tooltipEntry = void 0;
+      this.dictFormEntry = { word, status: "unknown" };
+      this.showDictForm = true;
+    }
+    async onDictFormSave(event) {
+      const { entry } = event.detail;
+      const saved = await this.api.upsertEntry(entry);
+      this.showDictForm = false;
+      this.dictFormEntry = void 0;
+      this.dictionary = await this.api.getAllEntries();
+      this.tooltipEntry = saved;
+    }
+    onDictFormClose() {
+      this.showDictForm = false;
+      this.dictFormEntry = void 0;
     }
     render() {
       if (this.error) {
@@ -2474,9 +2812,17 @@
                 .x=${this.tooltip.x}
                 .y=${this.tooltip.y}
                 @save-entry=${this.onTooltipSave}
+                @open-add-modal=${this.onOpenAddModal}
                 @close=${this.onTooltipClose}
               ></component-word-tooltip>
             ` : ""}
+
+        <component-dictionary-form
+          .open=${this.showDictForm}
+          .entry=${this.dictFormEntry}
+          @save-entry=${this.onDictFormSave}
+          @close=${this.onDictFormClose}
+        ></component-dictionary-form>
       </div>
     `;
     }
@@ -2570,6 +2916,12 @@
   __decorateClass([
     r5()
   ], PageReading.prototype, "error", 2);
+  __decorateClass([
+    r5()
+  ], PageReading.prototype, "showDictForm", 2);
+  __decorateClass([
+    r5()
+  ], PageReading.prototype, "dictFormEntry", 2);
   PageReading = __decorateClass([
     api({
       getBook,
@@ -2695,254 +3047,6 @@
   // src/components/componentDictionaryEntryRow/index.ts
   register("component-dictionary-entry-row", ComponentDictionaryEntryRow);
 
-  // src/components/componentDictionaryForm/componentDictionaryForm.ts
-  var ComponentDictionaryForm = class extends i4 {
-    constructor() {
-      super(...arguments);
-      this.draft = { word: "", status: "unknown", translation: "", note: "" };
-      this.showError = false;
-    }
-    static {
-      this.styles = [
-        styles.hostStyle,
-        styles.designTokens,
-        styles.themeTokens,
-        styles.accentTokens,
-        styles.headerStyle,
-        styles.cardStyle,
-        styles.buttonStyle,
-        i`
-      .entry-form {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        padding: 1.25rem;
-      }
-
-      .entry-form h2 {
-        margin-bottom: 0.25rem;
-      }
-
-      .field {
-        display: flex;
-        flex-direction: column;
-        gap: 0.25rem;
-        margin: 0;
-        padding: 0;
-        border: 0;
-      }
-
-      .field span,
-      .field legend {
-        font-size: var(--hzt-size-label);
-        font-weight: 900;
-        letter-spacing: var(--hzt-tracking-label);
-        text-transform: uppercase;
-        color: var(--hzt-muted);
-      }
-
-      input[type='text'],
-      textarea {
-        font-family: var(--hzt-font-body);
-        font-size: var(--hzt-size-body);
-        line-height: var(--hzt-line-body);
-        color: var(--hzt-ink);
-        background: var(--hzt-panel);
-        border: var(--hzt-border-button) solid var(--hzt-ink);
-        border-radius: var(--hzt-corner);
-        padding: 0.5rem 0.6rem;
-      }
-
-      textarea {
-        resize: vertical;
-        min-height: 4.5rem;
-      }
-
-      input[type='text']:focus-visible,
-      textarea:focus-visible {
-        outline: var(--hzt-border-chip) solid var(--hzt-accent);
-        outline-offset: 3px;
-      }
-
-      input[type='text'][aria-invalid='true'] {
-        border-color: var(--hzt-error);
-      }
-
-      .status-options {
-        display: flex;
-        gap: 1rem;
-      }
-
-      .status-options label {
-        display: flex;
-        align-items: center;
-        gap: 0.35rem;
-        font-size: var(--hzt-size-body);
-      }
-
-      input[type='radio'] {
-        accent-color: var(--hzt-accent);
-      }
-
-      .error {
-        margin: 0;
-        font-size: var(--hzt-size-label);
-        font-weight: 700;
-        color: var(--hzt-error);
-      }
-
-      .actions {
-        display: flex;
-        gap: 0.5rem;
-        justify-content: flex-end;
-      }
-    `
-      ];
-    }
-    willUpdate(changed) {
-      if (changed.has("entry")) {
-        this.draft = this.entry ? {
-          word: this.entry.word,
-          status: this.entry.status,
-          translation: this.entry.translation ?? "",
-          note: this.entry.note ?? ""
-        } : { word: "", status: "unknown", translation: "", note: "" };
-        this.showError = false;
-      }
-    }
-    render() {
-      return b2`
-      <form class="entry-form hzt-card" @submit=${this.handleSubmit}>
-        <h2>${this.entry ? "Editar entrada" : "Nueva entrada"}</h2>
-
-        <label class="field">
-          <span>Palabra</span>
-          <input
-            type="text"
-            name="word"
-            .value=${this.draft.word}
-            aria-invalid=${this.showError}
-            @input=${this.handleWordInput}
-          />
-        </label>
-
-        <fieldset class="field">
-          <legend>Estado</legend>
-          <div class="status-options">
-            <label>
-              <input
-                type="radio"
-                name="status"
-                value="known"
-                .checked=${this.draft.status === "known"}
-                @change=${this.selectKnown}
-              />
-              Conocida
-            </label>
-            <label>
-              <input
-                type="radio"
-                name="status"
-                value="unknown"
-                .checked=${this.draft.status === "unknown"}
-                @change=${this.selectUnknown}
-              />
-              Nueva
-            </label>
-          </div>
-        </fieldset>
-
-        <label class="field">
-          <span>Traducción</span>
-          <input
-            type="text"
-            name="translation"
-            .value=${this.draft.translation}
-            @input=${this.handleTranslationInput}
-          />
-        </label>
-
-        <label class="field">
-          <span>Nota</span>
-          <textarea
-            name="note"
-            .value=${this.draft.note}
-            @input=${this.handleNoteInput}
-          ></textarea>
-        </label>
-
-        ${this.showError ? b2`<p class="error" role="alert">La palabra es obligatoria</p>` : ""}
-
-        <div class="actions">
-          <button type="button" class="hzt-button hzt-button--outline" @click=${this.emitCancel}>
-            Cancelar
-          </button>
-          <button type="submit" class="hzt-button hzt-button--primary">Guardar</button>
-        </div>
-      </form>
-    `;
-    }
-    handleWordInput(event) {
-      const value = event.target.value;
-      this.draft = { ...this.draft, word: value };
-      if (this.showError) {
-        this.showError = false;
-      }
-    }
-    handleTranslationInput(event) {
-      const value = event.target.value;
-      this.draft = { ...this.draft, translation: value };
-    }
-    handleNoteInput(event) {
-      const value = event.target.value;
-      this.draft = { ...this.draft, note: value };
-    }
-    selectKnown() {
-      this.draft = { ...this.draft, status: "known" };
-    }
-    selectUnknown() {
-      this.draft = { ...this.draft, status: "unknown" };
-    }
-    handleSubmit(event) {
-      event.preventDefault();
-      const word = this.draft.word.trim();
-      if (!word) {
-        this.showError = true;
-        return;
-      }
-      const translation = this.draft.translation.trim();
-      const note = this.draft.note.trim();
-      const entry = {
-        word,
-        status: this.draft.status,
-        ...translation ? { translation } : {},
-        ...note ? { note } : {}
-      };
-      this.dispatchEvent(
-        new CustomEvent("save-entry", {
-          detail: { entry },
-          bubbles: true,
-          composed: true
-        })
-      );
-    }
-    emitCancel() {
-      this.dispatchEvent(new CustomEvent("cancel-entry", { bubbles: true, composed: true }));
-    }
-  };
-  __decorateClass([
-    n4({ type: Object })
-  ], ComponentDictionaryForm.prototype, "entry", 2);
-  __decorateClass([
-    r5()
-  ], ComponentDictionaryForm.prototype, "draft", 2);
-  __decorateClass([
-    r5()
-  ], ComponentDictionaryForm.prototype, "showError", 2);
-
-  // src/components/componentDictionaryForm/index.ts
-  register("component-dictionary-form", ComponentDictionaryForm);
-
   // src/components/pageDictionary/pageDictionary.ts
   var PageDictionary = class extends Page {
     constructor() {
@@ -3014,15 +3118,12 @@
           <button class="hzt-button hzt-button--primary" @click=${this.onAddClick}>Añadir</button>
         </div>
 
-        ${this.showForm ? b2`
-              <div class="form-wrap">
-                <component-dictionary-form
-                  .entry=${this.editing}
-                  @save-entry=${this.onSaveEntry}
-                  @cancel-entry=${this.onCancelEntry}
-                ></component-dictionary-form>
-              </div>
-            ` : ""}
+        <component-dictionary-form
+          .open=${this.showForm}
+          .entry=${this.editing}
+          @save-entry=${this.onSaveEntry}
+          @close=${this.onCancelEntry}
+        ></component-dictionary-form>
 
         <div class="entries">
           ${entries.length === 0 ? b2`
@@ -3078,10 +3179,6 @@
       .search:focus-visible {
         outline: var(--hzt-border-chip) solid var(--hzt-accent);
         outline-offset: 3px;
-      }
-
-      .form-wrap {
-        margin-bottom: 1rem;
       }
 
       .entries {

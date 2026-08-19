@@ -5,6 +5,7 @@ import { styles } from '../../shared/styles';
 import type { DictionaryEntry } from '../../shared/types';
 
 export interface ComponentDictionaryFormInterface {
+  open?: boolean;
   entry?: DictionaryEntry;
 }
 
@@ -25,6 +26,32 @@ export default class ComponentDictionaryForm extends LitElement {
     styles.cardStyle,
     styles.buttonStyle,
     css`
+      :host {
+        display: none;
+      }
+
+      :host([open]) {
+        display: block;
+      }
+
+      .backdrop {
+        position: fixed;
+        inset: 0;
+        z-index: 999;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .modal {
+        position: relative;
+        max-width: 420px;
+        width: calc(100% - 2rem);
+        max-height: calc(100vh - 2rem);
+        overflow-y: auto;
+      }
+
       .entry-form {
         display: flex;
         flex-direction: column;
@@ -112,6 +139,9 @@ export default class ComponentDictionaryForm extends LitElement {
     `,
   ];
 
+  @property({ type: Boolean, reflect: true })
+  open = false;
+
   @property({ type: Object })
   entry?: DictionaryEntry;
 
@@ -120,6 +150,16 @@ export default class ComponentDictionaryForm extends LitElement {
 
   @state()
   private showError = false;
+
+  connectedCallback(): void {
+    super.connectedCallback();
+    document.addEventListener('keydown', this.onKeyDown);
+  }
+
+  disconnectedCallback(): void {
+    document.removeEventListener('keydown', this.onKeyDown);
+    super.disconnectedCallback();
+  }
 
   protected willUpdate(changed: PropertyValues): void {
     if (changed.has('entry')) {
@@ -136,76 +176,98 @@ export default class ComponentDictionaryForm extends LitElement {
   }
 
   render() {
+    if (!this.open) {
+      return html``;
+    }
     return html`
-      <form class="entry-form hzt-card" @submit=${this.handleSubmit}>
-        <h2>${this.entry ? 'Editar entrada' : 'Nueva entrada'}</h2>
+      <div class="backdrop" @click=${this.onBackdropClick}>
+        <div
+          class="modal hzt-card"
+          role="dialog"
+          aria-label="${this.entry ? 'Editar entrada' : 'Nueva entrada'}"
+          @click=${(e: Event) => e.stopPropagation()}
+        >
+          <form class="entry-form" @submit=${this.handleSubmit}>
+            <h2>${this.entry ? 'Editar entrada' : 'Nueva entrada'}</h2>
 
-        <label class="field">
-          <span>Palabra</span>
-          <input
-            type="text"
-            name="word"
-            .value=${this.draft.word}
-            aria-invalid=${this.showError}
-            @input=${this.handleWordInput}
-          />
-        </label>
-
-        <fieldset class="field">
-          <legend>Estado</legend>
-          <div class="status-options">
-            <label>
+            <label class="field">
+              <span>Palabra</span>
               <input
-                type="radio"
-                name="status"
-                value="known"
-                .checked=${this.draft.status === 'known'}
-                @change=${this.selectKnown}
+                type="text"
+                name="word"
+                .value=${this.draft.word}
+                aria-invalid=${this.showError}
+                @input=${this.handleWordInput}
               />
-              Conocida
             </label>
-            <label>
+
+            <fieldset class="field">
+              <legend>Estado</legend>
+              <div class="status-options">
+                <label>
+                  <input
+                    type="radio"
+                    name="status"
+                    value="known"
+                    .checked=${this.draft.status === 'known'}
+                    @change=${this.selectKnown}
+                  />
+                  Conocida
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="status"
+                    value="unknown"
+                    .checked=${this.draft.status === 'unknown'}
+                    @change=${this.selectUnknown}
+                  />
+                  Nueva
+                </label>
+              </div>
+            </fieldset>
+
+            <label class="field">
+              <span>Traducción</span>
               <input
-                type="radio"
-                name="status"
-                value="unknown"
-                .checked=${this.draft.status === 'unknown'}
-                @change=${this.selectUnknown}
+                type="text"
+                name="translation"
+                .value=${this.draft.translation}
+                @input=${this.handleTranslationInput}
               />
-              Nueva
             </label>
-          </div>
-        </fieldset>
 
-        <label class="field">
-          <span>Traducción</span>
-          <input
-            type="text"
-            name="translation"
-            .value=${this.draft.translation}
-            @input=${this.handleTranslationInput}
-          />
-        </label>
+            <label class="field">
+              <span>Nota</span>
+              <textarea
+                name="note"
+                .value=${this.draft.note}
+                @input=${this.handleNoteInput}
+              ></textarea>
+            </label>
 
-        <label class="field">
-          <span>Nota</span>
-          <textarea
-            name="note"
-            .value=${this.draft.note}
-            @input=${this.handleNoteInput}
-          ></textarea>
-        </label>
+            ${this.showError ? html`<p class="error" role="alert">La palabra es obligatoria</p>` : ''}
 
-        ${this.showError ? html`<p class="error" role="alert">La palabra es obligatoria</p>` : ''}
-
-        <div class="actions">
-          <button type="button" class="hzt-button hzt-button--outline" @click=${this.emitCancel}>
-            Cancelar
-          </button>
-          <button type="submit" class="hzt-button hzt-button--primary">Guardar</button>
+            <div class="actions">
+              <button type="button" class="hzt-button hzt-button--outline" @click=${this.emitClose}>
+                Cancelar
+              </button>
+              <button type="submit" class="hzt-button hzt-button--primary">Guardar</button>
+            </div>
+          </form>
         </div>
-      </form>
+      </div>
     `;
+  }
+
+  private onKeyDown = (event: KeyboardEvent): void => {
+    if (event.key === 'Escape' && this.open) {
+      this.emitClose();
+    }
+  };
+
+  private onBackdropClick(): void {
+    this.emitClose();
   }
 
   private handleWordInput(event: Event): void {
@@ -258,8 +320,8 @@ export default class ComponentDictionaryForm extends LitElement {
     );
   }
 
-  private emitCancel(): void {
-    this.dispatchEvent(new CustomEvent('cancel-entry', { bubbles: true, composed: true }));
+  private emitClose(): void {
+    this.dispatchEvent(new CustomEvent('close', { bubbles: true, composed: true }));
   }
 }
 

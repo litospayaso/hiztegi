@@ -18,10 +18,33 @@ const meta = {
 export default meta;
 type Story = StoryObj;
 
+const closeModal = (id: string): void => {
+  const form = document.getElementById(id) as HTMLElement & { open: boolean };
+  if (form) {
+    form.open = false;
+  }
+};
+
+const openForm = (id: string): void => {
+  const form = document.getElementById(id) as HTMLElement & { open: boolean };
+  if (!form) {
+    return;
+  }
+  form.open = true;
+  form.addEventListener('close', () => closeModal(id), { once: true });
+  form.addEventListener('save-entry', () => closeModal(id), { once: true });
+};
+
 export const newEntry: Story = {
-  render: () => html`<component-dictionary-form></component-dictionary-form>`,
+  render: () => html`
+    <button class="hzt-button" @click=${() => openForm('new-form')}>Abrir formulario</button>
+    <component-dictionary-form id="new-form"></component-dictionary-form>
+  `,
 };
 
 export const editEntry: Story = {
-  render: () => html`<component-dictionary-form .entry=${existingEntry}></component-dictionary-form>`,
+  render: () => html`
+    <button class="hzt-button" @click=${() => openForm('edit-form')}>Abrir formulario</button>
+    <component-dictionary-form id="edit-form" .entry=${existingEntry}></component-dictionary-form>
+  `,
 };

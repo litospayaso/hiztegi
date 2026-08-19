@@ -53,10 +53,6 @@ export default class PageDictionary extends Page<PageDictionaryApi> {
         outline-offset: 3px;
       }
 
-      .form-wrap {
-        margin-bottom: 1rem;
-      }
-
       .entries {
         display: grid;
         gap: 0.75rem;
@@ -155,17 +151,12 @@ export default class PageDictionary extends Page<PageDictionaryApi> {
           <button class="hzt-button hzt-button--primary" @click=${this.onAddClick}>Añadir</button>
         </div>
 
-        ${this.showForm
-          ? html`
-              <div class="form-wrap">
-                <component-dictionary-form
-                  .entry=${this.editing}
-                  @save-entry=${this.onSaveEntry}
-                  @cancel-entry=${this.onCancelEntry}
-                ></component-dictionary-form>
-              </div>
-            `
-          : ''}
+        <component-dictionary-form
+          .open=${this.showForm}
+          .entry=${this.editing}
+          @save-entry=${this.onSaveEntry}
+          @close=${this.onCancelEntry}
+        ></component-dictionary-form>
 
         <div class="entries">
           ${entries.length === 0

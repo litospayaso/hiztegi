@@ -199,7 +199,17 @@ export default class ComponentWordTooltip extends LitElement {
   }
 
   private emitAdd(): void {
-    this.emitSave('unknown');
+    const word = this.normalizeWord();
+    if (!word) {
+      return;
+    }
+    this.dispatchEvent(
+      new CustomEvent<{ word: string }>('open-add-modal', {
+        detail: { word },
+        bubbles: true,
+        composed: true,
+      })
+    );
   }
 
   private emitClose(): void {

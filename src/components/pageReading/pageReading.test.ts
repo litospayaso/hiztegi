@@ -230,7 +230,29 @@ describe('page-reading Component Spec:', () => {
     await waitFor(() => tooltipEl() === null);
   });
 
-  it('saves the entry from the tooltip and refreshes the reader dictionary', async () => {
+  it('opens the dictionary form modal when the tooltip emits open-add-modal', async () => {
+    await createPage();
+    await waitFor(() => shadow.querySelector('component-text-reader') !== null);
+    readerEl().dispatchEvent(
+      new CustomEvent('word-click', { detail: { word: 'mendi', x: 100, y: 200 }, bubbles: true, composed: true })
+    );
+    await waitFor(() => tooltipEl() !== null);
+
+    const tooltip = tooltipEl() as unknown as { shadowRoot: ShadowRoot };
+    const addButton = Array.from(tooltip.shadowRoot.querySelectorAll('button')).find(
+      btn => btn.textContent?.trim() === 'Añadir al diccionario'
+    ) as HTMLButtonElement;
+    addButton.click();
+
+    await waitFor(() => {
+      const form = shadow.querySelector('component-dictionary-form') as HTMLElement;
+      return form?.hasAttribute('open');
+    });
+    const form = shadow.querySelector('component-dictionary-form') as HTMLElement;
+    expect(form.hasAttribute('open')).to.be.true;
+  });
+
+  it('saves the entry from the dictionary form and refreshes the reader dictionary', async () => {
     const entries: DictionaryEntry[] = [];
     let upserted: DictionaryEntry | undefined;
     const api: PageReadingApi = {
@@ -244,21 +266,23 @@ describe('page-reading Component Spec:', () => {
     };
     await createPage(api);
     await waitFor(() => shadow.querySelector('component-text-reader') !== null);
-    readerEl().dispatchEvent(
-      new CustomEvent('word-click', { detail: { word: 'mendi', x: 100, y: 200 }, bubbles: true, composed: true })
-    );
-    await waitFor(() => tooltipEl() !== null);
-    tooltipEl()?.dispatchEvent(
-      new CustomEvent('save-entry', {
-        detail: { entry: { word: 'mendi', status: 'unknown' } },
-        bubbles: true,
-        composed: true,
-      })
-    );
+
+    const form = shadow.querySelector('component-dictionary-form') as HTMLElement & {
+      open: boolean;
+      entry: DictionaryEntry;
+      updateComplete: Promise<boolean>;
+    };
+    form.open = true;
+    form.entry = { word: 'mendi', status: 'unknown' };
+    await form.updateComplete;
+
+    const formShadow = form.shadowRoot as ShadowRoot;
+    (formShadow.querySelector('form') as HTMLFormElement).requestSubmit();
+
     await waitFor(() => upserted !== undefined);
+    expect(upserted?.word).to.equal('mendi');
     const readerDictionary = readerEl() as unknown as { dictionary: DictionaryEntry[] };
     await waitFor(() => readerDictionary.dictionary.some(e => e.word === 'mendi'));
-    expect(readerDictionary.dictionary).to.deep.equal([{ word: 'mendi', status: 'unknown' }]);
   });
 
   it('navigates back to the library', async () => {
