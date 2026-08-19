@@ -18,7 +18,8 @@
     "test:watch": "web-test-runner --config wtr.config.mjs --watch --chromium",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006 --no-version-updates --disable-telemetry",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "release": "npx gh-pages -d gh-pages"
   },
   "dependencies": {
     "jszip": "^3.10.1",
