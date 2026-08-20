@@ -158,4 +158,62 @@ describe('component-text-reader Component Spec:', () => {
     expect(words()[0].textContent).to.equal('ura');
     expect(pageInfo()).to.equal('Página 2 de 2');
   });
+
+  it('highlights declined forms via suffix detection', async () => {
+    await createReader(
+      'etxe etxean ura',
+      [{ word: 'etxe', status: 'known' }],
+      3
+    );
+    expect(words()[0].classList.contains('word--known')).to.be.true;
+    expect(words()[1].classList.contains('word--known')).to.be.true;
+    expect(words()[2].className).to.equal('word');
+  });
+
+  it('detects declined forms for unknown base forms', async () => {
+    await createReader(
+      'etxe etxean liburuan',
+      [
+        { word: 'etxe', status: 'known' },
+        { word: 'liburu', status: 'unknown' },
+      ],
+      3
+    );
+    expect(words()[0].classList.contains('word--known')).to.be.true;
+    expect(words()[1].classList.contains('word--known')).to.be.true;
+    expect(words()[2].classList.contains('word--unknown')).to.be.true;
+  });
+
+  it('emits word-click with baseForm and cases for declined forms', async () => {
+    await createReader(
+      'etxe etxean ura',
+      [{ word: 'etxe', status: 'known' }],
+      3
+    );
+    let detail: { word: string; baseForm?: string; cases?: string[] } | undefined;
+    element.addEventListener('word-click', (event: Event) => {
+      detail = (event as CustomEvent<{ word: string; baseForm?: string; cases?: string[] }>).detail;
+    });
+    words()[1].click();
+    await (element as unknown as ComponentTextReader).updateComplete;
+    expect(detail?.word).to.equal('etxean');
+    expect(detail?.baseForm).to.equal('etxe');
+    expect(detail?.cases).to.include('Inesivo');
+  });
+
+  it('emits word-click without baseForm for direct matches', async () => {
+    await createReader(
+      'etxe etxean ura',
+      [{ word: 'etxe', status: 'known' }],
+      3
+    );
+    let detail: { word: string; baseForm?: string; cases?: string[] } | undefined;
+    element.addEventListener('word-click', (event: Event) => {
+      detail = (event as CustomEvent<{ word: string; baseForm?: string; cases?: string[] }>).detail;
+    });
+    words()[0].click();
+    await (element as unknown as ComponentTextReader).updateComplete;
+    expect(detail?.word).to.equal('etxe');
+    expect(detail?.baseForm).to.be.undefined;
+  });
 });

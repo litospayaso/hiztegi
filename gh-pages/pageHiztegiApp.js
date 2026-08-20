@@ -1209,7 +1209,7 @@
   var dbPromise = null;
   var open = () => {
     if (!dbPromise) {
-      dbPromise = new Promise((resolve, reject) => {
+      dbPromise = new Promise((resolve2, reject) => {
         const request = indexedDB.open(DB_NAME, DB_VERSION);
         request.onupgradeneeded = () => {
           const db = request.result;
@@ -1219,19 +1219,19 @@
             }
           });
         };
-        request.onsuccess = () => resolve(request.result);
+        request.onsuccess = () => resolve2(request.result);
         request.onerror = () => reject(request.error);
       });
     }
     return dbPromise;
   };
-  var requestResult = (request) => new Promise((resolve, reject) => {
-    request.onsuccess = () => resolve(request.result);
+  var requestResult = (request) => new Promise((resolve2, reject) => {
+    request.onsuccess = () => resolve2(request.result);
     request.onerror = () => reject(request.error);
   });
   var transaction = (storeNames, mode, callback) => {
     return open().then(
-      (db) => new Promise((resolve, reject) => {
+      (db) => new Promise((resolve2, reject) => {
         const names = Array.isArray(storeNames) ? storeNames : [storeNames];
         const tx = db.transaction(names, mode);
         const stores = {};
@@ -1245,7 +1245,7 @@
           reject(err);
           return;
         }
-        tx.oncomplete = () => resolve();
+        tx.oncomplete = () => resolve2();
         tx.onerror = () => reject(tx.error);
         tx.onabort = () => reject(tx.error);
       })
@@ -1871,7 +1871,7 @@
   var removeEntry = async (word) => {
     await remove("dictionary", normalize(word));
   };
-  var lookup = async (word) => {
+  var resolve = async (word) => {
     return getEntry(word);
   };
 
@@ -1896,6 +1896,308 @@
     }
     return tokens;
   };
+
+  // src/shared/declensions.ts
+  var SUFFIX_TABLE = [
+    // ─── Long suffixes (10+) ─────────────────────────────────────────
+    {
+      suffix: "-enganaino",
+      cases: [{ caseId: "adl_terminal", caseName: "Adlativo Terminal", meaning: "hasta donde (los/las)" }]
+    },
+    {
+      suffix: "-anganaino",
+      cases: [{ caseId: "adl_terminal", caseName: "Adlativo Terminal", meaning: "hasta donde (el/la)" }]
+    },
+    {
+      suffix: "-rengandik",
+      cases: [{ caseId: "ablativo", caseName: "Ablativo", meaning: "de/desde (los/las)" }]
+    },
+    {
+      suffix: "-rangandik",
+      cases: [{ caseId: "ablativo", caseName: "Ablativo", meaning: "de/desde (el/la)" }]
+    },
+    {
+      suffix: "-eganaino",
+      cases: [{ caseId: "adl_terminal", caseName: "Adlativo Terminal", meaning: "hasta donde (hombre)" }]
+    },
+    {
+      suffix: "-regandik",
+      cases: [{ caseId: "ablativo", caseName: "Ablativo", meaning: "de/desde (hijo/hombre)" }]
+    },
+    {
+      suffix: "-engandik",
+      cases: [{ caseId: "ablativo", caseName: "Ablativo", meaning: "de/desde (los/las)" }]
+    },
+    {
+      suffix: "-arentzat",
+      cases: [{ caseId: "destinativo", caseName: "Destinativo", meaning: "para el/la" }]
+    },
+    {
+      suffix: "-etaraino",
+      cases: [{ caseId: "adl_terminal", caseName: "Adlativo Terminal", meaning: "hasta (los/las / valle)" }]
+    },
+    {
+      suffix: "-angandik",
+      cases: [{ caseId: "ablativo", caseName: "Ablativo", meaning: "de/desde (el/la)" }]
+    },
+    {
+      suffix: "-rentzat",
+      cases: [{ caseId: "destinativo", caseName: "Destinativo", meaning: "para (alguien)" }]
+    },
+    {
+      suffix: "-ganaino",
+      cases: [{ caseId: "adl_terminal", caseName: "Adlativo Terminal", meaning: "hasta donde (hijo)" }]
+    },
+    {
+      suffix: "-rekin",
+      cases: [{ caseId: "asociativo", caseName: "Asociativo", meaning: "con (alguien)" }]
+    },
+    {
+      suffix: "-arekin",
+      cases: [{ caseId: "asociativo", caseName: "Asociativo", meaning: "con el/la" }]
+    },
+    {
+      suffix: "-angana",
+      cases: [{ caseId: "adlativo", caseName: "Adlativo", meaning: "a donde (el/la)" }]
+    },
+    {
+      suffix: "-taraino",
+      cases: [{ caseId: "adl_terminal", caseName: "Adlativo Terminal", meaning: "hasta (monte)" }]
+    },
+    {
+      suffix: "-engana",
+      cases: [{ caseId: "adlativo", caseName: "Adlativo", meaning: "a donde (los/las)" }]
+    },
+    {
+      suffix: "-entzat",
+      cases: [{ caseId: "destinativo", caseName: "Destinativo", meaning: "para (los/las / valle / hombre)" }]
+    },
+    {
+      suffix: "-gandik",
+      cases: [{ caseId: "ablativo", caseName: "Ablativo", meaning: "de/desde (hijo/hombre)" }]
+    },
+    {
+      suffix: "-eraino",
+      cases: [{ caseId: "adl_terminal", caseName: "Adlativo Terminal", meaning: "hasta (el/la / Gasteiz)" }]
+    },
+    {
+      suffix: "-retatik",
+      cases: [{ caseId: "ablativo", caseName: "Ablativo", meaning: "de/desde (palabra en -r)" }]
+    },
+    {
+      suffix: "-etatik",
+      cases: [{ caseId: "ablativo", caseName: "Ablativo", meaning: "de/desde (los/las / valle)" }]
+    },
+    {
+      suffix: "-egana",
+      cases: [{ caseId: "adlativo", caseName: "Adlativo", meaning: "a donde (hombre)" }]
+    },
+    {
+      suffix: "-etara",
+      cases: [{ caseId: "adlativo", caseName: "Adlativo", meaning: "a (los/las / valle)" }]
+    },
+    {
+      suffix: "-era",
+      cases: [{ caseId: "adlativo", caseName: "Adlativo", meaning: "al/la / a (Gasteiz)" }]
+    },
+    {
+      suffix: "-ekin",
+      cases: [{ caseId: "asociativo", caseName: "Asociativo", meaning: "con (los/las / valle / hombre)" }]
+    },
+    {
+      suffix: "-etako",
+      cases: [{ caseId: "gen_locativo", caseName: "Genitivo Locativo", meaning: "de (los/las / valle)" }]
+    },
+    {
+      suffix: "-tako",
+      cases: [{ caseId: "gen_locativo", caseName: "Genitivo Locativo", meaning: "de (monte)" }]
+    },
+    {
+      suffix: "-tatik",
+      cases: [{ caseId: "ablativo", caseName: "Ablativo", meaning: "de/desde (monte)" }]
+    },
+    {
+      suffix: "-etan",
+      cases: [{ caseId: "inesivo", caseName: "Inesivo", meaning: "en (los/las / valle / hombre)" }]
+    },
+    {
+      suffix: "-tara",
+      cases: [{ caseId: "adlativo", caseName: "Adlativo", meaning: "a (monte)" }]
+    },
+    {
+      suffix: "-raino",
+      cases: [{ caseId: "adl_terminal", caseName: "Adlativo Terminal", meaning: "hasta (el/la / Donostia)" }]
+    },
+    // ─── Medium suffixes (3–5) ───────────────────────────────────────
+    {
+      suffix: "-egan",
+      cases: [{ caseId: "inesivo", caseName: "Inesivo", meaning: "en (hombre)" }]
+    },
+    {
+      suffix: "-gana",
+      cases: [{ caseId: "adlativo", caseName: "Adlativo", meaning: "a donde (hijo)" }]
+    },
+    {
+      suffix: "-ean",
+      cases: [{ caseId: "inesivo", caseName: "Inesivo", meaning: "en (el/la / Gasteiz)" }]
+    },
+    {
+      suffix: "-aren",
+      cases: [{ caseId: "genitivo", caseName: "Genitivo Posesivo", meaning: "del/la" }]
+    },
+    {
+      suffix: "-gan",
+      cases: [{ caseId: "inesivo", caseName: "Inesivo", meaning: "en (hijo)" }]
+    },
+    {
+      suffix: "-retik",
+      cases: [{ caseId: "ablativo", caseName: "Ablativo", meaning: "de/desde (el/la / palabra en -r)" }]
+    },
+    {
+      suffix: "-etik",
+      cases: [{ caseId: "ablativo", caseName: "Ablativo", meaning: "de/desde (el/la)" }]
+    },
+    {
+      suffix: "-tzat",
+      cases: [{ caseId: "prolativo", caseName: "Prolativo", meaning: "por (considerar)" }]
+    },
+    {
+      suffix: "-ari",
+      cases: [{ caseId: "dativo", caseName: "Dativo", meaning: "al/la" }]
+    },
+    // ─── Short suffixes (1–2) ────────────────────────────────────────
+    {
+      suffix: "-ak",
+      cases: [
+        { caseId: "nominativo", caseName: "Nominativo", meaning: "el/la/las/los" },
+        { caseId: "ergativo", caseName: "Ergativo", meaning: "el/la (agente)" }
+      ]
+    },
+    {
+      suffix: "-ek",
+      cases: [{ caseId: "ergativo", caseName: "Ergativo", meaning: "los/las (agente)" }]
+    },
+    {
+      suffix: "-ei",
+      cases: [{ caseId: "dativo", caseName: "Dativo", meaning: "a los/las" }]
+    },
+    {
+      suffix: "-ri",
+      cases: [{ caseId: "dativo", caseName: "Dativo", meaning: "a (alguien)" }]
+    },
+    {
+      suffix: "-ko",
+      cases: [{ caseId: "gen_locativo", caseName: "Genitivo Locativo", meaning: "del/la / de (lugar)" }]
+    },
+    {
+      suffix: "-ra",
+      cases: [{ caseId: "adlativo", caseName: "Adlativo", meaning: "al/la / a (Donostia)" }]
+    },
+    {
+      suffix: "-rik",
+      cases: [{ caseId: "partitivo", caseName: "Partitivo", meaning: "alg\xFAn" }]
+    },
+    {
+      suffix: "-ik",
+      cases: [{ caseId: "partitivo", caseName: "Partitivo", meaning: "alg\xFAn" }]
+    },
+    {
+      suffix: "-az",
+      cases: [{ caseId: "instrumental", caseName: "Instrumental", meaning: "con el/la" }]
+    },
+    {
+      suffix: "-en",
+      cases: [
+        { caseId: "genitivo", caseName: "Genitivo Posesivo", meaning: "de (los/las / valle / hombre)" },
+        { caseId: "inesivo", caseName: "Inesivo", meaning: "en (Gasteiz)" }
+      ]
+    },
+    {
+      suffix: "-an",
+      cases: [{ caseId: "inesivo", caseName: "Inesivo", meaning: "en el/la" }]
+    },
+    {
+      suffix: "-tan",
+      cases: [{ caseId: "inesivo", caseName: "Inesivo", meaning: "en (monte)" }]
+    },
+    {
+      suffix: "-tik",
+      cases: [{ caseId: "ablativo", caseName: "Ablativo", meaning: "de/desde (el/la / Donostia / Gasteiz)" }]
+    },
+    {
+      suffix: "-ren",
+      cases: [{ caseId: "genitivo", caseName: "Genitivo Posesivo", meaning: "de (alguien)" }]
+    },
+    {
+      suffix: "-eko",
+      cases: [{ caseId: "gen_locativo", caseName: "Genitivo Locativo", meaning: "del/la" }]
+    },
+    {
+      suffix: "-aino",
+      cases: [{ caseId: "adl_terminal", caseName: "Adlativo Terminal", meaning: "hasta (Gasteiz)" }]
+    },
+    {
+      suffix: "-ez",
+      cases: [{ caseId: "instrumental", caseName: "Instrumental", meaning: "con (los/las / valle / hombre)" }]
+    },
+    {
+      suffix: "-k",
+      cases: [{ caseId: "ergativo", caseName: "Ergativo", meaning: "monte/hijo/Donostia (agente)" }]
+    },
+    {
+      suffix: "-i",
+      cases: [{ caseId: "dativo", caseName: "Dativo", meaning: "a (valle/hombre/Gasteiz)" }]
+    },
+    {
+      suffix: "-a",
+      cases: [
+        { caseId: "nominativo", caseName: "Nominativo", meaning: "el/la" },
+        { caseId: "adlativo", caseName: "Adlativo", meaning: "a (Gasteiz)" }
+      ]
+    },
+    {
+      suffix: "-z",
+      cases: [{ caseId: "instrumental", caseName: "Instrumental", meaning: "con (monte/hijo/Donostia)" }]
+    },
+    {
+      suffix: "-n",
+      cases: [{ caseId: "inesivo", caseName: "Inesivo", meaning: "en (Donostia)" }]
+    }
+  ];
+  var SORTED_SUFFIX_TABLE = [...SUFFIX_TABLE].sort(
+    (a3, b3) => b3.suffix.length - a3.suffix.length
+  );
+  var MIN_BASE_LENGTH = 2;
+  function detectSuffixes(word) {
+    const lower = word.trim().toLocaleLowerCase();
+    const matches = [];
+    for (const entry of SORTED_SUFFIX_TABLE) {
+      const rawSuffix = entry.suffix.slice(1);
+      if (!lower.endsWith(rawSuffix)) {
+        continue;
+      }
+      const baseForm = lower.slice(0, lower.length - rawSuffix.length);
+      if (baseForm.length < MIN_BASE_LENGTH) {
+        continue;
+      }
+      const key = `${baseForm}|${entry.suffix}`;
+      const existing = matches.find((m2) => `${m2.baseForm}|${m2.suffix}` === key);
+      if (existing) {
+        for (const c4 of entry.cases) {
+          if (!existing.cases.some((ec) => ec.caseId === c4.caseId)) {
+            existing.cases.push(c4);
+          }
+        }
+        continue;
+      }
+      matches.push({
+        baseForm,
+        suffix: entry.suffix,
+        cases: entry.cases
+      });
+    }
+    return matches;
+  }
 
   // src/components/componentTextReader/componentTextReader.ts
   var ComponentTextReader = class extends i4 {
@@ -1981,7 +2283,7 @@
       }
       return pages.length > 0 ? pages : [[]];
     }
-    get statusMap() {
+    get directMap() {
       return new Map(this.dictionary.map((entry) => [entry.word.toLocaleLowerCase(), entry.status]));
     }
     onPrevious() {
@@ -2007,12 +2309,27 @@
     }
     onWordClick(word, event) {
       const rect = event.currentTarget.getBoundingClientRect();
+      const lower = word.toLocaleLowerCase();
+      const directMap = this.directMap;
+      let baseForm;
+      let cases;
+      if (!directMap.has(lower)) {
+        const matches = detectSuffixes(lower);
+        for (const match of matches) {
+          if (directMap.has(match.baseForm)) {
+            baseForm = match.baseForm;
+            cases = match.cases.map((c4) => c4.caseName);
+            break;
+          }
+        }
+      }
       this.dispatchEvent(
         new CustomEvent("word-click", {
           detail: {
             word,
             x: rect.left + rect.width / 2,
-            y: rect.bottom
+            y: rect.bottom,
+            ...baseForm ? { baseForm, cases } : {}
           },
           bubbles: true,
           composed: true
@@ -2024,14 +2341,26 @@
       const pageCount = pages.length;
       const currentIndex = Math.min(this.pageIndex, pageCount - 1);
       const current = pages[currentIndex] ?? [];
-      const statusMap = this.statusMap;
+      const directMap = this.directMap;
       return b2`
       <div class="reader">
         <p class="reader-text">${current.map((token) => {
         if (token.type !== "word") {
           return token.text;
         }
-        const status = statusMap.get(token.text.toLocaleLowerCase()) ?? "none";
+        const lower = token.text.toLocaleLowerCase();
+        let status = "none";
+        if (directMap.has(lower)) {
+          status = directMap.get(lower);
+        } else {
+          const matches = detectSuffixes(lower);
+          for (const match of matches) {
+            if (directMap.has(match.baseForm)) {
+              status = directMap.get(match.baseForm);
+              break;
+            }
+          }
+        }
         const className = status === "none" ? "word" : `word word--${status}`;
         return b2`<span class=${className} @click=${(event) => this.onWordClick(token.text, event)}>${token.text}</span>`;
       })}</p>
@@ -2156,6 +2485,16 @@
         color: var(--hzt-muted);
       }
 
+      .base-form {
+        margin: 0.5rem 0 0;
+        font-size: var(--hzt-size-label);
+        color: var(--hzt-muted);
+      }
+
+      .base-form strong {
+        color: var(--hzt-ink);
+      }
+
       .actions {
         display: flex;
         flex-wrap: wrap;
@@ -2227,7 +2566,7 @@
       );
     }
     emitAdd() {
-      const word = this.normalizeWord();
+      const word = this.baseForm ?? this.normalizeWord();
       if (!word) {
         return;
       }
@@ -2270,6 +2609,11 @@
         ${this.entry ? b2`<span class="badge badge--${status}">${statusText}</span>` : b2`<p class="no-entry">Esta palabra no está en el diccionario.</p>`}
         ${this.entry?.translation ? b2`<p class="translation">${this.entry.translation}</p>` : ""}
         ${this.entry?.note ? b2`<p class="note">${this.entry.note}</p>` : ""}
+        ${this.baseForm ? b2`
+          <p class="base-form">
+            Forma base: <strong>${this.baseForm}</strong>${this.suffix && this.cases?.length ? b2` · ${this.cases[0]} (${this.suffix})` : ""}
+          </p>
+        ` : ""}
 
         <div class="actions">
           ${this.entry ? b2`
@@ -2307,6 +2651,15 @@
   __decorateClass([
     n4({ type: Number })
   ], ComponentWordTooltip.prototype, "y", 2);
+  __decorateClass([
+    n4({ type: String })
+  ], ComponentWordTooltip.prototype, "baseForm", 2);
+  __decorateClass([
+    n4({ type: String })
+  ], ComponentWordTooltip.prototype, "suffix", 2);
+  __decorateClass([
+    n4({ type: Array })
+  ], ComponentWordTooltip.prototype, "cases", 2);
   __decorateClass([
     r5()
   ], ComponentWordTooltip.prototype, "position", 2);
@@ -2716,9 +3069,9 @@
       await this.persistProgress();
     }
     async onWordClick(event) {
-      const { word, x: x2, y: y3 } = event.detail;
-      const entry = await this.api.lookupWord(word);
-      this.tooltip = { word, x: x2, y: y3 };
+      const { word, x: x2, y: y3, baseForm, cases } = event.detail;
+      const entry = await this.api.resolveWord(word);
+      this.tooltip = { word, x: x2, y: y3, baseForm, cases };
       this.tooltipEntry = entry;
     }
     onTooltipClose() {
@@ -2811,6 +3164,8 @@
                 .entry=${this.tooltipEntry}
                 .x=${this.tooltip.x}
                 .y=${this.tooltip.y}
+                .baseForm=${this.tooltip.baseForm}
+                .cases=${this.tooltip.cases}
                 @save-entry=${this.onTooltipSave}
                 @open-add-modal=${this.onOpenAddModal}
                 @close=${this.onTooltipClose}
@@ -2929,7 +3284,7 @@
       getProgress,
       saveProgress,
       getAllEntries,
-      lookupWord: lookup,
+      resolveWord: resolve,
       upsertEntry
     })
   ], PageReading);

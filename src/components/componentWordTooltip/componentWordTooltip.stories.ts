@@ -58,3 +58,21 @@ export const nearBottomEdge: Story = {
     <component-word-tooltip word="liburu" .entry=${unknownEntry} x=${700} y=${500}></component-word-tooltip>
   `,
 };
+
+export const withDeclinedEntry: Story = {
+  render: () => html`
+    <component-word-tooltip
+      word="etxera"
+      .entry=${{
+        word: 'etxera',
+        status: 'known',
+        translation: 'a la casa',
+      }}
+      baseForm="etxe"
+      suffix="-ra"
+      .cases=${['Adlativo']}
+      x=${120}
+      y=${80}
+    ></component-word-tooltip>
+  `,
+};

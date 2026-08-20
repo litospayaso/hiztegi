@@ -9,6 +9,9 @@ export interface ComponentWordTooltipInterface {
   entry?: DictionaryEntry;
   x?: number;
   y?: number;
+  baseForm?: string;
+  suffix?: string;
+  cases?: string[];
 }
 
 const EDGE_MARGIN = 8;
@@ -90,6 +93,16 @@ export default class ComponentWordTooltip extends LitElement {
         color: var(--hzt-muted);
       }
 
+      .base-form {
+        margin: 0.5rem 0 0;
+        font-size: var(--hzt-size-label);
+        color: var(--hzt-muted);
+      }
+
+      .base-form strong {
+        color: var(--hzt-ink);
+      }
+
       .actions {
         display: flex;
         flex-wrap: wrap;
@@ -114,6 +127,15 @@ export default class ComponentWordTooltip extends LitElement {
 
   @property({ type: Number })
   y?: number;
+
+  @property({ type: String })
+  baseForm?: string;
+
+  @property({ type: String })
+  suffix?: string;
+
+  @property({ type: Array })
+  cases?: string[];
 
   @state()
   private position = { left: 0, top: 0 };
@@ -199,7 +221,7 @@ export default class ComponentWordTooltip extends LitElement {
   }
 
   private emitAdd(): void {
-    const word = this.normalizeWord();
+    const word = this.baseForm ?? this.normalizeWord();
     if (!word) {
       return;
     }
@@ -248,6 +270,11 @@ export default class ComponentWordTooltip extends LitElement {
           : html`<p class="no-entry">Esta palabra no está en el diccionario.</p>`}
         ${this.entry?.translation ? html`<p class="translation">${this.entry.translation}</p>` : ''}
         ${this.entry?.note ? html`<p class="note">${this.entry.note}</p>` : ''}
+        ${this.baseForm ? html`
+          <p class="base-form">
+            Forma base: <strong>${this.baseForm}</strong>${this.suffix && this.cases?.length ? html` · ${this.cases[0]} (${this.suffix})` : ''}
+          </p>
+        ` : ''}
 
         <div class="actions">
           ${this.entry

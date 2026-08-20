@@ -24,3 +24,7 @@ export const removeEntry = async (word: string): Promise<void> => {
 export const lookup = async (word: string): Promise<DictionaryEntry | undefined> => {
   return getEntry(word);
 };
+
+export const resolve = async (word: string): Promise<DictionaryEntry | undefined> => {
+  return getEntry(word);
+};

@@ -24,7 +24,10 @@ describe('component-word-tooltip Component Spec:', () => {
     word: string,
     entry?: DictionaryEntry,
     x = 40,
-    y = 40
+    y = 40,
+    baseForm?: string,
+    suffix?: string,
+    cases?: string[]
   ): Promise<ComponentWordTooltip> => {
     const component = await createComponent({
       class: ComponentWordTooltip,
@@ -37,6 +40,9 @@ describe('component-word-tooltip Component Spec:', () => {
     tooltip.entry = entry;
     tooltip.x = x;
     tooltip.y = y;
+    tooltip.baseForm = baseForm;
+    tooltip.suffix = suffix;
+    tooltip.cases = cases;
     await tooltip.updateComplete;
     return tooltip;
   };
@@ -84,7 +90,18 @@ describe('component-word-tooltip Component Spec:', () => {
     expect(buttonByText('Añadir al diccionario')).to.not.be.undefined;
   });
 
-  it('emits open-add-modal with the word when adding a word to the dictionary', async () => {
+  it('emits open-add-modal with the baseForm when adding a declined word', async () => {
+    await createTooltip('mendira', undefined, 40, 40, 'mendi', '-ra', ['Adlativo']);
+    let detail: { word: string } | undefined;
+    element.addEventListener('open-add-modal', (event: Event) => {
+      detail = (event as CustomEvent<{ word: string }>).detail;
+    });
+    buttonByText('Añadir al diccionario')?.click();
+    await (element as unknown as ComponentWordTooltip).updateComplete;
+    expect(detail?.word).to.equal('mendi');
+  });
+
+  it('emits open-add-modal with the word when no baseForm', async () => {
     await createTooltip('Mendi');
     let detail: { word: string } | undefined;
     element.addEventListener('open-add-modal', (event: Event) => {
@@ -175,5 +192,35 @@ describe('component-word-tooltip Component Spec:', () => {
     buttonByText('Añadir al diccionario')?.click();
     await (element as unknown as ComponentWordTooltip).updateComplete;
     expect(saved).to.be.false;
+  });
+
+  it('shows the base form when present', async () => {
+    await createTooltip('etxean', { word: 'etxean', status: 'known' }, 40, 40, 'etxe');
+    expect(shadow.querySelector('.base-form')?.textContent).to.include('etxe');
+  });
+
+  it('does not show base form when absent', async () => {
+    await createTooltip('etxe', knownEntry);
+    expect(shadow.querySelector('.base-form')).to.equal(null);
+  });
+
+  it('shows suffix and case info with base form', async () => {
+    await createTooltip(
+      'etxera',
+      { word: 'etxera', status: 'known' },
+      40, 40,
+      'etxe', '-ra', ['Adlativo']
+    );
+    const baseFormEl = shadow.querySelector('.base-form');
+    expect(baseFormEl?.textContent).to.include('etxe');
+    expect(baseFormEl?.textContent).to.include('Adlativo');
+    expect(baseFormEl?.textContent).to.include('-ra');
+  });
+
+  it('shows base form without suffix info when suffix is absent', async () => {
+    await createTooltip('etxean', { word: 'etxean', status: 'known' }, 40, 40, 'etxe');
+    const baseFormEl = shadow.querySelector('.base-form');
+    expect(baseFormEl?.textContent).to.include('etxe');
+    expect(baseFormEl?.textContent).to.not.include('·');
   });
 });

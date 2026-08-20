@@ -3,7 +3,7 @@ import { property, state } from 'lit/decorators.js';
 import type { PropertyValues } from 'lit';
 import { api } from '../../shared/api.decorator';
 import { getBook, getChapters, getProgress, saveProgress } from '../../shared/bookStore';
-import { getAllEntries, lookup, upsertEntry } from '../../shared/dictionaryStore';
+import { getAllEntries, resolve, upsertEntry } from '../../shared/dictionaryStore';
 import { styles } from '../../shared/styles';
 import type { Book, Chapter, DictionaryEntry } from '../../shared/types';
 import Page from '../../shared/page';
@@ -17,7 +17,7 @@ interface PageReadingApi {
   getProgress: typeof getProgress;
   saveProgress: typeof saveProgress;
   getAllEntries: typeof getAllEntries;
-  lookupWord: typeof lookup;
+  resolveWord: typeof resolve;
   upsertEntry: typeof upsertEntry;
 }
 
@@ -25,6 +25,8 @@ interface WordTooltipData {
   word: string;
   x: number;
   y: number;
+  baseForm?: string;
+  cases?: string[];
 }
 
 @api({
@@ -33,7 +35,7 @@ interface WordTooltipData {
   getProgress,
   saveProgress,
   getAllEntries,
-  lookupWord: lookup,
+  resolveWord: resolve,
   upsertEntry,
 })
 export default class PageReading extends Page<PageReadingApi> {
@@ -227,9 +229,9 @@ export default class PageReading extends Page<PageReadingApi> {
   }
 
   private async onWordClick(event: Event): Promise<void> {
-    const { word, x, y } = (event as CustomEvent<{ word: string; x: number; y: number }>).detail;
-    const entry = await this.api.lookupWord(word);
-    this.tooltip = { word, x, y };
+    const { word, x, y, baseForm, cases } = (event as CustomEvent<{ word: string; x: number; y: number; baseForm?: string; cases?: string[] }>).detail;
+    const entry = await this.api.resolveWord(word);
+    this.tooltip = { word, x, y, baseForm, cases };
     this.tooltipEntry = entry;
   }
 
@@ -330,6 +332,8 @@ export default class PageReading extends Page<PageReadingApi> {
                 .entry=${this.tooltipEntry}
                 .x=${this.tooltip.x}
                 .y=${this.tooltip.y}
+                .baseForm=${this.tooltip.baseForm}
+                .cases=${this.tooltip.cases}
                 @save-entry=${this.onTooltipSave}
                 @open-add-modal=${this.onOpenAddModal}
                 @close=${this.onTooltipClose}

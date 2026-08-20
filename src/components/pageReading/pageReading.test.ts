@@ -33,7 +33,7 @@ interface PageReadingApi {
   getProgress: (bookId: string) => Promise<ReadingProgress | undefined>;
   saveProgress: (progress: ReadingProgress) => Promise<void>;
   getAllEntries: () => Promise<DictionaryEntry[]>;
-  lookupWord: (word: string) => Promise<DictionaryEntry | undefined>;
+  resolveWord: (word: string) => Promise<DictionaryEntry | undefined>;
   upsertEntry: (entry: DictionaryEntry) => Promise<DictionaryEntry>;
 }
 
@@ -43,7 +43,7 @@ const defaultApi = (): PageReadingApi => ({
   getProgress: async () => undefined,
   saveProgress: async () => undefined,
   getAllEntries: async () => [],
-  lookupWord: async () => undefined,
+  resolveWord: async () => undefined,
   upsertEntry: async entry => entry,
 });
 
@@ -190,7 +190,7 @@ describe('page-reading Component Spec:', () => {
     const api: PageReadingApi = {
       ...defaultApi(),
       getAllEntries: async () => [{ word: 'etxe', status: 'known', translation: 'casa' }],
-      lookupWord: async () => ({ word: 'etxe', status: 'known', translation: 'casa' }),
+      resolveWord: async () => ({ word: 'etxe', status: 'known', translation: 'casa' }),
     };
     await createPage(api);
     await waitFor(() => shadow.querySelector('component-text-reader') !== null);
@@ -218,7 +218,7 @@ describe('page-reading Component Spec:', () => {
   it('closes the tooltip on the close event', async () => {
     const api: PageReadingApi = {
       ...defaultApi(),
-      lookupWord: async () => ({ word: 'etxe', status: 'known' }),
+      resolveWord: async () => ({ word: 'etxe', status: 'known' }),
     };
     await createPage(api);
     await waitFor(() => shadow.querySelector('component-text-reader') !== null);

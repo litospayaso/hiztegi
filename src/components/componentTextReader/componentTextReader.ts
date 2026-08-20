@@ -3,6 +3,7 @@ import { property } from 'lit/decorators.js';
 import type { PropertyValues } from 'lit';
 import { tokenize } from '../../shared/tokenizer';
 import type { Token } from '../../shared/tokenizer';
+import { detectSuffixes } from '../../shared/declensions';
 import { styles } from '../../shared/styles';
 import type { DictionaryEntry, WordStatus } from '../../shared/types';
 
@@ -102,7 +103,7 @@ export default class ComponentTextReader extends LitElement {
     return pages.length > 0 ? pages : [[]];
   }
 
-  private get statusMap(): Map<string, WordStatus> {
+  private get directMap(): Map<string, WordStatus> {
     return new Map(this.dictionary.map(entry => [entry.word.toLocaleLowerCase(), entry.status]));
   }
 
@@ -132,12 +133,27 @@ export default class ComponentTextReader extends LitElement {
 
   private onWordClick(word: string, event: MouseEvent): void {
     const rect = (event.currentTarget as HTMLElement).getBoundingClientRect();
+    const lower = word.toLocaleLowerCase();
+    const directMap = this.directMap;
+    let baseForm: string | undefined;
+    let cases: string[] | undefined;
+    if (!directMap.has(lower)) {
+      const matches = detectSuffixes(lower);
+      for (const match of matches) {
+        if (directMap.has(match.baseForm)) {
+          baseForm = match.baseForm;
+          cases = match.cases.map(c => c.caseName);
+          break;
+        }
+      }
+    }
     this.dispatchEvent(
-      new CustomEvent<{ word: string; x: number; y: number }>('word-click', {
+      new CustomEvent<{ word: string; x: number; y: number; baseForm?: string; cases?: string[] }>('word-click', {
         detail: {
           word,
           x: rect.left + rect.width / 2,
           y: rect.bottom,
+          ...(baseForm ? { baseForm, cases } : {}),
         },
         bubbles: true,
         composed: true,
@@ -150,7 +166,7 @@ export default class ComponentTextReader extends LitElement {
     const pageCount = pages.length;
     const currentIndex = Math.min(this.pageIndex, pageCount - 1);
     const current = pages[currentIndex] ?? [];
-    const statusMap = this.statusMap;
+    const directMap = this.directMap;
 
     return html`
       <div class="reader">
@@ -158,7 +174,19 @@ export default class ComponentTextReader extends LitElement {
           if (token.type !== 'word') {
             return token.text;
           }
-          const status = statusMap.get(token.text.toLocaleLowerCase()) ?? 'none';
+          const lower = token.text.toLocaleLowerCase();
+          let status: WordStatus = 'none';
+          if (directMap.has(lower)) {
+            status = directMap.get(lower)!;
+          } else {
+            const matches = detectSuffixes(lower);
+            for (const match of matches) {
+              if (directMap.has(match.baseForm)) {
+                status = directMap.get(match.baseForm)!;
+                break;
+              }
+            }
+          }
           const className = status === 'none' ? 'word' : `word word--${status}`;
           return html`<span class=${className} @click=${(event: MouseEvent) => this.onWordClick(token.text, event)}>${token.text}</span>`;
         })}</p>
