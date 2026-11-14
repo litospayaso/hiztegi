@@ -1209,7 +1209,7 @@
   var dbPromise = null;
   var open = () => {
     if (!dbPromise) {
-      dbPromise = new Promise((resolve, reject) => {
+      dbPromise = new Promise((resolve2, reject) => {
         const request = indexedDB.open(DB_NAME, DB_VERSION);
         request.onupgradeneeded = () => {
           const db = request.result;
@@ -1219,19 +1219,19 @@
             }
           });
         };
-        request.onsuccess = () => resolve(request.result);
+        request.onsuccess = () => resolve2(request.result);
         request.onerror = () => reject(request.error);
       });
     }
     return dbPromise;
   };
-  var requestResult = (request) => new Promise((resolve, reject) => {
-    request.onsuccess = () => resolve(request.result);
+  var requestResult = (request) => new Promise((resolve2, reject) => {
+    request.onsuccess = () => resolve2(request.result);
     request.onerror = () => reject(request.error);
   });
   var transaction = (storeNames, mode, callback) => {
     return open().then(
-      (db) => new Promise((resolve, reject) => {
+      (db) => new Promise((resolve2, reject) => {
         const names = Array.isArray(storeNames) ? storeNames : [storeNames];
         const tx = db.transaction(names, mode);
         const stores = {};
@@ -1245,7 +1245,7 @@
           reject(err);
           return;
         }
-        tx.oncomplete = () => resolve();
+        tx.oncomplete = () => resolve2();
         tx.onerror = () => reject(tx.error);
         tx.onabort = () => reject(tx.error);
       })
@@ -1871,7 +1871,7 @@
   var removeEntry = async (word) => {
     await remove("dictionary", normalize(word));
   };
-  var lookup = async (word) => {
+  var resolve = async (word) => {
     return getEntry(word);
   };
 
@@ -1896,6 +1896,308 @@
     }
     return tokens;
   };
+
+  // src/shared/declensions.ts
+  var SUFFIX_TABLE = [
+    // ─── Long suffixes (10+) ─────────────────────────────────────────
+    {
+      suffix: "-enganaino",
+      cases: [{ caseId: "adl_terminal", caseName: "Adlativo Terminal", meaning: "hasta donde (los/las)" }]
+    },
+    {
+      suffix: "-anganaino",
+      cases: [{ caseId: "adl_terminal", caseName: "Adlativo Terminal", meaning: "hasta donde (el/la)" }]
+    },
+    {
+      suffix: "-rengandik",
+      cases: [{ caseId: "ablativo", caseName: "Ablativo", meaning: "de/desde (los/las)" }]
+    },
+    {
+      suffix: "-rangandik",
+      cases: [{ caseId: "ablativo", caseName: "Ablativo", meaning: "de/desde (el/la)" }]
+    },
+    {
+      suffix: "-eganaino",
+      cases: [{ caseId: "adl_terminal", caseName: "Adlativo Terminal", meaning: "hasta donde (hombre)" }]
+    },
+    {
+      suffix: "-regandik",
+      cases: [{ caseId: "ablativo", caseName: "Ablativo", meaning: "de/desde (hijo/hombre)" }]
+    },
+    {
+      suffix: "-engandik",
+      cases: [{ caseId: "ablativo", caseName: "Ablativo", meaning: "de/desde (los/las)" }]
+    },
+    {
+      suffix: "-arentzat",
+      cases: [{ caseId: "destinativo", caseName: "Destinativo", meaning: "para el/la" }]
+    },
+    {
+      suffix: "-etaraino",
+      cases: [{ caseId: "adl_terminal", caseName: "Adlativo Terminal", meaning: "hasta (los/las / valle)" }]
+    },
+    {
+      suffix: "-angandik",
+      cases: [{ caseId: "ablativo", caseName: "Ablativo", meaning: "de/desde (el/la)" }]
+    },
+    {
+      suffix: "-rentzat",
+      cases: [{ caseId: "destinativo", caseName: "Destinativo", meaning: "para (alguien)" }]
+    },
+    {
+      suffix: "-ganaino",
+      cases: [{ caseId: "adl_terminal", caseName: "Adlativo Terminal", meaning: "hasta donde (hijo)" }]
+    },
+    {
+      suffix: "-rekin",
+      cases: [{ caseId: "asociativo", caseName: "Asociativo", meaning: "con (alguien)" }]
+    },
+    {
+      suffix: "-arekin",
+      cases: [{ caseId: "asociativo", caseName: "Asociativo", meaning: "con el/la" }]
+    },
+    {
+      suffix: "-angana",
+      cases: [{ caseId: "adlativo", caseName: "Adlativo", meaning: "a donde (el/la)" }]
+    },
+    {
+      suffix: "-taraino",
+      cases: [{ caseId: "adl_terminal", caseName: "Adlativo Terminal", meaning: "hasta (monte)" }]
+    },
+    {
+      suffix: "-engana",
+      cases: [{ caseId: "adlativo", caseName: "Adlativo", meaning: "a donde (los/las)" }]
+    },
+    {
+      suffix: "-entzat",
+      cases: [{ caseId: "destinativo", caseName: "Destinativo", meaning: "para (los/las / valle / hombre)" }]
+    },
+    {
+      suffix: "-gandik",
+      cases: [{ caseId: "ablativo", caseName: "Ablativo", meaning: "de/desde (hijo/hombre)" }]
+    },
+    {
+      suffix: "-eraino",
+      cases: [{ caseId: "adl_terminal", caseName: "Adlativo Terminal", meaning: "hasta (el/la / Gasteiz)" }]
+    },
+    {
+      suffix: "-retatik",
+      cases: [{ caseId: "ablativo", caseName: "Ablativo", meaning: "de/desde (palabra en -r)" }]
+    },
+    {
+      suffix: "-etatik",
+      cases: [{ caseId: "ablativo", caseName: "Ablativo", meaning: "de/desde (los/las / valle)" }]
+    },
+    {
+      suffix: "-egana",
+      cases: [{ caseId: "adlativo", caseName: "Adlativo", meaning: "a donde (hombre)" }]
+    },
+    {
+      suffix: "-etara",
+      cases: [{ caseId: "adlativo", caseName: "Adlativo", meaning: "a (los/las / valle)" }]
+    },
+    {
+      suffix: "-era",
+      cases: [{ caseId: "adlativo", caseName: "Adlativo", meaning: "al/la / a (Gasteiz)" }]
+    },
+    {
+      suffix: "-ekin",
+      cases: [{ caseId: "asociativo", caseName: "Asociativo", meaning: "con (los/las / valle / hombre)" }]
+    },
+    {
+      suffix: "-etako",
+      cases: [{ caseId: "gen_locativo", caseName: "Genitivo Locativo", meaning: "de (los/las / valle)" }]
+    },
+    {
+      suffix: "-tako",
+      cases: [{ caseId: "gen_locativo", caseName: "Genitivo Locativo", meaning: "de (monte)" }]
+    },
+    {
+      suffix: "-tatik",
+      cases: [{ caseId: "ablativo", caseName: "Ablativo", meaning: "de/desde (monte)" }]
+    },
+    {
+      suffix: "-etan",
+      cases: [{ caseId: "inesivo", caseName: "Inesivo", meaning: "en (los/las / valle / hombre)" }]
+    },
+    {
+      suffix: "-tara",
+      cases: [{ caseId: "adlativo", caseName: "Adlativo", meaning: "a (monte)" }]
+    },
+    {
+      suffix: "-raino",
+      cases: [{ caseId: "adl_terminal", caseName: "Adlativo Terminal", meaning: "hasta (el/la / Donostia)" }]
+    },
+    // ─── Medium suffixes (3–5) ───────────────────────────────────────
+    {
+      suffix: "-egan",
+      cases: [{ caseId: "inesivo", caseName: "Inesivo", meaning: "en (hombre)" }]
+    },
+    {
+      suffix: "-gana",
+      cases: [{ caseId: "adlativo", caseName: "Adlativo", meaning: "a donde (hijo)" }]
+    },
+    {
+      suffix: "-ean",
+      cases: [{ caseId: "inesivo", caseName: "Inesivo", meaning: "en (el/la / Gasteiz)" }]
+    },
+    {
+      suffix: "-aren",
+      cases: [{ caseId: "genitivo", caseName: "Genitivo Posesivo", meaning: "del/la" }]
+    },
+    {
+      suffix: "-gan",
+      cases: [{ caseId: "inesivo", caseName: "Inesivo", meaning: "en (hijo)" }]
+    },
+    {
+      suffix: "-retik",
+      cases: [{ caseId: "ablativo", caseName: "Ablativo", meaning: "de/desde (el/la / palabra en -r)" }]
+    },
+    {
+      suffix: "-etik",
+      cases: [{ caseId: "ablativo", caseName: "Ablativo", meaning: "de/desde (el/la)" }]
+    },
+    {
+      suffix: "-tzat",
+      cases: [{ caseId: "prolativo", caseName: "Prolativo", meaning: "por (considerar)" }]
+    },
+    {
+      suffix: "-ari",
+      cases: [{ caseId: "dativo", caseName: "Dativo", meaning: "al/la" }]
+    },
+    // ─── Short suffixes (1–2) ────────────────────────────────────────
+    {
+      suffix: "-ak",
+      cases: [
+        { caseId: "nominativo", caseName: "Nominativo", meaning: "el/la/las/los" },
+        { caseId: "ergativo", caseName: "Ergativo", meaning: "el/la (agente)" }
+      ]
+    },
+    {
+      suffix: "-ek",
+      cases: [{ caseId: "ergativo", caseName: "Ergativo", meaning: "los/las (agente)" }]
+    },
+    {
+      suffix: "-ei",
+      cases: [{ caseId: "dativo", caseName: "Dativo", meaning: "a los/las" }]
+    },
+    {
+      suffix: "-ri",
+      cases: [{ caseId: "dativo", caseName: "Dativo", meaning: "a (alguien)" }]
+    },
+    {
+      suffix: "-ko",
+      cases: [{ caseId: "gen_locativo", caseName: "Genitivo Locativo", meaning: "del/la / de (lugar)" }]
+    },
+    {
+      suffix: "-ra",
+      cases: [{ caseId: "adlativo", caseName: "Adlativo", meaning: "al/la / a (Donostia)" }]
+    },
+    {
+      suffix: "-rik",
+      cases: [{ caseId: "partitivo", caseName: "Partitivo", meaning: "alg\xFAn" }]
+    },
+    {
+      suffix: "-ik",
+      cases: [{ caseId: "partitivo", caseName: "Partitivo", meaning: "alg\xFAn" }]
+    },
+    {
+      suffix: "-az",
+      cases: [{ caseId: "instrumental", caseName: "Instrumental", meaning: "con el/la" }]
+    },
+    {
+      suffix: "-en",
+      cases: [
+        { caseId: "genitivo", caseName: "Genitivo Posesivo", meaning: "de (los/las / valle / hombre)" },
+        { caseId: "inesivo", caseName: "Inesivo", meaning: "en (Gasteiz)" }
+      ]
+    },
+    {
+      suffix: "-an",
+      cases: [{ caseId: "inesivo", caseName: "Inesivo", meaning: "en el/la" }]
+    },
+    {
+      suffix: "-tan",
+      cases: [{ caseId: "inesivo", caseName: "Inesivo", meaning: "en (monte)" }]
+    },
+    {
+      suffix: "-tik",
+      cases: [{ caseId: "ablativo", caseName: "Ablativo", meaning: "de/desde (el/la / Donostia / Gasteiz)" }]
+    },
+    {
+      suffix: "-ren",
+      cases: [{ caseId: "genitivo", caseName: "Genitivo Posesivo", meaning: "de (alguien)" }]
+    },
+    {
+      suffix: "-eko",
+      cases: [{ caseId: "gen_locativo", caseName: "Genitivo Locativo", meaning: "del/la" }]
+    },
+    {
+      suffix: "-aino",
+      cases: [{ caseId: "adl_terminal", caseName: "Adlativo Terminal", meaning: "hasta (Gasteiz)" }]
+    },
+    {
+      suffix: "-ez",
+      cases: [{ caseId: "instrumental", caseName: "Instrumental", meaning: "con (los/las / valle / hombre)" }]
+    },
+    {
+      suffix: "-k",
+      cases: [{ caseId: "ergativo", caseName: "Ergativo", meaning: "monte/hijo/Donostia (agente)" }]
+    },
+    {
+      suffix: "-i",
+      cases: [{ caseId: "dativo", caseName: "Dativo", meaning: "a (valle/hombre/Gasteiz)" }]
+    },
+    {
+      suffix: "-a",
+      cases: [
+        { caseId: "nominativo", caseName: "Nominativo", meaning: "el/la" },
+        { caseId: "adlativo", caseName: "Adlativo", meaning: "a (Gasteiz)" }
+      ]
+    },
+    {
+      suffix: "-z",
+      cases: [{ caseId: "instrumental", caseName: "Instrumental", meaning: "con (monte/hijo/Donostia)" }]
+    },
+    {
+      suffix: "-n",
+      cases: [{ caseId: "inesivo", caseName: "Inesivo", meaning: "en (Donostia)" }]
+    }
+  ];
+  var SORTED_SUFFIX_TABLE = [...SUFFIX_TABLE].sort(
+    (a3, b3) => b3.suffix.length - a3.suffix.length
+  );
+  var MIN_BASE_LENGTH = 2;
+  function detectSuffixes(word) {
+    const lower = word.trim().toLocaleLowerCase();
+    const matches = [];
+    for (const entry of SORTED_SUFFIX_TABLE) {
+      const rawSuffix = entry.suffix.slice(1);
+      if (!lower.endsWith(rawSuffix)) {
+        continue;
+      }
+      const baseForm = lower.slice(0, lower.length - rawSuffix.length);
+      if (baseForm.length < MIN_BASE_LENGTH) {
+        continue;
+      }
+      const key = `${baseForm}|${entry.suffix}`;
+      const existing = matches.find((m2) => `${m2.baseForm}|${m2.suffix}` === key);
+      if (existing) {
+        for (const c4 of entry.cases) {
+          if (!existing.cases.some((ec) => ec.caseId === c4.caseId)) {
+            existing.cases.push(c4);
+          }
+        }
+        continue;
+      }
+      matches.push({
+        baseForm,
+        suffix: entry.suffix,
+        cases: entry.cases
+      });
+    }
+    return matches;
+  }
 
   // src/components/componentTextReader/componentTextReader.ts
   var ComponentTextReader = class extends i4 {
@@ -1981,7 +2283,7 @@
       }
       return pages.length > 0 ? pages : [[]];
     }
-    get statusMap() {
+    get directMap() {
       return new Map(this.dictionary.map((entry) => [entry.word.toLocaleLowerCase(), entry.status]));
     }
     onPrevious() {
@@ -2007,12 +2309,29 @@
     }
     onWordClick(word, event) {
       const rect = event.currentTarget.getBoundingClientRect();
+      const lower = word.toLocaleLowerCase();
+      const directMap = this.directMap;
+      let baseForm;
+      let suffix;
+      let cases;
+      if (!directMap.has(lower)) {
+        const matches = detectSuffixes(lower);
+        for (const match of matches) {
+          if (directMap.has(match.baseForm)) {
+            baseForm = match.baseForm;
+            suffix = match.suffix;
+            cases = match.cases.map((c4) => c4.caseName);
+            break;
+          }
+        }
+      }
       this.dispatchEvent(
         new CustomEvent("word-click", {
           detail: {
             word,
             x: rect.left + rect.width / 2,
-            y: rect.bottom
+            y: rect.bottom,
+            ...baseForm ? { baseForm, suffix, cases } : {}
           },
           bubbles: true,
           composed: true
@@ -2024,14 +2343,26 @@
       const pageCount = pages.length;
       const currentIndex = Math.min(this.pageIndex, pageCount - 1);
       const current = pages[currentIndex] ?? [];
-      const statusMap = this.statusMap;
+      const directMap = this.directMap;
       return b2`
       <div class="reader">
         <p class="reader-text">${current.map((token) => {
         if (token.type !== "word") {
           return token.text;
         }
-        const status = statusMap.get(token.text.toLocaleLowerCase()) ?? "none";
+        const lower = token.text.toLocaleLowerCase();
+        let status = "none";
+        if (directMap.has(lower)) {
+          status = directMap.get(lower);
+        } else {
+          const matches = detectSuffixes(lower);
+          for (const match of matches) {
+            if (directMap.has(match.baseForm)) {
+              status = directMap.get(match.baseForm);
+              break;
+            }
+          }
+        }
         const className = status === "none" ? "word" : `word word--${status}`;
         return b2`<span class=${className} @click=${(event) => this.onWordClick(token.text, event)}>${token.text}</span>`;
       })}</p>
@@ -2156,6 +2487,16 @@
         color: var(--hzt-muted);
       }
 
+      .base-form {
+        margin: 0.5rem 0 0;
+        font-size: var(--hzt-size-label);
+        color: var(--hzt-muted);
+      }
+
+      .base-form strong {
+        color: var(--hzt-ink);
+      }
+
       .actions {
         display: flex;
         flex-wrap: wrap;
@@ -2227,7 +2568,17 @@
       );
     }
     emitAdd() {
-      this.emitSave("unknown");
+      const word = this.baseForm ?? this.normalizeWord();
+      if (!word) {
+        return;
+      }
+      this.dispatchEvent(
+        new CustomEvent("open-add-modal", {
+          detail: { word },
+          bubbles: true,
+          composed: true
+        })
+      );
     }
     emitClose() {
       this.dispatchEvent(new CustomEvent("close", { bubbles: true, composed: true }));
@@ -2242,12 +2593,12 @@
       <div
         class="tooltip"
         role="dialog"
-        aria-label="Detalle de la palabra ${this.word ?? ""}"
+        aria-label="Detalle de la palabra ${this.baseForm ?? this.word ?? ""}"
         tabindex="-1"
         style="left: ${this.position.left}px; top: ${this.position.top}px;"
       >
         <header class="tooltip-header">
-          <h3>${this.word ?? ""}</h3>
+          <h3>${this.baseForm ? b2`${this.word} → ${this.baseForm}` : this.word ?? ""}</h3>
           <button
             class="hzt-button hzt-button--text close-button"
             aria-label="Cerrar"
@@ -2260,6 +2611,11 @@
         ${this.entry ? b2`<span class="badge badge--${status}">${statusText}</span>` : b2`<p class="no-entry">Esta palabra no está en el diccionario.</p>`}
         ${this.entry?.translation ? b2`<p class="translation">${this.entry.translation}</p>` : ""}
         ${this.entry?.note ? b2`<p class="note">${this.entry.note}</p>` : ""}
+        ${this.baseForm && this.word !== this.baseForm && this.suffix && this.cases?.length ? b2`
+          <p class="base-form">
+            ${this.suffix} (${this.cases[0]})
+          </p>
+        ` : ""}
 
         <div class="actions">
           ${this.entry ? b2`
@@ -2298,11 +2654,507 @@
     n4({ type: Number })
   ], ComponentWordTooltip.prototype, "y", 2);
   __decorateClass([
+    n4({ type: String })
+  ], ComponentWordTooltip.prototype, "baseForm", 2);
+  __decorateClass([
+    n4({ type: String })
+  ], ComponentWordTooltip.prototype, "suffix", 2);
+  __decorateClass([
+    n4({ type: Array })
+  ], ComponentWordTooltip.prototype, "cases", 2);
+  __decorateClass([
     r5()
   ], ComponentWordTooltip.prototype, "position", 2);
 
   // src/components/componentWordTooltip/index.ts
   register("component-word-tooltip", ComponentWordTooltip);
+
+  // src/components/componentDictionaryForm/componentDictionaryForm.ts
+  var ComponentDictionaryForm = class extends i4 {
+    constructor() {
+      super(...arguments);
+      this.open = false;
+      this.draft = { word: "", status: "unknown", translation: "", note: "" };
+      this.showError = false;
+      this.onKeyDown = (event) => {
+        if (event.key === "Escape" && this.open) {
+          this.emitClose();
+        }
+      };
+    }
+    static {
+      this.styles = [
+        styles.hostStyle,
+        styles.designTokens,
+        styles.themeTokens,
+        styles.accentTokens,
+        styles.headerStyle,
+        styles.cardStyle,
+        styles.buttonStyle,
+        i`
+      :host {
+        display: none;
+      }
+
+      :host([open]) {
+        display: block;
+      }
+
+      .backdrop {
+        position: fixed;
+        inset: 0;
+        z-index: 999;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .modal {
+        position: relative;
+        max-width: 420px;
+        width: calc(100% - 2rem);
+        max-height: calc(100vh - 2rem);
+        overflow-y: auto;
+      }
+
+      .entry-form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1.25rem;
+      }
+
+      .entry-form h2 {
+        margin-bottom: 0.25rem;
+      }
+
+      .field {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        margin: 0;
+        padding: 0;
+        border: 0;
+      }
+
+      .field span,
+      .field legend {
+        font-size: var(--hzt-size-label);
+        font-weight: 900;
+        letter-spacing: var(--hzt-tracking-label);
+        text-transform: uppercase;
+        color: var(--hzt-muted);
+      }
+
+      input[type='text'],
+      textarea {
+        font-family: var(--hzt-font-body);
+        font-size: var(--hzt-size-body);
+        line-height: var(--hzt-line-body);
+        color: var(--hzt-ink);
+        background: var(--hzt-panel);
+        border: var(--hzt-border-button) solid var(--hzt-ink);
+        border-radius: var(--hzt-corner);
+        padding: 0.5rem 0.6rem;
+      }
+
+      textarea {
+        resize: vertical;
+        min-height: 4.5rem;
+      }
+
+      input[type='text']:focus-visible,
+      textarea:focus-visible {
+        outline: var(--hzt-border-chip) solid var(--hzt-accent);
+        outline-offset: 3px;
+      }
+
+      input[type='text'][aria-invalid='true'] {
+        border-color: var(--hzt-error);
+      }
+
+      .status-options {
+        display: flex;
+        gap: 1rem;
+      }
+
+      .status-options label {
+        display: flex;
+        align-items: center;
+        gap: 0.35rem;
+        font-size: var(--hzt-size-body);
+      }
+
+      input[type='radio'] {
+        accent-color: var(--hzt-accent);
+      }
+
+      .error {
+        margin: 0;
+        font-size: var(--hzt-size-label);
+        font-weight: 700;
+        color: var(--hzt-error);
+      }
+
+      .actions {
+        display: flex;
+        gap: 0.5rem;
+        justify-content: flex-end;
+      }
+    `
+      ];
+    }
+    connectedCallback() {
+      super.connectedCallback();
+      document.addEventListener("keydown", this.onKeyDown);
+    }
+    disconnectedCallback() {
+      document.removeEventListener("keydown", this.onKeyDown);
+      super.disconnectedCallback();
+    }
+    willUpdate(changed) {
+      if (changed.has("entry")) {
+        this.draft = this.entry ? {
+          word: this.entry.word,
+          status: this.entry.status,
+          translation: this.entry.translation ?? "",
+          note: this.entry.note ?? ""
+        } : { word: "", status: "unknown", translation: "", note: "" };
+        this.showError = false;
+      }
+    }
+    render() {
+      if (!this.open) {
+        return b2``;
+      }
+      return b2`
+      <div class="backdrop" @click=${this.onBackdropClick}>
+        <div
+          class="modal hzt-card"
+          role="dialog"
+          aria-label="${this.entry ? "Editar entrada" : "Nueva entrada"}"
+          @click=${(e5) => e5.stopPropagation()}
+        >
+          <form class="entry-form" @submit=${this.handleSubmit}>
+            <h2>${this.entry ? "Editar entrada" : "Nueva entrada"}</h2>
+
+            <label class="field">
+              <span>Palabra</span>
+              <input
+                type="text"
+                name="word"
+                .value=${this.draft.word}
+                aria-invalid=${this.showError}
+                @input=${this.handleWordInput}
+              />
+            </label>
+
+            <fieldset class="field">
+              <legend>Estado</legend>
+              <div class="status-options">
+                <label>
+                  <input
+                    type="radio"
+                    name="status"
+                    value="known"
+                    .checked=${this.draft.status === "known"}
+                    @change=${this.selectKnown}
+                  />
+                  Conocida
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="status"
+                    value="unknown"
+                    .checked=${this.draft.status === "unknown"}
+                    @change=${this.selectUnknown}
+                  />
+                  Nueva
+                </label>
+              </div>
+            </fieldset>
+
+            <label class="field">
+              <span>Traducción</span>
+              <input
+                type="text"
+                name="translation"
+                .value=${this.draft.translation}
+                @input=${this.handleTranslationInput}
+              />
+            </label>
+
+            <label class="field">
+              <span>Nota</span>
+              <textarea
+                name="note"
+                .value=${this.draft.note}
+                @input=${this.handleNoteInput}
+              ></textarea>
+            </label>
+
+            ${this.showError ? b2`<p class="error" role="alert">La palabra es obligatoria</p>` : ""}
+
+            <div class="actions">
+              <button type="button" class="hzt-button hzt-button--outline" @click=${this.emitClose}>
+                Cancelar
+              </button>
+              <button type="submit" class="hzt-button hzt-button--primary">Guardar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    `;
+    }
+    onBackdropClick() {
+      this.emitClose();
+    }
+    handleWordInput(event) {
+      const value = event.target.value;
+      this.draft = { ...this.draft, word: value };
+      if (this.showError) {
+        this.showError = false;
+      }
+    }
+    handleTranslationInput(event) {
+      const value = event.target.value;
+      this.draft = { ...this.draft, translation: value };
+    }
+    handleNoteInput(event) {
+      const value = event.target.value;
+      this.draft = { ...this.draft, note: value };
+    }
+    selectKnown() {
+      this.draft = { ...this.draft, status: "known" };
+    }
+    selectUnknown() {
+      this.draft = { ...this.draft, status: "unknown" };
+    }
+    handleSubmit(event) {
+      event.preventDefault();
+      const word = this.draft.word.trim();
+      if (!word) {
+        this.showError = true;
+        return;
+      }
+      const translation = this.draft.translation.trim();
+      const note = this.draft.note.trim();
+      const entry = {
+        word,
+        status: this.draft.status,
+        ...translation ? { translation } : {},
+        ...note ? { note } : {}
+      };
+      this.dispatchEvent(
+        new CustomEvent("save-entry", {
+          detail: { entry },
+          bubbles: true,
+          composed: true
+        })
+      );
+    }
+    emitClose() {
+      this.dispatchEvent(new CustomEvent("close", { bubbles: true, composed: true }));
+    }
+  };
+  __decorateClass([
+    n4({ type: Boolean, reflect: true })
+  ], ComponentDictionaryForm.prototype, "open", 2);
+  __decorateClass([
+    n4({ type: Object })
+  ], ComponentDictionaryForm.prototype, "entry", 2);
+  __decorateClass([
+    r5()
+  ], ComponentDictionaryForm.prototype, "draft", 2);
+  __decorateClass([
+    r5()
+  ], ComponentDictionaryForm.prototype, "showError", 2);
+
+  // src/components/componentDictionaryForm/index.ts
+  register("component-dictionary-form", ComponentDictionaryForm);
+
+  // src/components/componentIframePanel/componentIframePanel.ts
+  var ITZULI_URL = "https://www.euskara.euskadi.eus/itzuli/";
+  var STORAGE_KEY = "hiztegi-itzuli-panel-open";
+  var ComponentIframePanel = class extends i4 {
+    constructor() {
+      super(...arguments);
+      this.open = false;
+      this.word = "";
+      this.searchWord = "";
+      this.iframeSrc = ITZULI_URL;
+    }
+    static {
+      this.styles = [
+        styles.hostStyle,
+        styles.designTokens,
+        styles.themeTokens,
+        styles.accentTokens,
+        styles.buttonStyle,
+        i`
+      :host {
+        display: block;
+        height: 100%;
+      }
+
+      .panel {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        border-left: var(--hzt-border-panel) solid var(--hzt-ink);
+        background: var(--hzt-panel);
+      }
+
+      .panel-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.5rem 0.75rem;
+        border-bottom: var(--hzt-border-panel) solid var(--hzt-ink);
+        background: var(--hzt-well);
+      }
+
+      .panel-header h3 {
+        margin: 0;
+        font-size: var(--hzt-size-stamp);
+      }
+
+      .search-container {
+        display: flex;
+        gap: 0.5rem;
+        padding: 0.5rem 0.75rem;
+        border-bottom: var(--hzt-border-panel) solid var(--hzt-ink);
+      }
+
+      .search-input {
+        flex: 1;
+        padding: 0.35rem 0.5rem;
+        border: var(--hzt-border-chip) solid var(--hzt-ink);
+        background: var(--hzt-panel);
+        font-family: var(--hzt-font-body);
+        font-size: var(--hzt-size-body);
+      }
+
+      .search-input:focus {
+        outline: var(--hzt-border-chip) solid var(--hzt-accent);
+      }
+
+      .iframe-container {
+        flex: 1;
+        overflow: hidden;
+      }
+
+      .iframe-container iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+    `
+      ];
+    }
+    connectedCallback() {
+      super.connectedCallback();
+      this.loadState();
+    }
+    updated(changed) {
+      if (changed.has("word") && this.word) {
+        this.searchWord = this.word;
+        this.updateIframeSrc();
+      }
+    }
+    loadState() {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved !== null) {
+        this.open = saved === "true";
+      }
+    }
+    saveState() {
+      localStorage.setItem(STORAGE_KEY, String(this.open));
+    }
+    togglePanel() {
+      this.open = !this.open;
+      this.saveState();
+      this.dispatchEvent(
+        new CustomEvent("toggle", {
+          detail: { open: this.open },
+          bubbles: true,
+          composed: true
+        })
+      );
+    }
+    onSearchInput(event) {
+      this.searchWord = event.target.value;
+    }
+    onSearchKeydown(event) {
+      if (event.key === "Enter") {
+        this.updateIframeSrc();
+      }
+    }
+    onSearchClick() {
+      this.updateIframeSrc();
+    }
+    updateIframeSrc() {
+      if (this.searchWord.trim()) {
+        this.iframeSrc = `${ITZULI_URL}?q=${encodeURIComponent(this.searchWord.trim())}`;
+      }
+    }
+    render() {
+      if (!this.open) {
+        return b2``;
+      }
+      return b2`
+      <div class="panel">
+        <header class="panel-header">
+          <h3>Itzuli</h3>
+          <button
+            class="hzt-button hzt-button--text"
+            aria-label="Cerrar panel"
+            @click=${this.togglePanel}
+          >
+            ×
+          </button>
+        </header>
+        <div class="search-container">
+          <input
+            class="search-input"
+            type="text"
+            placeholder="Bilatu hitza..."
+            .value=${this.searchWord}
+            @input=${this.onSearchInput}
+            @keydown=${this.onSearchKeydown}
+          />
+          <button class="hzt-button hzt-button--primary" @click=${this.onSearchClick}>
+            Bilatu
+          </button>
+        </div>
+        <div class="iframe-container">
+          <iframe
+            src=${this.iframeSrc}
+            title="Itzuli - Euskara hiztegia"
+            sandbox="allow-same-origin allow-scripts allow-forms"
+          ></iframe>
+        </div>
+      </div>
+    `;
+    }
+  };
+  __decorateClass([
+    n4({ type: Boolean })
+  ], ComponentIframePanel.prototype, "open", 2);
+  __decorateClass([
+    n4({ type: String })
+  ], ComponentIframePanel.prototype, "word", 2);
+  __decorateClass([
+    r5()
+  ], ComponentIframePanel.prototype, "searchWord", 2);
+  __decorateClass([
+    r5()
+  ], ComponentIframePanel.prototype, "iframeSrc", 2);
+
+  // src/components/componentIframePanel/index.ts
+  register("component-iframe-panel", ComponentIframePanel);
 
   // src/components/pageReading/pageReading.ts
   var PageReading = class extends Page {
@@ -2315,6 +3167,9 @@
       this.dictionary = [];
       this.loading = true;
       this.error = "";
+      this.showDictForm = false;
+      this.showItzuliPanel = false;
+      this.selectedWord = "";
       this.loadStarted = false;
     }
     willUpdate(changed) {
@@ -2350,6 +3205,8 @@
       this.error = "";
       this.tooltip = void 0;
       this.tooltipEntry = void 0;
+      this.showDictForm = false;
+      this.dictFormEntry = void 0;
       const book = await this.api.getBook(id);
       if (!book) {
         this.error = "Libro no encontrado.";
@@ -2397,10 +3254,12 @@
       await this.persistProgress();
     }
     async onWordClick(event) {
-      const { word, x: x2, y: y3 } = event.detail;
-      const entry = await this.api.lookupWord(word);
-      this.tooltip = { word, x: x2, y: y3 };
+      const { word, x: x2, y: y3, baseForm, suffix, cases } = event.detail;
+      const lookupWord = baseForm ?? word;
+      const entry = await this.api.resolveWord(lookupWord);
+      this.tooltip = { word, x: x2, y: y3, baseForm, suffix, cases };
       this.tooltipEntry = entry;
+      this.selectedWord = word;
     }
     onTooltipClose() {
       this.tooltip = void 0;
@@ -2411,6 +3270,33 @@
       const saved = await this.api.upsertEntry(entry);
       this.tooltipEntry = saved;
       this.dictionary = await this.api.getAllEntries();
+    }
+    onOpenAddModal(event) {
+      const { word } = event.detail;
+      this.tooltip = void 0;
+      this.tooltipEntry = void 0;
+      this.dictFormEntry = { word, status: "unknown" };
+      this.showDictForm = true;
+    }
+    async onDictFormSave(event) {
+      const { entry } = event.detail;
+      const saved = await this.api.upsertEntry(entry);
+      this.showDictForm = false;
+      this.dictFormEntry = void 0;
+      this.dictionary = await this.api.getAllEntries();
+      this.tooltipEntry = saved;
+    }
+    onDictFormClose() {
+      this.showDictForm = false;
+      this.dictFormEntry = void 0;
+    }
+    toggleItzuliPanel() {
+      this.showItzuliPanel = !this.showItzuliPanel;
+      localStorage.setItem("hiztegi-itzuli-panel-open", String(this.showItzuliPanel));
+    }
+    onItzuliToggle(event) {
+      const { open: open2 } = event.detail;
+      this.showItzuliPanel = open2;
     }
     render() {
       if (this.error) {
@@ -2456,16 +3342,32 @@
             >
               Capítulo siguiente
             </button>
+            <button
+              class="hzt-button ${this.showItzuliPanel ? "hzt-button--primary" : ""}"
+              @click=${this.toggleItzuliPanel}
+            >
+              Itzuli
+            </button>
           </div>
         </header>
 
-        <component-text-reader
-          .text=${chapter.text}
-          .dictionary=${this.dictionary}
-          .pageIndex=${this.pageIndex}
-          @page-change=${this.onPageChange}
-          @word-click=${this.onWordClick}
-        ></component-text-reader>
+        <div class="reading-content">
+          <component-text-reader
+            .text=${chapter.text}
+            .dictionary=${this.dictionary}
+            .pageIndex=${this.pageIndex}
+            @page-change=${this.onPageChange}
+            @word-click=${this.onWordClick}
+          ></component-text-reader>
+
+          ${this.showItzuliPanel ? b2`
+                <component-iframe-panel
+                  .open=${this.showItzuliPanel}
+                  .word=${this.selectedWord}
+                  @toggle=${this.onItzuliToggle}
+                ></component-iframe-panel>
+              ` : ""}
+        </div>
 
         ${this.tooltip ? b2`
               <component-word-tooltip
@@ -2473,10 +3375,21 @@
                 .entry=${this.tooltipEntry}
                 .x=${this.tooltip.x}
                 .y=${this.tooltip.y}
+                .baseForm=${this.tooltip.baseForm}
+                .suffix=${this.tooltip.suffix}
+                .cases=${this.tooltip.cases}
                 @save-entry=${this.onTooltipSave}
+                @open-add-modal=${this.onOpenAddModal}
                 @close=${this.onTooltipClose}
               ></component-word-tooltip>
             ` : ""}
+
+        <component-dictionary-form
+          .open=${this.showDictForm}
+          .entry=${this.dictFormEntry}
+          @save-entry=${this.onDictFormSave}
+          @close=${this.onDictFormClose}
+        ></component-dictionary-form>
       </div>
     `;
     }
@@ -2531,6 +3444,21 @@
         color: var(--hzt-muted);
       }
 
+      .reading-content {
+        display: flex;
+        gap: 1rem;
+        min-height: 400px;
+      }
+
+      .reading-content > :first-child {
+        flex: 1;
+      }
+
+      .reading-content > component-iframe-panel {
+        width: 350px;
+        flex-shrink: 0;
+      }
+
       .empty {
         color: var(--hzt-muted);
       }
@@ -2570,6 +3498,18 @@
   __decorateClass([
     r5()
   ], PageReading.prototype, "error", 2);
+  __decorateClass([
+    r5()
+  ], PageReading.prototype, "showDictForm", 2);
+  __decorateClass([
+    r5()
+  ], PageReading.prototype, "dictFormEntry", 2);
+  __decorateClass([
+    r5()
+  ], PageReading.prototype, "showItzuliPanel", 2);
+  __decorateClass([
+    r5()
+  ], PageReading.prototype, "selectedWord", 2);
   PageReading = __decorateClass([
     api({
       getBook,
@@ -2577,7 +3517,7 @@
       getProgress,
       saveProgress,
       getAllEntries,
-      lookupWord: lookup,
+      resolveWord: resolve,
       upsertEntry
     })
   ], PageReading);
@@ -2695,254 +3635,6 @@
   // src/components/componentDictionaryEntryRow/index.ts
   register("component-dictionary-entry-row", ComponentDictionaryEntryRow);
 
-  // src/components/componentDictionaryForm/componentDictionaryForm.ts
-  var ComponentDictionaryForm = class extends i4 {
-    constructor() {
-      super(...arguments);
-      this.draft = { word: "", status: "unknown", translation: "", note: "" };
-      this.showError = false;
-    }
-    static {
-      this.styles = [
-        styles.hostStyle,
-        styles.designTokens,
-        styles.themeTokens,
-        styles.accentTokens,
-        styles.headerStyle,
-        styles.cardStyle,
-        styles.buttonStyle,
-        i`
-      .entry-form {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        padding: 1.25rem;
-      }
-
-      .entry-form h2 {
-        margin-bottom: 0.25rem;
-      }
-
-      .field {
-        display: flex;
-        flex-direction: column;
-        gap: 0.25rem;
-        margin: 0;
-        padding: 0;
-        border: 0;
-      }
-
-      .field span,
-      .field legend {
-        font-size: var(--hzt-size-label);
-        font-weight: 900;
-        letter-spacing: var(--hzt-tracking-label);
-        text-transform: uppercase;
-        color: var(--hzt-muted);
-      }
-
-      input[type='text'],
-      textarea {
-        font-family: var(--hzt-font-body);
-        font-size: var(--hzt-size-body);
-        line-height: var(--hzt-line-body);
-        color: var(--hzt-ink);
-        background: var(--hzt-panel);
-        border: var(--hzt-border-button) solid var(--hzt-ink);
-        border-radius: var(--hzt-corner);
-        padding: 0.5rem 0.6rem;
-      }
-
-      textarea {
-        resize: vertical;
-        min-height: 4.5rem;
-      }
-
-      input[type='text']:focus-visible,
-      textarea:focus-visible {
-        outline: var(--hzt-border-chip) solid var(--hzt-accent);
-        outline-offset: 3px;
-      }
-
-      input[type='text'][aria-invalid='true'] {
-        border-color: var(--hzt-error);
-      }
-
-      .status-options {
-        display: flex;
-        gap: 1rem;
-      }
-
-      .status-options label {
-        display: flex;
-        align-items: center;
-        gap: 0.35rem;
-        font-size: var(--hzt-size-body);
-      }
-
-      input[type='radio'] {
-        accent-color: var(--hzt-accent);
-      }
-
-      .error {
-        margin: 0;
-        font-size: var(--hzt-size-label);
-        font-weight: 700;
-        color: var(--hzt-error);
-      }
-
-      .actions {
-        display: flex;
-        gap: 0.5rem;
-        justify-content: flex-end;
-      }
-    `
-      ];
-    }
-    willUpdate(changed) {
-      if (changed.has("entry")) {
-        this.draft = this.entry ? {
-          word: this.entry.word,
-          status: this.entry.status,
-          translation: this.entry.translation ?? "",
-          note: this.entry.note ?? ""
-        } : { word: "", status: "unknown", translation: "", note: "" };
-        this.showError = false;
-      }
-    }
-    render() {
-      return b2`
-      <form class="entry-form hzt-card" @submit=${this.handleSubmit}>
-        <h2>${this.entry ? "Editar entrada" : "Nueva entrada"}</h2>
-
-        <label class="field">
-          <span>Palabra</span>
-          <input
-            type="text"
-            name="word"
-            .value=${this.draft.word}
-            aria-invalid=${this.showError}
-            @input=${this.handleWordInput}
-          />
-        </label>
-
-        <fieldset class="field">
-          <legend>Estado</legend>
-          <div class="status-options">
-            <label>
-              <input
-                type="radio"
-                name="status"
-                value="known"
-                .checked=${this.draft.status === "known"}
-                @change=${this.selectKnown}
-              />
-              Conocida
-            </label>
-            <label>
-              <input
-                type="radio"
-                name="status"
-                value="unknown"
-                .checked=${this.draft.status === "unknown"}
-                @change=${this.selectUnknown}
-              />
-              Nueva
-            </label>
-          </div>
-        </fieldset>
-
-        <label class="field">
-          <span>Traducción</span>
-          <input
-            type="text"
-            name="translation"
-            .value=${this.draft.translation}
-            @input=${this.handleTranslationInput}
-          />
-        </label>
-
-        <label class="field">
-          <span>Nota</span>
-          <textarea
-            name="note"
-            .value=${this.draft.note}
-            @input=${this.handleNoteInput}
-          ></textarea>
-        </label>
-
-        ${this.showError ? b2`<p class="error" role="alert">La palabra es obligatoria</p>` : ""}
-
-        <div class="actions">
-          <button type="button" class="hzt-button hzt-button--outline" @click=${this.emitCancel}>
-            Cancelar
-          </button>
-          <button type="submit" class="hzt-button hzt-button--primary">Guardar</button>
-        </div>
-      </form>
-    `;
-    }
-    handleWordInput(event) {
-      const value = event.target.value;
-      this.draft = { ...this.draft, word: value };
-      if (this.showError) {
-        this.showError = false;
-      }
-    }
-    handleTranslationInput(event) {
-      const value = event.target.value;
-      this.draft = { ...this.draft, translation: value };
-    }
-    handleNoteInput(event) {
-      const value = event.target.value;
-      this.draft = { ...this.draft, note: value };
-    }
-    selectKnown() {
-      this.draft = { ...this.draft, status: "known" };
-    }
-    selectUnknown() {
-      this.draft = { ...this.draft, status: "unknown" };
-    }
-    handleSubmit(event) {
-      event.preventDefault();
-      const word = this.draft.word.trim();
-      if (!word) {
-        this.showError = true;
-        return;
-      }
-      const translation = this.draft.translation.trim();
-      const note = this.draft.note.trim();
-      const entry = {
-        word,
-        status: this.draft.status,
-        ...translation ? { translation } : {},
-        ...note ? { note } : {}
-      };
-      this.dispatchEvent(
-        new CustomEvent("save-entry", {
-          detail: { entry },
-          bubbles: true,
-          composed: true
-        })
-      );
-    }
-    emitCancel() {
-      this.dispatchEvent(new CustomEvent("cancel-entry", { bubbles: true, composed: true }));
-    }
-  };
-  __decorateClass([
-    n4({ type: Object })
-  ], ComponentDictionaryForm.prototype, "entry", 2);
-  __decorateClass([
-    r5()
-  ], ComponentDictionaryForm.prototype, "draft", 2);
-  __decorateClass([
-    r5()
-  ], ComponentDictionaryForm.prototype, "showError", 2);
-
-  // src/components/componentDictionaryForm/index.ts
-  register("component-dictionary-form", ComponentDictionaryForm);
-
   // src/components/pageDictionary/pageDictionary.ts
   var PageDictionary = class extends Page {
     constructor() {
@@ -3014,15 +3706,12 @@
           <button class="hzt-button hzt-button--primary" @click=${this.onAddClick}>Añadir</button>
         </div>
 
-        ${this.showForm ? b2`
-              <div class="form-wrap">
-                <component-dictionary-form
-                  .entry=${this.editing}
-                  @save-entry=${this.onSaveEntry}
-                  @cancel-entry=${this.onCancelEntry}
-                ></component-dictionary-form>
-              </div>
-            ` : ""}
+        <component-dictionary-form
+          .open=${this.showForm}
+          .entry=${this.editing}
+          @save-entry=${this.onSaveEntry}
+          @close=${this.onCancelEntry}
+        ></component-dictionary-form>
 
         <div class="entries">
           ${entries.length === 0 ? b2`
@@ -3078,10 +3767,6 @@
       .search:focus-visible {
         outline: var(--hzt-border-chip) solid var(--hzt-accent);
         outline-offset: 3px;
-      }
-
-      .form-wrap {
-        margin-bottom: 1rem;
       }
 
       .entries {
