@@ -1,7 +1,7 @@
 import ComponentWordTooltip from './componentWordTooltip';
 import { accessibilityCheck, createComponent } from '../../shared/test-helper';
 import { expect } from '@esm-bundle/chai';
-import type { DictionaryEntry } from '../../shared/types';
+import type { DictionaryEntry, OpenDataEntry } from '../../shared/types';
 
 const knownEntry: DictionaryEntry = {
   word: 'etxe',
@@ -27,7 +27,8 @@ describe('component-word-tooltip Component Spec:', () => {
     y = 40,
     baseForm?: string,
     suffix?: string,
-    cases?: string[]
+    cases?: string[],
+    openDataEntry?: OpenDataEntry
   ): Promise<ComponentWordTooltip> => {
     const component = await createComponent({
       class: ComponentWordTooltip,
@@ -38,6 +39,7 @@ describe('component-word-tooltip Component Spec:', () => {
     const tooltip = element as unknown as ComponentWordTooltip;
     tooltip.word = word;
     tooltip.entry = entry;
+    tooltip.openDataEntry = openDataEntry;
     tooltip.x = x;
     tooltip.y = y;
     tooltip.baseForm = baseForm;
@@ -210,6 +212,66 @@ describe('component-word-tooltip Component Spec:', () => {
   it('does not show base form when absent', async () => {
     await createTooltip('etxe', knownEntry);
     expect(shadow.querySelector('.base-form')).to.equal(null);
+  });
+
+  it('renders the Open Data badge, translations, metadata and attribution', async () => {
+    await createTooltip(
+      'etxe',
+      undefined,
+      40,
+      40,
+      undefined,
+      undefined,
+      undefined,
+      {
+        word: 'etxe',
+        translations: ['casa', 'hogar'],
+        partOfSpeech: 'noun',
+        domains: ['General Vocabulary'],
+      }
+    );
+    expect(shadow.querySelector('.badge')?.textContent).to.equal('Open Data');
+    expect(shadow.querySelector('.badge')?.classList.contains('badge--opendata')).to.be.true;
+    expect(shadow.querySelector('.translations')?.textContent).to.include('casa');
+    expect(shadow.querySelector('.translations')?.textContent).to.include('hogar');
+    expect(shadow.querySelector('.note')?.textContent).to.include('noun');
+    expect(shadow.querySelector('.opendata-source')?.textContent).to.include('CC BY 4.0');
+    expect(shadow.querySelector('.no-entry')).to.equal(null);
+  });
+
+  it('prefers a personal entry over an Open Data entry', async () => {
+    await createTooltip(
+      'etxe',
+      knownEntry,
+      40,
+      40,
+      undefined,
+      undefined,
+      undefined,
+      { word: 'etxe', translations: ['casa'], domains: [] }
+    );
+    expect(shadow.querySelector('.badge')?.textContent).to.equal('Conocida');
+    expect(shadow.querySelector('.translations')).to.equal(null);
+  });
+
+  it('emits open-add-modal with the first Open Data translation', async () => {
+    await createTooltip(
+      'etxera',
+      undefined,
+      40,
+      40,
+      'etxe',
+      '-ra',
+      ['Adlativo'],
+      { word: 'etxe', translations: ['casa', 'hogar'], domains: [] }
+    );
+    let detail: { word: string; translation?: string } | undefined;
+    element.addEventListener('open-add-modal', (event: Event) => {
+      detail = (event as CustomEvent<{ word: string; translation?: string }>).detail;
+    });
+    buttonByText('Añadir al diccionario')?.click();
+    await (element as unknown as ComponentWordTooltip).updateComplete;
+    expect(detail).to.deep.equal({ word: 'etxe', translation: 'casa' });
   });
 
   it('shows suffix and case info with base form', async () => {

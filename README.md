@@ -11,10 +11,12 @@ Basque.
 ## Features
 
 - Import books from `.txt`, `.md`, `.markdown`, `.html` and `.htm` files.
-- Read books paginated word by word, with **known** / **unknown** / **not in dictionary**
-  highlighting.
+- Read books paginated word by word, with **known** / **unknown** / **Open Data fallback**
+  highlighting (green / yellow / orange).
 - Click a word to look it up; declined forms are matched back to their base form using
   the 14 Basque cases (`src/shared/declensions.ts`).
+- Words missing from the personal dictionary fall back to the bundled Basque → Spanish
+  Open Data lexicon, with its definition shown in the tooltip.
 - Add and edit dictionary entries (base form, status, translation, note) and mark words
   as known/unknown.
 - Itzuli side panel (`componentIframePanel`) for external lookups.
@@ -70,6 +72,7 @@ hiztegi/
 │       ├── api.decorator.ts   # @api decorator for mockable page data access
 │       ├── bookStore.ts       # Book/chapter/progress CRUD
 │       ├── dictionaryStore.ts # Dictionary entry CRUD and lookup
+│       ├── openDataStore.ts   # Open Data index + lazy definition lookup
 │       ├── declensions.ts     # Basque case table + suffix detection
 │       ├── page.ts            # Base Page class and navigation helpers
 │       ├── storage.ts         # Promisified IndexedDB wrapper
@@ -79,7 +82,10 @@ hiztegi/
 │       ├── types.ts
 │       └── parsers/           # txt, markdown and html implemented
 │                              # (epub/pdf are still stubs)
-├── scripts/release.js
+├── scripts/
+│   ├── release.js
+│   ├── generate-opendata-index.mjs # Builds the compact Open Data word index
+│   └── copy-opendata.mjs          # Copies runtime lexicons into app builds
 ├── gh-pages/                  # Self-contained web build served by GitHub Pages
 ├── .docs/                     # AGENTS.md, PLAN.md, TODO.md, declinations.html
 ├── esbuild.js                 # Builds every component bundle into dist/
@@ -122,6 +128,15 @@ source term :_: target term :_: part of speech :_: [domain; ...]
 ```
 
 The source TBX files were converted to this JSON layout without changing the entries.
+
+At runtime only `opendata/eu-esp/` is deployed. The app first loads
+`opendata/eu-esp/index.json` (a compact, de-duplicated list of source words) to decide
+which words get the orange Open Data highlight, then fetches the relevant letter file
+only when a definition is requested. Regenerate the index after updating the lexicons:
+
+```bash
+npm run opendata:index
+```
 
 > **Attribution required.** The lexicons are published by the **Basque Government /
 > Eusko Jaurlaritza** (Cultura y Política Lingüística) under the **Creative Commons
@@ -182,7 +197,8 @@ npm run build
 
 The build writes every component bundle (ES module + IIFE, with TypeScript declaration
 files) and the web components polyfills into `dist/`. The entry-point bundle is also
-copied to `gh-pages/pageHiztegiApp.js`.
+copied to `gh-pages/pageHiztegiApp.js`, together with the runtime `opendata/eu-esp/`
+lexicon and its compact index.
 
 The full application can be built with Vite:
 
@@ -190,7 +206,7 @@ The full application can be built with Vite:
 npm run build:app
 ```
 
-Output goes to `dist-app/`.
+Output goes to `dist-app/`, including `dist-app/opendata/eu-esp/`.
 
 ## Publish component to NPM
 

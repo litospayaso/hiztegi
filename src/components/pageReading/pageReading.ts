@@ -4,8 +4,9 @@ import type { PropertyValues } from 'lit';
 import { api } from '../../shared/api.decorator';
 import { getBook, getChapters, getProgress, saveProgress } from '../../shared/bookStore';
 import { getAllEntries, resolve, upsertEntry } from '../../shared/dictionaryStore';
+import { loadOpenDataIndex, lookupOpenData } from '../../shared/openDataStore';
 import { styles } from '../../shared/styles';
-import type { Book, Chapter, DictionaryEntry } from '../../shared/types';
+import type { Book, Chapter, DictionaryEntry, OpenDataEntry } from '../../shared/types';
 import Page from '../../shared/page';
 import '../componentTextReader/index';
 import '../componentWordTooltip/index';
@@ -19,6 +20,8 @@ interface PageReadingApi {
   saveProgress: typeof saveProgress;
   getAllEntries: typeof getAllEntries;
   resolveWord: typeof resolve;
+  loadOpenDataIndex: typeof loadOpenDataIndex;
+  lookupOpenData: typeof lookupOpenData;
   upsertEntry: typeof upsertEntry;
 }
 
@@ -38,6 +41,8 @@ interface WordTooltipData {
   saveProgress,
   getAllEntries,
   resolveWord: resolve,
+  loadOpenDataIndex,
+  lookupOpenData,
   upsertEntry,
 })
 export default class PageReading extends Page<PageReadingApi> {
@@ -135,10 +140,16 @@ export default class PageReading extends Page<PageReadingApi> {
   private dictionary: DictionaryEntry[] = [];
 
   @state()
+  private opendataIndex: ReadonlySet<string> = new Set();
+
+  @state()
   private tooltip?: WordTooltipData;
 
   @state()
   private tooltipEntry?: DictionaryEntry;
+
+  @state()
+  private tooltipOpenDataEntry?: OpenDataEntry;
 
   @state()
   private loading = true;
@@ -197,6 +208,7 @@ export default class PageReading extends Page<PageReadingApi> {
     this.error = '';
     this.tooltip = undefined;
     this.tooltipEntry = undefined;
+    this.tooltipOpenDataEntry = undefined;
     this.showDictForm = false;
     this.dictFormEntry = undefined;
     const book = await this.api.getBook(id);
@@ -205,15 +217,17 @@ export default class PageReading extends Page<PageReadingApi> {
       this.loading = false;
       return;
     }
-    const [chapters, progress, entries] = await Promise.all([
+    const [chapters, progress, entries, opendataIndex] = await Promise.all([
       this.api.getChapters(id),
       this.api.getProgress(id),
       this.api.getAllEntries(),
+      this.api.loadOpenDataIndex(),
     ]);
     const lastChapter = Math.max(0, chapters.length - 1);
     this.book = book;
     this.chapters = chapters;
     this.dictionary = entries;
+    this.opendataIndex = opendataIndex;
     this.chapterIndex = Math.min(progress?.chapterIndex ?? 0, lastChapter);
     this.pageIndex = progress?.pageIndex ?? 0;
     this.loading = false;
@@ -255,28 +269,37 @@ export default class PageReading extends Page<PageReadingApi> {
     const { word, x, y, baseForm, suffix, cases } = (event as CustomEvent<{ word: string; x: number; y: number; baseForm?: string; suffix?: string; cases?: string[] }>).detail;
     const lookupWord = baseForm ?? word;
     const entry = await this.api.resolveWord(lookupWord);
+    const openDataEntry = entry ? undefined : await this.api.lookupOpenData(lookupWord);
     this.tooltip = { word, x, y, baseForm, suffix, cases };
     this.tooltipEntry = entry;
+    this.tooltipOpenDataEntry = openDataEntry;
     this.selectedWord = word;
   }
 
   private onTooltipClose(): void {
     this.tooltip = undefined;
     this.tooltipEntry = undefined;
+    this.tooltipOpenDataEntry = undefined;
   }
 
   private async onTooltipSave(event: Event): Promise<void> {
     const { entry } = (event as CustomEvent<{ entry: DictionaryEntry }>).detail;
     const saved = await this.api.upsertEntry(entry);
     this.tooltipEntry = saved;
+    this.tooltipOpenDataEntry = undefined;
     this.dictionary = await this.api.getAllEntries();
   }
 
   private onOpenAddModal(event: Event): void {
-    const { word } = (event as CustomEvent<{ word: string }>).detail;
+    const { word, translation } = (event as CustomEvent<{ word: string; translation?: string }>).detail;
     this.tooltip = undefined;
     this.tooltipEntry = undefined;
-    this.dictFormEntry = { word, status: 'unknown' };
+    this.tooltipOpenDataEntry = undefined;
+    this.dictFormEntry = {
+      word,
+      status: 'unknown',
+      ...(translation ? { translation } : {}),
+    };
     this.showDictForm = true;
   }
 
@@ -362,6 +385,7 @@ export default class PageReading extends Page<PageReadingApi> {
           <component-text-reader
             .text=${chapter.text}
             .dictionary=${this.dictionary}
+            .opendataIndex=${this.opendataIndex}
             .pageIndex=${this.pageIndex}
             @page-change=${this.onPageChange}
             @word-click=${this.onWordClick}
@@ -383,6 +407,7 @@ export default class PageReading extends Page<PageReadingApi> {
               <component-word-tooltip
                 .word=${this.tooltip.word}
                 .entry=${this.tooltipEntry}
+                .openDataEntry=${this.tooltipOpenDataEntry}
                 .x=${this.tooltip.x}
                 .y=${this.tooltip.y}
                 .baseForm=${this.tooltip.baseForm}

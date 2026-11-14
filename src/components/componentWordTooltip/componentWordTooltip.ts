@@ -2,11 +2,12 @@ import { LitElement, css, html } from 'lit';
 import { property, state } from 'lit/decorators.js';
 import type { PropertyValues } from 'lit';
 import { styles } from '../../shared/styles';
-import type { DictionaryEntry, WordStatus } from '../../shared/types';
+import type { DictionaryEntry, OpenDataEntry, WordStatus } from '../../shared/types';
 
 export interface ComponentWordTooltipInterface {
   word?: string;
   entry?: DictionaryEntry;
+  openDataEntry?: OpenDataEntry;
   x?: number;
   y?: number;
   baseForm?: string;
@@ -79,14 +80,37 @@ export default class ComponentWordTooltip extends LitElement {
         color: var(--hzt-ink);
       }
 
+      .badge--opendata {
+        background: var(--hzt-opendata);
+        color: var(--hzt-on-opendata);
+      }
+
       .no-entry,
       .translation,
-      .note {
+      .note,
+      .translations,
+      .opendata-source {
         margin: 0.5rem 0 0;
       }
 
       .translation {
         font-weight: 700;
+      }
+
+      .translations {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        padding-left: 1.1rem;
+      }
+
+      .translations li {
+        font-weight: 700;
+      }
+
+      .opendata-source {
+        font-size: var(--hzt-size-label);
+        color: var(--hzt-muted);
       }
 
       .note {
@@ -121,6 +145,9 @@ export default class ComponentWordTooltip extends LitElement {
 
   @property({ type: Object })
   entry?: DictionaryEntry;
+
+  @property({ type: Object })
+  openDataEntry?: OpenDataEntry;
 
   @property({ type: Number })
   x?: number;
@@ -162,7 +189,8 @@ export default class ComponentWordTooltip extends LitElement {
       changed.has('x') ||
       changed.has('y') ||
       changed.has('word') ||
-      changed.has('entry')
+      changed.has('entry') ||
+      changed.has('openDataEntry')
     ) {
       this.clampPosition();
     }
@@ -225,9 +253,10 @@ export default class ComponentWordTooltip extends LitElement {
     if (!word) {
       return;
     }
+    const translation = this.openDataEntry?.translations[0];
     this.dispatchEvent(
-      new CustomEvent<{ word: string }>('open-add-modal', {
-        detail: { word },
+      new CustomEvent<{ word: string; translation?: string }>('open-add-modal', {
+        detail: { word, ...(translation ? { translation } : {}) },
         bubbles: true,
         composed: true,
       })
@@ -267,9 +296,27 @@ export default class ComponentWordTooltip extends LitElement {
 
         ${this.entry
           ? html`<span class="badge badge--${status}">${statusText}</span>`
-          : html`<p class="no-entry">Esta palabra no está en el diccionario.</p>`}
+          : this.openDataEntry
+            ? html`<span class="badge badge--opendata">Open Data</span>`
+            : html`<p class="no-entry">Esta palabra no está en el diccionario.</p>`}
         ${this.entry?.translation ? html`<p class="translation">${this.entry.translation}</p>` : ''}
         ${this.entry?.note ? html`<p class="note">${this.entry.note}</p>` : ''}
+        ${!this.entry && this.openDataEntry
+          ? html`
+              <ul class="translations">
+                ${this.openDataEntry.translations.map(translation => html`<li>${translation}</li>`)}
+              </ul>
+              ${this.openDataEntry.partOfSpeech || this.openDataEntry.domains.length
+                ? html`<p class="note">
+                    ${[
+                      this.openDataEntry.partOfSpeech,
+                      this.openDataEntry.domains.join(', '),
+                    ].filter(Boolean).join(' · ')}
+                  </p>`
+                : ''}
+              <p class="opendata-source">Fuente: Open Data Euskadi (CC BY 4.0)</p>
+            `
+          : ''}
         ${this.baseForm && this.word !== this.baseForm && this.suffix && this.cases?.length ? html`
           <p class="base-form">
             ${this.suffix} (${this.cases[0]})

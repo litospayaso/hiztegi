@@ -1,6 +1,6 @@
 export type BookFormat = 'txt' | 'md' | 'html' | 'epub' | 'pdf';
 
-export type WordStatus = 'known' | 'unknown' | 'none';
+export type WordStatus = 'known' | 'unknown' | 'opendata' | 'none';
 
 export interface Book {
   id: string;
@@ -30,6 +30,13 @@ export interface DictionaryEntry {
   status: 'known' | 'unknown';
   note?: string;
   translation?: string;
+}
+
+export interface OpenDataEntry {
+  word: string;
+  translations: string[];
+  partOfSpeech?: string;
+  domains: string[];
 }
 
 export interface ParsedChapter {

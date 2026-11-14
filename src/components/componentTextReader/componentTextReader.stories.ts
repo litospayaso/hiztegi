@@ -46,3 +46,14 @@ export const withSmallPages: Story = {
 export const withoutDictionary: Story = {
   render: () => html`<component-text-reader .text=${sampleText}></component-text-reader>`,
 };
+
+export const withOpenDataFallback: Story = {
+  render: () => html`
+    <component-text-reader
+      .text=${sampleText}
+      .dictionary=${dictionary}
+      .opendataIndex=${new Set(['familia', 'gauean', 'goizero', 'eskolara', 'mendian'])}
+      .pageSize=${60}
+    ></component-text-reader>
+  `,
+};

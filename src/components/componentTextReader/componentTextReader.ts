@@ -10,8 +10,16 @@ import type { DictionaryEntry, WordStatus } from '../../shared/types';
 export interface ComponentTextReaderInterface {
   text?: string;
   dictionary?: DictionaryEntry[];
+  opendataIndex?: ReadonlySet<string>;
   pageSize?: number;
   pageIndex?: number;
+}
+
+interface WordResolution {
+  status: WordStatus;
+  baseForm?: string;
+  suffix?: string;
+  cases?: string[];
 }
 
 export default class ComponentTextReader extends LitElement {
@@ -45,6 +53,12 @@ export default class ComponentTextReader extends LitElement {
         box-shadow: 2px 2px 0 var(--hzt-shadow);
       }
 
+      .word--opendata {
+        background: var(--hzt-opendata);
+        color: var(--hzt-on-opendata);
+        box-shadow: 2px 2px 0 var(--hzt-shadow);
+      }
+
       .controls {
         display: flex;
         align-items: center;
@@ -67,6 +81,9 @@ export default class ComponentTextReader extends LitElement {
 
   @property({ type: Array })
   dictionary: DictionaryEntry[] = [];
+
+  @property({ type: Object })
+  opendataIndex: ReadonlySet<string> = new Set();
 
   @property({ type: Number })
   pageSize = 100;
@@ -107,6 +124,43 @@ export default class ComponentTextReader extends LitElement {
     return new Map(this.dictionary.map(entry => [entry.word.toLocaleLowerCase(), entry.status]));
   }
 
+  private resolveWord(word: string, directMap = this.directMap): WordResolution {
+    const lower = word.toLocaleLowerCase();
+    const personal = directMap.get(lower);
+    if (personal) {
+      return { status: personal };
+    }
+
+    const matches = detectSuffixes(lower);
+    for (const match of matches) {
+      const status = directMap.get(match.baseForm);
+      if (status) {
+        return {
+          status,
+          baseForm: match.baseForm,
+          suffix: match.suffix,
+          cases: match.cases.map(c => c.caseName),
+        };
+      }
+    }
+
+    if (this.opendataIndex.has(lower)) {
+      return { status: 'opendata' };
+    }
+    for (const match of matches) {
+      if (this.opendataIndex.has(match.baseForm)) {
+        return {
+          status: 'opendata',
+          baseForm: match.baseForm,
+          suffix: match.suffix,
+          cases: match.cases.map(c => c.caseName),
+        };
+      }
+    }
+
+    return { status: 'none' };
+  }
+
   private onPrevious(): void {
     if (this.pageIndex > 0) {
       this.pageIndex -= 1;
@@ -133,22 +187,7 @@ export default class ComponentTextReader extends LitElement {
 
   private onWordClick(word: string, event: MouseEvent): void {
     const rect = (event.currentTarget as HTMLElement).getBoundingClientRect();
-    const lower = word.toLocaleLowerCase();
-    const directMap = this.directMap;
-    let baseForm: string | undefined;
-    let suffix: string | undefined;
-    let cases: string[] | undefined;
-    if (!directMap.has(lower)) {
-      const matches = detectSuffixes(lower);
-      for (const match of matches) {
-        if (directMap.has(match.baseForm)) {
-          baseForm = match.baseForm;
-          suffix = match.suffix;
-          cases = match.cases.map(c => c.caseName);
-          break;
-        }
-      }
-    }
+    const { baseForm, suffix, cases } = this.resolveWord(word);
     this.dispatchEvent(
       new CustomEvent<{ word: string; x: number; y: number; baseForm?: string; suffix?: string; cases?: string[] }>('word-click', {
         detail: {
@@ -176,19 +215,7 @@ export default class ComponentTextReader extends LitElement {
           if (token.type !== 'word') {
             return token.text;
           }
-          const lower = token.text.toLocaleLowerCase();
-          let status: WordStatus = 'none';
-          if (directMap.has(lower)) {
-            status = directMap.get(lower)!;
-          } else {
-            const matches = detectSuffixes(lower);
-            for (const match of matches) {
-              if (directMap.has(match.baseForm)) {
-                status = directMap.get(match.baseForm)!;
-                break;
-              }
-            }
-          }
+          const status = this.resolveWord(token.text, directMap).status;
           const className = status === 'none' ? 'word' : `word word--${status}`;
           return html`<span class=${className} @click=${(event: MouseEvent) => this.onWordClick(token.text, event)}>${token.text}</span>`;
         })}</p>

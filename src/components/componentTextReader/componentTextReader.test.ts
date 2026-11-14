@@ -16,7 +16,8 @@ describe('component-text-reader Component Spec:', () => {
   const createReader = async (
     text: string,
     dictionary: DictionaryEntry[] = [],
-    pageSize = 2
+    pageSize = 2,
+    opendataIndex: ReadonlySet<string> = new Set()
   ): Promise<ComponentTextReader> => {
     const component = await createComponent({
       class: ComponentTextReader,
@@ -27,6 +28,7 @@ describe('component-text-reader Component Spec:', () => {
     const reader = element as unknown as ComponentTextReader;
     reader.text = text;
     reader.dictionary = dictionary;
+    reader.opendataIndex = opendataIndex;
     reader.pageSize = pageSize;
     await reader.updateComplete;
     return reader;
@@ -215,5 +217,46 @@ describe('component-text-reader Component Spec:', () => {
     await (element as unknown as ComponentTextReader).updateComplete;
     expect(detail?.word).to.equal('etxe');
     expect(detail?.baseForm).to.be.undefined;
+  });
+
+  it('marks words found in Open Data with the opendata class', async () => {
+    await createReader('etxe mendi ura', [], 3, new Set(['etxe', 'ura']));
+    expect(words()[0].classList.contains('word--opendata')).to.be.true;
+    expect(words()[1].className).to.equal('word');
+    expect(words()[2].classList.contains('word--opendata')).to.be.true;
+  });
+
+  it('gives personal dictionary entries precedence over Open Data', async () => {
+    await createReader(
+      'etxe liburu',
+      [
+        { word: 'etxe', status: 'known' },
+        { word: 'liburu', status: 'unknown' },
+      ],
+      2,
+      new Set(['etxe', 'liburu'])
+    );
+    expect(words()[0].classList.contains('word--known')).to.be.true;
+    expect(words()[1].classList.contains('word--unknown')).to.be.true;
+  });
+
+  it('highlights declined forms found in Open Data via suffix detection', async () => {
+    await createReader('etxean mendira', [], 2, new Set(['etxe', 'mendi']));
+    expect(words()[0].classList.contains('word--opendata')).to.be.true;
+    expect(words()[1].classList.contains('word--opendata')).to.be.true;
+  });
+
+  it('emits word-click with the Open Data baseForm for declined forms', async () => {
+    await createReader('etxean ura', [], 2, new Set(['etxe']));
+    let detail: { word: string; baseForm?: string; suffix?: string; cases?: string[] } | undefined;
+    element.addEventListener('word-click', (event: Event) => {
+      detail = (event as CustomEvent<{ word: string; baseForm?: string; suffix?: string; cases?: string[] }>).detail;
+    });
+    words()[0].click();
+    await (element as unknown as ComponentTextReader).updateComplete;
+    expect(detail?.word).to.equal('etxean');
+    expect(detail?.baseForm).to.equal('etxe');
+    expect(detail?.suffix).to.equal('-an');
+    expect(detail?.cases).to.include('Inesivo');
   });
 });

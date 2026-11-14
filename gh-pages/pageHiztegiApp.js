@@ -630,6 +630,8 @@
     --hzt-on-error: var(--hzt-app-on-error, #ffffff);
     --hzt-mark: var(--hzt-app-mark, #ffd60a);
     --hzt-on-mark: var(--hzt-app-on-mark, #1b150d);
+    --hzt-opendata: var(--hzt-app-opendata, #f28c28);
+    --hzt-on-opendata: var(--hzt-app-on-opendata, #1b150d);
     --hzt-grid-opacity: var(--hzt-app-grid-opacity, 0.05);
     --hzt-screentone-opacity: var(--hzt-app-screentone-opacity, 0.16);
   }
@@ -646,6 +648,8 @@
     --hzt-on-error: #ffffff;
     --hzt-mark: #ffd60a;
     --hzt-on-mark: #1b150d;
+    --hzt-opendata: #f28c28;
+    --hzt-on-opendata: #1b150d;
     --hzt-grid-opacity: 0.05;
     --hzt-screentone-opacity: 0.16;
   }
@@ -662,6 +666,8 @@
     --hzt-on-error: #1b150d;
     --hzt-mark: #e0b400;
     --hzt-on-mark: #0c0a07;
+    --hzt-opendata: #ff9f43;
+    --hzt-on-opendata: #0c0a07;
     --hzt-grid-opacity: 0.06;
     --hzt-screentone-opacity: 0.2;
   }
@@ -678,6 +684,8 @@
     --hzt-on-error: #20242e;
     --hzt-mark: #ebcb8b;
     --hzt-on-mark: #2e3440;
+    --hzt-opendata: #d08770;
+    --hzt-on-opendata: #2e3440;
     --hzt-grid-opacity: 0.05;
     --hzt-screentone-opacity: 0.16;
   }
@@ -1875,6 +1883,122 @@
     return getEntry(word);
   };
 
+  // src/shared/openDataStore.ts
+  var BASE_DIR = "opendata/eu-esp";
+  var INDEX_FILE = `${BASE_DIR}/index.json`;
+  var normalize2 = (word) => word.trim().normalize("NFC").toLocaleLowerCase();
+  var assetUrl = (path) => new URL(path, typeof document === "undefined" ? "http://localhost/" : document.baseURI).href;
+  var letterFor = (word) => {
+    const initial = normalize2(word).normalize("NFD").charAt(0);
+    return /^[a-z]$/.test(initial) ? initial : "otros";
+  };
+  var parseDomains = (value) => {
+    const trimmed = (value ?? "").trim();
+    if (!trimmed) {
+      return [];
+    }
+    return trimmed.replace(/^\[|\]$/g, "").split(/[;,]\s*/).map((domain) => domain.trim()).filter(Boolean);
+  };
+  var parseLine = (line) => {
+    const parts = line.split(" :_: ");
+    if (parts.length < 2) {
+      return void 0;
+    }
+    const word = normalize2(parts[0]);
+    const translation = parts[1]?.trim();
+    if (!word || !translation) {
+      return void 0;
+    }
+    const partOfSpeech = parts[2]?.trim() || void 0;
+    return {
+      word,
+      translations: [translation],
+      ...partOfSpeech ? { partOfSpeech } : {},
+      domains: parseDomains(parts[3])
+    };
+  };
+  var addEntry = (entries, entry) => {
+    const existing = entries.get(entry.word);
+    if (!existing) {
+      entries.set(entry.word, entry);
+      return;
+    }
+    if (!existing.translations.includes(entry.translations[0])) {
+      existing.translations.push(entry.translations[0]);
+    }
+    if (!existing.partOfSpeech && entry.partOfSpeech) {
+      existing.partOfSpeech = entry.partOfSpeech;
+    }
+    for (const domain of entry.domains) {
+      if (!existing.domains.includes(domain)) {
+        existing.domains.push(domain);
+      }
+    }
+  };
+  var indexPromise;
+  var indexCache;
+  var letterPromises = /* @__PURE__ */ new Map();
+  var loadLetter = (letter) => {
+    const cached = letterPromises.get(letter);
+    if (cached) {
+      return cached;
+    }
+    const promise = fetch(assetUrl(`${BASE_DIR}/${letter}.json`)).then(async (response) => {
+      if (!response.ok) {
+        throw new Error(`Open Data letter ${letter} returned ${response.status}`);
+      }
+      const raw = await response.json();
+      if (!Array.isArray(raw)) {
+        throw new Error(`Open Data letter ${letter} is not an array`);
+      }
+      const entries = /* @__PURE__ */ new Map();
+      for (const line of raw) {
+        const entry = parseLine(String(line));
+        if (entry) {
+          addEntry(entries, entry);
+        }
+      }
+      return entries;
+    }).catch((error) => {
+      letterPromises.delete(letter);
+      console.warn(`[opendata] could not load ${letter}.json`, error);
+      return /* @__PURE__ */ new Map();
+    });
+    letterPromises.set(letter, promise);
+    return promise;
+  };
+  var loadOpenDataIndex = async () => {
+    if (indexCache) {
+      return indexCache;
+    }
+    if (!indexPromise) {
+      indexPromise = fetch(assetUrl(INDEX_FILE)).then(async (response) => {
+        if (!response.ok) {
+          throw new Error(`Open Data index returned ${response.status}`);
+        }
+        const raw = await response.json();
+        if (!Array.isArray(raw)) {
+          throw new Error("Open Data index is not an array");
+        }
+        return new Set(raw.map((word) => normalize2(String(word))).filter(Boolean));
+      }).catch((error) => {
+        indexPromise = void 0;
+        console.warn("[opendata] could not load index.json", error);
+        return /* @__PURE__ */ new Set();
+      });
+    }
+    indexCache = await indexPromise;
+    return indexCache;
+  };
+  var lookupOpenData = async (word) => {
+    const normalized = normalize2(word);
+    if (!normalized) {
+      return void 0;
+    }
+    const entries = await loadLetter(letterFor(normalized));
+    return entries.get(normalized);
+  };
+
   // src/shared/tokenizer.ts
   var isLetter = (char) => /^\p{L}$/u.test(char);
   var isSpace = (char) => /\s/.test(char);
@@ -2205,6 +2329,7 @@
       super(...arguments);
       this.text = "";
       this.dictionary = [];
+      this.opendataIndex = /* @__PURE__ */ new Set();
       this.pageSize = 100;
       this.pageIndex = 0;
     }
@@ -2236,6 +2361,12 @@
       .word--unknown {
         background: var(--hzt-mark);
         color: var(--hzt-on-mark);
+        box-shadow: 2px 2px 0 var(--hzt-shadow);
+      }
+
+      .word--opendata {
+        background: var(--hzt-opendata);
+        color: var(--hzt-on-opendata);
         box-shadow: 2px 2px 0 var(--hzt-shadow);
       }
 
@@ -2286,6 +2417,39 @@
     get directMap() {
       return new Map(this.dictionary.map((entry) => [entry.word.toLocaleLowerCase(), entry.status]));
     }
+    resolveWord(word, directMap = this.directMap) {
+      const lower = word.toLocaleLowerCase();
+      const personal = directMap.get(lower);
+      if (personal) {
+        return { status: personal };
+      }
+      const matches = detectSuffixes(lower);
+      for (const match of matches) {
+        const status = directMap.get(match.baseForm);
+        if (status) {
+          return {
+            status,
+            baseForm: match.baseForm,
+            suffix: match.suffix,
+            cases: match.cases.map((c4) => c4.caseName)
+          };
+        }
+      }
+      if (this.opendataIndex.has(lower)) {
+        return { status: "opendata" };
+      }
+      for (const match of matches) {
+        if (this.opendataIndex.has(match.baseForm)) {
+          return {
+            status: "opendata",
+            baseForm: match.baseForm,
+            suffix: match.suffix,
+            cases: match.cases.map((c4) => c4.caseName)
+          };
+        }
+      }
+      return { status: "none" };
+    }
     onPrevious() {
       if (this.pageIndex > 0) {
         this.pageIndex -= 1;
@@ -2309,22 +2473,7 @@
     }
     onWordClick(word, event) {
       const rect = event.currentTarget.getBoundingClientRect();
-      const lower = word.toLocaleLowerCase();
-      const directMap = this.directMap;
-      let baseForm;
-      let suffix;
-      let cases;
-      if (!directMap.has(lower)) {
-        const matches = detectSuffixes(lower);
-        for (const match of matches) {
-          if (directMap.has(match.baseForm)) {
-            baseForm = match.baseForm;
-            suffix = match.suffix;
-            cases = match.cases.map((c4) => c4.caseName);
-            break;
-          }
-        }
-      }
+      const { baseForm, suffix, cases } = this.resolveWord(word);
       this.dispatchEvent(
         new CustomEvent("word-click", {
           detail: {
@@ -2350,19 +2499,7 @@
         if (token.type !== "word") {
           return token.text;
         }
-        const lower = token.text.toLocaleLowerCase();
-        let status = "none";
-        if (directMap.has(lower)) {
-          status = directMap.get(lower);
-        } else {
-          const matches = detectSuffixes(lower);
-          for (const match of matches) {
-            if (directMap.has(match.baseForm)) {
-              status = directMap.get(match.baseForm);
-              break;
-            }
-          }
-        }
+        const status = this.resolveWord(token.text, directMap).status;
         const className = status === "none" ? "word" : `word word--${status}`;
         return b2`<span class=${className} @click=${(event) => this.onWordClick(token.text, event)}>${token.text}</span>`;
       })}</p>
@@ -2383,6 +2520,9 @@
   __decorateClass([
     n4({ type: Array })
   ], ComponentTextReader.prototype, "dictionary", 2);
+  __decorateClass([
+    n4({ type: Object })
+  ], ComponentTextReader.prototype, "opendataIndex", 2);
   __decorateClass([
     n4({ type: Number })
   ], ComponentTextReader.prototype, "pageSize", 2);
@@ -2473,14 +2613,37 @@
         color: var(--hzt-ink);
       }
 
+      .badge--opendata {
+        background: var(--hzt-opendata);
+        color: var(--hzt-on-opendata);
+      }
+
       .no-entry,
       .translation,
-      .note {
+      .note,
+      .translations,
+      .opendata-source {
         margin: 0.5rem 0 0;
       }
 
       .translation {
         font-weight: 700;
+      }
+
+      .translations {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        padding-left: 1.1rem;
+      }
+
+      .translations li {
+        font-weight: 700;
+      }
+
+      .opendata-source {
+        font-size: var(--hzt-size-label);
+        color: var(--hzt-muted);
       }
 
       .note {
@@ -2525,7 +2688,7 @@
       this.clampPosition();
     }
     updated(changed) {
-      if (changed.has("x") || changed.has("y") || changed.has("word") || changed.has("entry")) {
+      if (changed.has("x") || changed.has("y") || changed.has("word") || changed.has("entry") || changed.has("openDataEntry")) {
         this.clampPosition();
       }
     }
@@ -2572,9 +2735,10 @@
       if (!word) {
         return;
       }
+      const translation = this.openDataEntry?.translations[0];
       this.dispatchEvent(
         new CustomEvent("open-add-modal", {
-          detail: { word },
+          detail: { word, ...translation ? { translation } : {} },
           bubbles: true,
           composed: true
         })
@@ -2608,9 +2772,21 @@
           </button>
         </header>
 
-        ${this.entry ? b2`<span class="badge badge--${status}">${statusText}</span>` : b2`<p class="no-entry">Esta palabra no está en el diccionario.</p>`}
+        ${this.entry ? b2`<span class="badge badge--${status}">${statusText}</span>` : this.openDataEntry ? b2`<span class="badge badge--opendata">Open Data</span>` : b2`<p class="no-entry">Esta palabra no está en el diccionario.</p>`}
         ${this.entry?.translation ? b2`<p class="translation">${this.entry.translation}</p>` : ""}
         ${this.entry?.note ? b2`<p class="note">${this.entry.note}</p>` : ""}
+        ${!this.entry && this.openDataEntry ? b2`
+              <ul class="translations">
+                ${this.openDataEntry.translations.map((translation) => b2`<li>${translation}</li>`)}
+              </ul>
+              ${this.openDataEntry.partOfSpeech || this.openDataEntry.domains.length ? b2`<p class="note">
+                    ${[
+        this.openDataEntry.partOfSpeech,
+        this.openDataEntry.domains.join(", ")
+      ].filter(Boolean).join(" \xB7 ")}
+                  </p>` : ""}
+              <p class="opendata-source">Fuente: Open Data Euskadi (CC BY 4.0)</p>
+            ` : ""}
         ${this.baseForm && this.word !== this.baseForm && this.suffix && this.cases?.length ? b2`
           <p class="base-form">
             ${this.suffix} (${this.cases[0]})
@@ -2647,6 +2823,9 @@
   __decorateClass([
     n4({ type: Object })
   ], ComponentWordTooltip.prototype, "entry", 2);
+  __decorateClass([
+    n4({ type: Object })
+  ], ComponentWordTooltip.prototype, "openDataEntry", 2);
   __decorateClass([
     n4({ type: Number })
   ], ComponentWordTooltip.prototype, "x", 2);
@@ -3165,6 +3344,7 @@
       this.chapterIndex = 0;
       this.pageIndex = 0;
       this.dictionary = [];
+      this.opendataIndex = /* @__PURE__ */ new Set();
       this.loading = true;
       this.error = "";
       this.showDictForm = false;
@@ -3205,6 +3385,7 @@
       this.error = "";
       this.tooltip = void 0;
       this.tooltipEntry = void 0;
+      this.tooltipOpenDataEntry = void 0;
       this.showDictForm = false;
       this.dictFormEntry = void 0;
       const book = await this.api.getBook(id);
@@ -3213,15 +3394,17 @@
         this.loading = false;
         return;
       }
-      const [chapters, progress, entries] = await Promise.all([
+      const [chapters, progress, entries, opendataIndex] = await Promise.all([
         this.api.getChapters(id),
         this.api.getProgress(id),
-        this.api.getAllEntries()
+        this.api.getAllEntries(),
+        this.api.loadOpenDataIndex()
       ]);
       const lastChapter = Math.max(0, chapters.length - 1);
       this.book = book;
       this.chapters = chapters;
       this.dictionary = entries;
+      this.opendataIndex = opendataIndex;
       this.chapterIndex = Math.min(progress?.chapterIndex ?? 0, lastChapter);
       this.pageIndex = progress?.pageIndex ?? 0;
       this.loading = false;
@@ -3257,25 +3440,34 @@
       const { word, x: x2, y: y3, baseForm, suffix, cases } = event.detail;
       const lookupWord = baseForm ?? word;
       const entry = await this.api.resolveWord(lookupWord);
+      const openDataEntry = entry ? void 0 : await this.api.lookupOpenData(lookupWord);
       this.tooltip = { word, x: x2, y: y3, baseForm, suffix, cases };
       this.tooltipEntry = entry;
+      this.tooltipOpenDataEntry = openDataEntry;
       this.selectedWord = word;
     }
     onTooltipClose() {
       this.tooltip = void 0;
       this.tooltipEntry = void 0;
+      this.tooltipOpenDataEntry = void 0;
     }
     async onTooltipSave(event) {
       const { entry } = event.detail;
       const saved = await this.api.upsertEntry(entry);
       this.tooltipEntry = saved;
+      this.tooltipOpenDataEntry = void 0;
       this.dictionary = await this.api.getAllEntries();
     }
     onOpenAddModal(event) {
-      const { word } = event.detail;
+      const { word, translation } = event.detail;
       this.tooltip = void 0;
       this.tooltipEntry = void 0;
-      this.dictFormEntry = { word, status: "unknown" };
+      this.tooltipOpenDataEntry = void 0;
+      this.dictFormEntry = {
+        word,
+        status: "unknown",
+        ...translation ? { translation } : {}
+      };
       this.showDictForm = true;
     }
     async onDictFormSave(event) {
@@ -3355,6 +3547,7 @@
           <component-text-reader
             .text=${chapter.text}
             .dictionary=${this.dictionary}
+            .opendataIndex=${this.opendataIndex}
             .pageIndex=${this.pageIndex}
             @page-change=${this.onPageChange}
             @word-click=${this.onWordClick}
@@ -3373,6 +3566,7 @@
               <component-word-tooltip
                 .word=${this.tooltip.word}
                 .entry=${this.tooltipEntry}
+                .openDataEntry=${this.tooltipOpenDataEntry}
                 .x=${this.tooltip.x}
                 .y=${this.tooltip.y}
                 .baseForm=${this.tooltip.baseForm}
@@ -3488,10 +3682,16 @@
   ], PageReading.prototype, "dictionary", 2);
   __decorateClass([
     r5()
+  ], PageReading.prototype, "opendataIndex", 2);
+  __decorateClass([
+    r5()
   ], PageReading.prototype, "tooltip", 2);
   __decorateClass([
     r5()
   ], PageReading.prototype, "tooltipEntry", 2);
+  __decorateClass([
+    r5()
+  ], PageReading.prototype, "tooltipOpenDataEntry", 2);
   __decorateClass([
     r5()
   ], PageReading.prototype, "loading", 2);
@@ -3518,6 +3718,8 @@
       saveProgress,
       getAllEntries,
       resolveWord: resolve,
+      loadOpenDataIndex,
+      lookupOpenData,
       upsertEntry
     })
   ], PageReading);

@@ -1,7 +1,7 @@
 import './index';
 import type { Meta, StoryObj } from '@storybook/web-components-vite';
 import { html } from 'lit';
-import type { DictionaryEntry } from '../../shared/types';
+import type { DictionaryEntry, OpenDataEntry } from '../../shared/types';
 
 const knownEntry: DictionaryEntry = {
   word: 'etxe',
@@ -15,6 +15,13 @@ const unknownEntry: DictionaryEntry = {
   status: 'unknown',
   translation: 'libro',
   note: 'Libro. Estoy leyendo un libro en euskera.',
+};
+
+const openDataEntry: OpenDataEntry = {
+  word: 'mendi',
+  translations: ['monte'],
+  partOfSpeech: 'noun',
+  domains: ['General Vocabulary'],
 };
 
 const meta = {
@@ -50,6 +57,17 @@ export const withUnknownEntry: Story = {
 export const withoutEntry: Story = {
   render: () => html`
     <component-word-tooltip word="mendi" x=${120} y=${80}></component-word-tooltip>
+  `,
+};
+
+export const withOpenDataEntry: Story = {
+  render: () => html`
+    <component-word-tooltip
+      word="mendi"
+      .openDataEntry=${openDataEntry}
+      x=${120}
+      y=${80}
+    ></component-word-tooltip>
   `,
 };
 

@@ -1,7 +1,7 @@
 import PageReading from './pageReading';
 import { accessibilityCheck, createComponent } from '../../shared/test-helper';
 import { expect } from '@esm-bundle/chai';
-import type { Book, Chapter, DictionaryEntry, ReadingProgress } from '../../shared/types';
+import type { Book, Chapter, DictionaryEntry, OpenDataEntry, ReadingProgress } from '../../shared/types';
 
 const book: Book = {
   id: 'b1',
@@ -34,6 +34,8 @@ interface PageReadingApi {
   saveProgress: (progress: ReadingProgress) => Promise<void>;
   getAllEntries: () => Promise<DictionaryEntry[]>;
   resolveWord: (word: string) => Promise<DictionaryEntry | undefined>;
+  loadOpenDataIndex: () => Promise<ReadonlySet<string>>;
+  lookupOpenData: (word: string) => Promise<OpenDataEntry | undefined>;
   upsertEntry: (entry: DictionaryEntry) => Promise<DictionaryEntry>;
 }
 
@@ -44,6 +46,8 @@ const defaultApi = (): PageReadingApi => ({
   saveProgress: async () => undefined,
   getAllEntries: async () => [],
   resolveWord: async () => undefined,
+  loadOpenDataIndex: async () => new Set(),
+  lookupOpenData: async () => undefined,
   upsertEntry: async entry => entry,
 });
 
@@ -213,6 +217,65 @@ describe('page-reading Component Spec:', () => {
     expect(tooltipEl()?.shadowRoot?.querySelector('.no-entry')?.textContent).to.include(
       'no está en el diccionario'
     );
+  });
+
+  it('opens the tooltip with an Open Data entry when the word is not personal', async () => {
+    const api: PageReadingApi = {
+      ...defaultApi(),
+      loadOpenDataIndex: async () => new Set(['etxe']),
+      lookupOpenData: async word =>
+        word === 'etxe'
+          ? { word: 'etxe', translations: ['casa'], partOfSpeech: 'noun', domains: [] }
+          : undefined,
+    };
+    await createPage(api);
+    await waitFor(() => shadow.querySelector('component-text-reader') !== null);
+    readerEl().dispatchEvent(
+      new CustomEvent('word-click', {
+        detail: { word: 'etxean', baseForm: 'etxe', suffix: '-ean', cases: ['Inesivo'], x: 100, y: 200 },
+        bubbles: true,
+        composed: true,
+      })
+    );
+    await waitFor(() => tooltipEl() !== null);
+    await waitFor(() => tooltipTitle().includes('etxe'));
+    expect(tooltipEl()?.shadowRoot?.querySelector('.badge')?.textContent).to.equal('Open Data');
+    expect(tooltipEl()?.shadowRoot?.querySelector('.translations')?.textContent).to.include('casa');
+  });
+
+  it('pre-fills the dictionary form with the Open Data translation', async () => {
+    const api: PageReadingApi = {
+      ...defaultApi(),
+      loadOpenDataIndex: async () => new Set(['etxe']),
+      lookupOpenData: async () => ({ word: 'etxe', translations: ['casa'], domains: [] }),
+    };
+    await createPage(api);
+    await waitFor(() => shadow.querySelector('component-text-reader') !== null);
+    readerEl().dispatchEvent(
+      new CustomEvent('word-click', {
+        detail: { word: 'etxe', x: 100, y: 200 },
+        bubbles: true,
+        composed: true,
+      })
+    );
+    await waitFor(() => tooltipEl() !== null);
+
+    const tooltip = tooltipEl() as unknown as { shadowRoot: ShadowRoot };
+    const addButton = Array.from(tooltip.shadowRoot.querySelectorAll('button')).find(
+      btn => btn.textContent?.trim() === 'Añadir al diccionario'
+    ) as HTMLButtonElement;
+    addButton.click();
+
+    await waitFor(() => {
+      const form = shadow.querySelector('component-dictionary-form') as HTMLElement & {
+        entry?: DictionaryEntry;
+      };
+      return form?.hasAttribute('open') && form.entry?.translation === 'casa';
+    });
+    const form = shadow.querySelector('component-dictionary-form') as HTMLElement & {
+      entry?: DictionaryEntry;
+    };
+    expect(form.entry).to.deep.equal({ word: 'etxe', status: 'unknown', translation: 'casa' });
   });
 
   it('closes the tooltip on the close event', async () => {

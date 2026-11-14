@@ -93,6 +93,10 @@ await asyncForEach(glob.sync('./src/components/**/index.ts'), async file => {
 });
 
 
+fs.mkdirSync('./gh-pages/opendata/eu-esp', { recursive: true });
+fs.cpSync('./opendata/eu-esp', './gh-pages/opendata/eu-esp', { recursive: true });
+console.log('\x1b[32m%s\x1b[36m%s\x1b[0m', '[opendata]:  ', ' gh-pages/opendata/eu-esp');
+
 fs.copyFile(`./dist/components/pageHiztegiApp/${finalVersion}/pageHiztegiApp.js`, './gh-pages/pageHiztegiApp.js', err => {
   if (err) {
     console.log('\x1b[32m%s\x1b[0m', '\n-----------------------------');
