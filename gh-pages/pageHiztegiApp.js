@@ -2312,12 +2312,14 @@
       const lower = word.toLocaleLowerCase();
       const directMap = this.directMap;
       let baseForm;
+      let suffix;
       let cases;
       if (!directMap.has(lower)) {
         const matches = detectSuffixes(lower);
         for (const match of matches) {
           if (directMap.has(match.baseForm)) {
             baseForm = match.baseForm;
+            suffix = match.suffix;
             cases = match.cases.map((c4) => c4.caseName);
             break;
           }
@@ -2329,7 +2331,7 @@
             word,
             x: rect.left + rect.width / 2,
             y: rect.bottom,
-            ...baseForm ? { baseForm, cases } : {}
+            ...baseForm ? { baseForm, suffix, cases } : {}
           },
           bubbles: true,
           composed: true
@@ -2591,12 +2593,12 @@
       <div
         class="tooltip"
         role="dialog"
-        aria-label="Detalle de la palabra ${this.word ?? ""}"
+        aria-label="Detalle de la palabra ${this.baseForm ?? this.word ?? ""}"
         tabindex="-1"
         style="left: ${this.position.left}px; top: ${this.position.top}px;"
       >
         <header class="tooltip-header">
-          <h3>${this.word ?? ""}</h3>
+          <h3>${this.baseForm ? b2`${this.word} → ${this.baseForm}` : this.word ?? ""}</h3>
           <button
             class="hzt-button hzt-button--text close-button"
             aria-label="Cerrar"
@@ -2609,9 +2611,9 @@
         ${this.entry ? b2`<span class="badge badge--${status}">${statusText}</span>` : b2`<p class="no-entry">Esta palabra no está en el diccionario.</p>`}
         ${this.entry?.translation ? b2`<p class="translation">${this.entry.translation}</p>` : ""}
         ${this.entry?.note ? b2`<p class="note">${this.entry.note}</p>` : ""}
-        ${this.baseForm ? b2`
+        ${this.baseForm && this.word !== this.baseForm && this.suffix && this.cases?.length ? b2`
           <p class="base-form">
-            Forma base: <strong>${this.baseForm}</strong>${this.suffix && this.cases?.length ? b2` · ${this.cases[0]} (${this.suffix})` : ""}
+            ${this.suffix} (${this.cases[0]})
           </p>
         ` : ""}
 
@@ -2973,6 +2975,187 @@
   // src/components/componentDictionaryForm/index.ts
   register("component-dictionary-form", ComponentDictionaryForm);
 
+  // src/components/componentIframePanel/componentIframePanel.ts
+  var ITZULI_URL = "https://www.euskara.euskadi.eus/itzuli/";
+  var STORAGE_KEY = "hiztegi-itzuli-panel-open";
+  var ComponentIframePanel = class extends i4 {
+    constructor() {
+      super(...arguments);
+      this.open = false;
+      this.word = "";
+      this.searchWord = "";
+      this.iframeSrc = ITZULI_URL;
+    }
+    static {
+      this.styles = [
+        styles.hostStyle,
+        styles.designTokens,
+        styles.themeTokens,
+        styles.accentTokens,
+        styles.buttonStyle,
+        i`
+      :host {
+        display: block;
+        height: 100%;
+      }
+
+      .panel {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        border-left: var(--hzt-border-panel) solid var(--hzt-ink);
+        background: var(--hzt-panel);
+      }
+
+      .panel-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.5rem 0.75rem;
+        border-bottom: var(--hzt-border-panel) solid var(--hzt-ink);
+        background: var(--hzt-well);
+      }
+
+      .panel-header h3 {
+        margin: 0;
+        font-size: var(--hzt-size-stamp);
+      }
+
+      .search-container {
+        display: flex;
+        gap: 0.5rem;
+        padding: 0.5rem 0.75rem;
+        border-bottom: var(--hzt-border-panel) solid var(--hzt-ink);
+      }
+
+      .search-input {
+        flex: 1;
+        padding: 0.35rem 0.5rem;
+        border: var(--hzt-border-chip) solid var(--hzt-ink);
+        background: var(--hzt-panel);
+        font-family: var(--hzt-font-body);
+        font-size: var(--hzt-size-body);
+      }
+
+      .search-input:focus {
+        outline: var(--hzt-border-chip) solid var(--hzt-accent);
+      }
+
+      .iframe-container {
+        flex: 1;
+        overflow: hidden;
+      }
+
+      .iframe-container iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+    `
+      ];
+    }
+    connectedCallback() {
+      super.connectedCallback();
+      this.loadState();
+    }
+    updated(changed) {
+      if (changed.has("word") && this.word) {
+        this.searchWord = this.word;
+        this.updateIframeSrc();
+      }
+    }
+    loadState() {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved !== null) {
+        this.open = saved === "true";
+      }
+    }
+    saveState() {
+      localStorage.setItem(STORAGE_KEY, String(this.open));
+    }
+    togglePanel() {
+      this.open = !this.open;
+      this.saveState();
+      this.dispatchEvent(
+        new CustomEvent("toggle", {
+          detail: { open: this.open },
+          bubbles: true,
+          composed: true
+        })
+      );
+    }
+    onSearchInput(event) {
+      this.searchWord = event.target.value;
+    }
+    onSearchKeydown(event) {
+      if (event.key === "Enter") {
+        this.updateIframeSrc();
+      }
+    }
+    onSearchClick() {
+      this.updateIframeSrc();
+    }
+    updateIframeSrc() {
+      if (this.searchWord.trim()) {
+        this.iframeSrc = `${ITZULI_URL}?q=${encodeURIComponent(this.searchWord.trim())}`;
+      }
+    }
+    render() {
+      if (!this.open) {
+        return b2``;
+      }
+      return b2`
+      <div class="panel">
+        <header class="panel-header">
+          <h3>Itzuli</h3>
+          <button
+            class="hzt-button hzt-button--text"
+            aria-label="Cerrar panel"
+            @click=${this.togglePanel}
+          >
+            ×
+          </button>
+        </header>
+        <div class="search-container">
+          <input
+            class="search-input"
+            type="text"
+            placeholder="Bilatu hitza..."
+            .value=${this.searchWord}
+            @input=${this.onSearchInput}
+            @keydown=${this.onSearchKeydown}
+          />
+          <button class="hzt-button hzt-button--primary" @click=${this.onSearchClick}>
+            Bilatu
+          </button>
+        </div>
+        <div class="iframe-container">
+          <iframe
+            src=${this.iframeSrc}
+            title="Itzuli - Euskara hiztegia"
+            sandbox="allow-same-origin allow-scripts allow-forms"
+          ></iframe>
+        </div>
+      </div>
+    `;
+    }
+  };
+  __decorateClass([
+    n4({ type: Boolean })
+  ], ComponentIframePanel.prototype, "open", 2);
+  __decorateClass([
+    n4({ type: String })
+  ], ComponentIframePanel.prototype, "word", 2);
+  __decorateClass([
+    r5()
+  ], ComponentIframePanel.prototype, "searchWord", 2);
+  __decorateClass([
+    r5()
+  ], ComponentIframePanel.prototype, "iframeSrc", 2);
+
+  // src/components/componentIframePanel/index.ts
+  register("component-iframe-panel", ComponentIframePanel);
+
   // src/components/pageReading/pageReading.ts
   var PageReading = class extends Page {
     constructor() {
@@ -2985,6 +3168,8 @@
       this.loading = true;
       this.error = "";
       this.showDictForm = false;
+      this.showItzuliPanel = false;
+      this.selectedWord = "";
       this.loadStarted = false;
     }
     willUpdate(changed) {
@@ -3069,10 +3254,12 @@
       await this.persistProgress();
     }
     async onWordClick(event) {
-      const { word, x: x2, y: y3, baseForm, cases } = event.detail;
-      const entry = await this.api.resolveWord(word);
-      this.tooltip = { word, x: x2, y: y3, baseForm, cases };
+      const { word, x: x2, y: y3, baseForm, suffix, cases } = event.detail;
+      const lookupWord = baseForm ?? word;
+      const entry = await this.api.resolveWord(lookupWord);
+      this.tooltip = { word, x: x2, y: y3, baseForm, suffix, cases };
       this.tooltipEntry = entry;
+      this.selectedWord = word;
     }
     onTooltipClose() {
       this.tooltip = void 0;
@@ -3102,6 +3289,14 @@
     onDictFormClose() {
       this.showDictForm = false;
       this.dictFormEntry = void 0;
+    }
+    toggleItzuliPanel() {
+      this.showItzuliPanel = !this.showItzuliPanel;
+      localStorage.setItem("hiztegi-itzuli-panel-open", String(this.showItzuliPanel));
+    }
+    onItzuliToggle(event) {
+      const { open: open2 } = event.detail;
+      this.showItzuliPanel = open2;
     }
     render() {
       if (this.error) {
@@ -3147,16 +3342,32 @@
             >
               Capítulo siguiente
             </button>
+            <button
+              class="hzt-button ${this.showItzuliPanel ? "hzt-button--primary" : ""}"
+              @click=${this.toggleItzuliPanel}
+            >
+              Itzuli
+            </button>
           </div>
         </header>
 
-        <component-text-reader
-          .text=${chapter.text}
-          .dictionary=${this.dictionary}
-          .pageIndex=${this.pageIndex}
-          @page-change=${this.onPageChange}
-          @word-click=${this.onWordClick}
-        ></component-text-reader>
+        <div class="reading-content">
+          <component-text-reader
+            .text=${chapter.text}
+            .dictionary=${this.dictionary}
+            .pageIndex=${this.pageIndex}
+            @page-change=${this.onPageChange}
+            @word-click=${this.onWordClick}
+          ></component-text-reader>
+
+          ${this.showItzuliPanel ? b2`
+                <component-iframe-panel
+                  .open=${this.showItzuliPanel}
+                  .word=${this.selectedWord}
+                  @toggle=${this.onItzuliToggle}
+                ></component-iframe-panel>
+              ` : ""}
+        </div>
 
         ${this.tooltip ? b2`
               <component-word-tooltip
@@ -3165,6 +3376,7 @@
                 .x=${this.tooltip.x}
                 .y=${this.tooltip.y}
                 .baseForm=${this.tooltip.baseForm}
+                .suffix=${this.tooltip.suffix}
                 .cases=${this.tooltip.cases}
                 @save-entry=${this.onTooltipSave}
                 @open-add-modal=${this.onOpenAddModal}
@@ -3232,6 +3444,21 @@
         color: var(--hzt-muted);
       }
 
+      .reading-content {
+        display: flex;
+        gap: 1rem;
+        min-height: 400px;
+      }
+
+      .reading-content > :first-child {
+        flex: 1;
+      }
+
+      .reading-content > component-iframe-panel {
+        width: 350px;
+        flex-shrink: 0;
+      }
+
       .empty {
         color: var(--hzt-muted);
       }
@@ -3277,6 +3504,12 @@
   __decorateClass([
     r5()
   ], PageReading.prototype, "dictFormEntry", 2);
+  __decorateClass([
+    r5()
+  ], PageReading.prototype, "showItzuliPanel", 2);
+  __decorateClass([
+    r5()
+  ], PageReading.prototype, "selectedWord", 2);
   PageReading = __decorateClass([
     api({
       getBook,

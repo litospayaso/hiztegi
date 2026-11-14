@@ -10,6 +10,7 @@ import Page from '../../shared/page';
 import '../componentTextReader/index';
 import '../componentWordTooltip/index';
 import '../componentDictionaryForm/index';
+import '../componentIframePanel/index';
 
 interface PageReadingApi {
   getBook: typeof getBook;
@@ -26,6 +27,7 @@ interface WordTooltipData {
   x: number;
   y: number;
   baseForm?: string;
+  suffix?: string;
   cases?: string[];
 }
 
@@ -89,6 +91,21 @@ export default class PageReading extends Page<PageReadingApi> {
         color: var(--hzt-muted);
       }
 
+      .reading-content {
+        display: flex;
+        gap: 1rem;
+        min-height: 400px;
+      }
+
+      .reading-content > :first-child {
+        flex: 1;
+      }
+
+      .reading-content > component-iframe-panel {
+        width: 350px;
+        flex-shrink: 0;
+      }
+
       .empty {
         color: var(--hzt-muted);
       }
@@ -134,6 +151,12 @@ export default class PageReading extends Page<PageReadingApi> {
 
   @state()
   private dictFormEntry?: DictionaryEntry;
+
+  @state()
+  private showItzuliPanel = false;
+
+  @state()
+  private selectedWord = '';
 
   private loadStarted = false;
 
@@ -229,10 +252,12 @@ export default class PageReading extends Page<PageReadingApi> {
   }
 
   private async onWordClick(event: Event): Promise<void> {
-    const { word, x, y, baseForm, cases } = (event as CustomEvent<{ word: string; x: number; y: number; baseForm?: string; cases?: string[] }>).detail;
-    const entry = await this.api.resolveWord(word);
-    this.tooltip = { word, x, y, baseForm, cases };
+    const { word, x, y, baseForm, suffix, cases } = (event as CustomEvent<{ word: string; x: number; y: number; baseForm?: string; suffix?: string; cases?: string[] }>).detail;
+    const lookupWord = baseForm ?? word;
+    const entry = await this.api.resolveWord(lookupWord);
+    this.tooltip = { word, x, y, baseForm, suffix, cases };
     this.tooltipEntry = entry;
+    this.selectedWord = word;
   }
 
   private onTooltipClose(): void {
@@ -267,6 +292,16 @@ export default class PageReading extends Page<PageReadingApi> {
   private onDictFormClose(): void {
     this.showDictForm = false;
     this.dictFormEntry = undefined;
+  }
+
+  private toggleItzuliPanel(): void {
+    this.showItzuliPanel = !this.showItzuliPanel;
+    localStorage.setItem('hiztegi-itzuli-panel-open', String(this.showItzuliPanel));
+  }
+
+  private onItzuliToggle(event: Event): void {
+    const { open } = (event as CustomEvent<{ open: boolean }>).detail;
+    this.showItzuliPanel = open;
   }
 
   render() {
@@ -314,16 +349,34 @@ export default class PageReading extends Page<PageReadingApi> {
             >
               Capítulo siguiente
             </button>
+            <button
+              class="hzt-button ${this.showItzuliPanel ? 'hzt-button--primary' : ''}"
+              @click=${this.toggleItzuliPanel}
+            >
+              Itzuli
+            </button>
           </div>
         </header>
 
-        <component-text-reader
-          .text=${chapter.text}
-          .dictionary=${this.dictionary}
-          .pageIndex=${this.pageIndex}
-          @page-change=${this.onPageChange}
-          @word-click=${this.onWordClick}
-        ></component-text-reader>
+        <div class="reading-content">
+          <component-text-reader
+            .text=${chapter.text}
+            .dictionary=${this.dictionary}
+            .pageIndex=${this.pageIndex}
+            @page-change=${this.onPageChange}
+            @word-click=${this.onWordClick}
+          ></component-text-reader>
+
+          ${this.showItzuliPanel
+            ? html`
+                <component-iframe-panel
+                  .open=${this.showItzuliPanel}
+                  .word=${this.selectedWord}
+                  @toggle=${this.onItzuliToggle}
+                ></component-iframe-panel>
+              `
+            : ''}
+        </div>
 
         ${this.tooltip
           ? html`
@@ -333,6 +386,7 @@ export default class PageReading extends Page<PageReadingApi> {
                 .x=${this.tooltip.x}
                 .y=${this.tooltip.y}
                 .baseForm=${this.tooltip.baseForm}
+                .suffix=${this.tooltip.suffix}
                 .cases=${this.tooltip.cases}
                 @save-entry=${this.onTooltipSave}
                 @open-add-modal=${this.onOpenAddModal}

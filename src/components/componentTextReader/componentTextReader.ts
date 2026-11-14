@@ -136,24 +136,26 @@ export default class ComponentTextReader extends LitElement {
     const lower = word.toLocaleLowerCase();
     const directMap = this.directMap;
     let baseForm: string | undefined;
+    let suffix: string | undefined;
     let cases: string[] | undefined;
     if (!directMap.has(lower)) {
       const matches = detectSuffixes(lower);
       for (const match of matches) {
         if (directMap.has(match.baseForm)) {
           baseForm = match.baseForm;
+          suffix = match.suffix;
           cases = match.cases.map(c => c.caseName);
           break;
         }
       }
     }
     this.dispatchEvent(
-      new CustomEvent<{ word: string; x: number; y: number; baseForm?: string; cases?: string[] }>('word-click', {
+      new CustomEvent<{ word: string; x: number; y: number; baseForm?: string; suffix?: string; cases?: string[] }>('word-click', {
         detail: {
           word,
           x: rect.left + rect.width / 2,
           y: rect.bottom,
-          ...(baseForm ? { baseForm, cases } : {}),
+          ...(baseForm ? { baseForm, suffix, cases } : {}),
         },
         bubbles: true,
         composed: true,

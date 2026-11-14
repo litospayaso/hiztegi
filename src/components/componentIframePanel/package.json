@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "component-iframe-panel",
+  "version": "0.0.1",
+  "description": "Collapsible side panel with Itzuli iframe for Basque dictionary lookup",
+  "author": "Angel Hita",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tx2z/wc-base-typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tx2z/wc-base-typescript/issues"
+  },
+  "homepage": "https://github.com/tx2z/wc-base-typescript"
+}

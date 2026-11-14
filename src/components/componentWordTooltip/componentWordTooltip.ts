@@ -250,12 +250,12 @@ export default class ComponentWordTooltip extends LitElement {
       <div
         class="tooltip"
         role="dialog"
-        aria-label="Detalle de la palabra ${this.word ?? ''}"
+        aria-label="Detalle de la palabra ${this.baseForm ?? this.word ?? ''}"
         tabindex="-1"
         style="left: ${this.position.left}px; top: ${this.position.top}px;"
       >
         <header class="tooltip-header">
-          <h3>${this.word ?? ''}</h3>
+          <h3>${this.baseForm ? html`${this.word} → ${this.baseForm}` : (this.word ?? '')}</h3>
           <button
             class="hzt-button hzt-button--text close-button"
             aria-label="Cerrar"
@@ -270,9 +270,9 @@ export default class ComponentWordTooltip extends LitElement {
           : html`<p class="no-entry">Esta palabra no está en el diccionario.</p>`}
         ${this.entry?.translation ? html`<p class="translation">${this.entry.translation}</p>` : ''}
         ${this.entry?.note ? html`<p class="note">${this.entry.note}</p>` : ''}
-        ${this.baseForm ? html`
+        ${this.baseForm && this.word !== this.baseForm && this.suffix && this.cases?.length ? html`
           <p class="base-form">
-            Forma base: <strong>${this.baseForm}</strong>${this.suffix && this.cases?.length ? html` · ${this.cases[0]} (${this.suffix})` : ''}
+            ${this.suffix} (${this.cases[0]})
           </p>
         ` : ''}
 

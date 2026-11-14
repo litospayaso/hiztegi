@@ -67,6 +67,14 @@ describe('component-word-tooltip Component Spec:', () => {
     expect(shadow.querySelector('h3')?.textContent).to.equal('etxe');
   });
 
+  it('renders both words with arrow when baseForm is present', async () => {
+    await createTooltip('ospitalera', knownEntry, 40, 40, 'ospital', '-era', ['Adlativo']);
+    const h3 = shadow.querySelector('h3');
+    expect(h3?.textContent).to.include('ospitalera');
+    expect(h3?.textContent).to.include('→');
+    expect(h3?.textContent).to.include('ospital');
+  });
+
   it('renders the known badge, translation and note', async () => {
     await createTooltip('etxe', knownEntry);
     expect(shadow.querySelector('.badge')?.textContent).to.equal('Conocida');
@@ -194,9 +202,9 @@ describe('component-word-tooltip Component Spec:', () => {
     expect(saved).to.be.false;
   });
 
-  it('shows the base form when present', async () => {
+  it('shows the base form in the header when present', async () => {
     await createTooltip('etxean', { word: 'etxean', status: 'known' }, 40, 40, 'etxe');
-    expect(shadow.querySelector('.base-form')?.textContent).to.include('etxe');
+    expect(shadow.querySelector('h3')?.textContent).to.include('etxe');
   });
 
   it('does not show base form when absent', async () => {
@@ -207,20 +215,24 @@ describe('component-word-tooltip Component Spec:', () => {
   it('shows suffix and case info with base form', async () => {
     await createTooltip(
       'etxera',
-      { word: 'etxera', status: 'known' },
+      { word: 'etxe', status: 'known' },
       40, 40,
       'etxe', '-ra', ['Adlativo']
     );
     const baseFormEl = shadow.querySelector('.base-form');
-    expect(baseFormEl?.textContent).to.include('etxe');
-    expect(baseFormEl?.textContent).to.include('Adlativo');
     expect(baseFormEl?.textContent).to.include('-ra');
+    expect(baseFormEl?.textContent).to.include('Adlativo');
   });
 
   it('shows base form without suffix info when suffix is absent', async () => {
-    await createTooltip('etxean', { word: 'etxean', status: 'known' }, 40, 40, 'etxe');
+    await createTooltip('etxean', { word: 'etxe', status: 'known' }, 40, 40, 'etxe');
     const baseFormEl = shadow.querySelector('.base-form');
-    expect(baseFormEl?.textContent).to.include('etxe');
-    expect(baseFormEl?.textContent).to.not.include('·');
+    expect(baseFormEl).to.equal(null);
+  });
+
+  it('does not show base form when word equals baseForm', async () => {
+    await createTooltip('etxe', knownEntry, 40, 40, 'etxe');
+    const baseFormEl = shadow.querySelector('.base-form');
+    expect(baseFormEl).to.equal(null);
   });
 });
