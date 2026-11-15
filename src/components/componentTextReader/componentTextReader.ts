@@ -11,6 +11,7 @@ export interface ComponentTextReaderInterface {
   text?: string;
   dictionary?: DictionaryEntry[];
   opendataIndex?: ReadonlySet<string>;
+  verbIndex?: ReadonlySet<string>;
   pageSize?: number;
   pageIndex?: number;
 }
@@ -59,6 +60,12 @@ export default class ComponentTextReader extends LitElement {
         box-shadow: 2px 2px 0 var(--hzt-shadow);
       }
 
+      .word--verb {
+        background: var(--hzt-verb);
+        color: var(--hzt-on-verb);
+        box-shadow: 2px 2px 0 var(--hzt-shadow);
+      }
+
       .controls {
         display: flex;
         align-items: center;
@@ -84,6 +91,9 @@ export default class ComponentTextReader extends LitElement {
 
   @property({ type: Object })
   opendataIndex: ReadonlySet<string> = new Set();
+
+  @property({ type: Object })
+  verbIndex: ReadonlySet<string> = new Set();
 
   @property({ type: Number })
   pageSize = 100;
@@ -131,6 +141,14 @@ export default class ComponentTextReader extends LitElement {
       return { status: personal };
     }
 
+    if (this.verbIndex.has(lower)) {
+      return { status: 'verb' };
+    }
+
+    if (this.opendataIndex.has(lower)) {
+      return { status: 'opendata' };
+    }
+
     const matches = detectSuffixes(lower);
     for (const match of matches) {
       const status = directMap.get(match.baseForm);
@@ -144,9 +162,6 @@ export default class ComponentTextReader extends LitElement {
       }
     }
 
-    if (this.opendataIndex.has(lower)) {
-      return { status: 'opendata' };
-    }
     for (const match of matches) {
       if (this.opendataIndex.has(match.baseForm)) {
         return {

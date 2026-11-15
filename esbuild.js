@@ -93,9 +93,11 @@ await asyncForEach(glob.sync('./src/components/**/index.ts'), async file => {
 });
 
 
-fs.mkdirSync('./gh-pages/opendata/eu-esp', { recursive: true });
-fs.cpSync('./opendata/eu-esp', './gh-pages/opendata/eu-esp', { recursive: true });
-console.log('\x1b[32m%s\x1b[36m%s\x1b[0m', '[opendata]:  ', ' gh-pages/opendata/eu-esp');
+for (const source of ['eu-esp', 'verbs']) {
+  fs.mkdirSync(`./gh-pages/opendata/${source}`, { recursive: true });
+  fs.cpSync(`./opendata/${source}`, `./gh-pages/opendata/${source}`, { recursive: true });
+  console.log('\x1b[32m%s\x1b[36m%s\x1b[0m', '[opendata]:  ', ` gh-pages/opendata/${source}`);
+}
 
 fs.copyFile(`./dist/components/pageHiztegiApp/${finalVersion}/pageHiztegiApp.js`, './gh-pages/pageHiztegiApp.js', err => {
   if (err) {

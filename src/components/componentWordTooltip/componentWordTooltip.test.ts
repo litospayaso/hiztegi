@@ -1,13 +1,29 @@
 import ComponentWordTooltip from './componentWordTooltip';
 import { accessibilityCheck, createComponent } from '../../shared/test-helper';
 import { expect } from '@esm-bundle/chai';
-import type { DictionaryEntry, OpenDataEntry } from '../../shared/types';
+import type { DictionaryEntry, OpenDataEntry, VerbEntry } from '../../shared/types';
 
 const knownEntry: DictionaryEntry = {
   word: 'etxe',
   status: 'known',
   translation: 'casa',
   note: 'Casa. Vive en una casa grande.',
+};
+
+const verbEntry: VerbEntry = {
+  word: 'dut',
+  analyses: [
+    {
+      lemma: 'edun',
+      kind: 'auxiliary',
+      paradigm: 'nor-nork',
+      tense: 'orain',
+      mode: 'ahala',
+      persons: { nor: 'hura', nork: 'nik' },
+      meaning: 'tener/haber',
+      source: { page: 47, table: 'A-1' },
+    },
+  ],
 };
 
 describe('component-word-tooltip Component Spec:', () => {
@@ -28,7 +44,8 @@ describe('component-word-tooltip Component Spec:', () => {
     baseForm?: string,
     suffix?: string,
     cases?: string[],
-    openDataEntry?: OpenDataEntry
+    openDataEntry?: OpenDataEntry,
+    verbEntry?: VerbEntry
   ): Promise<ComponentWordTooltip> => {
     const component = await createComponent({
       class: ComponentWordTooltip,
@@ -40,6 +57,7 @@ describe('component-word-tooltip Component Spec:', () => {
     tooltip.word = word;
     tooltip.entry = entry;
     tooltip.openDataEntry = openDataEntry;
+    tooltip.verbEntry = verbEntry;
     tooltip.x = x;
     tooltip.y = y;
     tooltip.baseForm = baseForm;
@@ -237,6 +255,47 @@ describe('component-word-tooltip Component Spec:', () => {
     expect(shadow.querySelector('.note')?.textContent).to.include('noun');
     expect(shadow.querySelector('.opendata-source')?.textContent).to.include('CC BY 4.0');
     expect(shadow.querySelector('.no-entry')).to.equal(null);
+  });
+
+  it('renders the verb badge, analysis tags and source', async () => {
+    await createTooltip(
+      'dut',
+      undefined,
+      40,
+      40,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      verbEntry
+    );
+    expect(shadow.querySelector('.badge')?.textContent).to.equal('Verbo');
+    expect(shadow.querySelector('.badge')?.classList.contains('badge--verb')).to.be.true;
+    expect(shadow.querySelector('.verb-lemma')?.textContent).to.include('edun');
+    expect(shadow.querySelector('.verb-lemma')?.textContent).to.include('tener/haber');
+    const tags = shadow.querySelector('.verb-tags')?.textContent ?? '';
+    expect(tags).to.include('nor-nork');
+    expect(tags).to.include('presente');
+    expect(tags).to.include('nor: hura');
+    expect(tags).to.include('nork: nik');
+    expect(shadow.querySelector('.verb-source')?.textContent).to.include('p. 47');
+    expect(shadow.querySelector('.no-entry')).to.equal(null);
+  });
+
+  it('prefers a personal entry over a verb entry', async () => {
+    await createTooltip(
+      'dut',
+      knownEntry,
+      40,
+      40,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      verbEntry
+    );
+    expect(shadow.querySelector('.badge')?.textContent).to.equal('Conocida');
+    expect(shadow.querySelector('.verb-analyses')).to.equal(null);
   });
 
   it('prefers a personal entry over an Open Data entry', async () => {

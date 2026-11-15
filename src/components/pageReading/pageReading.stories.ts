@@ -1,7 +1,7 @@
 import './index';
 import type { Meta, StoryObj } from '@storybook/web-components-vite';
 import { overrideApi } from '../../shared/test-helper';
-import type { Book, Chapter, DictionaryEntry, OpenDataEntry } from '../../shared/types';
+import type { Book, Chapter, DictionaryEntry, OpenDataEntry, VerbEntry } from '../../shared/types';
 
 const book: Book = {
   id: 'b1',
@@ -46,6 +46,25 @@ const api = {
   lookupOpenData: async (word: string): Promise<OpenDataEntry | undefined> =>
     word === 'mendi'
       ? { word, translations: ['monte'], partOfSpeech: 'noun', domains: ['General Vocabulary'] }
+      : undefined,
+  loadVerbIndex: async (): Promise<ReadonlySet<string>> => new Set(['dute', 'da', 'dira']),
+  lookupVerb: async (word: string): Promise<VerbEntry | undefined> =>
+    word === 'dute'
+      ? {
+          word,
+          analyses: [
+            {
+              lemma: 'edun',
+              kind: 'auxiliary',
+              paradigm: 'nor-nork',
+              tense: 'orain',
+              mode: 'ahala',
+              persons: { nor: 'hura', nork: 'haiek' },
+              meaning: 'tener/haber',
+              source: { page: 47, table: 'A-1' },
+            },
+          ],
+        }
       : undefined,
   upsertEntry: async (entry: DictionaryEntry): Promise<DictionaryEntry> => entry,
 };

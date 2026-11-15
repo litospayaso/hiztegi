@@ -17,7 +17,8 @@ describe('component-text-reader Component Spec:', () => {
     text: string,
     dictionary: DictionaryEntry[] = [],
     pageSize = 2,
-    opendataIndex: ReadonlySet<string> = new Set()
+    opendataIndex: ReadonlySet<string> = new Set(),
+    verbIndex: ReadonlySet<string> = new Set()
   ): Promise<ComponentTextReader> => {
     const component = await createComponent({
       class: ComponentTextReader,
@@ -29,6 +30,7 @@ describe('component-text-reader Component Spec:', () => {
     reader.text = text;
     reader.dictionary = dictionary;
     reader.opendataIndex = opendataIndex;
+    reader.verbIndex = verbIndex;
     reader.pageSize = pageSize;
     await reader.updateComplete;
     return reader;
@@ -75,6 +77,28 @@ describe('component-text-reader Component Spec:', () => {
     expect(words()[0].classList.contains('word--known')).to.be.true;
     expect(words()[1].classList.contains('word--unknown')).to.be.true;
     expect(words()[2].className).to.equal('word');
+  });
+
+  it('marks verb forms and prefers them over Open Data', async () => {
+    await createReader(
+      'dut etxe da',
+      [
+        { word: 'etxe', status: 'known' },
+        { word: 'da', status: 'known' },
+      ],
+      3,
+      new Set(['da']),
+      new Set(['dut', 'da'])
+    );
+    expect(words()[0].classList.contains('word--verb')).to.be.true;
+    expect(words()[1].classList.contains('word--known')).to.be.true;
+    expect(words()[2].classList.contains('word--known')).to.be.true;
+    expect(words()[2].classList.contains('word--verb')).to.be.false;
+  });
+
+  it('marks exact verb forms before declined Open Data words', async () => {
+    await createReader('etxean da', [], 2, new Set(['etxe']), new Set(['etxean']));
+    expect(words()[0].classList.contains('word--verb')).to.be.true;
   });
 
   it('paginates by word count', async () => {

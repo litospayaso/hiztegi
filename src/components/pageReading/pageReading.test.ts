@@ -1,7 +1,14 @@
 import PageReading from './pageReading';
 import { accessibilityCheck, createComponent } from '../../shared/test-helper';
 import { expect } from '@esm-bundle/chai';
-import type { Book, Chapter, DictionaryEntry, OpenDataEntry, ReadingProgress } from '../../shared/types';
+import type {
+  Book,
+  Chapter,
+  DictionaryEntry,
+  OpenDataEntry,
+  ReadingProgress,
+  VerbEntry,
+} from '../../shared/types';
 
 const book: Book = {
   id: 'b1',
@@ -36,6 +43,8 @@ interface PageReadingApi {
   resolveWord: (word: string) => Promise<DictionaryEntry | undefined>;
   loadOpenDataIndex: () => Promise<ReadonlySet<string>>;
   lookupOpenData: (word: string) => Promise<OpenDataEntry | undefined>;
+  loadVerbIndex: () => Promise<ReadonlySet<string>>;
+  lookupVerb: (word: string) => Promise<VerbEntry | undefined>;
   upsertEntry: (entry: DictionaryEntry) => Promise<DictionaryEntry>;
 }
 
@@ -48,6 +57,8 @@ const defaultApi = (): PageReadingApi => ({
   resolveWord: async () => undefined,
   loadOpenDataIndex: async () => new Set(),
   lookupOpenData: async () => undefined,
+  loadVerbIndex: async () => new Set(),
+  lookupVerb: async () => undefined,
   upsertEntry: async entry => entry,
 });
 
@@ -241,6 +252,48 @@ describe('page-reading Component Spec:', () => {
     await waitFor(() => tooltipTitle().includes('etxe'));
     expect(tooltipEl()?.shadowRoot?.querySelector('.badge')?.textContent).to.equal('Open Data');
     expect(tooltipEl()?.shadowRoot?.querySelector('.translations')?.textContent).to.include('casa');
+  });
+
+  it('shows verb analyses and prefers them over Open Data', async () => {
+    const verbEntry: VerbEntry = {
+      word: 'dut',
+      analyses: [
+        {
+          lemma: 'edun',
+          kind: 'auxiliary',
+          paradigm: 'nor-nork',
+          tense: 'orain',
+          mode: 'ahala',
+          persons: { nor: 'hura', nork: 'nik' },
+          meaning: 'tener/haber',
+          source: { page: 47, table: 'A-1' },
+        },
+      ],
+    };
+    const api: PageReadingApi = {
+      ...defaultApi(),
+      loadOpenDataIndex: async () => new Set(['dut']),
+      lookupOpenData: async () => ({ word: 'dut', translations: ['lo tengo'], domains: [] }),
+      loadVerbIndex: async () => new Set(['dut']),
+      lookupVerb: async word => (word === 'dut' ? verbEntry : undefined),
+    };
+    await createPage(api);
+    await waitFor(() => shadow.querySelector('component-text-reader') !== null);
+    readerEl().dispatchEvent(
+      new CustomEvent('word-click', {
+        detail: { word: 'dut', x: 100, y: 200 },
+        bubbles: true,
+        composed: true,
+      })
+    );
+    await waitFor(() => tooltipEl() !== null);
+    await waitFor(() => tooltipTitle() === 'dut');
+    const tooltipShadow = tooltipEl()?.shadowRoot;
+    expect(tooltipShadow?.querySelector('.badge')?.textContent).to.equal('Verbo');
+    expect(tooltipShadow?.querySelector('.verb-lemma')?.textContent).to.include('edun');
+    expect(tooltipShadow?.querySelector('.verb-tags')?.textContent).to.include('nor-nork');
+    expect(tooltipShadow?.querySelector('.verb-tags')?.textContent).to.include('nork: nik');
+    expect(tooltipShadow?.querySelector('.translations')).to.equal(null);
   });
 
   it('pre-fills the dictionary form with the Open Data translation', async () => {

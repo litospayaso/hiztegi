@@ -6,7 +6,8 @@ const config: StorybookConfig = {
     "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
   ],
   "staticDirs": [
-    { "from": "../opendata/eu-esp", "to": "/opendata/eu-esp" }
+    { "from": "../opendata/eu-esp", "to": "/opendata/eu-esp" },
+    { "from": "../opendata/verbs", "to": "/opendata/verbs" }
   ],
   "addons": [
     "@storybook/addon-vitest",

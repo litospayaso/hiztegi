@@ -7,8 +7,9 @@ if (!target) {
   process.exit(1);
 }
 
-const destination = join(target, 'opendata', 'eu-esp');
-mkdirSync(destination, { recursive: true });
-cpSync('opendata/eu-esp', destination, { recursive: true });
-
-console.log(`[copy-opendata] opendata/eu-esp -> ${destination}`);
+for (const source of ['eu-esp', 'verbs']) {
+  const destination = join(target, 'opendata', source);
+  mkdirSync(destination, { recursive: true });
+  cpSync(`opendata/${source}`, destination, { recursive: true });
+  console.log(`[copy-opendata] opendata/${source} -> ${destination}`);
+}

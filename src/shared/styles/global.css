@@ -24,6 +24,8 @@
   --hzt-app-on-error: #ffffff;
   --hzt-app-opendata: #f28c28;
   --hzt-app-on-opendata: #1b150d;
+  --hzt-app-verb: #2f8f83;
+  --hzt-app-on-verb: #ffffff;
   --hzt-app-grid-opacity: 0.05;
   --hzt-app-screentone-opacity: 0.16;
   --hzt-app-accent: #d8202a;
@@ -45,6 +47,8 @@
   --hzt-app-on-error: #1b150d;
   --hzt-app-opendata: #ff9f43;
   --hzt-app-on-opendata: #0c0a07;
+  --hzt-app-verb: #4ec9b0;
+  --hzt-app-on-verb: #0c0a07;
   --hzt-app-grid-opacity: 0.06;
   --hzt-app-screentone-opacity: 0.2;
 }
@@ -61,6 +65,8 @@
   --hzt-app-on-error: #20242e;
   --hzt-app-opendata: #d08770;
   --hzt-app-on-opendata: #2e3440;
+  --hzt-app-verb: #8fbcbb;
+  --hzt-app-on-verb: #2e3440;
   --hzt-app-grid-opacity: 0.05;
   --hzt-app-screentone-opacity: 0.16;
 }

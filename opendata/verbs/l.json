@@ -1,0 +1,3692 @@
+[
+  {
+    "word": "ledin",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "hura"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 8,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekiake",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 20,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekian",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 20,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekidake",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura",
+          "nori": "niri"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 20,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekidan",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "hura",
+          "nori": "niri"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 20,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekieke",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura",
+          "nori": "haiei"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 20,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekien",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "hura",
+          "nori": "haiei"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 20,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekiguke",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura",
+          "nori": "guri"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 20,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekigun",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "hura",
+          "nori": "guri"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 20,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekinake",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 20,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekinan",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 20,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekioke",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura",
+          "nori": "hari"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 20,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekion",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "hura",
+          "nori": "hari"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 20,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekizkiake",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 24,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekizkian",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 24,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekizkidake",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek",
+          "nori": "niri"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 24,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekizkidan",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "haiek",
+          "nori": "niri"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 24,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekizkieke",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek",
+          "nori": "haiei"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 24,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekizkien",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "haiek",
+          "nori": "haiei"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 24,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekizkiguke",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek",
+          "nori": "guri"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 24,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekizkigun",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "haiek",
+          "nori": "guri"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 24,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekizkinake",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 24,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekizkinan",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 24,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekizkioke",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek",
+          "nori": "hari"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 24,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekizkion",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "haiek",
+          "nori": "hari"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 24,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekizkizueke",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek",
+          "nori": "zuei"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 24,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekizkizuen",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "haiek",
+          "nori": "zuei"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 24,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekizkizuke",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek",
+          "nori": "zuri"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 24,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekizkizun",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "haiek",
+          "nori": "zuri"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 24,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekizueke",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura",
+          "nori": "zuei"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 20,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekizuen",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "hura",
+          "nori": "zuei"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 20,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekizuke",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura",
+          "nori": "zuri"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 20,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lekizun",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "hura",
+          "nori": "zuri"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 20,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lezake",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura",
+          "nork": "hark"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 37,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lezakete",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura",
+          "nork": "haiek"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 37,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lezan",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "hura",
+          "nork": "hark"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 37,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lezaten",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "hura",
+          "nork": "haiek"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 37,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liake",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener",
+        "source": {
+          "page": 46,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liakete",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener",
+        "source": {
+          "page": 50,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lidake",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "hura",
+          "nori": "niri"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 46,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lidakete",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "hura",
+          "nori": "niri"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 50,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lieke",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "hura",
+          "nori": "haiei"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 46,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liekete",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "hura",
+          "nori": "haiei"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 50,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezaake",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 54,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezaakete",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 58,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezaan",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "hark",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 54,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezaaten",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "haiek",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 58,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezadake",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "hura",
+          "nori": "niri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 54,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezadakete",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "hura",
+          "nori": "niri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 58,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezadan",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "hark",
+          "nor": "hura",
+          "nori": "niri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 54,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezadaten",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "haiek",
+          "nor": "hura",
+          "nori": "niri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 58,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezaguke",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "hura",
+          "nori": "guri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 54,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezagukete",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "hura",
+          "nori": "guri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 58,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezagun",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "hark",
+          "nor": "hura",
+          "nori": "guri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 54,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezaguten",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "haiek",
+          "nor": "hura",
+          "nori": "guri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 58,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezaieke",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "hura",
+          "nori": "haiei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 54,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezaiekete",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "hura",
+          "nori": "haiei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 58,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezaien",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "hark",
+          "nor": "hura",
+          "nori": "haiei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 54,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezaieten",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "haiek",
+          "nor": "hura",
+          "nori": "haiei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 58,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezaioke",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "hura",
+          "nori": "hari"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 54,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezaiokete",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "hura",
+          "nori": "hari"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 58,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezaion",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "hark",
+          "nor": "hura",
+          "nori": "hari"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 54,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezaioten",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "haiek",
+          "nor": "hura",
+          "nori": "hari"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 58,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezanake",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 54,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezanakete",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 58,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezanan",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "hark",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 54,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezanaten",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "haiek",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 58,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkiake",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 61,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkiakete",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 65,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkian",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "hark",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 61,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkiaten",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "haiek",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 65,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkidake",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "haiek",
+          "nori": "niri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 61,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkidakete",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "haiek",
+          "nori": "niri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 65,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkidan",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "hark",
+          "nor": "haiek",
+          "nori": "niri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 61,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkidaten",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "haiek",
+          "nor": "haiek",
+          "nori": "niri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 65,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkieke",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "haiek",
+          "nori": "haiei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 61,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkiekete",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "haiek",
+          "nori": "haiei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 65,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkien",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "hark",
+          "nor": "haiek",
+          "nori": "haiei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 61,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkieten",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "haiek",
+          "nor": "haiek",
+          "nori": "haiei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 65,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkiguke",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "haiek",
+          "nori": "guri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 61,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkigukete",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "haiek",
+          "nori": "guri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 65,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkigun",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "hark",
+          "nor": "haiek",
+          "nori": "guri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 61,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkiguten",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "haiek",
+          "nor": "haiek",
+          "nori": "guri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 65,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkinake",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 61,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkinakete",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 65,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkinan",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "hark",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 61,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkinaten",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "haiek",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 65,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkioke",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "haiek",
+          "nori": "hari"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 61,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkiokete",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "haiek",
+          "nori": "hari"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 65,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkion",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "hark",
+          "nor": "haiek",
+          "nori": "hari"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 61,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkioten",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "haiek",
+          "nor": "haiek",
+          "nori": "hari"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 65,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkizueke",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "haiek",
+          "nori": "zuei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 61,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkizuekete",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "haiek",
+          "nori": "zuei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 65,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkizuen",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "hark",
+          "nor": "haiek",
+          "nori": "zuei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 61,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkizueten",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "haiek",
+          "nor": "haiek",
+          "nori": "zuei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 65,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkizuke",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "haiek",
+          "nori": "zuri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 61,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkizukete",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "haiek",
+          "nori": "zuri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 65,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkizun",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "hark",
+          "nor": "haiek",
+          "nori": "zuri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 61,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazkizuten",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "haiek",
+          "nor": "haiek",
+          "nori": "zuri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 65,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazueke",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "hura",
+          "nori": "zuei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 54,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazuekete",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "hura",
+          "nori": "zuei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 58,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazuen",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "hark",
+          "nor": "hura",
+          "nori": "zuei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 54,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazueten",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "haiek",
+          "nor": "hura",
+          "nori": "zuei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 58,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazuke",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "hura",
+          "nori": "zuri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 54,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazukete",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "hura",
+          "nori": "zuri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 58,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazun",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "hark",
+          "nor": "hura",
+          "nori": "zuri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 54,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liezazuten",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "haiek",
+          "nor": "hura",
+          "nori": "zuri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 58,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liguke",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "hura",
+          "nori": "guri"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 46,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "ligukete",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "hura",
+          "nori": "guri"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 50,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "linake",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener",
+        "source": {
+          "page": 46,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "linakete",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener",
+        "source": {
+          "page": 50,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lioke",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "hura",
+          "nori": "hari"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 46,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liokete",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "hura",
+          "nori": "hari"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 50,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lirateke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 7,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "liteke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 8,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "litezen",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "haiek"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 8,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "litezke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 8,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lituzke",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek",
+          "nork": "hark"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 33,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lituzkete",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek",
+          "nork": "haiek"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 33,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "litzaiake",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "ser/estar",
+        "source": {
+          "page": 12,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "litzaidake",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura",
+          "nori": "niri"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 12,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "litzaieke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura",
+          "nori": "haiei"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 12,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "litzaiguke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura",
+          "nori": "guri"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 12,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "litzainake",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "ser/estar",
+        "source": {
+          "page": 12,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "litzaioke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura",
+          "nori": "hari"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 12,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "litzaizkiake",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "ser/estar",
+        "source": {
+          "page": 16,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "litzaizkidake",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek",
+          "nori": "niri"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 16,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "litzaizkieke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek",
+          "nori": "haiei"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 16,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "litzaizkiguke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek",
+          "nori": "guri"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 16,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "litzaizkinake",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "ser/estar",
+        "source": {
+          "page": 16,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "litzaizkioke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek",
+          "nori": "hari"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 16,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "litzaizkizueke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek",
+          "nori": "zuei"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 16,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "litzaizkizuke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek",
+          "nori": "zuri"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 16,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "litzaizueke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura",
+          "nori": "zuei"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 12,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "litzaizuke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura",
+          "nori": "zuri"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 12,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "litzake",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek",
+          "nork": "hark"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 41,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "litzakete",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek",
+          "nork": "haiek"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 41,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "litzan",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "haiek",
+          "nork": "hark"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 41,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "litzateke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 7,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "litzaten",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "haiek",
+          "nork": "haiek"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 41,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lizkiake",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener",
+        "source": {
+          "page": 46,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lizkiakete",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener",
+        "source": {
+          "page": 50,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lizkidake",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "haiek",
+          "nori": "niri"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 46,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lizkidakete",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "haiek",
+          "nori": "niri"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 50,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lizkieke",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "haiek",
+          "nori": "haiei"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 46,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lizkiekete",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "haiek",
+          "nori": "haiei"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 50,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lizkiguke",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "haiek",
+          "nori": "guri"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 46,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lizkigukete",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "haiek",
+          "nori": "guri"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 50,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lizkinake",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener",
+        "source": {
+          "page": 46,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lizkinakete",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener",
+        "source": {
+          "page": 50,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lizkioke",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "haiek",
+          "nori": "hari"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 46,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lizkiokete",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "haiek",
+          "nori": "hari"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 50,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lizkizueke",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "haiek",
+          "nori": "zuei"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 46,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lizkizuekete",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "haiek",
+          "nori": "zuei"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 50,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lizkizuke",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "haiek",
+          "nori": "zuri"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 46,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lizkizukete",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "haiek",
+          "nori": "zuri"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 50,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lizueke",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "hura",
+          "nori": "zuei"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 46,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lizuekete",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "hura",
+          "nori": "zuei"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 50,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lizuke",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "hark",
+          "nor": "hura",
+          "nori": "zuri"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 46,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lizukete",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "haiek",
+          "nor": "hura",
+          "nori": "zuri"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 50,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "luke",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura",
+          "nork": "hark"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 29,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "lukete",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura",
+          "nork": "haiek"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 29,
+          "table": "B-2"
+        }
+      }
+    ]
+  }
+]

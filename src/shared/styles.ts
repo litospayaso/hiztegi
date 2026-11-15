@@ -95,6 +95,8 @@ const themeTokens = css`
     --hzt-on-mark: var(--hzt-app-on-mark, #1b150d);
     --hzt-opendata: var(--hzt-app-opendata, #f28c28);
     --hzt-on-opendata: var(--hzt-app-on-opendata, #1b150d);
+    --hzt-verb: var(--hzt-app-verb, #2f8f83);
+    --hzt-on-verb: var(--hzt-app-on-verb, #ffffff);
     --hzt-grid-opacity: var(--hzt-app-grid-opacity, 0.05);
     --hzt-screentone-opacity: var(--hzt-app-screentone-opacity, 0.16);
   }
@@ -113,6 +115,8 @@ const themeTokens = css`
     --hzt-on-mark: #1b150d;
     --hzt-opendata: #f28c28;
     --hzt-on-opendata: #1b150d;
+    --hzt-verb: #2f8f83;
+    --hzt-on-verb: #ffffff;
     --hzt-grid-opacity: 0.05;
     --hzt-screentone-opacity: 0.16;
   }
@@ -131,6 +135,8 @@ const themeTokens = css`
     --hzt-on-mark: #0c0a07;
     --hzt-opendata: #ff9f43;
     --hzt-on-opendata: #0c0a07;
+    --hzt-verb: #4ec9b0;
+    --hzt-on-verb: #0c0a07;
     --hzt-grid-opacity: 0.06;
     --hzt-screentone-opacity: 0.2;
   }
@@ -149,6 +155,8 @@ const themeTokens = css`
     --hzt-on-mark: #2e3440;
     --hzt-opendata: #d08770;
     --hzt-on-opendata: #2e3440;
+    --hzt-verb: #8fbcbb;
+    --hzt-on-verb: #2e3440;
     --hzt-grid-opacity: 0.05;
     --hzt-screentone-opacity: 0.16;
   }

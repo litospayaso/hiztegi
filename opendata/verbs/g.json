@@ -1,0 +1,6261 @@
+[
+  {
+    "word": "gaitezela",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 8,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitezen",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 8,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitezke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 8,
+          "table": "A-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitu",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu",
+          "nork": "hark"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "A-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaituk",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "m",
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "A-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitun",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "f",
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "A-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaituzke",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "hark"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "A-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaituzkek",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "m",
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "A-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaituzken",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "f",
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "A-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaituzkete",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "haiek"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "A-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaituzkezu",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuk"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "A-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaituzkezue",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuek"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "A-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaituzte",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu",
+          "nork": "haiek"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "A-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaituzu",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuk"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "A-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaituzue",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuek"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "A-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitzaala",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitzaan",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitzak",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 42,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitzake",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "hark"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "A-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitzakek",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "A-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitzaken",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "A-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitzakete",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "haiek"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "A-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitzakezu",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuk"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "A-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitzakezue",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuek"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "A-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitzala",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu",
+          "nork": "hark"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitzan",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 42,
+          "table": "C"
+        }
+      },
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nork": "hark"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitzanala",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitzanan",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitzatela",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu",
+          "nork": "haiek"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitzaten",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nork": "haiek"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitzazu",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuk"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 42,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitzazue",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuek"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 42,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitzazuela",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuek"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitzazuen",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuek"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitzazula",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuk"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gaitzazun",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuk"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gakizkiake",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "A-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gakizkiala",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gakizkian",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gakizkieke",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "haiei"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "A-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gakizkiela",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu",
+          "nori": "haiei"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gakizkien",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nori": "haiei"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gakizkinake",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "A-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gakizkinala",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gakizkinan",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gakizkioke",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "hari"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "A-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gakizkiola",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu",
+          "nori": "hari"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gakizkion",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nori": "hari"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gakizkizueke",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuei"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "A-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gakizkizuela",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuei"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gakizkizuen",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuei"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gakizkizuke",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuri"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "A-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gakizkizula",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuri"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gakizkizun",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuri"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "A-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gara",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor",
+        "tense": "orain",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 7,
+          "table": "A-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "garateke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 7,
+          "table": "A-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gatzaizkiake",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "A-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gatzaizkie",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu",
+          "nori": "haiei"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "A-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gatzaizkieke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "haiei"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "A-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gatzaizkik",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "A-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gatzaizkin",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "A-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gatzaizkinake",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "A-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gatzaizkio",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu",
+          "nori": "hari"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "A-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gatzaizkioke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "hari"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "A-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gatzaizkizu",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuri"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "A-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gatzaizkizue",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuei"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "A-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gatzaizkizueke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuei"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "A-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gatzaizkizuke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuri"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "A-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genezake",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura",
+          "nork": "guk"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 37,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genezakeen",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura",
+          "nork": "guk"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 37,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genezala",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "hura",
+          "nork": "guk"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 37,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genezan",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "hura",
+          "nork": "guk"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 37,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "hura",
+          "nork": "guk"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 37,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniake",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniakeen",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genian",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genieke",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "haiei"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniekeen",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "haiei"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genien",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "haiei"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezaake",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezaakeen",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezaala",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezaan",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezaieke",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "haiei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezaiekeen",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "haiei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezaiela",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "haiei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezaien",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "haiei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "haiei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezaioke",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "hari"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezaiokeen",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "hari"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezaiola",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "hari"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezaion",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "hari"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "hari"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezanake",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezanakeen",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezanala",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezanan",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazkiake",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazkiakeen",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazkiala",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazkian",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazkieke",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "haiei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazkiekeen",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "haiei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazkiela",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "haiei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazkien",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "haiei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "haiei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazkinake",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazkinakeen",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazkinala",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazkinan",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazkioke",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "hari"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazkiokeen",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "hari"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazkiola",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "hari"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazkion",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "hari"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "hari"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazkizueke",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "zuei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazkizuekeen",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "zuei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazkizuela",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "zuei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazkizuen",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "zuei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "zuei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazkizuke",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "zuri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazkizukeen",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "zuri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazkizula",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "zuri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazkizun",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "zuri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "zuri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 62,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazueke",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "zuei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazuekeen",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "zuei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazuela",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "zuei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazuen",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "zuei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "zuei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazuke",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "zuri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazukeen",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "zuri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazula",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "zuri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniezazun",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "zuri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "zuri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 55,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geninake",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geninakeen",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geninan",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genioke",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "hari"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "geniokeen",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "hari"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genion",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "hari"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genituen",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nor": "haiek",
+          "nork": "guk"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 33,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genituzke",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek",
+          "nork": "guk"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 33,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genituzkeen",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek",
+          "nork": "guk"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 33,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genitzake",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek",
+          "nork": "guk"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 41,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genitzakeen",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "haiek",
+          "nork": "guk"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 41,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genitzala",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "haiek",
+          "nork": "guk"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 41,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genitzan",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "haiek",
+          "nork": "guk"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 41,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "haiek",
+          "nork": "guk"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 41,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genizkiake",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genizkiakeen",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genizkian",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genizkieke",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "haiei"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genizkiekeen",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "haiei"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genizkien",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "haiei"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genizkinake",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genizkinakeen",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genizkinan",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genizkioke",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "hari"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genizkiokeen",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "hari"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genizkion",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "hari"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genizkizueke",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "zuei"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genizkizuekeen",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "zuei"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genizkizuen",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "zuei"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genizkizuke",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "zuri"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genizkizukeen",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "zuri"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genizkizun",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nork": "guk",
+          "nor": "haiek",
+          "nori": "zuri"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genizueke",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "zuei"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genizuekeen",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "zuei"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genizuen",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "zuei"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genizuke",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "zuri"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genizukeen",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "zuri"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genizun",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nork": "guk",
+          "nor": "hura",
+          "nori": "zuri"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 47,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genkizkiake",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genkizkiakeen",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genkizkiala",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genkizkian",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genkizkieke",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "haiei"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genkizkiekeen",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "haiei"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genkizkiela",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu",
+          "nori": "haiei"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genkizkien",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nori": "haiei"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nori": "haiei"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genkizkinake",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genkizkinakeen",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genkizkinala",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genkizkinan",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genkizkioke",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "hari"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genkizkiokeen",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "hari"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genkizkiola",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu",
+          "nori": "hari"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genkizkion",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nori": "hari"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nori": "hari"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genkizkizueke",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuei"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genkizkizuekeen",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuei"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genkizkizuela",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuei"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genkizkizuen",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuei"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuei"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genkizkizuke",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuri"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genkizkizukeen",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuri"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genkizkizula",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuri"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genkizkizun",
+    "analyses": [
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuri"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "edin",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuri"
+        },
+        "meaning": "poder (auxiliar)",
+        "source": {
+          "page": 21,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genuen",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nor": "hura",
+          "nork": "guk"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 29,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genuke",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura",
+          "nork": "guk"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 29,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "genukeen",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "hura",
+          "nork": "guk"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 29,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "ginateke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 7,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "ginatekeen",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 7,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "ginen",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 7,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintezela",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 8,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintezen",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 8,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 8,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintezke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 8,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintezkeen",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 8,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintuan",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "m",
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintuen",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu",
+          "nork": "hark"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintunan",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "f",
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintuzke",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "hark"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintuzkean",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "m",
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintuzkeen",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "hark"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintuzkek",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "m",
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintuzken",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "f",
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintuzkenan",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "f",
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintuzkete",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "haiek"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintuzketen",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "haiek"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintuzkezu",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuk"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintuzkezue",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuek"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintuzkezuen",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuek"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintuzkezun",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuk"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintuzten",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu",
+          "nork": "haiek"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintuzuen",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuek"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintuzun",
+    "analyses": [
+      {
+        "lemma": "edun",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuk"
+        },
+        "meaning": "tener",
+        "source": {
+          "page": 30,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzaala",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzaan",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzaizkiake",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzaizkiakeen",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzaizkian",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "m",
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzaizkieke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "haiei"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzaizkiekeen",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "haiei"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzaizkien",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu",
+          "nori": "haiei"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzaizkinake",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzaizkinakeen",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzaizkinan",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu",
+          "nori": "hiri"
+        },
+        "allocutive": "f",
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzaizkioke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "hari"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzaizkiokeen",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "hari"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzaizkion",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu",
+          "nori": "hari"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzaizkizueke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuei"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzaizkizuekeen",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuei"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzaizkizuen",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuei"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzaizkizuke",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuri"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "B-2"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzaizkizukeen",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuri"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "B-3"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzaizkizun",
+    "analyses": [
+      {
+        "lemma": "izan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nor": "gu",
+          "nori": "zuri"
+        },
+        "meaning": "ser/estar",
+        "source": {
+          "page": 13,
+          "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzake",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "hark"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzakean",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzakeen",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "hark"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzakek",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzaken",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzakenan",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzakete",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "haiek"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzaketen",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "haiek"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzakezu",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuk"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzakezue",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuek"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-7"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzakezuen",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuek"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzakezun",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ke",
+        "subtype": "potential",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuk"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-8"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzala",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu",
+          "nork": "hark"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzan",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nork": "hark"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nork": "hark"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzanala",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzanan",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nork": "hik"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzatela",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu",
+          "nork": "haiek"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzaten",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nork": "haiek"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nork": "haiek"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzazuela",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuek"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzazuen",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuek"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuek"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzazula",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive-la",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuk"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "gintzazun",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "alegiazko",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuk"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-5"
+        }
+      },
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "subtype": "subjunctive",
+        "persons": {
+          "nor": "gu",
+          "nork": "zuk"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 38,
+          "table": "B-5"
+        }
+      }
+    ]
+  }
+]

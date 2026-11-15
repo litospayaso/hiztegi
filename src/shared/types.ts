@@ -1,6 +1,6 @@
 export type BookFormat = 'txt' | 'md' | 'html' | 'epub' | 'pdf';
 
-export type WordStatus = 'known' | 'unknown' | 'opendata' | 'none';
+export type WordStatus = 'known' | 'unknown' | 'opendata' | 'verb' | 'none';
 
 export interface Book {
   id: string;
@@ -47,4 +47,58 @@ export interface ParsedChapter {
 export interface ParsedBook {
   title: string;
   chapters: ParsedChapter[];
+}
+
+export type VerbKind = 'auxiliary' | 'synthetic';
+
+export type VerbParadigm =
+  | 'nor'
+  | 'nor-nori'
+  | 'nor-nork'
+  | 'nor-nori-nork'
+  | 'zer-nori-nork';
+
+export type VerbTense = 'orain' | 'iragan' | 'alegiazko' | 'agintera';
+
+export type VerbMode = 'ahala' | 'ke' | 'agintera';
+
+export type VerbSubtype =
+  | 'subjunctive'
+  | 'subjunctive-la'
+  | 'conditional-ba'
+  | 'potential'
+  | 'agintera';
+
+export type VerbPersonRole = 'nor' | 'nori' | 'nork';
+
+export type VerbAllocutive = 'm' | 'f';
+
+export interface VerbPersons {
+  nor?: string;
+  nori?: string;
+  nork?: string;
+}
+
+export interface VerbSource {
+  page: number;
+  table: string;
+  note?: string;
+}
+
+export interface VerbAnalysis {
+  lemma: string;
+  kind: VerbKind;
+  paradigm: VerbParadigm;
+  tense: VerbTense;
+  mode: VerbMode;
+  subtype?: VerbSubtype;
+  persons: VerbPersons;
+  allocutive?: VerbAllocutive;
+  meaning?: string;
+  source: VerbSource;
+}
+
+export interface VerbEntry {
+  word: string;
+  analyses: VerbAnalysis[];
 }

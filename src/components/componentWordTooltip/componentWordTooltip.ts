@@ -2,12 +2,19 @@ import { LitElement, css, html } from 'lit';
 import { property, state } from 'lit/decorators.js';
 import type { PropertyValues } from 'lit';
 import { styles } from '../../shared/styles';
-import type { DictionaryEntry, OpenDataEntry, WordStatus } from '../../shared/types';
+import type {
+  DictionaryEntry,
+  OpenDataEntry,
+  VerbAnalysis,
+  VerbEntry,
+  WordStatus,
+} from '../../shared/types';
 
 export interface ComponentWordTooltipInterface {
   word?: string;
   entry?: DictionaryEntry;
   openDataEntry?: OpenDataEntry;
+  verbEntry?: VerbEntry;
   x?: number;
   y?: number;
   baseForm?: string;
@@ -85,6 +92,11 @@ export default class ComponentWordTooltip extends LitElement {
         color: var(--hzt-on-opendata);
       }
 
+      .badge--verb {
+        background: var(--hzt-verb);
+        color: var(--hzt-on-verb);
+      }
+
       .no-entry,
       .translation,
       .note,
@@ -114,6 +126,54 @@ export default class ComponentWordTooltip extends LitElement {
       }
 
       .note {
+        color: var(--hzt-muted);
+      }
+
+      .verb-analyses {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+        margin: 0.75rem 0 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .verb-analysis {
+        padding-top: 0.6rem;
+        border-top: var(--hzt-border-chip) solid var(--hzt-well);
+      }
+
+      .verb-analysis:first-child {
+        padding-top: 0;
+        border-top: 0;
+      }
+
+      .verb-lemma {
+        font-weight: 900;
+      }
+
+      .verb-lemma span {
+        font-weight: 400;
+        color: var(--hzt-muted);
+      }
+
+      .verb-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.25rem;
+        margin-top: 0.3rem;
+      }
+
+      .verb-tag {
+        padding: 0.05rem 0.35rem;
+        border: var(--hzt-border-chip) solid var(--hzt-ink);
+        font-size: var(--hzt-size-label);
+        background: var(--hzt-well);
+      }
+
+      .verb-source {
+        margin: 0.35rem 0 0;
+        font-size: var(--hzt-size-label);
         color: var(--hzt-muted);
       }
 
@@ -148,6 +208,9 @@ export default class ComponentWordTooltip extends LitElement {
 
   @property({ type: Object })
   openDataEntry?: OpenDataEntry;
+
+  @property({ type: Object })
+  verbEntry?: VerbEntry;
 
   @property({ type: Number })
   x?: number;
@@ -190,7 +253,8 @@ export default class ComponentWordTooltip extends LitElement {
       changed.has('y') ||
       changed.has('word') ||
       changed.has('entry') ||
-      changed.has('openDataEntry')
+      changed.has('openDataEntry') ||
+      changed.has('verbEntry')
     ) {
       this.clampPosition();
     }
@@ -227,6 +291,86 @@ export default class ComponentWordTooltip extends LitElement {
       this.emitClose();
     }
   };
+
+  private tenseLabel(tense: VerbAnalysis['tense']): string {
+    switch (tense) {
+      case 'orain':
+        return 'presente';
+      case 'iragan':
+        return 'pasado';
+      case 'alegiazko':
+        return 'condicional';
+      case 'agintera':
+        return 'imperativo';
+    }
+  }
+
+  private modeLabel(mode: VerbAnalysis['mode']): string {
+    switch (mode) {
+      case 'ahala':
+        return '-ahala';
+      case 'ke':
+        return '+ke';
+      case 'agintera':
+        return 'agintera';
+    }
+  }
+
+  private subtypeLabel(subtype: NonNullable<VerbAnalysis['subtype']>): string {
+    switch (subtype) {
+      case 'subjunctive':
+        return 'subjuntivo';
+      case 'subjunctive-la':
+        return 'subjuntivo -la';
+      case 'conditional-ba':
+        return 'condicional ba-';
+      case 'potential':
+        return 'potencial';
+      case 'agintera':
+        return 'imperativo';
+    }
+  }
+
+  private personTags(analysis: VerbAnalysis): string[] {
+    return [
+      analysis.persons.nor ? `nor: ${analysis.persons.nor}` : '',
+      analysis.persons.nori ? `nori: ${analysis.persons.nori}` : '',
+      analysis.persons.nork ? `nork: ${analysis.persons.nork}` : '',
+    ].filter(Boolean);
+  }
+
+  private renderVerbAnalyses(entry: VerbEntry) {
+    return html`
+      <ul class="verb-analyses">
+        ${entry.analyses.map(analysis => html`
+          <li class="verb-analysis">
+            <div class="verb-lemma">
+              ${analysis.lemma}${analysis.meaning
+                ? html` <span>· ${analysis.meaning}</span>`
+                : ''}
+            </div>
+            <div class="verb-tags">
+              <span class="verb-tag">${analysis.paradigm}</span>
+              <span class="verb-tag">${this.tenseLabel(analysis.tense)}</span>
+              <span class="verb-tag">${this.modeLabel(analysis.mode)}</span>
+              ${analysis.subtype
+                ? html`<span class="verb-tag">${this.subtypeLabel(analysis.subtype)}</span>`
+                : ''}
+              ${this.personTags(analysis).map(tag => html`<span class="verb-tag">${tag}</span>`)}
+              ${analysis.allocutive
+                ? html`<span class="verb-tag">alocutivo ${analysis.allocutive}</span>`
+                : ''}
+            </div>
+            <p class="verb-source">
+              p. ${analysis.source.page} · ${analysis.source.table}${analysis.source.note
+                ? ` · ${analysis.source.note}`
+                : ''}
+            </p>
+          </li>
+        `)}
+      </ul>
+    `;
+  }
 
   private emitSave(status: WordStatus): void {
     const word = this.normalizeWord();
@@ -296,12 +440,15 @@ export default class ComponentWordTooltip extends LitElement {
 
         ${this.entry
           ? html`<span class="badge badge--${status}">${statusText}</span>`
-          : this.openDataEntry
-            ? html`<span class="badge badge--opendata">Open Data</span>`
-            : html`<p class="no-entry">Esta palabra no está en el diccionario.</p>`}
+          : this.verbEntry
+            ? html`<span class="badge badge--verb">Verbo</span>`
+            : this.openDataEntry
+              ? html`<span class="badge badge--opendata">Open Data</span>`
+              : html`<p class="no-entry">Esta palabra no está en el diccionario.</p>`}
         ${this.entry?.translation ? html`<p class="translation">${this.entry.translation}</p>` : ''}
         ${this.entry?.note ? html`<p class="note">${this.entry.note}</p>` : ''}
-        ${!this.entry && this.openDataEntry
+        ${!this.entry && this.verbEntry ? this.renderVerbAnalyses(this.verbEntry) : ''}
+        ${!this.entry && !this.verbEntry && this.openDataEntry
           ? html`
               <ul class="translations">
                 ${this.openDataEntry.translations.map(translation => html`<li>${translation}</li>`)}

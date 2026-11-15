@@ -47,6 +47,17 @@ export const withoutDictionary: Story = {
   render: () => html`<component-text-reader .text=${sampleText}></component-text-reader>`,
 };
 
+export const withVerbForms: Story = {
+  render: () => html`
+    <component-text-reader
+      .text=${sampleText}
+      .dictionary=${dictionary}
+      .verbIndex=${new Set(['da', 'dute', 'dira', 'du'])}
+      .pageSize=${60}
+    ></component-text-reader>
+  `,
+};
+
 export const withOpenDataFallback: Story = {
   render: () => html`
     <component-text-reader

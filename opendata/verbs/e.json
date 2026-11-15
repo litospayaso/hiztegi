@@ -1,0 +1,92 @@
+[
+  {
+    "word": "ezak",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "hik"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 42,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "ezan",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "hik"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 42,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "ezazu",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuk"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 42,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "ezazue",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuek"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 42,
+          "table": "C"
+        }
+      }
+    ]
+  }
+]

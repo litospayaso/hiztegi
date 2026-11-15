@@ -1,7 +1,7 @@
 import './index';
 import type { Meta, StoryObj } from '@storybook/web-components-vite';
 import { html } from 'lit';
-import type { DictionaryEntry, OpenDataEntry } from '../../shared/types';
+import type { DictionaryEntry, OpenDataEntry, VerbEntry } from '../../shared/types';
 
 const knownEntry: DictionaryEntry = {
   word: 'etxe',
@@ -22,6 +22,22 @@ const openDataEntry: OpenDataEntry = {
   translations: ['monte'],
   partOfSpeech: 'noun',
   domains: ['General Vocabulary'],
+};
+
+const verbEntry: VerbEntry = {
+  word: 'dut',
+  analyses: [
+    {
+      lemma: 'edun',
+      kind: 'auxiliary',
+      paradigm: 'nor-nork',
+      tense: 'orain',
+      mode: 'ahala',
+      persons: { nor: 'hura', nork: 'nik' },
+      meaning: 'tener/haber',
+      source: { page: 47, table: 'A-1' },
+    },
+  ],
 };
 
 const meta = {
@@ -65,6 +81,17 @@ export const withOpenDataEntry: Story = {
     <component-word-tooltip
       word="mendi"
       .openDataEntry=${openDataEntry}
+      x=${120}
+      y=${80}
+    ></component-word-tooltip>
+  `,
+};
+
+export const withVerbEntry: Story = {
+  render: () => html`
+    <component-word-tooltip
+      word="dut"
+      .verbEntry=${verbEntry}
       x=${120}
       y=${80}
     ></component-word-tooltip>
