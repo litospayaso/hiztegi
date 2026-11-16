@@ -632,6 +632,8 @@
     --hzt-on-mark: var(--hzt-app-on-mark, #1b150d);
     --hzt-opendata: var(--hzt-app-opendata, #f28c28);
     --hzt-on-opendata: var(--hzt-app-on-opendata, #1b150d);
+    --hzt-verb: var(--hzt-app-verb, #2f8f83);
+    --hzt-on-verb: var(--hzt-app-on-verb, #ffffff);
     --hzt-grid-opacity: var(--hzt-app-grid-opacity, 0.05);
     --hzt-screentone-opacity: var(--hzt-app-screentone-opacity, 0.16);
   }
@@ -650,6 +652,8 @@
     --hzt-on-mark: #1b150d;
     --hzt-opendata: #f28c28;
     --hzt-on-opendata: #1b150d;
+    --hzt-verb: #2f8f83;
+    --hzt-on-verb: #ffffff;
     --hzt-grid-opacity: 0.05;
     --hzt-screentone-opacity: 0.16;
   }
@@ -668,6 +672,8 @@
     --hzt-on-mark: #0c0a07;
     --hzt-opendata: #ff9f43;
     --hzt-on-opendata: #0c0a07;
+    --hzt-verb: #4ec9b0;
+    --hzt-on-verb: #0c0a07;
     --hzt-grid-opacity: 0.06;
     --hzt-screentone-opacity: 0.2;
   }
@@ -686,6 +692,8 @@
     --hzt-on-mark: #2e3440;
     --hzt-opendata: #d08770;
     --hzt-on-opendata: #2e3440;
+    --hzt-verb: #8fbcbb;
+    --hzt-on-verb: #2e3440;
     --hzt-grid-opacity: 0.05;
     --hzt-screentone-opacity: 0.16;
   }
@@ -1999,6 +2007,174 @@
     return entries.get(normalized);
   };
 
+  // src/shared/verbStore.ts
+  var BASE_DIR2 = "opendata/verbs";
+  var INDEX_FILE2 = `${BASE_DIR2}/index.json`;
+  var normalize3 = (word) => word.trim().normalize("NFC").toLocaleLowerCase();
+  var assetUrl2 = (path) => new URL(path, typeof document === "undefined" ? "http://localhost/" : document.baseURI).href;
+  var letterFor2 = (word) => {
+    const initial = normalize3(word).normalize("NFD").charAt(0);
+    return /^[a-z]$/.test(initial) ? initial : "otros";
+  };
+  var normalizePersons = (value) => {
+    if (!value || typeof value !== "object") {
+      return {};
+    }
+    const persons = value;
+    return {
+      ...typeof persons.nor === "string" ? { nor: persons.nor } : {},
+      ...typeof persons.nori === "string" ? { nori: persons.nori } : {},
+      ...typeof persons.nork === "string" ? { nork: persons.nork } : {}
+    };
+  };
+  var parseAnalysis = (value) => {
+    if (!value || typeof value !== "object") {
+      return void 0;
+    }
+    const analysis = value;
+    if (typeof analysis.lemma !== "string" || typeof analysis.paradigm !== "string" || typeof analysis.tense !== "string" || typeof analysis.mode !== "string") {
+      return void 0;
+    }
+    const source = analysis.source;
+    if (!source || typeof source !== "object") {
+      return void 0;
+    }
+    const sourceRecord = source;
+    const page = typeof sourceRecord.page === "number" ? sourceRecord.page : void 0;
+    const table = typeof sourceRecord.table === "string" ? sourceRecord.table : void 0;
+    const name = typeof sourceRecord.name === "string" ? sourceRecord.name : void 0;
+    const url = typeof sourceRecord.url === "string" ? sourceRecord.url : void 0;
+    const note = typeof sourceRecord.note === "string" ? sourceRecord.note : void 0;
+    const hasPageTable = page !== void 0 && table !== void 0;
+    if (!hasPageTable && !name && !url) {
+      return void 0;
+    }
+    return {
+      lemma: analysis.lemma,
+      kind: analysis.kind === "synthetic" ? "synthetic" : "auxiliary",
+      paradigm: analysis.paradigm,
+      tense: analysis.tense,
+      mode: analysis.mode,
+      ...typeof analysis.subtype === "string" ? { subtype: analysis.subtype } : {},
+      persons: normalizePersons(analysis.persons),
+      ...analysis.allocutive === "m" || analysis.allocutive === "f" ? { allocutive: analysis.allocutive } : {},
+      ...typeof analysis.meaning === "string" ? { meaning: analysis.meaning } : {},
+      source: {
+        ...hasPageTable ? { page, table } : {},
+        ...name ? { name } : {},
+        ...url ? { url } : {},
+        ...note ? { note } : {}
+      }
+    };
+  };
+  var addEntry2 = (entries, entry) => {
+    const existing = entries.get(entry.word);
+    if (!existing) {
+      entries.set(entry.word, entry);
+      return;
+    }
+    for (const analysis of entry.analyses) {
+      const key = JSON.stringify([
+        analysis.lemma,
+        analysis.paradigm,
+        analysis.tense,
+        analysis.mode,
+        analysis.subtype ?? "",
+        analysis.persons.nor ?? "",
+        analysis.persons.nori ?? "",
+        analysis.persons.nork ?? "",
+        analysis.allocutive ?? ""
+      ]);
+      const duplicate = existing.analyses.some(
+        (candidate) => JSON.stringify([
+          candidate.lemma,
+          candidate.paradigm,
+          candidate.tense,
+          candidate.mode,
+          candidate.subtype ?? "",
+          candidate.persons.nor ?? "",
+          candidate.persons.nori ?? "",
+          candidate.persons.nork ?? "",
+          candidate.allocutive ?? ""
+        ]) === key
+      );
+      if (!duplicate) {
+        existing.analyses.push(analysis);
+      }
+    }
+  };
+  var indexPromise2;
+  var indexCache2;
+  var letterPromises2 = /* @__PURE__ */ new Map();
+  var loadLetter2 = (letter) => {
+    const cached = letterPromises2.get(letter);
+    if (cached) {
+      return cached;
+    }
+    const promise = fetch(assetUrl2(`${BASE_DIR2}/${letter}.json`)).then(async (response) => {
+      if (!response.ok) {
+        throw new Error(`Verb letter ${letter} returned ${response.status}`);
+      }
+      const raw = await response.json();
+      if (!Array.isArray(raw)) {
+        throw new Error(`Verb letter ${letter} is not an array`);
+      }
+      const entries = /* @__PURE__ */ new Map();
+      for (const item of raw) {
+        if (!item || typeof item !== "object") {
+          continue;
+        }
+        const record = item;
+        const word = normalize3(String(record.word ?? ""));
+        if (!word || !Array.isArray(record.analyses)) {
+          continue;
+        }
+        const analyses = record.analyses.map(parseAnalysis).filter((analysis) => Boolean(analysis));
+        if (analyses.length > 0) {
+          addEntry2(entries, { word, analyses });
+        }
+      }
+      return entries;
+    }).catch((error) => {
+      letterPromises2.delete(letter);
+      console.warn(`[verbs] could not load ${letter}.json`, error);
+      return /* @__PURE__ */ new Map();
+    });
+    letterPromises2.set(letter, promise);
+    return promise;
+  };
+  var loadVerbIndex = async () => {
+    if (indexCache2) {
+      return indexCache2;
+    }
+    if (!indexPromise2) {
+      indexPromise2 = fetch(assetUrl2(INDEX_FILE2)).then(async (response) => {
+        if (!response.ok) {
+          throw new Error(`Verb index returned ${response.status}`);
+        }
+        const raw = await response.json();
+        if (!Array.isArray(raw)) {
+          throw new Error("Verb index is not an array");
+        }
+        return new Set(raw.map((word) => normalize3(String(word))).filter(Boolean));
+      }).catch((error) => {
+        indexPromise2 = void 0;
+        console.warn("[verbs] could not load index.json", error);
+        return /* @__PURE__ */ new Set();
+      });
+    }
+    indexCache2 = await indexPromise2;
+    return indexCache2;
+  };
+  var lookupVerb = async (word) => {
+    const normalized = normalize3(word);
+    if (!normalized) {
+      return void 0;
+    }
+    const entries = await loadLetter2(letterFor2(normalized));
+    return entries.get(normalized);
+  };
+
   // src/shared/tokenizer.ts
   var isLetter = (char) => /^\p{L}$/u.test(char);
   var isSpace = (char) => /\s/.test(char);
@@ -2330,6 +2506,7 @@
       this.text = "";
       this.dictionary = [];
       this.opendataIndex = /* @__PURE__ */ new Set();
+      this.verbIndex = /* @__PURE__ */ new Set();
       this.pageSize = 100;
       this.pageIndex = 0;
     }
@@ -2367,6 +2544,12 @@
       .word--opendata {
         background: var(--hzt-opendata);
         color: var(--hzt-on-opendata);
+        box-shadow: 2px 2px 0 var(--hzt-shadow);
+      }
+
+      .word--verb {
+        background: var(--hzt-verb);
+        color: var(--hzt-on-verb);
         box-shadow: 2px 2px 0 var(--hzt-shadow);
       }
 
@@ -2423,6 +2606,12 @@
       if (personal) {
         return { status: personal };
       }
+      if (this.verbIndex.has(lower)) {
+        return { status: "verb" };
+      }
+      if (this.opendataIndex.has(lower)) {
+        return { status: "opendata" };
+      }
       const matches = detectSuffixes(lower);
       for (const match of matches) {
         const status = directMap.get(match.baseForm);
@@ -2434,9 +2623,6 @@
             cases: match.cases.map((c4) => c4.caseName)
           };
         }
-      }
-      if (this.opendataIndex.has(lower)) {
-        return { status: "opendata" };
       }
       for (const match of matches) {
         if (this.opendataIndex.has(match.baseForm)) {
@@ -2523,6 +2709,9 @@
   __decorateClass([
     n4({ type: Object })
   ], ComponentTextReader.prototype, "opendataIndex", 2);
+  __decorateClass([
+    n4({ type: Object })
+  ], ComponentTextReader.prototype, "verbIndex", 2);
   __decorateClass([
     n4({ type: Number })
   ], ComponentTextReader.prototype, "pageSize", 2);
@@ -2618,6 +2807,11 @@
         color: var(--hzt-on-opendata);
       }
 
+      .badge--verb {
+        background: var(--hzt-verb);
+        color: var(--hzt-on-verb);
+      }
+
       .no-entry,
       .translation,
       .note,
@@ -2648,6 +2842,58 @@
 
       .note {
         color: var(--hzt-muted);
+      }
+
+      .verb-analyses {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+        margin: 0.75rem 0 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .verb-analysis {
+        padding-top: 0.6rem;
+        border-top: var(--hzt-border-chip) solid var(--hzt-well);
+      }
+
+      .verb-analysis:first-child {
+        padding-top: 0;
+        border-top: 0;
+      }
+
+      .verb-lemma {
+        font-weight: 900;
+      }
+
+      .verb-lemma span {
+        font-weight: 400;
+        color: var(--hzt-muted);
+      }
+
+      .verb-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.25rem;
+        margin-top: 0.3rem;
+      }
+
+      .verb-tag {
+        padding: 0.05rem 0.35rem;
+        border: var(--hzt-border-chip) solid var(--hzt-ink);
+        font-size: var(--hzt-size-label);
+        background: var(--hzt-well);
+      }
+
+      .verb-source {
+        margin: 0.35rem 0 0;
+        font-size: var(--hzt-size-label);
+        color: var(--hzt-muted);
+      }
+
+      .verb-source a {
+        color: inherit;
       }
 
       .base-form {
@@ -2688,7 +2934,7 @@
       this.clampPosition();
     }
     updated(changed) {
-      if (changed.has("x") || changed.has("y") || changed.has("word") || changed.has("entry") || changed.has("openDataEntry")) {
+      if (changed.has("x") || changed.has("y") || changed.has("word") || changed.has("entry") || changed.has("openDataEntry") || changed.has("verbEntry")) {
         this.clampPosition();
       }
     }
@@ -2710,6 +2956,92 @@
       if (left !== this.position.left || top !== this.position.top) {
         this.position = { left, top };
       }
+    }
+    tenseLabel(tense) {
+      switch (tense) {
+        case "orain":
+          return "presente";
+        case "iragan":
+          return "pasado";
+        case "alegiazko":
+          return "condicional";
+        case "agintera":
+          return "imperativo";
+      }
+    }
+    modeLabel(mode) {
+      switch (mode) {
+        case "ahala":
+          return "-ahala";
+        case "ke":
+          return "+ke";
+        case "agintera":
+          return "agintera";
+      }
+    }
+    subtypeLabel(subtype) {
+      switch (subtype) {
+        case "subjunctive":
+          return "subjuntivo";
+        case "subjunctive-la":
+          return "subjuntivo -la";
+        case "conditional-ba":
+          return "condicional ba-";
+        case "potential":
+          return "potencial";
+        case "agintera":
+          return "imperativo";
+      }
+    }
+    personTags(analysis) {
+      return [
+        analysis.persons.nor ? `nor: ${analysis.persons.nor}` : "",
+        analysis.persons.nori ? `nori: ${analysis.persons.nori}` : "",
+        analysis.persons.nork ? `nork: ${analysis.persons.nork}` : ""
+      ].filter(Boolean);
+    }
+    renderVerbSource(source) {
+      const parts = [];
+      if (source.page !== void 0 && source.table) {
+        parts.push(`p. ${source.page} \xB7 ${source.table}`);
+      }
+      if (source.name) {
+        parts.push(
+          source.url ? b2`<a href=${source.url} target="_blank" rel="noopener noreferrer">${source.name}</a>` : source.name
+        );
+      } else if (source.url) {
+        parts.push(b2`<a href=${source.url} target="_blank" rel="noopener noreferrer">${source.url}</a>`);
+      }
+      if (source.note) {
+        parts.push(source.note);
+      }
+      return b2`
+      <p class="verb-source">
+        ${parts.map((part, index) => b2`${index > 0 ? " \xB7 " : ""}${part}`)}
+      </p>
+    `;
+    }
+    renderVerbAnalyses(entry) {
+      return b2`
+      <ul class="verb-analyses">
+        ${entry.analyses.map((analysis) => b2`
+          <li class="verb-analysis">
+            <div class="verb-lemma">
+              ${analysis.lemma}${analysis.meaning ? b2` <span>· ${analysis.meaning}</span>` : ""}
+            </div>
+            <div class="verb-tags">
+              <span class="verb-tag">${analysis.paradigm}</span>
+              <span class="verb-tag">${this.tenseLabel(analysis.tense)}</span>
+              <span class="verb-tag">${this.modeLabel(analysis.mode)}</span>
+              ${analysis.subtype ? b2`<span class="verb-tag">${this.subtypeLabel(analysis.subtype)}</span>` : ""}
+              ${this.personTags(analysis).map((tag) => b2`<span class="verb-tag">${tag}</span>`)}
+              ${analysis.allocutive ? b2`<span class="verb-tag">alocutivo ${analysis.allocutive}</span>` : ""}
+            </div>
+            ${this.renderVerbSource(analysis.source)}
+          </li>
+        `)}
+      </ul>
+    `;
     }
     emitSave(status) {
       const word = this.normalizeWord();
@@ -2772,10 +3104,11 @@
           </button>
         </header>
 
-        ${this.entry ? b2`<span class="badge badge--${status}">${statusText}</span>` : this.openDataEntry ? b2`<span class="badge badge--opendata">Open Data</span>` : b2`<p class="no-entry">Esta palabra no está en el diccionario.</p>`}
+        ${this.entry ? b2`<span class="badge badge--${status}">${statusText}</span>` : this.verbEntry ? b2`<span class="badge badge--verb">Verbo</span>` : this.openDataEntry ? b2`<span class="badge badge--opendata">Open Data</span>` : b2`<p class="no-entry">Esta palabra no está en el diccionario.</p>`}
         ${this.entry?.translation ? b2`<p class="translation">${this.entry.translation}</p>` : ""}
         ${this.entry?.note ? b2`<p class="note">${this.entry.note}</p>` : ""}
-        ${!this.entry && this.openDataEntry ? b2`
+        ${!this.entry && this.verbEntry ? this.renderVerbAnalyses(this.verbEntry) : ""}
+        ${!this.entry && !this.verbEntry && this.openDataEntry ? b2`
               <ul class="translations">
                 ${this.openDataEntry.translations.map((translation) => b2`<li>${translation}</li>`)}
               </ul>
@@ -2826,6 +3159,9 @@
   __decorateClass([
     n4({ type: Object })
   ], ComponentWordTooltip.prototype, "openDataEntry", 2);
+  __decorateClass([
+    n4({ type: Object })
+  ], ComponentWordTooltip.prototype, "verbEntry", 2);
   __decorateClass([
     n4({ type: Number })
   ], ComponentWordTooltip.prototype, "x", 2);
@@ -3345,6 +3681,7 @@
       this.pageIndex = 0;
       this.dictionary = [];
       this.opendataIndex = /* @__PURE__ */ new Set();
+      this.verbIndex = /* @__PURE__ */ new Set();
       this.loading = true;
       this.error = "";
       this.showDictForm = false;
@@ -3386,6 +3723,7 @@
       this.tooltip = void 0;
       this.tooltipEntry = void 0;
       this.tooltipOpenDataEntry = void 0;
+      this.tooltipVerbEntry = void 0;
       this.showDictForm = false;
       this.dictFormEntry = void 0;
       const book = await this.api.getBook(id);
@@ -3394,17 +3732,19 @@
         this.loading = false;
         return;
       }
-      const [chapters, progress, entries, opendataIndex] = await Promise.all([
+      const [chapters, progress, entries, opendataIndex, verbIndex] = await Promise.all([
         this.api.getChapters(id),
         this.api.getProgress(id),
         this.api.getAllEntries(),
-        this.api.loadOpenDataIndex()
+        this.api.loadOpenDataIndex(),
+        this.api.loadVerbIndex()
       ]);
       const lastChapter = Math.max(0, chapters.length - 1);
       this.book = book;
       this.chapters = chapters;
       this.dictionary = entries;
       this.opendataIndex = opendataIndex;
+      this.verbIndex = verbIndex;
       this.chapterIndex = Math.min(progress?.chapterIndex ?? 0, lastChapter);
       this.pageIndex = progress?.pageIndex ?? 0;
       this.loading = false;
@@ -3440,9 +3780,11 @@
       const { word, x: x2, y: y3, baseForm, suffix, cases } = event.detail;
       const lookupWord = baseForm ?? word;
       const entry = await this.api.resolveWord(lookupWord);
-      const openDataEntry = entry ? void 0 : await this.api.lookupOpenData(lookupWord);
+      const verbEntry = entry ? void 0 : await this.api.lookupVerb(lookupWord);
+      const openDataEntry = entry || verbEntry ? void 0 : await this.api.lookupOpenData(lookupWord);
       this.tooltip = { word, x: x2, y: y3, baseForm, suffix, cases };
       this.tooltipEntry = entry;
+      this.tooltipVerbEntry = verbEntry;
       this.tooltipOpenDataEntry = openDataEntry;
       this.selectedWord = word;
     }
@@ -3450,12 +3792,14 @@
       this.tooltip = void 0;
       this.tooltipEntry = void 0;
       this.tooltipOpenDataEntry = void 0;
+      this.tooltipVerbEntry = void 0;
     }
     async onTooltipSave(event) {
       const { entry } = event.detail;
       const saved = await this.api.upsertEntry(entry);
       this.tooltipEntry = saved;
       this.tooltipOpenDataEntry = void 0;
+      this.tooltipVerbEntry = void 0;
       this.dictionary = await this.api.getAllEntries();
     }
     onOpenAddModal(event) {
@@ -3463,6 +3807,7 @@
       this.tooltip = void 0;
       this.tooltipEntry = void 0;
       this.tooltipOpenDataEntry = void 0;
+      this.tooltipVerbEntry = void 0;
       this.dictFormEntry = {
         word,
         status: "unknown",
@@ -3548,6 +3893,7 @@
             .text=${chapter.text}
             .dictionary=${this.dictionary}
             .opendataIndex=${this.opendataIndex}
+            .verbIndex=${this.verbIndex}
             .pageIndex=${this.pageIndex}
             @page-change=${this.onPageChange}
             @word-click=${this.onWordClick}
@@ -3567,6 +3913,7 @@
                 .word=${this.tooltip.word}
                 .entry=${this.tooltipEntry}
                 .openDataEntry=${this.tooltipOpenDataEntry}
+                .verbEntry=${this.tooltipVerbEntry}
                 .x=${this.tooltip.x}
                 .y=${this.tooltip.y}
                 .baseForm=${this.tooltip.baseForm}
@@ -3685,6 +4032,9 @@
   ], PageReading.prototype, "opendataIndex", 2);
   __decorateClass([
     r5()
+  ], PageReading.prototype, "verbIndex", 2);
+  __decorateClass([
+    r5()
   ], PageReading.prototype, "tooltip", 2);
   __decorateClass([
     r5()
@@ -3692,6 +4042,9 @@
   __decorateClass([
     r5()
   ], PageReading.prototype, "tooltipOpenDataEntry", 2);
+  __decorateClass([
+    r5()
+  ], PageReading.prototype, "tooltipVerbEntry", 2);
   __decorateClass([
     r5()
   ], PageReading.prototype, "loading", 2);
@@ -3720,6 +4073,8 @@
       resolveWord: resolve,
       loadOpenDataIndex,
       lookupOpenData,
+      loadVerbIndex,
+      lookupVerb,
       upsertEntry
     })
   ], PageReading);

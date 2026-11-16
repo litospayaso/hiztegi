@@ -282,6 +282,35 @@ describe('component-word-tooltip Component Spec:', () => {
     expect(shadow.querySelector('.no-entry')).to.equal(null);
   });
 
+  it('renders a linked named verb source without page metadata', async () => {
+    const namedVerbEntry: VerbEntry = {
+      word: 'dabil',
+      analyses: [
+        {
+          ...verbEntry.analyses[0],
+          lemma: 'ibili',
+          meaning: 'andar',
+          source: { name: 'SEG', url: 'https://www.ehu.eus/seg/' },
+        },
+      ],
+    };
+    await createTooltip(
+      'dabil',
+      undefined,
+      40,
+      40,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      namedVerbEntry
+    );
+    const source = shadow.querySelector('.verb-source');
+    expect(source?.textContent).to.include('SEG');
+    expect(source?.textContent).not.to.include('p.');
+    expect(source?.querySelector('a')?.getAttribute('href')).to.equal('https://www.ehu.eus/seg/');
+  });
+
   it('prefers a personal entry over a verb entry', async () => {
     await createTooltip(
       'dut',

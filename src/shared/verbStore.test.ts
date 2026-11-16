@@ -114,4 +114,37 @@ describe('verbStore Spec:', () => {
 
     expect(entry?.analyses.length).to.equal(1);
   });
+
+  it('accepts named sources without page and table', async () => {
+    const namedAnalysis = {
+      ...analysis,
+      source: { name: 'SEG', url: 'https://www.ehu.eus/seg/' },
+    };
+    mockFetch(url => {
+      if (url.endsWith('/d.json')) {
+        return new Response(JSON.stringify([{ word: 'dabil', analyses: [namedAnalysis] }]));
+      }
+      return new Response('', { status: 404 });
+    });
+
+    const entry = await lookupVerb('dabil');
+
+    expect(entry?.analyses[0].source).to.deep.equal(namedAnalysis.source);
+  });
+
+  it('rejects incomplete page and table sources without a name or URL', async () => {
+    const invalidAnalyses = [
+      { ...analysis, source: { page: 1 } },
+      { ...analysis, source: { table: 'A-1' } },
+      { ...analysis, source: {} },
+    ];
+    mockFetch(url => {
+      if (url.endsWith('/d.json')) {
+        return new Response(JSON.stringify([{ word: 'dut', analyses: invalidAnalyses }]));
+      }
+      return new Response('', { status: 404 });
+    });
+
+    expect(await lookupVerb('dut')).to.be.undefined;
+  });
 });

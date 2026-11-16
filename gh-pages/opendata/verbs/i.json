@@ -1,0 +1,844 @@
+[
+  {
+    "word": "iezadak",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "hik",
+          "nori": "niri"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezadan",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "hik",
+          "nori": "niri"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezadazu",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuk",
+          "nori": "niri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezadazue",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuek",
+          "nori": "niri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezaguk",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "hik",
+          "nori": "guri"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezagun",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "hik",
+          "nori": "guri"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezaguzu",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuk",
+          "nori": "guri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezaguzue",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuek",
+          "nori": "guri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezaiek",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "hik",
+          "nori": "haiei"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezaien",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "hik",
+          "nori": "haiei"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezaiezu",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuk",
+          "nori": "haiei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezaiezue",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuek",
+          "nori": "haiei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezaiok",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "hik",
+          "nori": "hari"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezaion",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "hik",
+          "nori": "hari"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezaiozu",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuk",
+          "nori": "hari"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezaiozue",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuek",
+          "nori": "hari"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezazkidak",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "hik",
+          "nori": "niri"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezazkidan",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "hik",
+          "nori": "niri"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezazkidazu",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuk",
+          "nori": "niri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezazkidazue",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuek",
+          "nori": "niri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezazkiek",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "hik",
+          "nori": "haiei"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezazkien",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "hik",
+          "nori": "haiei"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezazkiezu",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuk",
+          "nori": "haiei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezazkiezue",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuek",
+          "nori": "haiei"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezazkiguk",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "hik",
+          "nori": "guri"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezazkigun",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "hik",
+          "nori": "guri"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezazkiguzu",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuk",
+          "nori": "guri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezazkiguzue",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuek",
+          "nori": "guri"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezazkiok",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "hik",
+          "nori": "hari"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezazkion",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "hik",
+          "nori": "hari"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezazkiozu",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuk",
+          "nori": "hari"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "iezazkiozue",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "zer-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuek",
+          "nori": "hari"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 66,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "itzak",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "hik"
+        },
+        "allocutive": "m",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 42,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "itzan",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "hik"
+        },
+        "allocutive": "f",
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 42,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "itzazu",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuk"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 42,
+          "table": "C"
+        }
+      }
+    ]
+  },
+  {
+    "word": "itzazue",
+    "analyses": [
+      {
+        "lemma": "ezan",
+        "kind": "auxiliary",
+        "paradigm": "nor-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuek"
+        },
+        "meaning": "tener (con dativo)",
+        "source": {
+          "page": 42,
+          "table": "C"
+        }
+      }
+    ]
+  }
+]

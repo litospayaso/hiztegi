@@ -44,7 +44,13 @@ const parseAnalysis = (value: unknown): VerbAnalysis | undefined => {
     return undefined;
   }
   const sourceRecord = source as Record<string, unknown>;
-  if (typeof sourceRecord.page !== 'number' || typeof sourceRecord.table !== 'string') {
+  const page = typeof sourceRecord.page === 'number' ? sourceRecord.page : undefined;
+  const table = typeof sourceRecord.table === 'string' ? sourceRecord.table : undefined;
+  const name = typeof sourceRecord.name === 'string' ? sourceRecord.name : undefined;
+  const url = typeof sourceRecord.url === 'string' ? sourceRecord.url : undefined;
+  const note = typeof sourceRecord.note === 'string' ? sourceRecord.note : undefined;
+  const hasPageTable = page !== undefined && table !== undefined;
+  if (!hasPageTable && !name && !url) {
     return undefined;
   }
   return {
@@ -62,9 +68,10 @@ const parseAnalysis = (value: unknown): VerbAnalysis | undefined => {
       : {}),
     ...(typeof analysis.meaning === 'string' ? { meaning: analysis.meaning } : {}),
     source: {
-      page: sourceRecord.page,
-      table: sourceRecord.table,
-      ...(typeof sourceRecord.note === 'string' ? { note: sourceRecord.note } : {}),
+      ...(hasPageTable ? { page, table } : {}),
+      ...(name ? { name } : {}),
+      ...(url ? { url } : {}),
+      ...(note ? { note } : {}),
     },
   };
 };

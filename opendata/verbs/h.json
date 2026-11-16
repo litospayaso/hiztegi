@@ -477,6 +477,48 @@
     ]
   },
   {
+    "word": "harraie",
+    "analyses": [
+      {
+        "lemma": "jarraitu",
+        "kind": "synthetic",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ahala",
+        "persons": {
+          "nori": "haiei",
+          "nor": "hi"
+        },
+        "meaning": "seguir",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/jarraitu"
+        }
+      }
+    ]
+  },
+  {
+    "word": "harraio",
+    "analyses": [
+      {
+        "lemma": "jarraitu",
+        "kind": "synthetic",
+        "paradigm": "nor-nori",
+        "tense": "orain",
+        "mode": "ahala",
+        "persons": {
+          "nori": "hari",
+          "nor": "hi"
+        },
+        "meaning": "seguir",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/jarraitu"
+        }
+      }
+    ]
+  },
+  {
     "word": "hatzaidake",
     "analyses": [
       {
@@ -1558,6 +1600,48 @@
         "source": {
           "page": 19,
           "table": "B-5"
+        }
+      }
+    ]
+  },
+  {
+    "word": "herakuskien",
+    "analyses": [
+      {
+        "lemma": "irakatsi",
+        "kind": "synthetic",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nor": "haiek",
+          "nork": "hik"
+        },
+        "meaning": "enseñar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/irakatsi"
+        }
+      }
+    ]
+  },
+  {
+    "word": "herakutsan",
+    "analyses": [
+      {
+        "lemma": "irakatsi",
+        "kind": "synthetic",
+        "paradigm": "nor-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nor": "hura",
+          "nork": "hik"
+        },
+        "meaning": "enseñar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/irakatsi"
         }
       }
     ]
@@ -2752,6 +2836,48 @@
     ]
   },
   {
+    "word": "hinderraien",
+    "analyses": [
+      {
+        "lemma": "jarraitu",
+        "kind": "synthetic",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nori": "haiei",
+          "nor": "hi"
+        },
+        "meaning": "seguir",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/jarraitu"
+        }
+      }
+    ]
+  },
+  {
+    "word": "hinderraion",
+    "analyses": [
+      {
+        "lemma": "jarraitu",
+        "kind": "synthetic",
+        "paradigm": "nor-nori",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nori": "hari",
+          "nor": "hi"
+        },
+        "meaning": "seguir",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/jarraitu"
+        }
+      }
+    ]
+  },
+  {
     "word": "hindudan",
     "analyses": [
       {
@@ -3796,6 +3922,28 @@
     ]
   },
   {
+    "word": "hioen",
+    "analyses": [
+      {
+        "lemma": "esan",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nor": "hura",
+          "nork": "hik",
+          "nori": "hari"
+        },
+        "meaning": "decir",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/esan"
+        }
+      }
+    ]
+  },
+  {
     "word": "hioke",
     "analyses": [
       {
@@ -3859,6 +4007,26 @@
         "source": {
           "page": 45,
           "table": "B-1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "hiroen",
+    "analyses": [
+      {
+        "lemma": "iro",
+        "kind": "synthetic",
+        "paradigm": "nor",
+        "tense": "iragan",
+        "mode": "ahala",
+        "persons": {
+          "nor": "hi"
+        },
+        "meaning": "hilar (el hilo)",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/iro"
         }
       }
     ]

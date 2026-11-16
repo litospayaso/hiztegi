@@ -45,9 +45,10 @@ a Storybook story, a WTR test, a `package.json` and a `README.md`.
 
 ```text
 hiztegi/
-├── opendata/                  # Bundled Basque–Spanish lexicons (see "Data sources")
+├── opendata/                  # Bundled lexicons and verb data (see "Data sources")
 │   ├── esp-eu/                # Spanish → Basque (a.json … z.json + otros.json)
-│   └── eu-esp/                # Basque → Spanish (a.json … z.json + otros.json)
+│   ├── eu-esp/                # Basque → Spanish (a.json … z.json + otros.json)
+│   └── verbs/                 # Verb forms (a.json … z.json + index.json)
 ├── exampleData/               # Sample books for manual testing
 │   ├── html/
 │   ├── md/
@@ -85,7 +86,9 @@ hiztegi/
 ├── scripts/
 │   ├── release.js
 │   ├── generate-opendata-index.mjs # Builds the compact Open Data word index
-│   └── copy-opendata.mjs          # Copies runtime lexicons into app builds
+│   ├── parse-verb-pdf.mjs          # Builds auxiliary verb data from the Euskaltzaindia PDF
+│   ├── import-trinko-verbs.mjs     # Builds trinko verb data from EHU SEG and TFE
+│   └── copy-opendata.mjs           # Copies runtime lexicons into app builds
 ├── gh-pages/                  # Self-contained web build served by GitHub Pages
 ├── .docs/                     # AGENTS.md, PLAN.md, TODO.md, declinations.html
 ├── esbuild.js                 # Builds every component bundle into dist/
@@ -129,10 +132,11 @@ source term :_: target term :_: part of speech :_: [domain; ...]
 
 The source TBX files were converted to this JSON layout without changing the entries.
 
-At runtime only `opendata/eu-esp/` is deployed. The app first loads
-`opendata/eu-esp/index.json` (a compact, de-duplicated list of source words) to decide
-which words get the orange Open Data highlight, then fetches the relevant letter file
-only when a definition is requested. Regenerate the index after updating the lexicons:
+At runtime the app deploys `opendata/eu-esp/` and `opendata/verbs/`. It first loads
+`opendata/eu-esp/index.json` (a compact, de-duplicated list of source words) and
+`opendata/verbs/index.json` to decide which words get an Open Data or verb highlight,
+then fetches the relevant letter file only when a definition is requested. Regenerate
+the lexicon index after updating the lexicons:
 
 ```bash
 npm run opendata:index
@@ -198,7 +202,7 @@ npm run build
 The build writes every component bundle (ES module + IIFE, with TypeScript declaration
 files) and the web components polyfills into `dist/`. The entry-point bundle is also
 copied to `gh-pages/pageHiztegiApp.js`, together with the runtime `opendata/eu-esp/`
-lexicon and its compact index.
+lexicon and `opendata/verbs/` data.
 
 The full application can be built with Vite:
 
@@ -206,7 +210,8 @@ The full application can be built with Vite:
 npm run build:app
 ```
 
-Output goes to `dist-app/`, including `dist-app/opendata/eu-esp/`.
+Output goes to `dist-app/`, including `dist-app/opendata/eu-esp/` and
+`dist-app/opendata/verbs/`.
 
 ## Publish component to NPM
 

@@ -1,6 +1,6 @@
 import { LitElement, css, html } from 'lit';
 import { property, state } from 'lit/decorators.js';
-import type { PropertyValues } from 'lit';
+import type { PropertyValues, TemplateResult } from 'lit';
 import { styles } from '../../shared/styles';
 import type {
   DictionaryEntry,
@@ -177,6 +177,10 @@ export default class ComponentWordTooltip extends LitElement {
         color: var(--hzt-muted);
       }
 
+      .verb-source a {
+        color: inherit;
+      }
+
       .base-form {
         margin: 0.5rem 0 0;
         font-size: var(--hzt-size-label);
@@ -339,6 +343,30 @@ export default class ComponentWordTooltip extends LitElement {
     ].filter(Boolean);
   }
 
+  private renderVerbSource(source: VerbAnalysis['source']) {
+    const parts: Array<string | TemplateResult> = [];
+    if (source.page !== undefined && source.table) {
+      parts.push(`p. ${source.page} · ${source.table}`);
+    }
+    if (source.name) {
+      parts.push(
+        source.url
+          ? html`<a href=${source.url} target="_blank" rel="noopener noreferrer">${source.name}</a>`
+          : source.name
+      );
+    } else if (source.url) {
+      parts.push(html`<a href=${source.url} target="_blank" rel="noopener noreferrer">${source.url}</a>`);
+    }
+    if (source.note) {
+      parts.push(source.note);
+    }
+    return html`
+      <p class="verb-source">
+        ${parts.map((part, index) => html`${index > 0 ? ' · ' : ''}${part}`)}
+      </p>
+    `;
+  }
+
   private renderVerbAnalyses(entry: VerbEntry) {
     return html`
       <ul class="verb-analyses">
@@ -361,11 +389,7 @@ export default class ComponentWordTooltip extends LitElement {
                 ? html`<span class="verb-tag">alocutivo ${analysis.allocutive}</span>`
                 : ''}
             </div>
-            <p class="verb-source">
-              p. ${analysis.source.page} · ${analysis.source.table}${analysis.source.note
-                ? ` · ${analysis.source.note}`
-                : ''}
-            </p>
+            ${this.renderVerbSource(analysis.source)}
           </li>
         `)}
       </ul>

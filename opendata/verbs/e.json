@@ -1,5 +1,875 @@
 [
   {
+    "word": "egitzazu",
+    "analyses": [
+      {
+        "lemma": "egin",
+        "kind": "synthetic",
+        "paradigm": "nor-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zu"
+        },
+        "meaning": "hacer",
+        "source": {
+          "name": "Sareko Euskal Gramatika (SEG) — Adizkitegia automatikoa",
+          "url": "https://www.ehu.eus/seg/morf/5/16/1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "egitzazue",
+    "analyses": [
+      {
+        "lemma": "egin",
+        "kind": "synthetic",
+        "paradigm": "nor-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuek"
+        },
+        "meaning": "hacer",
+        "source": {
+          "name": "Sareko Euskal Gramatika (SEG) — Adizkitegia automatikoa",
+          "url": "https://www.ehu.eus/seg/morf/5/16/1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "egizu",
+    "analyses": [
+      {
+        "lemma": "egin",
+        "kind": "synthetic",
+        "paradigm": "nor-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zu"
+        },
+        "meaning": "hacer",
+        "source": {
+          "name": "Sareko Euskal Gramatika (SEG) — Adizkitegia automatikoa",
+          "url": "https://www.ehu.eus/seg/morf/5/16/1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "egizue",
+    "analyses": [
+      {
+        "lemma": "egin",
+        "kind": "synthetic",
+        "paradigm": "nor-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuek"
+        },
+        "meaning": "hacer",
+        "source": {
+          "name": "Sareko Euskal Gramatika (SEG) — Adizkitegia automatikoa",
+          "url": "https://www.ehu.eus/seg/morf/5/16/1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "emadazu",
+    "analyses": [
+      {
+        "lemma": "eman",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuk",
+          "nori": "niri"
+        },
+        "meaning": "dar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/eman"
+        }
+      }
+    ]
+  },
+  {
+    "word": "emadazue",
+    "analyses": [
+      {
+        "lemma": "eman",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuek",
+          "nori": "niri"
+        },
+        "meaning": "dar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/eman"
+        }
+      }
+    ]
+  },
+  {
+    "word": "emaguzu",
+    "analyses": [
+      {
+        "lemma": "eman",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuk",
+          "nori": "guri"
+        },
+        "meaning": "dar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/eman"
+        }
+      }
+    ]
+  },
+  {
+    "word": "emaguzue",
+    "analyses": [
+      {
+        "lemma": "eman",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuek",
+          "nori": "guri"
+        },
+        "meaning": "dar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/eman"
+        }
+      }
+    ]
+  },
+  {
+    "word": "emaiezu",
+    "analyses": [
+      {
+        "lemma": "eman",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuk",
+          "nori": "haiei"
+        },
+        "meaning": "dar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/eman"
+        }
+      }
+    ]
+  },
+  {
+    "word": "emaiezue",
+    "analyses": [
+      {
+        "lemma": "eman",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuek",
+          "nori": "haiei"
+        },
+        "meaning": "dar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/eman"
+        }
+      }
+    ]
+  },
+  {
+    "word": "emaiozu",
+    "analyses": [
+      {
+        "lemma": "eman",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuk",
+          "nori": "hari"
+        },
+        "meaning": "dar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/eman"
+        }
+      }
+    ]
+  },
+  {
+    "word": "emaiozue",
+    "analyses": [
+      {
+        "lemma": "eman",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuek",
+          "nori": "hari"
+        },
+        "meaning": "dar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/eman"
+        }
+      }
+    ]
+  },
+  {
+    "word": "emazkidazu",
+    "analyses": [
+      {
+        "lemma": "eman",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuk",
+          "nori": "niri"
+        },
+        "meaning": "dar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/eman"
+        }
+      }
+    ]
+  },
+  {
+    "word": "emazkidazue",
+    "analyses": [
+      {
+        "lemma": "eman",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuek",
+          "nori": "niri"
+        },
+        "meaning": "dar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/eman"
+        }
+      }
+    ]
+  },
+  {
+    "word": "emazkiezu",
+    "analyses": [
+      {
+        "lemma": "eman",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuk",
+          "nori": "haiei"
+        },
+        "meaning": "dar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/eman"
+        }
+      }
+    ]
+  },
+  {
+    "word": "emazkiezue",
+    "analyses": [
+      {
+        "lemma": "eman",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuek",
+          "nori": "haiei"
+        },
+        "meaning": "dar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/eman"
+        }
+      }
+    ]
+  },
+  {
+    "word": "emazkiguzu",
+    "analyses": [
+      {
+        "lemma": "eman",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuk",
+          "nori": "guri"
+        },
+        "meaning": "dar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/eman"
+        }
+      }
+    ]
+  },
+  {
+    "word": "emazkiguzue",
+    "analyses": [
+      {
+        "lemma": "eman",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuek",
+          "nori": "guri"
+        },
+        "meaning": "dar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/eman"
+        }
+      }
+    ]
+  },
+  {
+    "word": "emazkiozu",
+    "analyses": [
+      {
+        "lemma": "eman",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuk",
+          "nori": "hari"
+        },
+        "meaning": "dar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/eman"
+        }
+      }
+    ]
+  },
+  {
+    "word": "emazkiozue",
+    "analyses": [
+      {
+        "lemma": "eman",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuek",
+          "nori": "hari"
+        },
+        "meaning": "dar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/eman"
+        }
+      }
+    ]
+  },
+  {
+    "word": "esadazu",
+    "analyses": [
+      {
+        "lemma": "esan",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuk",
+          "nori": "niri"
+        },
+        "meaning": "decir",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/esan"
+        }
+      }
+    ]
+  },
+  {
+    "word": "esadazue",
+    "analyses": [
+      {
+        "lemma": "esan",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuek",
+          "nori": "niri"
+        },
+        "meaning": "decir",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/esan"
+        }
+      }
+    ]
+  },
+  {
+    "word": "esaguzu",
+    "analyses": [
+      {
+        "lemma": "esan",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuk",
+          "nori": "guri"
+        },
+        "meaning": "decir",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/esan"
+        }
+      }
+    ]
+  },
+  {
+    "word": "esaguzue",
+    "analyses": [
+      {
+        "lemma": "esan",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuek",
+          "nori": "guri"
+        },
+        "meaning": "decir",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/esan"
+        }
+      }
+    ]
+  },
+  {
+    "word": "esaiezu",
+    "analyses": [
+      {
+        "lemma": "esan",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuk",
+          "nori": "haiei"
+        },
+        "meaning": "decir",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/esan"
+        }
+      }
+    ]
+  },
+  {
+    "word": "esaiezue",
+    "analyses": [
+      {
+        "lemma": "esan",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuek",
+          "nori": "haiei"
+        },
+        "meaning": "decir",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/esan"
+        }
+      }
+    ]
+  },
+  {
+    "word": "esaiozu",
+    "analyses": [
+      {
+        "lemma": "esan",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuk",
+          "nori": "hari"
+        },
+        "meaning": "decir",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/esan"
+        }
+      }
+    ]
+  },
+  {
+    "word": "esaiozue",
+    "analyses": [
+      {
+        "lemma": "esan",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuek",
+          "nori": "hari"
+        },
+        "meaning": "decir",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/esan"
+        }
+      }
+    ]
+  },
+  {
+    "word": "esazu",
+    "analyses": [
+      {
+        "lemma": "esan",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuk",
+          "nori": "hari"
+        },
+        "meaning": "decir",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/esan"
+        }
+      }
+    ]
+  },
+  {
+    "word": "esazue",
+    "analyses": [
+      {
+        "lemma": "esan",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuek",
+          "nori": "hari"
+        },
+        "meaning": "decir",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/esan"
+        }
+      }
+    ]
+  },
+  {
+    "word": "euskuzu",
+    "analyses": [
+      {
+        "lemma": "eutsi",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nori": "gu",
+          "nork": "zu"
+        },
+        "meaning": "sostener/aguantar",
+        "source": {
+          "name": "Sareko Euskal Gramatika (SEG) — Adizkitegia automatikoa",
+          "url": "https://www.ehu.eus/seg/morf/5/16/1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "euskuzue",
+    "analyses": [
+      {
+        "lemma": "eutsi",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nori": "gu",
+          "nork": "zuek"
+        },
+        "meaning": "sostener/aguantar",
+        "source": {
+          "name": "Sareko Euskal Gramatika (SEG) — Adizkitegia automatikoa",
+          "url": "https://www.ehu.eus/seg/morf/5/16/1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "eustazu",
+    "analyses": [
+      {
+        "lemma": "eutsi",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nori": "ni",
+          "nork": "zu"
+        },
+        "meaning": "sostener/aguantar",
+        "source": {
+          "name": "Sareko Euskal Gramatika (SEG) — Adizkitegia automatikoa",
+          "url": "https://www.ehu.eus/seg/morf/5/16/1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "eustazue",
+    "analyses": [
+      {
+        "lemma": "eutsi",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nori": "ni",
+          "nork": "zuek"
+        },
+        "meaning": "sostener/aguantar",
+        "source": {
+          "name": "Sareko Euskal Gramatika (SEG) — Adizkitegia automatikoa",
+          "url": "https://www.ehu.eus/seg/morf/5/16/1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "eutsezu",
+    "analyses": [
+      {
+        "lemma": "eutsi",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nori": "haiek",
+          "nork": "zu"
+        },
+        "meaning": "sostener/aguantar",
+        "source": {
+          "name": "Sareko Euskal Gramatika (SEG) — Adizkitegia automatikoa",
+          "url": "https://www.ehu.eus/seg/morf/5/16/1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "eutsezue",
+    "analyses": [
+      {
+        "lemma": "eutsi",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nori": "haiek",
+          "nork": "zuek"
+        },
+        "meaning": "sostener/aguantar",
+        "source": {
+          "name": "Sareko Euskal Gramatika (SEG) — Adizkitegia automatikoa",
+          "url": "https://www.ehu.eus/seg/morf/5/16/1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "eutsozu",
+    "analyses": [
+      {
+        "lemma": "eutsi",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nori": "hura",
+          "nork": "zu"
+        },
+        "meaning": "sostener/aguantar",
+        "source": {
+          "name": "Sareko Euskal Gramatika (SEG) — Adizkitegia automatikoa",
+          "url": "https://www.ehu.eus/seg/morf/5/16/1"
+        }
+      }
+    ]
+  },
+  {
+    "word": "eutsozue",
+    "analyses": [
+      {
+        "lemma": "eutsi",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nori": "hura",
+          "nork": "zuek"
+        },
+        "meaning": "sostener/aguantar",
+        "source": {
+          "name": "Sareko Euskal Gramatika (SEG) — Adizkitegia automatikoa",
+          "url": "https://www.ehu.eus/seg/morf/5/16/1"
+        }
+      }
+    ]
+  },
+  {
     "word": "ezak",
     "analyses": [
       {

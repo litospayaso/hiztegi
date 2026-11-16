@@ -1,0 +1,278 @@
+[
+  {
+    "word": "utzazkiezu",
+    "analyses": [
+      {
+        "lemma": "utzi",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuk",
+          "nori": "haiei"
+        },
+        "meaning": "dejar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/utzi"
+        }
+      }
+    ]
+  },
+  {
+    "word": "utzazkiezue",
+    "analyses": [
+      {
+        "lemma": "utzi",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuek",
+          "nori": "haiei"
+        },
+        "meaning": "dejar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/utzi"
+        }
+      }
+    ]
+  },
+  {
+    "word": "utzazkiguzu",
+    "analyses": [
+      {
+        "lemma": "utzi",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuk",
+          "nori": "guri"
+        },
+        "meaning": "dejar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/utzi"
+        }
+      }
+    ]
+  },
+  {
+    "word": "utzazkiguzue",
+    "analyses": [
+      {
+        "lemma": "utzi",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuek",
+          "nori": "guri"
+        },
+        "meaning": "dejar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/utzi"
+        }
+      }
+    ]
+  },
+  {
+    "word": "utzazkiozu",
+    "analyses": [
+      {
+        "lemma": "utzi",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuk",
+          "nori": "hari"
+        },
+        "meaning": "dejar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/utzi"
+        }
+      }
+    ]
+  },
+  {
+    "word": "utzazkiozue",
+    "analyses": [
+      {
+        "lemma": "utzi",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "haiek",
+          "nork": "zuek",
+          "nori": "hari"
+        },
+        "meaning": "dejar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/utzi"
+        }
+      }
+    ]
+  },
+  {
+    "word": "utziezu",
+    "analyses": [
+      {
+        "lemma": "utzi",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuk",
+          "nori": "haiei"
+        },
+        "meaning": "dejar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/utzi"
+        }
+      }
+    ]
+  },
+  {
+    "word": "utziezue",
+    "analyses": [
+      {
+        "lemma": "utzi",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuek",
+          "nori": "haiei"
+        },
+        "meaning": "dejar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/utzi"
+        }
+      }
+    ]
+  },
+  {
+    "word": "utziozu",
+    "analyses": [
+      {
+        "lemma": "utzi",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuk",
+          "nori": "hari"
+        },
+        "meaning": "dejar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/utzi"
+        }
+      }
+    ]
+  },
+  {
+    "word": "utziozue",
+    "analyses": [
+      {
+        "lemma": "utzi",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuek",
+          "nori": "hari"
+        },
+        "meaning": "dejar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/utzi"
+        }
+      }
+    ]
+  },
+  {
+    "word": "uzkuzu",
+    "analyses": [
+      {
+        "lemma": "utzi",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuk",
+          "nori": "guri"
+        },
+        "meaning": "dejar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/utzi"
+        }
+      }
+    ]
+  },
+  {
+    "word": "uzkuzue",
+    "analyses": [
+      {
+        "lemma": "utzi",
+        "kind": "synthetic",
+        "paradigm": "nor-nori-nork",
+        "tense": "agintera",
+        "mode": "agintera",
+        "subtype": "agintera",
+        "persons": {
+          "nor": "hura",
+          "nork": "zuek",
+          "nori": "guri"
+        },
+        "meaning": "dejar",
+        "source": {
+          "name": "TFE — Aditz trinkoak",
+          "url": "https://tfe.eus/euskara/aditz_trinkoak/utzi"
+        }
+      }
+    ]
+  }
+]

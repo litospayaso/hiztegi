@@ -80,8 +80,10 @@ export interface VerbPersons {
 }
 
 export interface VerbSource {
-  page: number;
-  table: string;
+  page?: number;
+  table?: string;
+  name?: string;
+  url?: string;
   note?: string;
 }
 
