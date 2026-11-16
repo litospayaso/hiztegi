@@ -6,7 +6,7 @@ lookups.
 ## Lookup flow
 
 1. Personal dictionary direct match.
-2. Auxiliary verb direct match.
+2. Verb direct match, including generated roots, futures, habituals and completives.
 3. Open Data Basque → Spanish direct match.
 4. Personal dictionary declined form (via `detectSuffixes`).
 5. Open Data declined form.
@@ -15,4 +15,5 @@ lookups.
 The page loads the compact Open Data and verb indexes with the personal dictionary and
 passes them to `component-text-reader` for orange/teal highlighting. Definitions are
 fetched lazily when a word is clicked. Open Data words can be added to the personal
-dictionary with the first translation pre-filled; verb words show structured analyses.
+dictionary with the first translation pre-filled; verb words show structured analyses
+and generated derivations, and adding a derived verb pre-fills its lemma.

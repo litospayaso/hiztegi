@@ -15,6 +15,9 @@ Basque.
   highlighting (green / yellow / orange).
 - Click a word to look it up; declined forms are matched back to their base form using
   the 14 Basque cases (`src/shared/declensions.ts`).
+- Match generated verb forms (roots, future, habitual and completives) directly to their
+  lemma, base form and explanation, including forms such as `etorriko`, `etortzen` and
+  `zenekiela`.
 - Words missing from the personal dictionary fall back to the bundled Basque → Spanish
   Open Data lexicon, with its definition shown in the tooltip.
 - Add and edit dictionary entries (base form, status, translation, note) and mark words
@@ -49,6 +52,7 @@ hiztegi/
 │   ├── esp-eu/                # Spanish → Basque (a.json … z.json + otros.json)
 │   ├── eu-esp/                # Basque → Spanish (a.json … z.json + otros.json)
 │   └── verbs/                 # Verb forms (a.json … z.json + index.json)
+│       └── derived/           # Generated roots, futures, habituals and completives
 ├── exampleData/               # Sample books for manual testing
 │   ├── html/
 │   ├── md/
@@ -74,6 +78,7 @@ hiztegi/
 │       ├── bookStore.ts       # Book/chapter/progress CRUD
 │       ├── dictionaryStore.ts # Dictionary entry CRUD and lookup
 │       ├── openDataStore.ts   # Open Data index + lazy definition lookup
+│       ├── verbStore.ts       # Verb index + lazy analysis/derivation lookup
 │       ├── declensions.ts     # Basque case table + suffix detection
 │       ├── page.ts            # Base Page class and navigation helpers
 │       ├── storage.ts         # Promisified IndexedDB wrapper
@@ -86,6 +91,8 @@ hiztegi/
 ├── scripts/
 │   ├── release.js
 │   ├── generate-opendata-index.mjs # Builds the compact Open Data word index
+│   ├── generate-derived-verbs.mjs  # Builds generated verb roots, futures and completives
+│   ├── verbMorphology.mjs          # High-confidence Basque verb derivation rules
 │   ├── parse-verb-pdf.mjs          # Builds auxiliary verb data from the Euskaltzaindia PDF
 │   ├── import-trinko-verbs.mjs     # Builds trinko verb data from EHU SEG and TFE
 │   └── copy-opendata.mjs           # Copies runtime lexicons into app builds
@@ -133,10 +140,24 @@ source term :_: target term :_: part of speech :_: [domain; ...]
 The source TBX files were converted to this JSON layout without changing the entries.
 
 At runtime the app deploys `opendata/eu-esp/` and `opendata/verbs/`. It first loads
-`opendata/eu-esp/index.json` (a compact, de-duplicated list of source words) and
-`opendata/verbs/index.json` to decide which words get an Open Data or verb highlight,
-then fetches the relevant letter file only when a definition is requested. Regenerate
-the lexicon index after updating the lexicons:
+`opendata/eu-esp/index.json` (a compact, de-duplicated list of source words) and the
+union of `opendata/verbs/index.json` plus `opendata/verbs/derived/index.json` to decide
+which words get an Open Data or verb highlight, then fetches the relevant letter file
+only when a definition is requested.
+
+Verb derivations are generated in `opendata/verbs/derived/` from the single-word verbs
+in the Basque → Spanish lexicon and the finite forms in `opendata/verbs/`:
+
+```bash
+npm run opendata:verbs
+npm run test:scripts
+```
+
+The generator is intentionally conservative. It covers future `-ko/-go`, habitual
+`-tzen/-ten`, high-confidence roots and completives `-la`/`-enik`; `-en` completives are
+annotated on existing finite `-n` forms. Uncertain forms are skipped, and roots that
+collide with ordinary Open Data words are not generated. Regenerate the lexicon index
+after updating the lexicons:
 
 ```bash
 npm run opendata:index
@@ -211,7 +232,8 @@ npm run build:app
 ```
 
 Output goes to `dist-app/`, including `dist-app/opendata/eu-esp/` and
-`dist-app/opendata/verbs/`.
+`dist-app/opendata/verbs/` (with generated data in
+`dist-app/opendata/verbs/derived/`).
 
 ## Publish component to NPM
 

@@ -96,6 +96,19 @@ describe('component-text-reader Component Spec:', () => {
     expect(words()[2].classList.contains('word--verb')).to.be.false;
   });
 
+  it('marks derived verb forms as verbs', async () => {
+    await createReader(
+      'etorriko etortzen etor zenekiela',
+      [],
+      4,
+      new Set(),
+      new Set(['etorriko', 'etortzen', 'etor', 'zenekiela'])
+    );
+    for (const word of Array.from(words())) {
+      expect(word.classList.contains('word--verb')).to.be.true;
+    }
+  });
+
   it('marks exact verb forms before declined Open Data words', async () => {
     await createReader('etxean da', [], 2, new Set(['etxe']), new Set(['etxean']));
     expect(words()[0].classList.contains('word--verb')).to.be.true;

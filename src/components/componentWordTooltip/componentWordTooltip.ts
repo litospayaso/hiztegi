@@ -6,6 +6,7 @@ import type {
   DictionaryEntry,
   OpenDataEntry,
   VerbAnalysis,
+  VerbDerivation,
   VerbEntry,
   WordStatus,
 } from '../../shared/types';
@@ -367,7 +368,73 @@ export default class ComponentWordTooltip extends LitElement {
     `;
   }
 
+  private derivationLabel(derivation: VerbDerivation): string {
+    switch (derivation.type) {
+      case 'root':
+        return `Raíz de ${derivation.from}`;
+      case 'future':
+        return `Futuro de ${derivation.from}`;
+      case 'habitual':
+        return `Forma habitual de ${derivation.from} (-tzen/-ten)`;
+      case 'completive-en':
+        return derivation.from === this.normalizeWord()
+          ? `Completivo -en (misma forma que ${derivation.from})`
+          : `Completivo -en de ${derivation.from}`;
+      case 'completive-enik':
+        return `Completivo -enik de ${derivation.from}`;
+      case 'completive-la':
+        return `Completivo -la de ${derivation.from}`;
+    }
+  }
+
+  private renderAnalysisTags(analysis: VerbAnalysis) {
+    return html`
+      <span class="verb-tag">${analysis.paradigm}</span>
+      <span class="verb-tag">${this.tenseLabel(analysis.tense)}</span>
+      <span class="verb-tag">${this.modeLabel(analysis.mode)}</span>
+      ${analysis.subtype
+        ? html`<span class="verb-tag">${this.subtypeLabel(analysis.subtype)}</span>`
+        : ''}
+      ${this.personTags(analysis).map(tag => html`<span class="verb-tag">${tag}</span>`)}
+      ${analysis.allocutive
+        ? html`<span class="verb-tag">alocutivo ${analysis.allocutive}</span>`
+        : ''}
+    `;
+  }
+
+  private renderVerbDerivations(entry: VerbEntry) {
+    if (!entry.derivations?.length) {
+      return '';
+    }
+    return html`
+      <ul class="verb-analyses">
+        ${entry.derivations.map(derivation => html`
+          <li class="verb-analysis">
+            <div class="verb-lemma">
+              ${this.derivationLabel(derivation)}${derivation.meaning
+                ? html` <span>· ${derivation.meaning}</span>`
+                : ''}
+            </div>
+            <div class="verb-tags">
+              <span class="verb-tag">forma base: ${derivation.from}</span>
+              <span class="verb-tag">lema: ${derivation.lemma}</span>
+              ${derivation.baseAnalysis
+                ? this.renderAnalysisTags(derivation.baseAnalysis)
+                : ''}
+            </div>
+            ${derivation.baseAnalysis
+              ? this.renderVerbSource(derivation.baseAnalysis.source)
+              : ''}
+          </li>
+        `)}
+      </ul>
+    `;
+  }
+
   private renderVerbAnalyses(entry: VerbEntry) {
+    if (!entry.analyses.length) {
+      return '';
+    }
     return html`
       <ul class="verb-analyses">
         ${entry.analyses.map(analysis => html`
@@ -378,16 +445,7 @@ export default class ComponentWordTooltip extends LitElement {
                 : ''}
             </div>
             <div class="verb-tags">
-              <span class="verb-tag">${analysis.paradigm}</span>
-              <span class="verb-tag">${this.tenseLabel(analysis.tense)}</span>
-              <span class="verb-tag">${this.modeLabel(analysis.mode)}</span>
-              ${analysis.subtype
-                ? html`<span class="verb-tag">${this.subtypeLabel(analysis.subtype)}</span>`
-                : ''}
-              ${this.personTags(analysis).map(tag => html`<span class="verb-tag">${tag}</span>`)}
-              ${analysis.allocutive
-                ? html`<span class="verb-tag">alocutivo ${analysis.allocutive}</span>`
-                : ''}
+              ${this.renderAnalysisTags(analysis)}
             </div>
             ${this.renderVerbSource(analysis.source)}
           </li>
@@ -417,11 +475,12 @@ export default class ComponentWordTooltip extends LitElement {
   }
 
   private emitAdd(): void {
-    const word = this.baseForm ?? this.normalizeWord();
+    const derivation = this.verbEntry?.derivations?.[0];
+    const word = derivation?.lemma ?? this.baseForm ?? this.normalizeWord();
     if (!word) {
       return;
     }
-    const translation = this.openDataEntry?.translations[0];
+    const translation = derivation?.meaning ?? this.openDataEntry?.translations[0];
     this.dispatchEvent(
       new CustomEvent<{ word: string; translation?: string }>('open-add-modal', {
         detail: { word, ...(translation ? { translation } : {}) },
@@ -471,7 +530,12 @@ export default class ComponentWordTooltip extends LitElement {
               : html`<p class="no-entry">Esta palabra no está en el diccionario.</p>`}
         ${this.entry?.translation ? html`<p class="translation">${this.entry.translation}</p>` : ''}
         ${this.entry?.note ? html`<p class="note">${this.entry.note}</p>` : ''}
-        ${!this.entry && this.verbEntry ? this.renderVerbAnalyses(this.verbEntry) : ''}
+        ${!this.entry && this.verbEntry
+          ? html`
+              ${this.renderVerbDerivations(this.verbEntry)}
+              ${this.renderVerbAnalyses(this.verbEntry)}
+            `
+          : ''}
         ${!this.entry && !this.verbEntry && this.openDataEntry
           ? html`
               <ul class="translations">

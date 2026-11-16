@@ -1,0 +1,6723 @@
+[
+  {
+    "word": "madarika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "madarikatu",
+        "lemma": "madarikatu",
+        "meaning": "maldecir"
+      }
+    ]
+  },
+  {
+    "word": "madarikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "madarikatu",
+        "lemma": "madarikatu",
+        "meaning": "maldecir"
+      }
+    ]
+  },
+  {
+    "word": "madarikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "madarikatu",
+        "lemma": "madarikatu",
+        "meaning": "maldecir"
+      }
+    ]
+  },
+  {
+    "word": "mafrundi",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mafrunditu",
+        "lemma": "mafrunditu",
+        "meaning": "acatarrar"
+      }
+    ]
+  },
+  {
+    "word": "mafrundituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mafrunditu",
+        "lemma": "mafrunditu",
+        "meaning": "acatarrar"
+      }
+    ]
+  },
+  {
+    "word": "mafrunditzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mafrunditu",
+        "lemma": "mafrunditu",
+        "meaning": "acatarrar"
+      }
+    ]
+  },
+  {
+    "word": "magnetiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "magnetizatu",
+        "lemma": "magnetizatu",
+        "meaning": "magnetizar"
+      }
+    ]
+  },
+  {
+    "word": "magnetizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "magnetizatu",
+        "lemma": "magnetizatu",
+        "meaning": "magnetizar"
+      }
+    ]
+  },
+  {
+    "word": "magnetizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "magnetizatu",
+        "lemma": "magnetizatu",
+        "meaning": "magnetizar"
+      }
+    ]
+  },
+  {
+    "word": "mahaigainera",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mahaigaineratu",
+        "lemma": "mahaigaineratu",
+        "meaning": "poner sobre la mesa"
+      }
+    ]
+  },
+  {
+    "word": "mahaigaineratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mahaigaineratu",
+        "lemma": "mahaigaineratu",
+        "meaning": "poner sobre la mesa"
+      }
+    ]
+  },
+  {
+    "word": "mahaigaineratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mahaigaineratu",
+        "lemma": "mahaigaineratu",
+        "meaning": "poner sobre la mesa"
+      }
+    ]
+  },
+  {
+    "word": "mahaira",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mahairatu",
+        "lemma": "mahairatu",
+        "meaning": "llevar a la mesa"
+      }
+    ]
+  },
+  {
+    "word": "mahairatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mahairatu",
+        "lemma": "mahairatu",
+        "meaning": "llevar a la mesa"
+      }
+    ]
+  },
+  {
+    "word": "mahairatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mahairatu",
+        "lemma": "mahairatu",
+        "meaning": "llevar a la mesa"
+      }
+    ]
+  },
+  {
+    "word": "mailakatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mailakatu",
+        "lemma": "mailakatu",
+        "meaning": "clasificar"
+      }
+    ]
+  },
+  {
+    "word": "mailakatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mailakatu",
+        "lemma": "mailakatu",
+        "meaning": "clasificar"
+      }
+    ]
+  },
+  {
+    "word": "mailara",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mailaratu",
+        "lemma": "mailaratu",
+        "meaning": "nivelar"
+      }
+    ]
+  },
+  {
+    "word": "mailaratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mailaratu",
+        "lemma": "mailaratu",
+        "meaning": "nivelar"
+      }
+    ]
+  },
+  {
+    "word": "mailaratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mailaratu",
+        "lemma": "mailaratu",
+        "meaning": "nivelar"
+      }
+    ]
+  },
+  {
+    "word": "mailatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mailatu",
+        "lemma": "mailatu",
+        "meaning": "golpear"
+      }
+    ]
+  },
+  {
+    "word": "mailatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mailatu",
+        "lemma": "mailatu",
+        "meaning": "golpear"
+      }
+    ]
+  },
+  {
+    "word": "mailega",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mailegatu",
+        "lemma": "mailegatu",
+        "meaning": "prestar"
+      }
+    ]
+  },
+  {
+    "word": "mailegatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mailegatu",
+        "lemma": "mailegatu",
+        "meaning": "prestar"
+      }
+    ]
+  },
+  {
+    "word": "mailegatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mailegatu",
+        "lemma": "mailegatu",
+        "meaning": "prestar"
+      }
+    ]
+  },
+  {
+    "word": "mailukatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mailukatu",
+        "lemma": "mailukatu",
+        "meaning": "martillear"
+      }
+    ]
+  },
+  {
+    "word": "mailukatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mailukatu",
+        "lemma": "mailukatu",
+        "meaning": "martillear"
+      }
+    ]
+  },
+  {
+    "word": "mainatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mainatu",
+        "lemma": "mainatu",
+        "meaning": "mimar"
+      }
+    ]
+  },
+  {
+    "word": "mainatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mainatu",
+        "lemma": "mainatu",
+        "meaning": "mimar"
+      }
+    ]
+  },
+  {
+    "word": "maisea",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "maiseatu",
+        "lemma": "maiseatu",
+        "meaning": "criticar"
+      }
+    ]
+  },
+  {
+    "word": "maiseatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "maiseatu",
+        "lemma": "maiseatu",
+        "meaning": "criticar"
+      }
+    ]
+  },
+  {
+    "word": "maiseatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "maiseatu",
+        "lemma": "maiseatu",
+        "meaning": "criticar"
+      }
+    ]
+  },
+  {
+    "word": "maita",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "maitatu",
+        "lemma": "maitatu",
+        "meaning": "querer"
+      }
+    ]
+  },
+  {
+    "word": "maitaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "maitarazi",
+        "lemma": "maitarazi",
+        "meaning": "querer"
+      }
+    ]
+  },
+  {
+    "word": "maitaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "maitarazi",
+        "lemma": "maitarazi",
+        "meaning": "querer"
+      }
+    ]
+  },
+  {
+    "word": "maitarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "maitarazi",
+        "lemma": "maitarazi",
+        "meaning": "querer"
+      }
+    ]
+  },
+  {
+    "word": "maitatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "maitatu",
+        "lemma": "maitatu",
+        "meaning": "querer"
+      }
+    ]
+  },
+  {
+    "word": "maitatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "maitatu",
+        "lemma": "maitatu",
+        "meaning": "querer"
+      }
+    ]
+  },
+  {
+    "word": "maiteminduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "maitemindu",
+        "lemma": "maitemindu",
+        "meaning": "enamorar"
+      }
+    ]
+  },
+  {
+    "word": "maitemintzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "maitemindu",
+        "lemma": "maitemindu",
+        "meaning": "enamorar"
+      }
+    ]
+  },
+  {
+    "word": "maiztuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "maiztu",
+        "lemma": "maiztu",
+        "meaning": "ajarse"
+      }
+    ]
+  },
+  {
+    "word": "maiztzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "maiztu",
+        "lemma": "maiztu",
+        "meaning": "ajarse"
+      }
+    ]
+  },
+  {
+    "word": "makadamiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "makadamizatu",
+        "lemma": "makadamizatu",
+        "meaning": "macadamizar"
+      }
+    ]
+  },
+  {
+    "word": "makadamizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "makadamizatu",
+        "lemma": "makadamizatu",
+        "meaning": "macadamizar"
+      }
+    ]
+  },
+  {
+    "word": "makadamizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "makadamizatu",
+        "lemma": "makadamizatu",
+        "meaning": "macadamizar"
+      }
+    ]
+  },
+  {
+    "word": "makalduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "makaldu",
+        "lemma": "makaldu",
+        "meaning": "debilitar"
+      }
+    ]
+  },
+  {
+    "word": "makaltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "makaldu",
+        "lemma": "makaldu",
+        "meaning": "debilitar"
+      }
+    ]
+  },
+  {
+    "word": "makes",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "makestu",
+        "lemma": "makestu",
+        "meaning": "embotar"
+      }
+    ]
+  },
+  {
+    "word": "makestuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "makestu",
+        "lemma": "makestu",
+        "meaning": "embotar"
+      }
+    ]
+  },
+  {
+    "word": "makestzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "makestu",
+        "lemma": "makestu",
+        "meaning": "embotar"
+      }
+    ]
+  },
+  {
+    "word": "maketatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "maketatu",
+        "lemma": "maketatu",
+        "meaning": "maquetar"
+      }
+    ]
+  },
+  {
+    "word": "maketatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "maketatu",
+        "lemma": "maketatu",
+        "meaning": "maquetar"
+      }
+    ]
+  },
+  {
+    "word": "makilakatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "makilakatu",
+        "lemma": "makilakatu",
+        "meaning": "apalear"
+      }
+    ]
+  },
+  {
+    "word": "makilakatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "makilakatu",
+        "lemma": "makilakatu",
+        "meaning": "apalear"
+      }
+    ]
+  },
+  {
+    "word": "makilatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "makilatu",
+        "lemma": "makilatu",
+        "meaning": "apalear"
+      }
+    ]
+  },
+  {
+    "word": "makilatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "makilatu",
+        "lemma": "makilatu",
+        "meaning": "apalear"
+      }
+    ]
+  },
+  {
+    "word": "makilla",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "makillatu",
+        "lemma": "makillatu",
+        "meaning": "maquillar"
+      }
+    ]
+  },
+  {
+    "word": "makillatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "makillatu",
+        "lemma": "makillatu",
+        "meaning": "maquillar"
+      }
+    ]
+  },
+  {
+    "word": "makillatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "makillatu",
+        "lemma": "makillatu",
+        "meaning": "maquillar"
+      }
+    ]
+  },
+  {
+    "word": "makotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "makotu",
+        "lemma": "makotu",
+        "meaning": "arquear"
+      }
+    ]
+  },
+  {
+    "word": "makotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "makotu",
+        "lemma": "makotu",
+        "meaning": "arquear"
+      }
+    ]
+  },
+  {
+    "word": "makulatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "makulatu",
+        "lemma": "makulatu",
+        "meaning": "macular"
+      }
+    ]
+  },
+  {
+    "word": "makulatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "makulatu",
+        "lemma": "makulatu",
+        "meaning": "macular"
+      }
+    ]
+  },
+  {
+    "word": "makurraraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "makurrarazi",
+        "lemma": "makurrarazi",
+        "meaning": "inclinar"
+      }
+    ]
+  },
+  {
+    "word": "makurraraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "makurrarazi",
+        "lemma": "makurrarazi",
+        "meaning": "inclinar"
+      }
+    ]
+  },
+  {
+    "word": "makurrarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "makurrarazi",
+        "lemma": "makurrarazi",
+        "meaning": "inclinar"
+      }
+    ]
+  },
+  {
+    "word": "makurtuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "makurtu",
+        "lemma": "makurtu",
+        "meaning": "agachar"
+      }
+    ]
+  },
+  {
+    "word": "makurtzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "makurtu",
+        "lemma": "makurtu",
+        "meaning": "agachar"
+      }
+    ]
+  },
+  {
+    "word": "maldatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "maldatu",
+        "lemma": "maldatu",
+        "meaning": "proteger"
+      }
+    ]
+  },
+  {
+    "word": "maldatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "maldatu",
+        "lemma": "maldatu",
+        "meaning": "proteger"
+      }
+    ]
+  },
+  {
+    "word": "malgutuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "malgutu",
+        "lemma": "malgutu",
+        "meaning": "flexibilizar"
+      }
+    ]
+  },
+  {
+    "word": "malgutzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "malgutu",
+        "lemma": "malgutu",
+        "meaning": "flexibilizar"
+      }
+    ]
+  },
+  {
+    "word": "malkartuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "malkartu",
+        "lemma": "malkartu",
+        "meaning": "despeñar"
+      }
+    ]
+  },
+  {
+    "word": "malkartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "malkartu",
+        "lemma": "malkartu",
+        "meaning": "despeñar"
+      }
+    ]
+  },
+  {
+    "word": "malkotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "malkotu",
+        "lemma": "malkotu",
+        "meaning": "lagrimear"
+      }
+    ]
+  },
+  {
+    "word": "malkotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "malkotu",
+        "lemma": "malkotu",
+        "meaning": "lagrimear"
+      }
+    ]
+  },
+  {
+    "word": "maltatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "maltatu",
+        "lemma": "maltatu",
+        "meaning": "maltear"
+      }
+    ]
+  },
+  {
+    "word": "maltatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "maltatu",
+        "lemma": "maltatu",
+        "meaning": "maltear"
+      }
+    ]
+  },
+  {
+    "word": "maltzurtuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "maltzurtu",
+        "lemma": "maltzurtu",
+        "meaning": "volverse malicioso"
+      }
+    ]
+  },
+  {
+    "word": "maltzurtzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "maltzurtu",
+        "lemma": "maltzurtu",
+        "meaning": "volverse malicioso"
+      }
+    ]
+  },
+  {
+    "word": "malutatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "malutatu",
+        "lemma": "malutatu",
+        "meaning": "flocular"
+      }
+    ]
+  },
+  {
+    "word": "malutatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "malutatu",
+        "lemma": "malutatu",
+        "meaning": "flocular"
+      }
+    ]
+  },
+  {
+    "word": "mamituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mamitu",
+        "lemma": "mamitu",
+        "meaning": "plasmar"
+      }
+    ]
+  },
+  {
+    "word": "mamitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mamitu",
+        "lemma": "mamitu",
+        "meaning": "plasmar"
+      }
+    ]
+  },
+  {
+    "word": "mamur",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mamurtu",
+        "lemma": "mamurtu",
+        "meaning": "masticar"
+      }
+    ]
+  },
+  {
+    "word": "mamurtuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mamurtu",
+        "lemma": "mamurtu",
+        "meaning": "masticar"
+      }
+    ]
+  },
+  {
+    "word": "mamurtzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mamurtu",
+        "lemma": "mamurtu",
+        "meaning": "masticar"
+      }
+    ]
+  },
+  {
+    "word": "mamutuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mamutu",
+        "lemma": "mamutu",
+        "meaning": "disfrazar"
+      }
+    ]
+  },
+  {
+    "word": "mamutzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mamutu",
+        "lemma": "mamutu",
+        "meaning": "disfrazar"
+      }
+    ]
+  },
+  {
+    "word": "manatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "manatu",
+        "lemma": "manatu",
+        "meaning": "mandar"
+      }
+    ]
+  },
+  {
+    "word": "manatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "manatu",
+        "lemma": "manatu",
+        "meaning": "mandar"
+      }
+    ]
+  },
+  {
+    "word": "manea",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "maneatu",
+        "lemma": "maneatu",
+        "meaning": "aderezar"
+      }
+    ]
+  },
+  {
+    "word": "maneatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "maneatu",
+        "lemma": "maneatu",
+        "meaning": "aderezar"
+      }
+    ]
+  },
+  {
+    "word": "maneatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "maneatu",
+        "lemma": "maneatu",
+        "meaning": "aderezar"
+      }
+    ]
+  },
+  {
+    "word": "maneia",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "maneiatu",
+        "lemma": "maneiatu",
+        "meaning": "manipular"
+      }
+    ]
+  },
+  {
+    "word": "maneiatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "maneiatu",
+        "lemma": "maneiatu",
+        "meaning": "manipular"
+      }
+    ]
+  },
+  {
+    "word": "maneiatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "maneiatu",
+        "lemma": "maneiatu",
+        "meaning": "manipular"
+      }
+    ]
+  },
+  {
+    "word": "manifesta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "manifestatu",
+        "lemma": "manifestatu",
+        "meaning": "manifestarse"
+      }
+    ]
+  },
+  {
+    "word": "manifestatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "manifestatu",
+        "lemma": "manifestatu",
+        "meaning": "manifestarse"
+      }
+    ]
+  },
+  {
+    "word": "manifestatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "manifestatu",
+        "lemma": "manifestatu",
+        "meaning": "manifestarse"
+      }
+    ]
+  },
+  {
+    "word": "maniobratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "maniobratu",
+        "lemma": "maniobratu",
+        "meaning": "maniobrar"
+      }
+    ]
+  },
+  {
+    "word": "maniobratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "maniobratu",
+        "lemma": "maniobratu",
+        "meaning": "maniobrar"
+      }
+    ]
+  },
+  {
+    "word": "manipula",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "manipulatu",
+        "lemma": "manipulatu",
+        "meaning": "manipular"
+      }
+    ]
+  },
+  {
+    "word": "manipulatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "manipulatu",
+        "lemma": "manipulatu",
+        "meaning": "manipular"
+      }
+    ]
+  },
+  {
+    "word": "manipulatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "manipulatu",
+        "lemma": "manipulatu",
+        "meaning": "manipular"
+      }
+    ]
+  },
+  {
+    "word": "manka",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mankatu",
+        "lemma": "mankatu",
+        "meaning": "lisiar"
+      }
+    ]
+  },
+  {
+    "word": "mankatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mankatu",
+        "lemma": "mankatu",
+        "meaning": "lisiar"
+      }
+    ]
+  },
+  {
+    "word": "mankatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mankatu",
+        "lemma": "mankatu",
+        "meaning": "lisiar"
+      }
+    ]
+  },
+  {
+    "word": "mantartuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mantartu",
+        "lemma": "mantartu",
+        "meaning": "deteriorar"
+      }
+    ]
+  },
+  {
+    "word": "mantartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mantartu",
+        "lemma": "mantartu",
+        "meaning": "deteriorar"
+      }
+    ]
+  },
+  {
+    "word": "manten",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mantendu",
+        "lemma": "mantendu",
+        "meaning": "mantener"
+      }
+    ]
+  },
+  {
+    "word": "mantenduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mantendu",
+        "lemma": "mantendu",
+        "meaning": "mantener"
+      }
+    ]
+  },
+  {
+    "word": "mantentzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mantendu",
+        "lemma": "mantendu",
+        "meaning": "mantener"
+      }
+    ]
+  },
+  {
+    "word": "mantsotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mantsotu",
+        "lemma": "mantsotu",
+        "meaning": "amansarse"
+      }
+    ]
+  },
+  {
+    "word": "mantsotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mantsotu",
+        "lemma": "mantsotu",
+        "meaning": "amansarse"
+      }
+    ]
+  },
+  {
+    "word": "mantxatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mantxatu",
+        "lemma": "mantxatu",
+        "meaning": "manchar"
+      }
+    ]
+  },
+  {
+    "word": "mantxatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mantxatu",
+        "lemma": "mantxatu",
+        "meaning": "manchar"
+      }
+    ]
+  },
+  {
+    "word": "manufakturatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "manufakturatu",
+        "lemma": "manufakturatu",
+        "meaning": "manufacturar"
+      }
+    ]
+  },
+  {
+    "word": "manufakturatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "manufakturatu",
+        "lemma": "manufakturatu",
+        "meaning": "manufacturar"
+      }
+    ]
+  },
+  {
+    "word": "mapatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mapatu",
+        "lemma": "mapatu",
+        "meaning": "mapear"
+      }
+    ]
+  },
+  {
+    "word": "mapatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mapatu",
+        "lemma": "mapatu",
+        "meaning": "mapear"
+      }
+    ]
+  },
+  {
+    "word": "mardulduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "marduldu",
+        "lemma": "marduldu",
+        "meaning": "engordar"
+      }
+    ]
+  },
+  {
+    "word": "mardultzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "marduldu",
+        "lemma": "marduldu",
+        "meaning": "engordar"
+      }
+    ]
+  },
+  {
+    "word": "mareatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mareatu",
+        "lemma": "mareatu",
+        "meaning": "marear"
+      }
+    ]
+  },
+  {
+    "word": "mareatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mareatu",
+        "lemma": "mareatu",
+        "meaning": "marear"
+      }
+    ]
+  },
+  {
+    "word": "margotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "margotu",
+        "lemma": "margotu",
+        "meaning": "pintar"
+      }
+    ]
+  },
+  {
+    "word": "margotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "margotu",
+        "lemma": "margotu",
+        "meaning": "pintar"
+      }
+    ]
+  },
+  {
+    "word": "margozta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "margoztatu",
+        "lemma": "margoztatu",
+        "meaning": "pintar"
+      }
+    ]
+  },
+  {
+    "word": "margoztatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "margoztatu",
+        "lemma": "margoztatu",
+        "meaning": "pintar"
+      }
+    ]
+  },
+  {
+    "word": "margoztatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "margoztatu",
+        "lemma": "margoztatu",
+        "meaning": "pintar"
+      }
+    ]
+  },
+  {
+    "word": "margulduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "marguldu",
+        "lemma": "marguldu",
+        "meaning": "desteñir"
+      }
+    ]
+  },
+  {
+    "word": "margultzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "marguldu",
+        "lemma": "marguldu",
+        "meaning": "desteñir"
+      }
+    ]
+  },
+  {
+    "word": "maria",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mariatu",
+        "lemma": "mariatu",
+        "meaning": "azogar"
+      }
+    ]
+  },
+  {
+    "word": "mariatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mariatu",
+        "lemma": "mariatu",
+        "meaning": "azogar"
+      }
+    ]
+  },
+  {
+    "word": "mariatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mariatu",
+        "lemma": "mariatu",
+        "meaning": "azogar"
+      }
+    ]
+  },
+  {
+    "word": "marinatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "marinatu",
+        "lemma": "marinatu",
+        "meaning": "marinar"
+      }
+    ]
+  },
+  {
+    "word": "marinatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "marinatu",
+        "lemma": "marinatu",
+        "meaning": "marinar"
+      }
+    ]
+  },
+  {
+    "word": "markatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "markatu",
+        "lemma": "markatu",
+        "meaning": "marcar"
+      }
+    ]
+  },
+  {
+    "word": "markatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "markatu",
+        "lemma": "markatu",
+        "meaning": "marcar"
+      }
+    ]
+  },
+  {
+    "word": "marmarika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "marmarikatu",
+        "lemma": "marmarikatu",
+        "meaning": "murmurar"
+      }
+    ]
+  },
+  {
+    "word": "marmarikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "marmarikatu",
+        "lemma": "marmarikatu",
+        "meaning": "murmurar"
+      }
+    ]
+  },
+  {
+    "word": "marmarikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "marmarikatu",
+        "lemma": "marmarikatu",
+        "meaning": "murmurar"
+      }
+    ]
+  },
+  {
+    "word": "marmartuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "marmartu",
+        "lemma": "marmartu",
+        "meaning": "murmurar"
+      }
+    ]
+  },
+  {
+    "word": "marmartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "marmartu",
+        "lemma": "marmartu",
+        "meaning": "murmurar"
+      }
+    ]
+  },
+  {
+    "word": "marrakatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "marrakatu",
+        "lemma": "marrakatu",
+        "meaning": "balar"
+      }
+    ]
+  },
+  {
+    "word": "marrakatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "marrakatu",
+        "lemma": "marrakatu",
+        "meaning": "balar"
+      }
+    ]
+  },
+  {
+    "word": "marrantatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "marrantatu",
+        "lemma": "marrantatu",
+        "meaning": "acatarrarse"
+      }
+    ]
+  },
+  {
+    "word": "marrantatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "marrantatu",
+        "lemma": "marrantatu",
+        "meaning": "acatarrarse"
+      }
+    ]
+  },
+  {
+    "word": "marraskatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "marraskatu",
+        "lemma": "marraskatu",
+        "meaning": "chillar"
+      }
+    ]
+  },
+  {
+    "word": "marraskatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "marraskatu",
+        "lemma": "marraskatu",
+        "meaning": "chillar"
+      }
+    ]
+  },
+  {
+    "word": "marratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "marratu",
+        "lemma": "marratu",
+        "meaning": "rayar"
+      }
+    ]
+  },
+  {
+    "word": "marratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "marratu",
+        "lemma": "marratu",
+        "meaning": "rayar"
+      }
+    ]
+  },
+  {
+    "word": "marraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "marraztu",
+        "lemma": "marraztu",
+        "meaning": "dibujar"
+      }
+    ]
+  },
+  {
+    "word": "marraztuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "marraztu",
+        "lemma": "marraztu",
+        "meaning": "dibujar"
+      }
+    ]
+  },
+  {
+    "word": "marraztzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "marraztu",
+        "lemma": "marraztu",
+        "meaning": "dibujar"
+      }
+    ]
+  },
+  {
+    "word": "marruska",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "marruskatu",
+        "lemma": "marruskatu",
+        "meaning": "estrujar"
+      }
+    ]
+  },
+  {
+    "word": "marruskatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "marruskatu",
+        "lemma": "marruskatu",
+        "meaning": "estrujar"
+      }
+    ]
+  },
+  {
+    "word": "marruskatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "marruskatu",
+        "lemma": "marruskatu",
+        "meaning": "estrujar"
+      }
+    ]
+  },
+  {
+    "word": "martiriza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "martirizatu",
+        "lemma": "martirizatu",
+        "meaning": "martirizar"
+      }
+    ]
+  },
+  {
+    "word": "martirizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "martirizatu",
+        "lemma": "martirizatu",
+        "meaning": "martirizar"
+      }
+    ]
+  },
+  {
+    "word": "martirizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "martirizatu",
+        "lemma": "martirizatu",
+        "meaning": "martirizar"
+      }
+    ]
+  },
+  {
+    "word": "masakra",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "masakratu",
+        "lemma": "masakratu",
+        "meaning": "masacrar"
+      }
+    ]
+  },
+  {
+    "word": "masakratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "masakratu",
+        "lemma": "masakratu",
+        "meaning": "masacrar"
+      }
+    ]
+  },
+  {
+    "word": "masakratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "masakratu",
+        "lemma": "masakratu",
+        "meaning": "masacrar"
+      }
+    ]
+  },
+  {
+    "word": "masifika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "masifikatu",
+        "lemma": "masifikatu",
+        "meaning": "masificar"
+      }
+    ]
+  },
+  {
+    "word": "masifikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "masifikatu",
+        "lemma": "masifikatu",
+        "meaning": "masificar"
+      }
+    ]
+  },
+  {
+    "word": "masifikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "masifikatu",
+        "lemma": "masifikatu",
+        "meaning": "masificar"
+      }
+    ]
+  },
+  {
+    "word": "maskalduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "maskaldu",
+        "lemma": "maskaldu",
+        "meaning": "desmejorar"
+      }
+    ]
+  },
+  {
+    "word": "maskaltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "maskaldu",
+        "lemma": "maskaldu",
+        "meaning": "desmejorar"
+      }
+    ]
+  },
+  {
+    "word": "maskaratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "maskaratu",
+        "lemma": "maskaratu",
+        "meaning": "disfrazar"
+      }
+    ]
+  },
+  {
+    "word": "maskaratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "maskaratu",
+        "lemma": "maskaratu",
+        "meaning": "disfrazar"
+      }
+    ]
+  },
+  {
+    "word": "maskulinotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "maskulinotu",
+        "lemma": "maskulinotu",
+        "meaning": "masculinizar"
+      }
+    ]
+  },
+  {
+    "word": "maskulinotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "maskulinotu",
+        "lemma": "maskulinotu",
+        "meaning": "masculinizar"
+      }
+    ]
+  },
+  {
+    "word": "maskurtuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "maskurtu",
+        "lemma": "maskurtu",
+        "meaning": "ampollar"
+      }
+    ]
+  },
+  {
+    "word": "maskurtzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "maskurtu",
+        "lemma": "maskurtu",
+        "meaning": "ampollar"
+      }
+    ]
+  },
+  {
+    "word": "maspilduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "maspildu",
+        "lemma": "maspildu",
+        "meaning": "golpear"
+      }
+    ]
+  },
+  {
+    "word": "maspiltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "maspildu",
+        "lemma": "maspildu",
+        "meaning": "golpear"
+      }
+    ]
+  },
+  {
+    "word": "masteka",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mastekatu",
+        "lemma": "mastekatu",
+        "meaning": "masticar"
+      }
+    ]
+  },
+  {
+    "word": "mastekatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mastekatu",
+        "lemma": "mastekatu",
+        "meaning": "masticar"
+      }
+    ]
+  },
+  {
+    "word": "mastekatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mastekatu",
+        "lemma": "mastekatu",
+        "meaning": "masticar"
+      }
+    ]
+  },
+  {
+    "word": "masturba",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "masturbatu",
+        "lemma": "masturbatu",
+        "meaning": "masturbar"
+      }
+    ]
+  },
+  {
+    "word": "masturbatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "masturbatu",
+        "lemma": "masturbatu",
+        "meaning": "masturbar"
+      }
+    ]
+  },
+  {
+    "word": "masturbatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "masturbatu",
+        "lemma": "masturbatu",
+        "meaning": "masturbar"
+      }
+    ]
+  },
+  {
+    "word": "matazatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "matazatu",
+        "lemma": "matazatu",
+        "meaning": "devanar"
+      }
+    ]
+  },
+  {
+    "word": "matazatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "matazatu",
+        "lemma": "matazatu",
+        "meaning": "devanar"
+      }
+    ]
+  },
+  {
+    "word": "maternaliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "maternalizatu",
+        "lemma": "maternalizatu",
+        "meaning": "maternalizar"
+      }
+    ]
+  },
+  {
+    "word": "maternalizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "maternalizatu",
+        "lemma": "maternalizatu",
+        "meaning": "maternalizar"
+      }
+    ]
+  },
+  {
+    "word": "maternalizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "maternalizatu",
+        "lemma": "maternalizatu",
+        "meaning": "maternalizar"
+      }
+    ]
+  },
+  {
+    "word": "matrikulatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "matrikulatu",
+        "lemma": "matrikulatu",
+        "meaning": "matricular"
+      }
+    ]
+  },
+  {
+    "word": "matrikulatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "matrikulatu",
+        "lemma": "matrikulatu",
+        "meaning": "matricular"
+      }
+    ]
+  },
+  {
+    "word": "matrizetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "matrizetu",
+        "lemma": "matrizetu",
+        "meaning": "matrizar"
+      }
+    ]
+  },
+  {
+    "word": "matrizetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "matrizetu",
+        "lemma": "matrizetu",
+        "meaning": "matrizar"
+      }
+    ]
+  },
+  {
+    "word": "matxina",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "matxinatu",
+        "lemma": "matxinatu",
+        "meaning": "rebelarse"
+      }
+    ]
+  },
+  {
+    "word": "matxinaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "matxinarazi",
+        "lemma": "matxinarazi",
+        "meaning": "rebelar"
+      }
+    ]
+  },
+  {
+    "word": "matxinaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "matxinarazi",
+        "lemma": "matxinarazi",
+        "meaning": "rebelar"
+      }
+    ]
+  },
+  {
+    "word": "matxinarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "matxinarazi",
+        "lemma": "matxinarazi",
+        "meaning": "rebelar"
+      }
+    ]
+  },
+  {
+    "word": "matxinatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "matxinatu",
+        "lemma": "matxinatu",
+        "meaning": "rebelarse"
+      }
+    ]
+  },
+  {
+    "word": "matxinatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "matxinatu",
+        "lemma": "matxinatu",
+        "meaning": "rebelarse"
+      }
+    ]
+  },
+  {
+    "word": "matxuratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "matxuratu",
+        "lemma": "matxuratu",
+        "meaning": "averiar"
+      }
+    ]
+  },
+  {
+    "word": "matxuratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "matxuratu",
+        "lemma": "matxuratu",
+        "meaning": "averiar"
+      }
+    ]
+  },
+  {
+    "word": "maximiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "maximizatu",
+        "lemma": "maximizatu",
+        "meaning": "maximizar"
+      }
+    ]
+  },
+  {
+    "word": "maximizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "maximizatu",
+        "lemma": "maximizatu",
+        "meaning": "maximizar"
+      }
+    ]
+  },
+  {
+    "word": "maximizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "maximizatu",
+        "lemma": "maximizatu",
+        "meaning": "maximizar"
+      }
+    ]
+  },
+  {
+    "word": "mazera",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mazeratu",
+        "lemma": "mazeratu",
+        "meaning": "macerar"
+      }
+    ]
+  },
+  {
+    "word": "mazeratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mazeratu",
+        "lemma": "mazeratu",
+        "meaning": "macerar"
+      }
+    ]
+  },
+  {
+    "word": "mazeratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mazeratu",
+        "lemma": "mazeratu",
+        "meaning": "macerar"
+      }
+    ]
+  },
+  {
+    "word": "medika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "medikatu",
+        "lemma": "medikatu",
+        "meaning": "medicar"
+      }
+    ]
+  },
+  {
+    "word": "medikaliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "medikalizatu",
+        "lemma": "medikalizatu",
+        "meaning": "medicalizar"
+      }
+    ]
+  },
+  {
+    "word": "medikalizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "medikalizatu",
+        "lemma": "medikalizatu",
+        "meaning": "medicalizar"
+      }
+    ]
+  },
+  {
+    "word": "medikalizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "medikalizatu",
+        "lemma": "medikalizatu",
+        "meaning": "medicalizar"
+      }
+    ]
+  },
+  {
+    "word": "medikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "medikatu",
+        "lemma": "medikatu",
+        "meaning": "medicar"
+      }
+    ]
+  },
+  {
+    "word": "medikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "medikatu",
+        "lemma": "medikatu",
+        "meaning": "medicar"
+      }
+    ]
+  },
+  {
+    "word": "medita",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "meditatu",
+        "lemma": "meditatu",
+        "meaning": "meditar"
+      }
+    ]
+  },
+  {
+    "word": "meditatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "meditatu",
+        "lemma": "meditatu",
+        "meaning": "meditar"
+      }
+    ]
+  },
+  {
+    "word": "meditatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "meditatu",
+        "lemma": "meditatu",
+        "meaning": "meditar"
+      }
+    ]
+  },
+  {
+    "word": "mehartuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mehartu",
+        "lemma": "mehartu",
+        "meaning": "estrechar"
+      }
+    ]
+  },
+  {
+    "word": "mehartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mehartu",
+        "lemma": "mehartu",
+        "meaning": "estrechar"
+      }
+    ]
+  },
+  {
+    "word": "mehas",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mehastu",
+        "lemma": "mehastu",
+        "meaning": "adelgazar"
+      }
+    ]
+  },
+  {
+    "word": "mehastuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mehastu",
+        "lemma": "mehastu",
+        "meaning": "adelgazar"
+      }
+    ]
+  },
+  {
+    "word": "mehastzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mehastu",
+        "lemma": "mehastu",
+        "meaning": "adelgazar"
+      }
+    ]
+  },
+  {
+    "word": "mehatxa",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mehatxatu",
+        "lemma": "mehatxatu",
+        "meaning": "amenazar"
+      }
+    ]
+  },
+  {
+    "word": "mehatxatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mehatxatu",
+        "lemma": "mehatxatu",
+        "meaning": "amenazar"
+      }
+    ]
+  },
+  {
+    "word": "mehatxatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mehatxatu",
+        "lemma": "mehatxatu",
+        "meaning": "amenazar"
+      }
+    ]
+  },
+  {
+    "word": "mehetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mehetu",
+        "lemma": "mehetu",
+        "meaning": "adelgazar"
+      }
+    ]
+  },
+  {
+    "word": "mehetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mehetu",
+        "lemma": "mehetu",
+        "meaning": "adelgazar"
+      }
+    ]
+  },
+  {
+    "word": "mejora",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mejoratu",
+        "lemma": "mejoratu",
+        "meaning": "mejorar"
+      }
+    ]
+  },
+  {
+    "word": "mejoratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mejoratu",
+        "lemma": "mejoratu",
+        "meaning": "mejorar"
+      }
+    ]
+  },
+  {
+    "word": "mejoratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mejoratu",
+        "lemma": "mejoratu",
+        "meaning": "mejorar"
+      }
+    ]
+  },
+  {
+    "word": "mekaniza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mekanizatu",
+        "lemma": "mekanizatu",
+        "meaning": "mecanizar"
+      }
+    ]
+  },
+  {
+    "word": "mekanizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mekanizatu",
+        "lemma": "mekanizatu",
+        "meaning": "mecanizar"
+      }
+    ]
+  },
+  {
+    "word": "mekanizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mekanizatu",
+        "lemma": "mekanizatu",
+        "meaning": "mecanizar"
+      }
+    ]
+  },
+  {
+    "word": "mekanografiatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mekanografiatu",
+        "lemma": "mekanografiatu",
+        "meaning": "mecanografiar"
+      }
+    ]
+  },
+  {
+    "word": "mekanografiatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mekanografiatu",
+        "lemma": "mekanografiatu",
+        "meaning": "mecanografiar"
+      }
+    ]
+  },
+  {
+    "word": "mekotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mekotu",
+        "lemma": "mekotu",
+        "meaning": "debilitar"
+      }
+    ]
+  },
+  {
+    "word": "mekotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mekotu",
+        "lemma": "mekotu",
+        "meaning": "debilitar"
+      }
+    ]
+  },
+  {
+    "word": "mela",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "melatu",
+        "lemma": "melatu",
+        "meaning": "almibarar"
+      }
+    ]
+  },
+  {
+    "word": "melatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "melatu",
+        "lemma": "melatu",
+        "meaning": "almibarar"
+      }
+    ]
+  },
+  {
+    "word": "melatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "melatu",
+        "lemma": "melatu",
+        "meaning": "almibarar"
+      }
+    ]
+  },
+  {
+    "word": "memoriza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "memorizatu",
+        "lemma": "memorizatu",
+        "meaning": "memorizar"
+      }
+    ]
+  },
+  {
+    "word": "memorizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "memorizatu",
+        "lemma": "memorizatu",
+        "meaning": "memorizar"
+      }
+    ]
+  },
+  {
+    "word": "memorizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "memorizatu",
+        "lemma": "memorizatu",
+        "meaning": "memorizar"
+      }
+    ]
+  },
+  {
+    "word": "mendebaldartuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mendebaldartu",
+        "lemma": "mendebaldartu",
+        "meaning": "occidentalizar"
+      }
+    ]
+  },
+  {
+    "word": "mendebaldartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mendebaldartu",
+        "lemma": "mendebaldartu",
+        "meaning": "occidentalizar"
+      }
+    ]
+  },
+  {
+    "word": "mendeka",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mendekatu",
+        "lemma": "mendekatu",
+        "meaning": "vengar"
+      }
+    ]
+  },
+  {
+    "word": "mendekatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mendekatu",
+        "lemma": "mendekatu",
+        "meaning": "vengar"
+      }
+    ]
+  },
+  {
+    "word": "mendekatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mendekatu",
+        "lemma": "mendekatu",
+        "meaning": "vengar"
+      }
+    ]
+  },
+  {
+    "word": "mendera",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "menderatu",
+        "lemma": "menderatu",
+        "meaning": "dominar"
+      }
+    ]
+  },
+  {
+    "word": "menderaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "menderarazi",
+        "lemma": "menderarazi",
+        "meaning": "dominar"
+      }
+    ]
+  },
+  {
+    "word": "menderaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "menderarazi",
+        "lemma": "menderarazi",
+        "meaning": "dominar"
+      }
+    ]
+  },
+  {
+    "word": "menderarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "menderarazi",
+        "lemma": "menderarazi",
+        "meaning": "dominar"
+      }
+    ]
+  },
+  {
+    "word": "menderatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "menderatu",
+        "lemma": "menderatu",
+        "meaning": "dominar"
+      }
+    ]
+  },
+  {
+    "word": "menderatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "menderatu",
+        "lemma": "menderatu",
+        "meaning": "dominar"
+      }
+    ]
+  },
+  {
+    "word": "mendira",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mendiratu",
+        "lemma": "mendiratu",
+        "meaning": "ir al monte"
+      }
+    ]
+  },
+  {
+    "word": "mendiratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mendiratu",
+        "lemma": "mendiratu",
+        "meaning": "ir al monte"
+      }
+    ]
+  },
+  {
+    "word": "mendiratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mendiratu",
+        "lemma": "mendiratu",
+        "meaning": "ir al monte"
+      }
+    ]
+  },
+  {
+    "word": "mendra",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mendratu",
+        "lemma": "mendratu",
+        "meaning": "disminuir"
+      }
+    ]
+  },
+  {
+    "word": "mendratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mendratu",
+        "lemma": "mendratu",
+        "meaning": "disminuir"
+      }
+    ]
+  },
+  {
+    "word": "mendratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mendratu",
+        "lemma": "mendratu",
+        "meaning": "disminuir"
+      }
+    ]
+  },
+  {
+    "word": "menduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mendu",
+        "lemma": "mendu",
+        "meaning": "someter"
+      }
+    ]
+  },
+  {
+    "word": "menera",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "meneratu",
+        "lemma": "meneratu",
+        "meaning": "dominar"
+      }
+    ]
+  },
+  {
+    "word": "meneratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "meneratu",
+        "lemma": "meneratu",
+        "meaning": "dominar"
+      }
+    ]
+  },
+  {
+    "word": "meneratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "meneratu",
+        "lemma": "meneratu",
+        "meaning": "dominar"
+      }
+    ]
+  },
+  {
+    "word": "mengelduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mengeldu",
+        "lemma": "mengeldu",
+        "meaning": "debilitar"
+      }
+    ]
+  },
+  {
+    "word": "mengeltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mengeldu",
+        "lemma": "mengeldu",
+        "meaning": "debilitar"
+      }
+    ]
+  },
+  {
+    "word": "menpera",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "menperatu",
+        "lemma": "menperatu",
+        "meaning": "dominar"
+      }
+    ]
+  },
+  {
+    "word": "menperatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "menperatu",
+        "lemma": "menperatu",
+        "meaning": "dominar"
+      }
+    ]
+  },
+  {
+    "word": "menperatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "menperatu",
+        "lemma": "menperatu",
+        "meaning": "dominar"
+      }
+    ]
+  },
+  {
+    "word": "mentaliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mentalizatu",
+        "lemma": "mentalizatu",
+        "meaning": "mentalizar"
+      }
+    ]
+  },
+  {
+    "word": "mentalizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mentalizatu",
+        "lemma": "mentalizatu",
+        "meaning": "mentalizar"
+      }
+    ]
+  },
+  {
+    "word": "mentalizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mentalizatu",
+        "lemma": "mentalizatu",
+        "meaning": "mentalizar"
+      }
+    ]
+  },
+  {
+    "word": "mentatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mentatu",
+        "lemma": "mentatu",
+        "meaning": "injertar"
+      }
+    ]
+  },
+  {
+    "word": "mentatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mentatu",
+        "lemma": "mentatu",
+        "meaning": "injertar"
+      }
+    ]
+  },
+  {
+    "word": "menturatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "menturatu",
+        "lemma": "menturatu",
+        "meaning": "atreverse"
+      }
+    ]
+  },
+  {
+    "word": "menturatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "menturatu",
+        "lemma": "menturatu",
+        "meaning": "atreverse"
+      }
+    ]
+  },
+  {
+    "word": "mentzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mendu",
+        "lemma": "mendu",
+        "meaning": "someter"
+      }
+    ]
+  },
+  {
+    "word": "mereziaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mereziarazi",
+        "lemma": "mereziarazi",
+        "meaning": "merecer"
+      }
+    ]
+  },
+  {
+    "word": "mereziaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mereziarazi",
+        "lemma": "mereziarazi",
+        "meaning": "merecer"
+      }
+    ]
+  },
+  {
+    "word": "mereziarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mereziarazi",
+        "lemma": "mereziarazi",
+        "meaning": "merecer"
+      }
+    ]
+  },
+  {
+    "word": "merezituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "merezitu",
+        "lemma": "merezitu",
+        "meaning": "merecer"
+      }
+    ]
+  },
+  {
+    "word": "merezitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "merezitu",
+        "lemma": "merezitu",
+        "meaning": "merecer"
+      }
+    ]
+  },
+  {
+    "word": "meriendatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "meriendatu",
+        "lemma": "meriendatu",
+        "meaning": "merendar"
+      }
+    ]
+  },
+  {
+    "word": "meriendatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "meriendatu",
+        "lemma": "meriendatu",
+        "meaning": "merendar"
+      }
+    ]
+  },
+  {
+    "word": "merka",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "merkatu",
+        "lemma": "merkatu",
+        "meaning": "abaratar"
+      }
+    ]
+  },
+  {
+    "word": "merkatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "merkatu",
+        "lemma": "merkatu",
+        "meaning": "abaratar"
+      }
+    ]
+  },
+  {
+    "word": "merkatura",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "merkaturatu",
+        "lemma": "merkaturatu",
+        "meaning": "comercializar"
+      }
+    ]
+  },
+  {
+    "word": "merkaturatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "merkaturatu",
+        "lemma": "merkaturatu",
+        "meaning": "comercializar"
+      }
+    ]
+  },
+  {
+    "word": "merkaturatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "merkaturatu",
+        "lemma": "merkaturatu",
+        "meaning": "comercializar"
+      }
+    ]
+  },
+  {
+    "word": "merkatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "merkatu",
+        "lemma": "merkatu",
+        "meaning": "abaratar"
+      }
+    ]
+  },
+  {
+    "word": "merma",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mermatu",
+        "lemma": "mermatu",
+        "meaning": "mermar"
+      }
+    ]
+  },
+  {
+    "word": "mermatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mermatu",
+        "lemma": "mermatu",
+        "meaning": "mermar"
+      }
+    ]
+  },
+  {
+    "word": "mermatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mermatu",
+        "lemma": "mermatu",
+        "meaning": "mermar"
+      }
+    ]
+  },
+  {
+    "word": "mertzeriza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mertzerizatu",
+        "lemma": "mertzerizatu",
+        "meaning": "mercerizar"
+      }
+    ]
+  },
+  {
+    "word": "mertzerizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mertzerizatu",
+        "lemma": "mertzerizatu",
+        "meaning": "mercerizar"
+      }
+    ]
+  },
+  {
+    "word": "mertzerizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mertzerizatu",
+        "lemma": "mertzerizatu",
+        "meaning": "mercerizar"
+      }
+    ]
+  },
+  {
+    "word": "mesedetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mesedetu",
+        "lemma": "mesedetu",
+        "meaning": "hacer un favor"
+      }
+    ]
+  },
+  {
+    "word": "mesedetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mesedetu",
+        "lemma": "mesedetu",
+        "meaning": "hacer un favor"
+      }
+    ]
+  },
+  {
+    "word": "mesfida",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mesfidatu",
+        "lemma": "mesfidatu",
+        "meaning": "desconfiar"
+      }
+    ]
+  },
+  {
+    "word": "mesfidatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mesfidatu",
+        "lemma": "mesfidatu",
+        "meaning": "desconfiar"
+      }
+    ]
+  },
+  {
+    "word": "mesfidatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mesfidatu",
+        "lemma": "mesfidatu",
+        "meaning": "desconfiar"
+      }
+    ]
+  },
+  {
+    "word": "mespretxa",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mespretxatu",
+        "lemma": "mespretxatu",
+        "meaning": "despreciar"
+      }
+    ]
+  },
+  {
+    "word": "mespretxatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mespretxatu",
+        "lemma": "mespretxatu",
+        "meaning": "despreciar"
+      }
+    ]
+  },
+  {
+    "word": "mespretxatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mespretxatu",
+        "lemma": "mespretxatu",
+        "meaning": "despreciar"
+      }
+    ]
+  },
+  {
+    "word": "metaboliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "metabolizatu",
+        "lemma": "metabolizatu",
+        "meaning": "metabolizar"
+      }
+    ]
+  },
+  {
+    "word": "metabolizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "metabolizatu",
+        "lemma": "metabolizatu",
+        "meaning": "metabolizar"
+      }
+    ]
+  },
+  {
+    "word": "metabolizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "metabolizatu",
+        "lemma": "metabolizatu",
+        "meaning": "metabolizar"
+      }
+    ]
+  },
+  {
+    "word": "metaliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "metalizatu",
+        "lemma": "metalizatu",
+        "meaning": "metalizar"
+      }
+    ]
+  },
+  {
+    "word": "metalizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "metalizatu",
+        "lemma": "metalizatu",
+        "meaning": "metalizar"
+      }
+    ]
+  },
+  {
+    "word": "metalizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "metalizatu",
+        "lemma": "metalizatu",
+        "meaning": "metalizar"
+      }
+    ]
+  },
+  {
+    "word": "metamorfiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "metamorfizatu",
+        "lemma": "metamorfizatu",
+        "meaning": "metamorfosear"
+      }
+    ]
+  },
+  {
+    "word": "metamorfizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "metamorfizatu",
+        "lemma": "metamorfizatu",
+        "meaning": "metamorfosear"
+      }
+    ]
+  },
+  {
+    "word": "metamorfizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "metamorfizatu",
+        "lemma": "metamorfizatu",
+        "meaning": "metamorfosear"
+      }
+    ]
+  },
+  {
+    "word": "metatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "metatu",
+        "lemma": "metatu",
+        "meaning": "acumular"
+      }
+    ]
+  },
+  {
+    "word": "metatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "metatu",
+        "lemma": "metatu",
+        "meaning": "acumular"
+      }
+    ]
+  },
+  {
+    "word": "meteoriza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "meteorizatu",
+        "lemma": "meteorizatu",
+        "meaning": "meteorizar"
+      }
+    ]
+  },
+  {
+    "word": "meteorizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "meteorizatu",
+        "lemma": "meteorizatu",
+        "meaning": "meteorizar"
+      }
+    ]
+  },
+  {
+    "word": "meteorizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "meteorizatu",
+        "lemma": "meteorizatu",
+        "meaning": "meteorizar"
+      }
+    ]
+  },
+  {
+    "word": "metrailatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "metrailatu",
+        "lemma": "metrailatu",
+        "meaning": "ametrallar"
+      }
+    ]
+  },
+  {
+    "word": "metrailatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "metrailatu",
+        "lemma": "metrailatu",
+        "meaning": "ametrallar"
+      }
+    ]
+  },
+  {
+    "word": "mezutuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mezutu",
+        "lemma": "mezutu",
+        "meaning": "enviar un mensaje"
+      }
+    ]
+  },
+  {
+    "word": "mezutzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mezutu",
+        "lemma": "mezutu",
+        "meaning": "enviar un mensaje"
+      }
+    ]
+  },
+  {
+    "word": "mia",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "miatu",
+        "lemma": "miatu",
+        "meaning": "registrar"
+      }
+    ]
+  },
+  {
+    "word": "miatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "miatu",
+        "lemma": "miatu",
+        "meaning": "registrar"
+      }
+    ]
+  },
+  {
+    "word": "miatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "miatu",
+        "lemma": "miatu",
+        "meaning": "registrar"
+      }
+    ]
+  },
+  {
+    "word": "miaz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "miaztu",
+        "lemma": "miaztu",
+        "meaning": "lamer"
+      }
+    ]
+  },
+  {
+    "word": "miazkatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "miazkatu",
+        "lemma": "miazkatu",
+        "meaning": "lamer"
+      }
+    ]
+  },
+  {
+    "word": "miazkatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "miazkatu",
+        "lemma": "miazkatu",
+        "meaning": "lamer"
+      }
+    ]
+  },
+  {
+    "word": "miaztuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "miaztu",
+        "lemma": "miaztu",
+        "meaning": "lamer"
+      }
+    ]
+  },
+  {
+    "word": "miaztzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "miaztu",
+        "lemma": "miaztu",
+        "meaning": "lamer"
+      }
+    ]
+  },
+  {
+    "word": "migra",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "migratu",
+        "lemma": "migratu",
+        "meaning": "migrar"
+      }
+    ]
+  },
+  {
+    "word": "migratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "migratu",
+        "lemma": "migratu",
+        "meaning": "migrar"
+      }
+    ]
+  },
+  {
+    "word": "migratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "migratu",
+        "lemma": "migratu",
+        "meaning": "migrar"
+      }
+    ]
+  },
+  {
+    "word": "mihizta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mihiztatu",
+        "lemma": "mihiztatu",
+        "meaning": "ensamblar"
+      }
+    ]
+  },
+  {
+    "word": "mihiztatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mihiztatu",
+        "lemma": "mihiztatu",
+        "meaning": "ensamblar"
+      }
+    ]
+  },
+  {
+    "word": "mihiztatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mihiztatu",
+        "lemma": "mihiztatu",
+        "meaning": "ensamblar"
+      }
+    ]
+  },
+  {
+    "word": "mikaz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mikaztu",
+        "lemma": "mikaztu",
+        "meaning": "amargar"
+      }
+    ]
+  },
+  {
+    "word": "mikaztuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mikaztu",
+        "lemma": "mikaztu",
+        "meaning": "amargar"
+      }
+    ]
+  },
+  {
+    "word": "mikaztzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mikaztu",
+        "lemma": "mikaztu",
+        "meaning": "amargar"
+      }
+    ]
+  },
+  {
+    "word": "mikrofilma",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mikrofilmatu",
+        "lemma": "mikrofilmatu",
+        "meaning": "microfilmar"
+      }
+    ]
+  },
+  {
+    "word": "mikrofilmatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mikrofilmatu",
+        "lemma": "mikrofilmatu",
+        "meaning": "microfilmar"
+      }
+    ]
+  },
+  {
+    "word": "mikrofilmatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mikrofilmatu",
+        "lemma": "mikrofilmatu",
+        "meaning": "microfilmar"
+      }
+    ]
+  },
+  {
+    "word": "mikrokopia",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mikrokopiatu",
+        "lemma": "mikrokopiatu",
+        "meaning": "microcopiar"
+      }
+    ]
+  },
+  {
+    "word": "mikrokopiatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mikrokopiatu",
+        "lemma": "mikrokopiatu",
+        "meaning": "microcopiar"
+      }
+    ]
+  },
+  {
+    "word": "mikrokopiatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mikrokopiatu",
+        "lemma": "mikrokopiatu",
+        "meaning": "microcopiar"
+      }
+    ]
+  },
+  {
+    "word": "mikroprogramatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mikroprogramatu",
+        "lemma": "mikroprogramatu",
+        "meaning": "microprogramar"
+      }
+    ]
+  },
+  {
+    "word": "mikroprogramatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mikroprogramatu",
+        "lemma": "mikroprogramatu",
+        "meaning": "microprogramar"
+      }
+    ]
+  },
+  {
+    "word": "milikaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "milikarazi",
+        "lemma": "milikarazi",
+        "meaning": "lamer"
+      }
+    ]
+  },
+  {
+    "word": "milikaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "milikarazi",
+        "lemma": "milikarazi",
+        "meaning": "lamer"
+      }
+    ]
+  },
+  {
+    "word": "milikarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "milikarazi",
+        "lemma": "milikarazi",
+        "meaning": "lamer"
+      }
+    ]
+  },
+  {
+    "word": "milikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "milikatu",
+        "lemma": "milikatu",
+        "meaning": "lamer"
+      }
+    ]
+  },
+  {
+    "word": "milikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "milikatu",
+        "lemma": "milikatu",
+        "meaning": "lamer"
+      }
+    ]
+  },
+  {
+    "word": "militariza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "militarizatu",
+        "lemma": "militarizatu",
+        "meaning": "militarizar"
+      }
+    ]
+  },
+  {
+    "word": "militarizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "militarizatu",
+        "lemma": "militarizatu",
+        "meaning": "militarizar"
+      }
+    ]
+  },
+  {
+    "word": "militarizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "militarizatu",
+        "lemma": "militarizatu",
+        "meaning": "militarizar"
+      }
+    ]
+  },
+  {
+    "word": "milizka",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "milizkatu",
+        "lemma": "milizkatu",
+        "meaning": "lamer"
+      }
+    ]
+  },
+  {
+    "word": "milizkatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "milizkatu",
+        "lemma": "milizkatu",
+        "meaning": "lamer"
+      }
+    ]
+  },
+  {
+    "word": "milizkatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "milizkatu",
+        "lemma": "milizkatu",
+        "meaning": "lamer"
+      }
+    ]
+  },
+  {
+    "word": "mima",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mimatu",
+        "lemma": "mimatu",
+        "meaning": "mimar"
+      }
+    ]
+  },
+  {
+    "word": "mimatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mimatu",
+        "lemma": "mimatu",
+        "meaning": "mimar"
+      }
+    ]
+  },
+  {
+    "word": "mimatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mimatu",
+        "lemma": "mimatu",
+        "meaning": "mimar"
+      }
+    ]
+  },
+  {
+    "word": "mimetiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mimetizatu",
+        "lemma": "mimetizatu",
+        "meaning": "mimetizar"
+      }
+    ]
+  },
+  {
+    "word": "mimetizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mimetizatu",
+        "lemma": "mimetizatu",
+        "meaning": "mimetizar"
+      }
+    ]
+  },
+  {
+    "word": "mimetizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mimetizatu",
+        "lemma": "mimetizatu",
+        "meaning": "mimetizar"
+      }
+    ]
+  },
+  {
+    "word": "minatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "minatu",
+        "lemma": "minatu",
+        "meaning": "minar"
+      }
+    ]
+  },
+  {
+    "word": "minatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "minatu",
+        "lemma": "minatu",
+        "meaning": "minar"
+      }
+    ]
+  },
+  {
+    "word": "minberatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "minberatu",
+        "lemma": "minberatu",
+        "meaning": "lastimar"
+      }
+    ]
+  },
+  {
+    "word": "minberatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "minberatu",
+        "lemma": "minberatu",
+        "meaning": "lastimar"
+      }
+    ]
+  },
+  {
+    "word": "minduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mindu",
+        "lemma": "mindu",
+        "meaning": "herir"
+      }
+    ]
+  },
+  {
+    "word": "mineraliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mineralizatu",
+        "lemma": "mineralizatu",
+        "meaning": "mineralizar"
+      }
+    ]
+  },
+  {
+    "word": "mineralizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mineralizatu",
+        "lemma": "mineralizatu",
+        "meaning": "mineralizar"
+      }
+    ]
+  },
+  {
+    "word": "mineralizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mineralizatu",
+        "lemma": "mineralizatu",
+        "meaning": "mineralizar"
+      }
+    ]
+  },
+  {
+    "word": "mingos",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mingostu",
+        "lemma": "mingostu",
+        "meaning": "amargar"
+      }
+    ]
+  },
+  {
+    "word": "mingostuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mingostu",
+        "lemma": "mingostu",
+        "meaning": "amargar"
+      }
+    ]
+  },
+  {
+    "word": "mingostzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mingostu",
+        "lemma": "mingostu",
+        "meaning": "amargar"
+      }
+    ]
+  },
+  {
+    "word": "miniaturiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "miniaturizatu",
+        "lemma": "miniaturizatu",
+        "meaning": "miniaturizar"
+      }
+    ]
+  },
+  {
+    "word": "miniaturizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "miniaturizatu",
+        "lemma": "miniaturizatu",
+        "meaning": "miniaturizar"
+      }
+    ]
+  },
+  {
+    "word": "miniaturizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "miniaturizatu",
+        "lemma": "miniaturizatu",
+        "meaning": "miniaturizar"
+      }
+    ]
+  },
+  {
+    "word": "minimaliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "minimalizatu",
+        "lemma": "minimalizatu",
+        "meaning": "minimalizar"
+      }
+    ]
+  },
+  {
+    "word": "minimalizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "minimalizatu",
+        "lemma": "minimalizatu",
+        "meaning": "minimalizar"
+      }
+    ]
+  },
+  {
+    "word": "minimalizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "minimalizatu",
+        "lemma": "minimalizatu",
+        "meaning": "minimalizar"
+      }
+    ]
+  },
+  {
+    "word": "minimiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "minimizatu",
+        "lemma": "minimizatu",
+        "meaning": "minimizar"
+      }
+    ]
+  },
+  {
+    "word": "minimizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "minimizatu",
+        "lemma": "minimizatu",
+        "meaning": "minimizar"
+      }
+    ]
+  },
+  {
+    "word": "minimizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "minimizatu",
+        "lemma": "minimizatu",
+        "meaning": "minimizar"
+      }
+    ]
+  },
+  {
+    "word": "minoriza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "minorizatu",
+        "lemma": "minorizatu",
+        "meaning": "minorizar"
+      }
+    ]
+  },
+  {
+    "word": "minorizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "minorizatu",
+        "lemma": "minorizatu",
+        "meaning": "minorizar"
+      }
+    ]
+  },
+  {
+    "word": "minorizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "minorizatu",
+        "lemma": "minorizatu",
+        "meaning": "minorizar"
+      }
+    ]
+  },
+  {
+    "word": "mintza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mintzatu",
+        "lemma": "mintzatu",
+        "meaning": "hablar"
+      }
+    ]
+  },
+  {
+    "word": "mintzaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mintzarazi",
+        "lemma": "mintzarazi",
+        "meaning": "hablar"
+      }
+    ]
+  },
+  {
+    "word": "mintzaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mintzarazi",
+        "lemma": "mintzarazi",
+        "meaning": "hablar"
+      }
+    ]
+  },
+  {
+    "word": "mintzarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mintzarazi",
+        "lemma": "mintzarazi",
+        "meaning": "hablar"
+      }
+    ]
+  },
+  {
+    "word": "mintzatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mintzatu",
+        "lemma": "mintzatu",
+        "meaning": "hablar"
+      }
+    ]
+  },
+  {
+    "word": "mintzatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mintzatu",
+        "lemma": "mintzatu",
+        "meaning": "hablar"
+      }
+    ]
+  },
+  {
+    "word": "mintzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mindu",
+        "lemma": "mindu",
+        "meaning": "herir"
+      }
+    ]
+  },
+  {
+    "word": "mirabetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mirabetu",
+        "lemma": "mirabetu",
+        "meaning": "esclavizarse"
+      }
+    ]
+  },
+  {
+    "word": "mirabetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mirabetu",
+        "lemma": "mirabetu",
+        "meaning": "esclavizarse"
+      }
+    ]
+  },
+  {
+    "word": "mirarituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "miraritu",
+        "lemma": "miraritu",
+        "meaning": "extrañar"
+      }
+    ]
+  },
+  {
+    "word": "miraritzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "miraritu",
+        "lemma": "miraritu",
+        "meaning": "extrañar"
+      }
+    ]
+  },
+  {
+    "word": "mires",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mirestu",
+        "lemma": "mirestu",
+        "meaning": "admirar"
+      }
+    ]
+  },
+  {
+    "word": "mirestuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mirestu",
+        "lemma": "mirestu",
+        "meaning": "admirar"
+      }
+    ]
+  },
+  {
+    "word": "mirestzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mirestu",
+        "lemma": "mirestu",
+        "meaning": "admirar"
+      }
+    ]
+  },
+  {
+    "word": "mirets",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "miretsi",
+        "lemma": "miretsi",
+        "meaning": "admirar"
+      }
+    ]
+  },
+  {
+    "word": "miretsaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "miretsarazi",
+        "lemma": "miretsarazi",
+        "meaning": "admirar"
+      }
+    ]
+  },
+  {
+    "word": "miretsaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "miretsarazi",
+        "lemma": "miretsarazi",
+        "meaning": "admirar"
+      }
+    ]
+  },
+  {
+    "word": "miretsarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "miretsarazi",
+        "lemma": "miretsarazi",
+        "meaning": "admirar"
+      }
+    ]
+  },
+  {
+    "word": "miretsiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "miretsi",
+        "lemma": "miretsi",
+        "meaning": "admirar"
+      }
+    ]
+  },
+  {
+    "word": "miretsten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "miretsi",
+        "lemma": "miretsi",
+        "meaning": "admirar"
+      }
+    ]
+  },
+  {
+    "word": "mirrinduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mirrindu",
+        "lemma": "mirrindu",
+        "meaning": "adelgazar"
+      }
+    ]
+  },
+  {
+    "word": "mirrintzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mirrindu",
+        "lemma": "mirrindu",
+        "meaning": "adelgazar"
+      }
+    ]
+  },
+  {
+    "word": "mistifika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mistifikatu",
+        "lemma": "mistifikatu",
+        "meaning": "mistificar"
+      }
+    ]
+  },
+  {
+    "word": "mistifikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mistifikatu",
+        "lemma": "mistifikatu",
+        "meaning": "mistificar"
+      }
+    ]
+  },
+  {
+    "word": "mistifikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mistifikatu",
+        "lemma": "mistifikatu",
+        "meaning": "mistificar"
+      }
+    ]
+  },
+  {
+    "word": "mitifika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mitifikatu",
+        "lemma": "mitifikatu",
+        "meaning": "mitificar"
+      }
+    ]
+  },
+  {
+    "word": "mitifikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mitifikatu",
+        "lemma": "mitifikatu",
+        "meaning": "mitificar"
+      }
+    ]
+  },
+  {
+    "word": "mitifikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mitifikatu",
+        "lemma": "mitifikatu",
+        "meaning": "mitificar"
+      }
+    ]
+  },
+  {
+    "word": "mizkinduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mizkindu",
+        "lemma": "mizkindu",
+        "meaning": "volverse melindroso"
+      }
+    ]
+  },
+  {
+    "word": "mizkintzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mizkindu",
+        "lemma": "mizkindu",
+        "meaning": "volverse melindroso"
+      }
+    ]
+  },
+  {
+    "word": "mobiliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mobilizatu",
+        "lemma": "mobilizatu",
+        "meaning": "movilizar"
+      }
+    ]
+  },
+  {
+    "word": "mobilizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mobilizatu",
+        "lemma": "mobilizatu",
+        "meaning": "movilizar"
+      }
+    ]
+  },
+  {
+    "word": "mobilizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mobilizatu",
+        "lemma": "mobilizatu",
+        "meaning": "movilizar"
+      }
+    ]
+  },
+  {
+    "word": "modela",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "modelatu",
+        "lemma": "modelatu",
+        "meaning": "modelar"
+      }
+    ]
+  },
+  {
+    "word": "modelatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "modelatu",
+        "lemma": "modelatu",
+        "meaning": "modelar"
+      }
+    ]
+  },
+  {
+    "word": "modelatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "modelatu",
+        "lemma": "modelatu",
+        "meaning": "modelar"
+      }
+    ]
+  },
+  {
+    "word": "modeliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "modelizatu",
+        "lemma": "modelizatu",
+        "meaning": "modelizar"
+      }
+    ]
+  },
+  {
+    "word": "modelizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "modelizatu",
+        "lemma": "modelizatu",
+        "meaning": "modelizar"
+      }
+    ]
+  },
+  {
+    "word": "modelizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "modelizatu",
+        "lemma": "modelizatu",
+        "meaning": "modelizar"
+      }
+    ]
+  },
+  {
+    "word": "modera",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "moderatu",
+        "lemma": "moderatu",
+        "meaning": "moderar"
+      }
+    ]
+  },
+  {
+    "word": "moderatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "moderatu",
+        "lemma": "moderatu",
+        "meaning": "moderar"
+      }
+    ]
+  },
+  {
+    "word": "moderatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "moderatu",
+        "lemma": "moderatu",
+        "meaning": "moderar"
+      }
+    ]
+  },
+  {
+    "word": "moderniza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "modernizatu",
+        "lemma": "modernizatu",
+        "meaning": "modernizar"
+      }
+    ]
+  },
+  {
+    "word": "modernizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "modernizatu",
+        "lemma": "modernizatu",
+        "meaning": "modernizar"
+      }
+    ]
+  },
+  {
+    "word": "modernizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "modernizatu",
+        "lemma": "modernizatu",
+        "meaning": "modernizar"
+      }
+    ]
+  },
+  {
+    "word": "modula",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "modulatu",
+        "lemma": "modulatu",
+        "meaning": "modular"
+      }
+    ]
+  },
+  {
+    "word": "modulatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "modulatu",
+        "lemma": "modulatu",
+        "meaning": "modular"
+      }
+    ]
+  },
+  {
+    "word": "modulatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "modulatu",
+        "lemma": "modulatu",
+        "meaning": "modular"
+      }
+    ]
+  },
+  {
+    "word": "mokokatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mokokatu",
+        "lemma": "mokokatu",
+        "meaning": "picotear"
+      }
+    ]
+  },
+  {
+    "word": "mokokatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mokokatu",
+        "lemma": "mokokatu",
+        "meaning": "picotear"
+      }
+    ]
+  },
+  {
+    "word": "mokortuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mokortu",
+        "lemma": "mokortu",
+        "meaning": "entumecer"
+      }
+    ]
+  },
+  {
+    "word": "mokortzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mokortu",
+        "lemma": "mokortu",
+        "meaning": "entumecer"
+      }
+    ]
+  },
+  {
+    "word": "mokotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mokotu",
+        "lemma": "mokotu",
+        "meaning": "enfadarse"
+      }
+    ]
+  },
+  {
+    "word": "mokotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mokotu",
+        "lemma": "mokotu",
+        "meaning": "enfadarse"
+      }
+    ]
+  },
+  {
+    "word": "molda",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "moldatu",
+        "lemma": "moldatu",
+        "meaning": "adaptar"
+      }
+    ]
+  },
+  {
+    "word": "moldaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "moldarazi",
+        "lemma": "moldarazi",
+        "meaning": "arreglar"
+      }
+    ]
+  },
+  {
+    "word": "moldaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "moldarazi",
+        "lemma": "moldarazi",
+        "meaning": "arreglar"
+      }
+    ]
+  },
+  {
+    "word": "moldarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "moldarazi",
+        "lemma": "moldarazi",
+        "meaning": "arreglar"
+      }
+    ]
+  },
+  {
+    "word": "moldatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "moldatu",
+        "lemma": "moldatu",
+        "meaning": "adaptar"
+      }
+    ]
+  },
+  {
+    "word": "moldatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "moldatu",
+        "lemma": "moldatu",
+        "meaning": "adaptar"
+      }
+    ]
+  },
+  {
+    "word": "moldeka",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "moldekatu",
+        "lemma": "moldekatu",
+        "meaning": "moldear"
+      }
+    ]
+  },
+  {
+    "word": "moldekatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "moldekatu",
+        "lemma": "moldekatu",
+        "meaning": "moldear"
+      }
+    ]
+  },
+  {
+    "word": "moldekatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "moldekatu",
+        "lemma": "moldekatu",
+        "meaning": "moldear"
+      }
+    ]
+  },
+  {
+    "word": "molesta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "molestatu",
+        "lemma": "molestatu",
+        "meaning": "molestar"
+      }
+    ]
+  },
+  {
+    "word": "molestatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "molestatu",
+        "lemma": "molestatu",
+        "meaning": "molestar"
+      }
+    ]
+  },
+  {
+    "word": "molestatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "molestatu",
+        "lemma": "molestatu",
+        "meaning": "molestar"
+      }
+    ]
+  },
+  {
+    "word": "moltsotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "moltsotu",
+        "lemma": "moltsotu",
+        "meaning": "amontonar"
+      }
+    ]
+  },
+  {
+    "word": "moltsotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "moltsotu",
+        "lemma": "moltsotu",
+        "meaning": "amontonar"
+      }
+    ]
+  },
+  {
+    "word": "momifika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "momifikatu",
+        "lemma": "momifikatu",
+        "meaning": "momificar"
+      }
+    ]
+  },
+  {
+    "word": "momifikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "momifikatu",
+        "lemma": "momifikatu",
+        "meaning": "momificar"
+      }
+    ]
+  },
+  {
+    "word": "momifikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "momifikatu",
+        "lemma": "momifikatu",
+        "meaning": "momificar"
+      }
+    ]
+  },
+  {
+    "word": "monetiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "monetizatu",
+        "lemma": "monetizatu",
+        "meaning": "monetizar"
+      }
+    ]
+  },
+  {
+    "word": "monetizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "monetizatu",
+        "lemma": "monetizatu",
+        "meaning": "monetizar"
+      }
+    ]
+  },
+  {
+    "word": "monetizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "monetizatu",
+        "lemma": "monetizatu",
+        "meaning": "monetizar"
+      }
+    ]
+  },
+  {
+    "word": "monitoriza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "monitorizatu",
+        "lemma": "monitorizatu",
+        "meaning": "monitorizar"
+      }
+    ]
+  },
+  {
+    "word": "monitorizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "monitorizatu",
+        "lemma": "monitorizatu",
+        "meaning": "monitorizar"
+      }
+    ]
+  },
+  {
+    "word": "monitorizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "monitorizatu",
+        "lemma": "monitorizatu",
+        "meaning": "monitorizar"
+      }
+    ]
+  },
+  {
+    "word": "monopoliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "monopolizatu",
+        "lemma": "monopolizatu",
+        "meaning": "monopolizar"
+      }
+    ]
+  },
+  {
+    "word": "monopolizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "monopolizatu",
+        "lemma": "monopolizatu",
+        "meaning": "monopolizar"
+      }
+    ]
+  },
+  {
+    "word": "monopolizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "monopolizatu",
+        "lemma": "monopolizatu",
+        "meaning": "monopolizar"
+      }
+    ]
+  },
+  {
+    "word": "moraliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "moralizatu",
+        "lemma": "moralizatu",
+        "meaning": "moralizar"
+      }
+    ]
+  },
+  {
+    "word": "moralizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "moralizatu",
+        "lemma": "moralizatu",
+        "meaning": "moralizar"
+      }
+    ]
+  },
+  {
+    "word": "moralizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "moralizatu",
+        "lemma": "moralizatu",
+        "meaning": "moralizar"
+      }
+    ]
+  },
+  {
+    "word": "mordoilotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mordoilotu",
+        "lemma": "mordoilotu",
+        "meaning": "embrollar"
+      }
+    ]
+  },
+  {
+    "word": "mordoilotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mordoilotu",
+        "lemma": "mordoilotu",
+        "meaning": "embrollar"
+      }
+    ]
+  },
+  {
+    "word": "mordotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mordotu",
+        "lemma": "mordotu",
+        "meaning": "arracimar"
+      }
+    ]
+  },
+  {
+    "word": "mordotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mordotu",
+        "lemma": "mordotu",
+        "meaning": "arracimar"
+      }
+    ]
+  },
+  {
+    "word": "mordoxkatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mordoxkatu",
+        "lemma": "mordoxkatu",
+        "meaning": "amontonar"
+      }
+    ]
+  },
+  {
+    "word": "mordoxkatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mordoxkatu",
+        "lemma": "mordoxkatu",
+        "meaning": "amontonar"
+      }
+    ]
+  },
+  {
+    "word": "moretuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "moretu",
+        "lemma": "moretu",
+        "meaning": "amoratar"
+      }
+    ]
+  },
+  {
+    "word": "moretzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "moretu",
+        "lemma": "moretu",
+        "meaning": "amoratar"
+      }
+    ]
+  },
+  {
+    "word": "moropil",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "moropildu",
+        "lemma": "moropildu",
+        "meaning": "anudar"
+      }
+    ]
+  },
+  {
+    "word": "moropilduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "moropildu",
+        "lemma": "moropildu",
+        "meaning": "anudar"
+      }
+    ]
+  },
+  {
+    "word": "moropiltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "moropildu",
+        "lemma": "moropildu",
+        "meaning": "anudar"
+      }
+    ]
+  },
+  {
+    "word": "mortifika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mortifikatu",
+        "lemma": "mortifikatu",
+        "meaning": "mortificar"
+      }
+    ]
+  },
+  {
+    "word": "mortifikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mortifikatu",
+        "lemma": "mortifikatu",
+        "meaning": "mortificar"
+      }
+    ]
+  },
+  {
+    "word": "mortifikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mortifikatu",
+        "lemma": "mortifikatu",
+        "meaning": "mortificar"
+      }
+    ]
+  },
+  {
+    "word": "motelduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "moteldu",
+        "lemma": "moteldu",
+        "meaning": "reducir"
+      }
+    ]
+  },
+  {
+    "word": "moteltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "moteldu",
+        "lemma": "moteldu",
+        "meaning": "reducir"
+      }
+    ]
+  },
+  {
+    "word": "motiba",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "motibatu",
+        "lemma": "motibatu",
+        "meaning": "motivar"
+      }
+    ]
+  },
+  {
+    "word": "motibatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "motibatu",
+        "lemma": "motibatu",
+        "meaning": "motivar"
+      }
+    ]
+  },
+  {
+    "word": "motibatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "motibatu",
+        "lemma": "motibatu",
+        "meaning": "motivar"
+      }
+    ]
+  },
+  {
+    "word": "motoriza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "motorizatu",
+        "lemma": "motorizatu",
+        "meaning": "motorizar"
+      }
+    ]
+  },
+  {
+    "word": "motorizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "motorizatu",
+        "lemma": "motorizatu",
+        "meaning": "motorizar"
+      }
+    ]
+  },
+  {
+    "word": "motorizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "motorizatu",
+        "lemma": "motorizatu",
+        "meaning": "motorizar"
+      }
+    ]
+  },
+  {
+    "word": "motzaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "motzarazi",
+        "lemma": "motzarazi",
+        "meaning": "cortar"
+      }
+    ]
+  },
+  {
+    "word": "motzaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "motzarazi",
+        "lemma": "motzarazi",
+        "meaning": "cortar"
+      }
+    ]
+  },
+  {
+    "word": "motzarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "motzarazi",
+        "lemma": "motzarazi",
+        "meaning": "cortar"
+      }
+    ]
+  },
+  {
+    "word": "moxkortuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "moxkortu",
+        "lemma": "moxkortu",
+        "meaning": "emborrachar"
+      }
+    ]
+  },
+  {
+    "word": "moxkortzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "moxkortu",
+        "lemma": "moxkortu",
+        "meaning": "emborrachar"
+      }
+    ]
+  },
+  {
+    "word": "moz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "moztu",
+        "lemma": "moztu",
+        "meaning": "cortar"
+      }
+    ]
+  },
+  {
+    "word": "mozkinduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mozkindu",
+        "lemma": "mozkindu",
+        "meaning": "acortar"
+      }
+    ]
+  },
+  {
+    "word": "mozkintzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mozkindu",
+        "lemma": "mozkindu",
+        "meaning": "acortar"
+      }
+    ]
+  },
+  {
+    "word": "mozkorraraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mozkorrarazi",
+        "lemma": "mozkorrarazi",
+        "meaning": "emborrachar"
+      }
+    ]
+  },
+  {
+    "word": "mozkorraraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mozkorrarazi",
+        "lemma": "mozkorrarazi",
+        "meaning": "emborrachar"
+      }
+    ]
+  },
+  {
+    "word": "mozkorrarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mozkorrarazi",
+        "lemma": "mozkorrarazi",
+        "meaning": "emborrachar"
+      }
+    ]
+  },
+  {
+    "word": "mozkortuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mozkortu",
+        "lemma": "mozkortu",
+        "meaning": "emborrachar"
+      }
+    ]
+  },
+  {
+    "word": "mozkortzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mozkortu",
+        "lemma": "mozkortu",
+        "meaning": "emborrachar"
+      }
+    ]
+  },
+  {
+    "word": "mozorrotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mozorrotu",
+        "lemma": "mozorrotu",
+        "meaning": "disfrazar"
+      }
+    ]
+  },
+  {
+    "word": "mozorrotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mozorrotu",
+        "lemma": "mozorrotu",
+        "meaning": "disfrazar"
+      }
+    ]
+  },
+  {
+    "word": "moztuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "moztu",
+        "lemma": "moztu",
+        "meaning": "cortar"
+      }
+    ]
+  },
+  {
+    "word": "moztzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "moztu",
+        "lemma": "moztu",
+        "meaning": "cortar"
+      }
+    ]
+  },
+  {
+    "word": "mudaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mudarazi",
+        "lemma": "mudarazi",
+        "meaning": "cambiar"
+      }
+    ]
+  },
+  {
+    "word": "mudaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mudarazi",
+        "lemma": "mudarazi",
+        "meaning": "cambiar"
+      }
+    ]
+  },
+  {
+    "word": "mudarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mudarazi",
+        "lemma": "mudarazi",
+        "meaning": "cambiar"
+      }
+    ]
+  },
+  {
+    "word": "mudatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mudatu",
+        "lemma": "mudatu",
+        "meaning": "cambiar"
+      }
+    ]
+  },
+  {
+    "word": "mudatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mudatu",
+        "lemma": "mudatu",
+        "meaning": "cambiar"
+      }
+    ]
+  },
+  {
+    "word": "mugarrituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mugarritu",
+        "lemma": "mugarritu",
+        "meaning": "acotar"
+      }
+    ]
+  },
+  {
+    "word": "mugarritzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mugarritu",
+        "lemma": "mugarritu",
+        "meaning": "acotar"
+      }
+    ]
+  },
+  {
+    "word": "mugarrizta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mugarriztatu",
+        "lemma": "mugarriztatu",
+        "meaning": "acotar"
+      }
+    ]
+  },
+  {
+    "word": "mugarriztatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mugarriztatu",
+        "lemma": "mugarriztatu",
+        "meaning": "acotar"
+      }
+    ]
+  },
+  {
+    "word": "mugarriztatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mugarriztatu",
+        "lemma": "mugarriztatu",
+        "meaning": "acotar"
+      }
+    ]
+  },
+  {
+    "word": "mugatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mugatu",
+        "lemma": "mugatu",
+        "meaning": "limitar"
+      }
+    ]
+  },
+  {
+    "word": "mugatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mugatu",
+        "lemma": "mugatu",
+        "meaning": "limitar"
+      }
+    ]
+  },
+  {
+    "word": "mugi",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mugitu",
+        "lemma": "mugitu",
+        "meaning": "moverse"
+      }
+    ]
+  },
+  {
+    "word": "mugiaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mugiarazi",
+        "lemma": "mugiarazi",
+        "meaning": "mover"
+      }
+    ]
+  },
+  {
+    "word": "mugiaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mugiarazi",
+        "lemma": "mugiarazi",
+        "meaning": "mover"
+      }
+    ]
+  },
+  {
+    "word": "mugiarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mugiarazi",
+        "lemma": "mugiarazi",
+        "meaning": "mover"
+      }
+    ]
+  },
+  {
+    "word": "mugituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mugitu",
+        "lemma": "mugitu",
+        "meaning": "moverse"
+      }
+    ]
+  },
+  {
+    "word": "mugitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mugitu",
+        "lemma": "mugitu",
+        "meaning": "moverse"
+      }
+    ]
+  },
+  {
+    "word": "muinetara",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "muinetaratu",
+        "lemma": "muinetaratu",
+        "meaning": "inculcar"
+      }
+    ]
+  },
+  {
+    "word": "muinetaratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "muinetaratu",
+        "lemma": "muinetaratu",
+        "meaning": "inculcar"
+      }
+    ]
+  },
+  {
+    "word": "muinetaratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "muinetaratu",
+        "lemma": "muinetaratu",
+        "meaning": "inculcar"
+      }
+    ]
+  },
+  {
+    "word": "muinkatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "muinkatu",
+        "lemma": "muinkatu",
+        "meaning": "besar"
+      }
+    ]
+  },
+  {
+    "word": "muinkatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "muinkatu",
+        "lemma": "muinkatu",
+        "meaning": "besar"
+      }
+    ]
+  },
+  {
+    "word": "muka",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mukatu",
+        "lemma": "mukatu",
+        "meaning": "despabilar"
+      }
+    ]
+  },
+  {
+    "word": "mukatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mukatu",
+        "lemma": "mukatu",
+        "meaning": "despabilar"
+      }
+    ]
+  },
+  {
+    "word": "mukatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mukatu",
+        "lemma": "mukatu",
+        "meaning": "despabilar"
+      }
+    ]
+  },
+  {
+    "word": "mukurutuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mukurutu",
+        "lemma": "mukurutu",
+        "meaning": "colmar"
+      }
+    ]
+  },
+  {
+    "word": "mukurutzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mukurutu",
+        "lemma": "mukurutu",
+        "meaning": "colmar"
+      }
+    ]
+  },
+  {
+    "word": "multiplexa",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "multiplexatu",
+        "lemma": "multiplexatu",
+        "meaning": "multiplexar"
+      }
+    ]
+  },
+  {
+    "word": "multiplexatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "multiplexatu",
+        "lemma": "multiplexatu",
+        "meaning": "multiplexar"
+      }
+    ]
+  },
+  {
+    "word": "multiplexatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "multiplexatu",
+        "lemma": "multiplexatu",
+        "meaning": "multiplexar"
+      }
+    ]
+  },
+  {
+    "word": "multzokatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "multzokatu",
+        "lemma": "multzokatu",
+        "meaning": "agrupar"
+      }
+    ]
+  },
+  {
+    "word": "multzokatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "multzokatu",
+        "lemma": "multzokatu",
+        "meaning": "agrupar"
+      }
+    ]
+  },
+  {
+    "word": "multzotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "multzotu",
+        "lemma": "multzotu",
+        "meaning": "agrupar"
+      }
+    ]
+  },
+  {
+    "word": "multzotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "multzotu",
+        "lemma": "multzotu",
+        "meaning": "agrupar"
+      }
+    ]
+  },
+  {
+    "word": "mundrunezta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mundruneztatu",
+        "lemma": "mundruneztatu",
+        "meaning": "alquitranar"
+      }
+    ]
+  },
+  {
+    "word": "mundruneztatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mundruneztatu",
+        "lemma": "mundruneztatu",
+        "meaning": "alquitranar"
+      }
+    ]
+  },
+  {
+    "word": "mundruneztatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mundruneztatu",
+        "lemma": "mundruneztatu",
+        "meaning": "alquitranar"
+      }
+    ]
+  },
+  {
+    "word": "mundura",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "munduratu",
+        "lemma": "munduratu",
+        "meaning": "nacer"
+      }
+    ]
+  },
+  {
+    "word": "munduratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "munduratu",
+        "lemma": "munduratu",
+        "meaning": "nacer"
+      }
+    ]
+  },
+  {
+    "word": "munduratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "munduratu",
+        "lemma": "munduratu",
+        "meaning": "nacer"
+      }
+    ]
+  },
+  {
+    "word": "muntatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "muntatu",
+        "lemma": "muntatu",
+        "meaning": "montar"
+      }
+    ]
+  },
+  {
+    "word": "muntatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "muntatu",
+        "lemma": "muntatu",
+        "meaning": "montar"
+      }
+    ]
+  },
+  {
+    "word": "murduska",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "murduskatu",
+        "lemma": "murduskatu",
+        "meaning": "chapurrear"
+      }
+    ]
+  },
+  {
+    "word": "murduskatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "murduskatu",
+        "lemma": "murduskatu",
+        "meaning": "chapurrear"
+      }
+    ]
+  },
+  {
+    "word": "murduskatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "murduskatu",
+        "lemma": "murduskatu",
+        "meaning": "chapurrear"
+      }
+    ]
+  },
+  {
+    "word": "murgilaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "murgilarazi",
+        "lemma": "murgilarazi",
+        "meaning": "sumergir"
+      }
+    ]
+  },
+  {
+    "word": "murgilaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "murgilarazi",
+        "lemma": "murgilarazi",
+        "meaning": "sumergir"
+      }
+    ]
+  },
+  {
+    "word": "murgilarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "murgilarazi",
+        "lemma": "murgilarazi",
+        "meaning": "sumergir"
+      }
+    ]
+  },
+  {
+    "word": "murgilduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "murgildu",
+        "lemma": "murgildu",
+        "meaning": "sumergir"
+      }
+    ]
+  },
+  {
+    "word": "murgiltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "murgildu",
+        "lemma": "murgildu",
+        "meaning": "sumergir"
+      }
+    ]
+  },
+  {
+    "word": "murmurika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "murmurikatu",
+        "lemma": "murmurikatu",
+        "meaning": "murmurar"
+      }
+    ]
+  },
+  {
+    "word": "murmurikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "murmurikatu",
+        "lemma": "murmurikatu",
+        "meaning": "murmurar"
+      }
+    ]
+  },
+  {
+    "word": "murmurikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "murmurikatu",
+        "lemma": "murmurikatu",
+        "meaning": "murmurar"
+      }
+    ]
+  },
+  {
+    "word": "murriz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "murriztu",
+        "lemma": "murriztu",
+        "meaning": "reducir"
+      }
+    ]
+  },
+  {
+    "word": "murriztuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "murriztu",
+        "lemma": "murriztu",
+        "meaning": "reducir"
+      }
+    ]
+  },
+  {
+    "word": "murriztzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "murriztu",
+        "lemma": "murriztu",
+        "meaning": "reducir"
+      }
+    ]
+  },
+  {
+    "word": "murtxika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "murtxikatu",
+        "lemma": "murtxikatu",
+        "meaning": "masticar"
+      }
+    ]
+  },
+  {
+    "word": "murtxikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "murtxikatu",
+        "lemma": "murtxikatu",
+        "meaning": "masticar"
+      }
+    ]
+  },
+  {
+    "word": "murtxikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "murtxikatu",
+        "lemma": "murtxikatu",
+        "meaning": "masticar"
+      }
+    ]
+  },
+  {
+    "word": "musikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "musikatu",
+        "lemma": "musikatu",
+        "meaning": "musicar"
+      }
+    ]
+  },
+  {
+    "word": "musikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "musikatu",
+        "lemma": "musikatu",
+        "meaning": "musicar"
+      }
+    ]
+  },
+  {
+    "word": "muskertuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "muskertu",
+        "lemma": "muskertu",
+        "meaning": "reverdecer"
+      }
+    ]
+  },
+  {
+    "word": "muskertzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "muskertu",
+        "lemma": "muskertu",
+        "meaning": "reverdecer"
+      }
+    ]
+  },
+  {
+    "word": "muskilduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "muskildu",
+        "lemma": "muskildu",
+        "meaning": "brotar"
+      }
+    ]
+  },
+  {
+    "word": "muskiltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "muskildu",
+        "lemma": "muskildu",
+        "meaning": "brotar"
+      }
+    ]
+  },
+  {
+    "word": "mustupilkatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mustupilkatu",
+        "lemma": "mustupilkatu",
+        "meaning": "caer de bruces"
+      }
+    ]
+  },
+  {
+    "word": "mustupilkatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mustupilkatu",
+        "lemma": "mustupilkatu",
+        "meaning": "caer de bruces"
+      }
+    ]
+  },
+  {
+    "word": "musukatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "musukatu",
+        "lemma": "musukatu",
+        "meaning": "besuquear"
+      }
+    ]
+  },
+  {
+    "word": "musukatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "musukatu",
+        "lemma": "musukatu",
+        "meaning": "besuquear"
+      }
+    ]
+  },
+  {
+    "word": "musurikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "musurikatu",
+        "lemma": "musurikatu",
+        "meaning": "hozar"
+      }
+    ]
+  },
+  {
+    "word": "musurikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "musurikatu",
+        "lemma": "musurikatu",
+        "meaning": "hozar"
+      }
+    ]
+  },
+  {
+    "word": "muta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mutatu",
+        "lemma": "mutatu",
+        "meaning": "mutar"
+      }
+    ]
+  },
+  {
+    "word": "mutatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mutatu",
+        "lemma": "mutatu",
+        "meaning": "mutar"
+      }
+    ]
+  },
+  {
+    "word": "mutatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mutatu",
+        "lemma": "mutatu",
+        "meaning": "mutar"
+      }
+    ]
+  },
+  {
+    "word": "mutila",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mutilatu",
+        "lemma": "mutilatu",
+        "meaning": "mutilar"
+      }
+    ]
+  },
+  {
+    "word": "mutilatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mutilatu",
+        "lemma": "mutilatu",
+        "meaning": "mutilar"
+      }
+    ]
+  },
+  {
+    "word": "mutilatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mutilatu",
+        "lemma": "mutilatu",
+        "meaning": "mutilar"
+      }
+    ]
+  },
+  {
+    "word": "mutilduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mutildu",
+        "lemma": "mutildu",
+        "meaning": "hacerse muchacho"
+      }
+    ]
+  },
+  {
+    "word": "mutiltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mutildu",
+        "lemma": "mutildu",
+        "meaning": "hacerse muchacho"
+      }
+    ]
+  },
+  {
+    "word": "mutilzahartuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mutilzahartu",
+        "lemma": "mutilzahartu",
+        "meaning": "quedarse soltero"
+      }
+    ]
+  },
+  {
+    "word": "mutilzahartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mutilzahartu",
+        "lemma": "mutilzahartu",
+        "meaning": "quedarse soltero"
+      }
+    ]
+  },
+  {
+    "word": "mutina",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mutinatu",
+        "lemma": "mutinatu",
+        "meaning": "amotinarse"
+      }
+    ]
+  },
+  {
+    "word": "mutinatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mutinatu",
+        "lemma": "mutinatu",
+        "meaning": "amotinarse"
+      }
+    ]
+  },
+  {
+    "word": "mutinatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mutinatu",
+        "lemma": "mutinatu",
+        "meaning": "amotinarse"
+      }
+    ]
+  },
+  {
+    "word": "mutirituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mutiritu",
+        "lemma": "mutiritu",
+        "meaning": "enfurecerse"
+      }
+    ]
+  },
+  {
+    "word": "mutiritzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mutiritu",
+        "lemma": "mutiritu",
+        "meaning": "enfurecerse"
+      }
+    ]
+  },
+  {
+    "word": "mutualiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mutualizatu",
+        "lemma": "mutualizatu",
+        "meaning": "mutualizar"
+      }
+    ]
+  },
+  {
+    "word": "mutualizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mutualizatu",
+        "lemma": "mutualizatu",
+        "meaning": "mutualizar"
+      }
+    ]
+  },
+  {
+    "word": "mutualizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mutualizatu",
+        "lemma": "mutualizatu",
+        "meaning": "mutualizar"
+      }
+    ]
+  },
+  {
+    "word": "mutuaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "mutuarazi",
+        "lemma": "mutuarazi",
+        "meaning": "enmudecer"
+      }
+    ]
+  },
+  {
+    "word": "mutuaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mutuarazi",
+        "lemma": "mutuarazi",
+        "meaning": "enmudecer"
+      }
+    ]
+  },
+  {
+    "word": "mutuarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mutuarazi",
+        "lemma": "mutuarazi",
+        "meaning": "enmudecer"
+      }
+    ]
+  },
+  {
+    "word": "muturkatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "muturkatu",
+        "lemma": "muturkatu",
+        "meaning": "hozar"
+      }
+    ]
+  },
+  {
+    "word": "muturkatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "muturkatu",
+        "lemma": "muturkatu",
+        "meaning": "hozar"
+      }
+    ]
+  },
+  {
+    "word": "muturtuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "muturtu",
+        "lemma": "muturtu",
+        "meaning": "enfurruñar"
+      }
+    ]
+  },
+  {
+    "word": "muturtzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "muturtu",
+        "lemma": "muturtu",
+        "meaning": "enfurruñar"
+      }
+    ]
+  },
+  {
+    "word": "mututuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "mututu",
+        "lemma": "mututu",
+        "meaning": "enmudecer"
+      }
+    ]
+  },
+  {
+    "word": "mututzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "mututu",
+        "lemma": "mututu",
+        "meaning": "enmudecer"
+      }
+    ]
+  },
+  {
+    "word": "muxarra",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "muxarratu",
+        "lemma": "muxarratu",
+        "meaning": "recortar"
+      }
+    ]
+  },
+  {
+    "word": "muxarratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "muxarratu",
+        "lemma": "muxarratu",
+        "meaning": "recortar"
+      }
+    ]
+  },
+  {
+    "word": "muxarratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "muxarratu",
+        "lemma": "muxarratu",
+        "meaning": "recortar"
+      }
+    ]
+  },
+  {
+    "word": "muzinduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "muzindu",
+        "lemma": "muzindu",
+        "meaning": "enfadar"
+      }
+    ]
+  },
+  {
+    "word": "muzintzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "muzindu",
+        "lemma": "muzindu",
+        "meaning": "enfadar"
+      }
+    ]
+  }
+]

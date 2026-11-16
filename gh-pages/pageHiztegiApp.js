@@ -2009,7 +2009,17 @@
 
   // src/shared/verbStore.ts
   var BASE_DIR2 = "opendata/verbs";
+  var DERIVED_DIR = `${BASE_DIR2}/derived`;
   var INDEX_FILE2 = `${BASE_DIR2}/index.json`;
+  var DERIVED_INDEX_FILE = `${DERIVED_DIR}/index.json`;
+  var DERIVATION_TYPES = /* @__PURE__ */ new Set([
+    "root",
+    "future",
+    "habitual",
+    "completive-en",
+    "completive-enik",
+    "completive-la"
+  ]);
   var normalize3 = (word) => word.trim().normalize("NFC").toLocaleLowerCase();
   var assetUrl2 = (path) => new URL(path, typeof document === "undefined" ? "http://localhost/" : document.baseURI).href;
   var letterFor2 = (word) => {
@@ -2067,57 +2077,82 @@
       }
     };
   };
+  var parseDerivation = (value) => {
+    if (!value || typeof value !== "object") {
+      return void 0;
+    }
+    const derivation = value;
+    if (typeof derivation.type !== "string" || !DERIVATION_TYPES.has(derivation.type) || typeof derivation.from !== "string" || typeof derivation.lemma !== "string") {
+      return void 0;
+    }
+    const from = normalize3(derivation.from);
+    const lemma = normalize3(derivation.lemma);
+    if (!from || !lemma) {
+      return void 0;
+    }
+    const baseAnalysis = parseAnalysis(derivation.baseAnalysis);
+    return {
+      type: derivation.type,
+      from,
+      lemma,
+      ...typeof derivation.meaning === "string" ? { meaning: derivation.meaning } : {},
+      ...baseAnalysis ? { baseAnalysis } : {}
+    };
+  };
+  var analysisKey = (analysis) => JSON.stringify([
+    analysis.lemma,
+    analysis.paradigm,
+    analysis.tense,
+    analysis.mode,
+    analysis.subtype ?? "",
+    analysis.persons.nor ?? "",
+    analysis.persons.nori ?? "",
+    analysis.persons.nork ?? "",
+    analysis.allocutive ?? ""
+  ]);
+  var derivationKey = (derivation) => JSON.stringify([derivation.type, derivation.from, derivation.lemma]);
   var addEntry2 = (entries, entry) => {
     const existing = entries.get(entry.word);
     if (!existing) {
-      entries.set(entry.word, entry);
+      entries.set(entry.word, {
+        word: entry.word,
+        analyses: [...entry.analyses],
+        ...entry.derivations?.length ? { derivations: entry.derivations.map((derivation) => ({ ...derivation })) } : {}
+      });
       return;
     }
     for (const analysis of entry.analyses) {
-      const key = JSON.stringify([
-        analysis.lemma,
-        analysis.paradigm,
-        analysis.tense,
-        analysis.mode,
-        analysis.subtype ?? "",
-        analysis.persons.nor ?? "",
-        analysis.persons.nori ?? "",
-        analysis.persons.nork ?? "",
-        analysis.allocutive ?? ""
-      ]);
-      const duplicate = existing.analyses.some(
-        (candidate) => JSON.stringify([
-          candidate.lemma,
-          candidate.paradigm,
-          candidate.tense,
-          candidate.mode,
-          candidate.subtype ?? "",
-          candidate.persons.nor ?? "",
-          candidate.persons.nori ?? "",
-          candidate.persons.nork ?? "",
-          candidate.allocutive ?? ""
-        ]) === key
-      );
-      if (!duplicate) {
+      if (!existing.analyses.some((candidate) => analysisKey(candidate) === analysisKey(analysis))) {
         existing.analyses.push(analysis);
       }
     }
+    for (const derivation of entry.derivations ?? []) {
+      const derivations = existing.derivations ?? [];
+      if (!derivations.some((candidate) => derivationKey(candidate) === derivationKey(derivation))) {
+        derivations.push({ ...derivation });
+      }
+      if (derivations.length > 0) {
+        existing.derivations = derivations;
+      }
+    }
   };
+  var isCompletiveSafe = (analysis) => analysis.tense !== "agintera" && analysis.tense !== "alegiazko" && analysis.subtype !== "conditional-ba" && analysis.subtype !== "subjunctive-la" && analysis.subtype !== "agintera";
   var indexPromise2;
   var indexCache2;
   var letterPromises2 = /* @__PURE__ */ new Map();
-  var loadLetter2 = (letter) => {
-    const cached = letterPromises2.get(letter);
+  var loadLetter2 = (directory, letter, label, optional = false) => {
+    const cacheKey = `${directory}/${letter}`;
+    const cached = letterPromises2.get(cacheKey);
     if (cached) {
       return cached;
     }
-    const promise = fetch(assetUrl2(`${BASE_DIR2}/${letter}.json`)).then(async (response) => {
+    const promise = fetch(assetUrl2(`${directory}/${letter}.json`)).then(async (response) => {
       if (!response.ok) {
-        throw new Error(`Verb letter ${letter} returned ${response.status}`);
+        throw new Error(`${label} ${letter} returned ${response.status}`);
       }
       const raw = await response.json();
       if (!Array.isArray(raw)) {
-        throw new Error(`Verb letter ${letter} is not an array`);
+        throw new Error(`${label} ${letter} is not an array`);
       }
       const entries = /* @__PURE__ */ new Map();
       for (const item of raw) {
@@ -2126,53 +2161,119 @@
         }
         const record = item;
         const word = normalize3(String(record.word ?? ""));
-        if (!word || !Array.isArray(record.analyses)) {
+        if (!word) {
           continue;
         }
-        const analyses = record.analyses.map(parseAnalysis).filter((analysis) => Boolean(analysis));
-        if (analyses.length > 0) {
-          addEntry2(entries, { word, analyses });
+        const analyses = Array.isArray(record.analyses) ? record.analyses.map(parseAnalysis).filter((analysis) => Boolean(analysis)) : [];
+        const derivations = Array.isArray(record.derivations) ? record.derivations.map(parseDerivation).filter((derivation) => Boolean(derivation)) : [];
+        if (analyses.length > 0 || derivations.length > 0) {
+          addEntry2(entries, { word, analyses, ...derivations.length > 0 ? { derivations } : {} });
         }
       }
       return entries;
     }).catch((error) => {
-      letterPromises2.delete(letter);
-      console.warn(`[verbs] could not load ${letter}.json`, error);
+      if (!optional) {
+        letterPromises2.delete(cacheKey);
+      }
+      console.warn(`[verbs] could not load ${label} ${letter}.json`, error);
       return /* @__PURE__ */ new Map();
     });
-    letterPromises2.set(letter, promise);
+    letterPromises2.set(cacheKey, promise);
     return promise;
+  };
+  var loadIndexFile = async (file, label) => {
+    try {
+      const response = await fetch(assetUrl2(file));
+      if (!response.ok) {
+        throw new Error(`${label} returned ${response.status}`);
+      }
+      const raw = await response.json();
+      if (!Array.isArray(raw)) {
+        throw new Error(`${label} is not an array`);
+      }
+      return new Set(raw.map((word) => normalize3(String(word))).filter(Boolean));
+    } catch (error) {
+      console.warn(`[verbs] could not load ${label}`, error);
+      return /* @__PURE__ */ new Set();
+    }
   };
   var loadVerbIndex = async () => {
     if (indexCache2) {
       return indexCache2;
     }
     if (!indexPromise2) {
-      indexPromise2 = fetch(assetUrl2(INDEX_FILE2)).then(async (response) => {
-        if (!response.ok) {
-          throw new Error(`Verb index returned ${response.status}`);
-        }
-        const raw = await response.json();
-        if (!Array.isArray(raw)) {
-          throw new Error("Verb index is not an array");
-        }
-        return new Set(raw.map((word) => normalize3(String(word))).filter(Boolean));
-      }).catch((error) => {
-        indexPromise2 = void 0;
-        console.warn("[verbs] could not load index.json", error);
-        return /* @__PURE__ */ new Set();
-      });
+      indexPromise2 = Promise.all([
+        loadIndexFile(INDEX_FILE2, "index.json"),
+        loadIndexFile(DERIVED_INDEX_FILE, "derived/index.json")
+      ]).then(([base, derived]) => /* @__PURE__ */ new Set([...base, ...derived]));
     }
     indexCache2 = await indexPromise2;
     return indexCache2;
+  };
+  var loadBaseAnalysis = async (word) => {
+    const entries = await loadLetter2(BASE_DIR2, letterFor2(word), "verb letter");
+    return entries.get(normalize3(word))?.analyses[0];
+  };
+  var enrichEntry = async (entry) => {
+    const analyses = [...entry.analyses];
+    const derivations = (entry.derivations ?? []).map((derivation) => ({ ...derivation }));
+    if (entry.word.endsWith("n")) {
+      for (const analysis of analyses) {
+        if (!isCompletiveSafe(analysis)) {
+          continue;
+        }
+        const exists = derivations.some(
+          (derivation) => derivation.type === "completive-en" && derivation.from === entry.word && derivation.lemma === analysis.lemma
+        );
+        if (!exists) {
+          derivations.push({
+            type: "completive-en",
+            from: entry.word,
+            lemma: analysis.lemma,
+            ...analysis.meaning ? { meaning: analysis.meaning } : {},
+            baseAnalysis: analysis
+          });
+        }
+      }
+    }
+    for (const derivation of derivations) {
+      if (!derivation.baseAnalysis && derivation.type === "completive-en" && derivation.from === entry.word) {
+        derivation.baseAnalysis = analyses.find((analysis) => analysis.lemma === derivation.lemma && isCompletiveSafe(analysis)) ?? analyses.find((analysis) => analysis.lemma === derivation.lemma);
+      }
+      if (!derivation.baseAnalysis && derivation.type.startsWith("completive-")) {
+        derivation.baseAnalysis = await loadBaseAnalysis(derivation.from);
+      }
+      if (!derivation.meaning && derivation.baseAnalysis?.meaning) {
+        derivation.meaning = derivation.baseAnalysis.meaning;
+      }
+    }
+    return {
+      word: entry.word,
+      analyses,
+      ...derivations.length > 0 ? { derivations } : {}
+    };
   };
   var lookupVerb = async (word) => {
     const normalized = normalize3(word);
     if (!normalized) {
       return void 0;
     }
-    const entries = await loadLetter2(letterFor2(normalized));
-    return entries.get(normalized);
+    const letter = letterFor2(normalized);
+    const [baseEntries, derivedEntries] = await Promise.all([
+      loadLetter2(BASE_DIR2, letter, "verb letter"),
+      loadLetter2(DERIVED_DIR, letter, "derived verb letter", true)
+    ]);
+    const merged = /* @__PURE__ */ new Map();
+    const baseEntry = baseEntries.get(normalized);
+    if (baseEntry) {
+      addEntry2(merged, baseEntry);
+    }
+    const derivedEntry = derivedEntries.get(normalized);
+    if (derivedEntry) {
+      addEntry2(merged, derivedEntry);
+    }
+    const entry = merged.get(normalized);
+    return entry ? enrichEntry(entry) : void 0;
   };
 
   // src/shared/tokenizer.ts
@@ -3021,7 +3122,58 @@
       </p>
     `;
     }
+    derivationLabel(derivation) {
+      switch (derivation.type) {
+        case "root":
+          return `Ra\xEDz de ${derivation.from}`;
+        case "future":
+          return `Futuro de ${derivation.from}`;
+        case "habitual":
+          return `Forma habitual de ${derivation.from} (-tzen/-ten)`;
+        case "completive-en":
+          return derivation.from === this.normalizeWord() ? `Completivo -en (misma forma que ${derivation.from})` : `Completivo -en de ${derivation.from}`;
+        case "completive-enik":
+          return `Completivo -enik de ${derivation.from}`;
+        case "completive-la":
+          return `Completivo -la de ${derivation.from}`;
+      }
+    }
+    renderAnalysisTags(analysis) {
+      return b2`
+      <span class="verb-tag">${analysis.paradigm}</span>
+      <span class="verb-tag">${this.tenseLabel(analysis.tense)}</span>
+      <span class="verb-tag">${this.modeLabel(analysis.mode)}</span>
+      ${analysis.subtype ? b2`<span class="verb-tag">${this.subtypeLabel(analysis.subtype)}</span>` : ""}
+      ${this.personTags(analysis).map((tag) => b2`<span class="verb-tag">${tag}</span>`)}
+      ${analysis.allocutive ? b2`<span class="verb-tag">alocutivo ${analysis.allocutive}</span>` : ""}
+    `;
+    }
+    renderVerbDerivations(entry) {
+      if (!entry.derivations?.length) {
+        return "";
+      }
+      return b2`
+      <ul class="verb-analyses">
+        ${entry.derivations.map((derivation) => b2`
+          <li class="verb-analysis">
+            <div class="verb-lemma">
+              ${this.derivationLabel(derivation)}${derivation.meaning ? b2` <span>· ${derivation.meaning}</span>` : ""}
+            </div>
+            <div class="verb-tags">
+              <span class="verb-tag">forma base: ${derivation.from}</span>
+              <span class="verb-tag">lema: ${derivation.lemma}</span>
+              ${derivation.baseAnalysis ? this.renderAnalysisTags(derivation.baseAnalysis) : ""}
+            </div>
+            ${derivation.baseAnalysis ? this.renderVerbSource(derivation.baseAnalysis.source) : ""}
+          </li>
+        `)}
+      </ul>
+    `;
+    }
     renderVerbAnalyses(entry) {
+      if (!entry.analyses.length) {
+        return "";
+      }
       return b2`
       <ul class="verb-analyses">
         ${entry.analyses.map((analysis) => b2`
@@ -3030,12 +3182,7 @@
               ${analysis.lemma}${analysis.meaning ? b2` <span>· ${analysis.meaning}</span>` : ""}
             </div>
             <div class="verb-tags">
-              <span class="verb-tag">${analysis.paradigm}</span>
-              <span class="verb-tag">${this.tenseLabel(analysis.tense)}</span>
-              <span class="verb-tag">${this.modeLabel(analysis.mode)}</span>
-              ${analysis.subtype ? b2`<span class="verb-tag">${this.subtypeLabel(analysis.subtype)}</span>` : ""}
-              ${this.personTags(analysis).map((tag) => b2`<span class="verb-tag">${tag}</span>`)}
-              ${analysis.allocutive ? b2`<span class="verb-tag">alocutivo ${analysis.allocutive}</span>` : ""}
+              ${this.renderAnalysisTags(analysis)}
             </div>
             ${this.renderVerbSource(analysis.source)}
           </li>
@@ -3063,11 +3210,12 @@
       );
     }
     emitAdd() {
-      const word = this.baseForm ?? this.normalizeWord();
+      const derivation = this.verbEntry?.derivations?.[0];
+      const word = derivation?.lemma ?? this.baseForm ?? this.normalizeWord();
       if (!word) {
         return;
       }
-      const translation = this.openDataEntry?.translations[0];
+      const translation = derivation?.meaning ?? this.openDataEntry?.translations[0];
       this.dispatchEvent(
         new CustomEvent("open-add-modal", {
           detail: { word, ...translation ? { translation } : {} },
@@ -3107,7 +3255,10 @@
         ${this.entry ? b2`<span class="badge badge--${status}">${statusText}</span>` : this.verbEntry ? b2`<span class="badge badge--verb">Verbo</span>` : this.openDataEntry ? b2`<span class="badge badge--opendata">Open Data</span>` : b2`<p class="no-entry">Esta palabra no está en el diccionario.</p>`}
         ${this.entry?.translation ? b2`<p class="translation">${this.entry.translation}</p>` : ""}
         ${this.entry?.note ? b2`<p class="note">${this.entry.note}</p>` : ""}
-        ${!this.entry && this.verbEntry ? this.renderVerbAnalyses(this.verbEntry) : ""}
+        ${!this.entry && this.verbEntry ? b2`
+              ${this.renderVerbDerivations(this.verbEntry)}
+              ${this.renderVerbAnalyses(this.verbEntry)}
+            ` : ""}
         ${!this.entry && !this.verbEntry && this.openDataEntry ? b2`
               <ul class="translations">
                 ${this.openDataEntry.translations.map((translation) => b2`<li>${translation}</li>`)}

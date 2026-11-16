@@ -1,0 +1,3060 @@
+[
+  {
+    "word": "jabalaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jabalarazi",
+        "lemma": "jabalarazi",
+        "meaning": "calmar"
+      }
+    ]
+  },
+  {
+    "word": "jabalaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jabalarazi",
+        "lemma": "jabalarazi",
+        "meaning": "calmar"
+      }
+    ]
+  },
+  {
+    "word": "jabalarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jabalarazi",
+        "lemma": "jabalarazi",
+        "meaning": "calmar"
+      }
+    ]
+  },
+  {
+    "word": "jabalduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jabaldu",
+        "lemma": "jabaldu",
+        "meaning": "calmar"
+      }
+    ]
+  },
+  {
+    "word": "jabaltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jabaldu",
+        "lemma": "jabaldu",
+        "meaning": "calmar"
+      }
+    ]
+  },
+  {
+    "word": "jabearaz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jabearazi",
+        "lemma": "jabearazi",
+        "meaning": "concienciar"
+      }
+    ]
+  },
+  {
+    "word": "jabearaziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jabearazi",
+        "lemma": "jabearazi",
+        "meaning": "concienciar"
+      }
+    ]
+  },
+  {
+    "word": "jabearazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jabearazi",
+        "lemma": "jabearazi",
+        "meaning": "concienciar"
+      }
+    ]
+  },
+  {
+    "word": "jabel",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jabeldu",
+        "lemma": "jabeldu",
+        "meaning": "replicar"
+      }
+    ]
+  },
+  {
+    "word": "jabelduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jabeldu",
+        "lemma": "jabeldu",
+        "meaning": "replicar"
+      }
+    ]
+  },
+  {
+    "word": "jabeltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jabeldu",
+        "lemma": "jabeldu",
+        "meaning": "replicar"
+      }
+    ]
+  },
+  {
+    "word": "jabetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jabetu",
+        "lemma": "jabetu",
+        "meaning": "adueñarse"
+      }
+    ]
+  },
+  {
+    "word": "jabetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jabetu",
+        "lemma": "jabetu",
+        "meaning": "adueñarse"
+      }
+    ]
+  },
+  {
+    "word": "jadets",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jadetsi",
+        "lemma": "jadetsi",
+        "meaning": "alcanzar"
+      }
+    ]
+  },
+  {
+    "word": "jadetsiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jadetsi",
+        "lemma": "jadetsi",
+        "meaning": "alcanzar"
+      }
+    ]
+  },
+  {
+    "word": "jadetsten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jadetsi",
+        "lemma": "jadetsi",
+        "meaning": "alcanzar"
+      }
+    ]
+  },
+  {
+    "word": "jag",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jagi",
+        "lemma": "jagi",
+        "meaning": "levantarse"
+      }
+    ]
+  },
+  {
+    "word": "jagiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jagi",
+        "lemma": "jagi",
+        "meaning": "levantarse"
+      }
+    ]
+  },
+  {
+    "word": "jagongo",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jagon",
+        "lemma": "jagon",
+        "meaning": "cuidar"
+      }
+    ]
+  },
+  {
+    "word": "jagoten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jagon",
+        "lemma": "jagon",
+        "meaning": "cuidar"
+      }
+    ]
+  },
+  {
+    "word": "jagtzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jagi",
+        "lemma": "jagi",
+        "meaning": "levantarse"
+      }
+    ]
+  },
+  {
+    "word": "jaik",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jaiki",
+        "lemma": "jaiki",
+        "meaning": "levantarse"
+      }
+    ]
+  },
+  {
+    "word": "jaikiaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jaikiarazi",
+        "lemma": "jaikiarazi",
+        "meaning": "levantar"
+      }
+    ]
+  },
+  {
+    "word": "jaikiaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jaikiarazi",
+        "lemma": "jaikiarazi",
+        "meaning": "levantar"
+      }
+    ]
+  },
+  {
+    "word": "jaikiarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jaikiarazi",
+        "lemma": "jaikiarazi",
+        "meaning": "levantar"
+      }
+    ]
+  },
+  {
+    "word": "jaikiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jaiki",
+        "lemma": "jaiki",
+        "meaning": "levantarse"
+      }
+    ]
+  },
+  {
+    "word": "jaiktzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jaiki",
+        "lemma": "jaiki",
+        "meaning": "levantarse"
+      }
+    ]
+  },
+  {
+    "word": "jainkoagana",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jainkoaganatu",
+        "lemma": "jainkoaganatu",
+        "meaning": "ir hacia Dios"
+      }
+    ]
+  },
+  {
+    "word": "jainkoaganatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jainkoaganatu",
+        "lemma": "jainkoaganatu",
+        "meaning": "ir hacia Dios"
+      }
+    ]
+  },
+  {
+    "word": "jainkoaganatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jainkoaganatu",
+        "lemma": "jainkoaganatu",
+        "meaning": "ir hacia Dios"
+      }
+    ]
+  },
+  {
+    "word": "jainkoets",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jainkoetsi",
+        "lemma": "jainkoetsi",
+        "meaning": "divinizar"
+      }
+    ]
+  },
+  {
+    "word": "jainkoetsiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jainkoetsi",
+        "lemma": "jainkoetsi",
+        "meaning": "divinizar"
+      }
+    ]
+  },
+  {
+    "word": "jainkoetsten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jainkoetsi",
+        "lemma": "jainkoetsi",
+        "meaning": "divinizar"
+      }
+    ]
+  },
+  {
+    "word": "jainkotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jainkotu",
+        "lemma": "jainkotu",
+        "meaning": "divinizar"
+      }
+    ]
+  },
+  {
+    "word": "jainkotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jainkotu",
+        "lemma": "jainkotu",
+        "meaning": "divinizar"
+      }
+    ]
+  },
+  {
+    "word": "jainkozta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jainkoztatu",
+        "lemma": "jainkoztatu",
+        "meaning": "divinizar"
+      }
+    ]
+  },
+  {
+    "word": "jainkoztatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jainkoztatu",
+        "lemma": "jainkoztatu",
+        "meaning": "divinizar"
+      }
+    ]
+  },
+  {
+    "word": "jainkoztatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jainkoztatu",
+        "lemma": "jainkoztatu",
+        "meaning": "divinizar"
+      }
+    ]
+  },
+  {
+    "word": "jaioaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jaioarazi",
+        "lemma": "jaioarazi",
+        "meaning": "originar"
+      }
+    ]
+  },
+  {
+    "word": "jaioaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jaioarazi",
+        "lemma": "jaioarazi",
+        "meaning": "originar"
+      }
+    ]
+  },
+  {
+    "word": "jaioarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jaioarazi",
+        "lemma": "jaioarazi",
+        "meaning": "originar"
+      }
+    ]
+  },
+  {
+    "word": "jaioberrituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jaioberritu",
+        "lemma": "jaioberritu",
+        "meaning": "renacer"
+      }
+    ]
+  },
+  {
+    "word": "jaioberritzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jaioberritu",
+        "lemma": "jaioberritu",
+        "meaning": "renacer"
+      }
+    ]
+  },
+  {
+    "word": "jaioko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jaio",
+        "lemma": "jaio",
+        "meaning": "nacer"
+      }
+    ]
+  },
+  {
+    "word": "jaiotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jaio",
+        "lemma": "jaio",
+        "meaning": "nacer"
+      }
+    ]
+  },
+  {
+    "word": "jaits",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jaitsi",
+        "lemma": "jaitsi",
+        "meaning": "bajar"
+      }
+    ]
+  },
+  {
+    "word": "jaitsaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jaitsarazi",
+        "lemma": "jaitsarazi",
+        "meaning": "descender"
+      }
+    ]
+  },
+  {
+    "word": "jaitsaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jaitsarazi",
+        "lemma": "jaitsarazi",
+        "meaning": "descender"
+      }
+    ]
+  },
+  {
+    "word": "jaitsarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jaitsarazi",
+        "lemma": "jaitsarazi",
+        "meaning": "descender"
+      }
+    ]
+  },
+  {
+    "word": "jaitsiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jaitsi",
+        "lemma": "jaitsi",
+        "meaning": "bajar"
+      }
+    ]
+  },
+  {
+    "word": "jaitsten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jaitsi",
+        "lemma": "jaitsi",
+        "meaning": "bajar"
+      }
+    ]
+  },
+  {
+    "word": "jaituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jaitu",
+        "lemma": "jaitu",
+        "meaning": "festejar"
+      }
+    ]
+  },
+  {
+    "word": "jaitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jaitu",
+        "lemma": "jaitu",
+        "meaning": "festejar"
+      }
+    ]
+  },
+  {
+    "word": "jakinaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jakinarazi",
+        "lemma": "jakinarazi",
+        "meaning": "saber"
+      }
+    ]
+  },
+  {
+    "word": "jakinaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jakinarazi",
+        "lemma": "jakinarazi",
+        "meaning": "saber"
+      }
+    ]
+  },
+  {
+    "word": "jakinarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jakinarazi",
+        "lemma": "jakinarazi",
+        "meaning": "saber"
+      }
+    ]
+  },
+  {
+    "word": "jakingo",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jakin",
+        "lemma": "jakin",
+        "meaning": "saber"
+      }
+    ]
+  },
+  {
+    "word": "jakintsutuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jakintsutu",
+        "lemma": "jakintsutu",
+        "meaning": "instruir"
+      }
+    ]
+  },
+  {
+    "word": "jakintsutzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jakintsutu",
+        "lemma": "jakintsutu",
+        "meaning": "instruir"
+      }
+    ]
+  },
+  {
+    "word": "jakiten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jakin",
+        "lemma": "jakin",
+        "meaning": "saber"
+      }
+    ]
+  },
+  {
+    "word": "jakitera",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jakiteratu",
+        "lemma": "jakiteratu",
+        "meaning": "informar"
+      }
+    ]
+  },
+  {
+    "word": "jakiteratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jakiteratu",
+        "lemma": "jakiteratu",
+        "meaning": "informar"
+      }
+    ]
+  },
+  {
+    "word": "jakiteratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jakiteratu",
+        "lemma": "jakiteratu",
+        "meaning": "informar"
+      }
+    ]
+  },
+  {
+    "word": "jalg",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jalgi",
+        "lemma": "jalgi",
+        "meaning": "salir"
+      }
+    ]
+  },
+  {
+    "word": "jalgiaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jalgiarazi",
+        "lemma": "jalgiarazi",
+        "meaning": "salir"
+      }
+    ]
+  },
+  {
+    "word": "jalgiaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jalgiarazi",
+        "lemma": "jalgiarazi",
+        "meaning": "salir"
+      }
+    ]
+  },
+  {
+    "word": "jalgiarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jalgiarazi",
+        "lemma": "jalgiarazi",
+        "meaning": "salir"
+      }
+    ]
+  },
+  {
+    "word": "jalgiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jalgi",
+        "lemma": "jalgi",
+        "meaning": "salir"
+      }
+    ]
+  },
+  {
+    "word": "jalgtzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jalgi",
+        "lemma": "jalgi",
+        "meaning": "salir"
+      }
+    ]
+  },
+  {
+    "word": "jalk",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jalki",
+        "lemma": "jalki",
+        "meaning": "desgranar"
+      }
+    ]
+  },
+  {
+    "word": "jalkiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jalki",
+        "lemma": "jalki",
+        "meaning": "desgranar"
+      }
+    ]
+  },
+  {
+    "word": "jalktzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jalki",
+        "lemma": "jalki",
+        "meaning": "desgranar"
+      }
+    ]
+  },
+  {
+    "word": "janaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "janarazi",
+        "lemma": "janarazi",
+        "meaning": "comer"
+      }
+    ]
+  },
+  {
+    "word": "janaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "janarazi",
+        "lemma": "janarazi",
+        "meaning": "comer"
+      }
+    ]
+  },
+  {
+    "word": "janarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "janarazi",
+        "lemma": "janarazi",
+        "meaning": "comer"
+      }
+    ]
+  },
+  {
+    "word": "janarituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "janaritu",
+        "lemma": "janaritu",
+        "meaning": "sustentar"
+      }
+    ]
+  },
+  {
+    "word": "janaritzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "janaritu",
+        "lemma": "janaritu",
+        "meaning": "sustentar"
+      }
+    ]
+  },
+  {
+    "word": "jangartxutuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jangartxutu",
+        "lemma": "jangartxutu",
+        "meaning": "perder el apetito"
+      }
+    ]
+  },
+  {
+    "word": "jangartxutzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jangartxutu",
+        "lemma": "jangartxutu",
+        "meaning": "perder el apetito"
+      }
+    ]
+  },
+  {
+    "word": "jango",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jan",
+        "lemma": "jan",
+        "meaning": "comer"
+      }
+    ]
+  },
+  {
+    "word": "jantz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jantzi",
+        "lemma": "jantzi",
+        "meaning": "vestir"
+      }
+    ]
+  },
+  {
+    "word": "jantzaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jantzarazi",
+        "lemma": "jantzarazi",
+        "meaning": "vestir"
+      }
+    ]
+  },
+  {
+    "word": "jantzaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jantzarazi",
+        "lemma": "jantzarazi",
+        "meaning": "vestir"
+      }
+    ]
+  },
+  {
+    "word": "jantzarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jantzarazi",
+        "lemma": "jantzarazi",
+        "meaning": "vestir"
+      }
+    ]
+  },
+  {
+    "word": "jantziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jantzi",
+        "lemma": "jantzi",
+        "meaning": "vestir"
+      }
+    ]
+  },
+  {
+    "word": "jantzten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jantzi",
+        "lemma": "jantzi",
+        "meaning": "vestir"
+      }
+    ]
+  },
+  {
+    "word": "japoniartuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "japoniartu",
+        "lemma": "japoniartu",
+        "meaning": "japonizar"
+      }
+    ]
+  },
+  {
+    "word": "japoniartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "japoniartu",
+        "lemma": "japoniartu",
+        "meaning": "japonizar"
+      }
+    ]
+  },
+  {
+    "word": "jar",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jarri",
+        "lemma": "jarri",
+        "meaning": "acostumbrarse"
+      }
+    ]
+  },
+  {
+    "word": "jaraunts",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jarauntsi",
+        "lemma": "jarauntsi",
+        "meaning": "heredar"
+      }
+    ]
+  },
+  {
+    "word": "jarauntsiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jarauntsi",
+        "lemma": "jarauntsi",
+        "meaning": "heredar"
+      }
+    ]
+  },
+  {
+    "word": "jarauntsten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jarauntsi",
+        "lemma": "jarauntsi",
+        "meaning": "heredar"
+      }
+    ]
+  },
+  {
+    "word": "jarduk",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jarduki",
+        "lemma": "jarduki",
+        "meaning": "conversar"
+      }
+    ]
+  },
+  {
+    "word": "jardukiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jarduki",
+        "lemma": "jarduki",
+        "meaning": "conversar"
+      }
+    ]
+  },
+  {
+    "word": "jarduktzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jarduki",
+        "lemma": "jarduki",
+        "meaning": "conversar"
+      }
+    ]
+  },
+  {
+    "word": "jardunaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jardunarazi",
+        "lemma": "jardunarazi",
+        "meaning": "emplear"
+      }
+    ]
+  },
+  {
+    "word": "jardunaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jardunarazi",
+        "lemma": "jardunarazi",
+        "meaning": "emplear"
+      }
+    ]
+  },
+  {
+    "word": "jardunarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jardunarazi",
+        "lemma": "jardunarazi",
+        "meaning": "emplear"
+      }
+    ]
+  },
+  {
+    "word": "jardungo",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jardun",
+        "lemma": "jardun",
+        "meaning": "dedicarse"
+      }
+    ]
+  },
+  {
+    "word": "jarduten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jardun",
+        "lemma": "jardun",
+        "meaning": "dedicarse"
+      }
+    ]
+  },
+  {
+    "word": "jaregingo",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jaregin",
+        "lemma": "jaregin",
+        "meaning": "soltar"
+      }
+    ]
+  },
+  {
+    "word": "jaregiten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jaregin",
+        "lemma": "jaregin",
+        "meaning": "soltar"
+      }
+    ]
+  },
+  {
+    "word": "jaria",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jariatu",
+        "lemma": "jariatu",
+        "meaning": "fluir"
+      }
+    ]
+  },
+  {
+    "word": "jariaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jariarazi",
+        "lemma": "jariarazi",
+        "meaning": "fluir"
+      }
+    ]
+  },
+  {
+    "word": "jariaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jariarazi",
+        "lemma": "jariarazi",
+        "meaning": "fluir"
+      }
+    ]
+  },
+  {
+    "word": "jariarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jariarazi",
+        "lemma": "jariarazi",
+        "meaning": "fluir"
+      }
+    ]
+  },
+  {
+    "word": "jariatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jariatu",
+        "lemma": "jariatu",
+        "meaning": "fluir"
+      }
+    ]
+  },
+  {
+    "word": "jariatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jariatu",
+        "lemma": "jariatu",
+        "meaning": "fluir"
+      }
+    ]
+  },
+  {
+    "word": "jarioko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jario",
+        "lemma": "jario",
+        "meaning": "emanar"
+      }
+    ]
+  },
+  {
+    "word": "jariotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jario",
+        "lemma": "jario",
+        "meaning": "emanar"
+      }
+    ]
+  },
+  {
+    "word": "jark",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jarki",
+        "lemma": "jarki",
+        "meaning": "resistir"
+      }
+    ]
+  },
+  {
+    "word": "jarkiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jarki",
+        "lemma": "jarki",
+        "meaning": "resistir"
+      }
+    ]
+  },
+  {
+    "word": "jarktzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jarki",
+        "lemma": "jarki",
+        "meaning": "resistir"
+      }
+    ]
+  },
+  {
+    "word": "jarraiaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jarraiarazi",
+        "lemma": "jarraiarazi",
+        "meaning": "seguir"
+      }
+    ]
+  },
+  {
+    "word": "jarraiaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jarraiarazi",
+        "lemma": "jarraiarazi",
+        "meaning": "seguir"
+      }
+    ]
+  },
+  {
+    "word": "jarraiarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jarraiarazi",
+        "lemma": "jarraiarazi",
+        "meaning": "seguir"
+      }
+    ]
+  },
+  {
+    "word": "jarraik",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jarraiki",
+        "lemma": "jarraiki",
+        "meaning": "seguir"
+      }
+    ]
+  },
+  {
+    "word": "jarraikiaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jarraikiarazi",
+        "lemma": "jarraikiarazi",
+        "meaning": "seguir"
+      }
+    ]
+  },
+  {
+    "word": "jarraikiaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jarraikiarazi",
+        "lemma": "jarraikiarazi",
+        "meaning": "seguir"
+      }
+    ]
+  },
+  {
+    "word": "jarraikiarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jarraikiarazi",
+        "lemma": "jarraikiarazi",
+        "meaning": "seguir"
+      }
+    ]
+  },
+  {
+    "word": "jarraikiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jarraiki",
+        "lemma": "jarraiki",
+        "meaning": "seguir"
+      }
+    ]
+  },
+  {
+    "word": "jarraiktzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jarraiki",
+        "lemma": "jarraiki",
+        "meaning": "seguir"
+      }
+    ]
+  },
+  {
+    "word": "jarraituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jarraitu",
+        "lemma": "jarraitu",
+        "meaning": "continuar"
+      }
+    ]
+  },
+  {
+    "word": "jarraitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jarraitu",
+        "lemma": "jarraitu",
+        "meaning": "continuar"
+      }
+    ]
+  },
+  {
+    "word": "jarraraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jarrarazi",
+        "lemma": "jarrarazi",
+        "meaning": "poner"
+      }
+    ]
+  },
+  {
+    "word": "jarraraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jarrarazi",
+        "lemma": "jarrarazi",
+        "meaning": "poner"
+      }
+    ]
+  },
+  {
+    "word": "jarrarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jarrarazi",
+        "lemma": "jarrarazi",
+        "meaning": "poner"
+      }
+    ]
+  },
+  {
+    "word": "jarriko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jarri",
+        "lemma": "jarri",
+        "meaning": "acostumbrarse"
+      }
+    ]
+  },
+  {
+    "word": "jartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jarri",
+        "lemma": "jarri",
+        "meaning": "acostumbrarse"
+      }
+    ]
+  },
+  {
+    "word": "jasanaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jasanarazi",
+        "lemma": "jasanarazi",
+        "meaning": "soportar"
+      }
+    ]
+  },
+  {
+    "word": "jasanaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jasanarazi",
+        "lemma": "jasanarazi",
+        "meaning": "soportar"
+      }
+    ]
+  },
+  {
+    "word": "jasanarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jasanarazi",
+        "lemma": "jasanarazi",
+        "meaning": "soportar"
+      }
+    ]
+  },
+  {
+    "word": "jasango",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jasan",
+        "lemma": "jasan",
+        "meaning": "soportar"
+      }
+    ]
+  },
+  {
+    "word": "jasaten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jasan",
+        "lemma": "jasan",
+        "meaning": "soportar"
+      }
+    ]
+  },
+  {
+    "word": "jasoaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jasoarazi",
+        "lemma": "jasoarazi",
+        "meaning": "recoger"
+      }
+    ]
+  },
+  {
+    "word": "jasoaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jasoarazi",
+        "lemma": "jasoarazi",
+        "meaning": "recoger"
+      }
+    ]
+  },
+  {
+    "word": "jasoarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jasoarazi",
+        "lemma": "jasoarazi",
+        "meaning": "recoger"
+      }
+    ]
+  },
+  {
+    "word": "jasoko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jaso",
+        "lemma": "jaso",
+        "meaning": "elevar"
+      }
+    ]
+  },
+  {
+    "word": "jasotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jaso",
+        "lemma": "jaso",
+        "meaning": "elevar"
+      }
+    ]
+  },
+  {
+    "word": "jaspezta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jaspeztatu",
+        "lemma": "jaspeztatu",
+        "meaning": "jaspear"
+      }
+    ]
+  },
+  {
+    "word": "jaspeztatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jaspeztatu",
+        "lemma": "jaspeztatu",
+        "meaning": "jaspear"
+      }
+    ]
+  },
+  {
+    "word": "jaspeztatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jaspeztatu",
+        "lemma": "jaspeztatu",
+        "meaning": "jaspear"
+      }
+    ]
+  },
+  {
+    "word": "jaugingo",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jaugin",
+        "lemma": "jaugin",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "jaugiten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jaugin",
+        "lemma": "jaugin",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "jaulk",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jaulki",
+        "lemma": "jaulki",
+        "meaning": "emitir"
+      }
+    ]
+  },
+  {
+    "word": "jaulkiaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jaulkiarazi",
+        "lemma": "jaulkiarazi",
+        "meaning": "desprender"
+      }
+    ]
+  },
+  {
+    "word": "jaulkiaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jaulkiarazi",
+        "lemma": "jaulkiarazi",
+        "meaning": "desprender"
+      }
+    ]
+  },
+  {
+    "word": "jaulkiarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jaulkiarazi",
+        "lemma": "jaulkiarazi",
+        "meaning": "desprender"
+      }
+    ]
+  },
+  {
+    "word": "jaulkiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jaulki",
+        "lemma": "jaulki",
+        "meaning": "emitir"
+      }
+    ]
+  },
+  {
+    "word": "jaulktzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jaulki",
+        "lemma": "jaulki",
+        "meaning": "emitir"
+      }
+    ]
+  },
+  {
+    "word": "jaunduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jaundu",
+        "lemma": "jaundu",
+        "meaning": "hacer señor"
+      }
+    ]
+  },
+  {
+    "word": "jauntzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jaundu",
+        "lemma": "jaundu",
+        "meaning": "hacer señor"
+      }
+    ]
+  },
+  {
+    "word": "jaurets",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jauretsi",
+        "lemma": "jauretsi",
+        "meaning": "adorar"
+      }
+    ]
+  },
+  {
+    "word": "jauretsiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jauretsi",
+        "lemma": "jauretsi",
+        "meaning": "adorar"
+      }
+    ]
+  },
+  {
+    "word": "jauretsten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jauretsi",
+        "lemma": "jauretsi",
+        "meaning": "adorar"
+      }
+    ]
+  },
+  {
+    "word": "jaurt",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jaurti",
+        "lemma": "jaurti",
+        "meaning": "arrojar"
+      }
+    ]
+  },
+  {
+    "word": "jaurtiaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jaurtiarazi",
+        "lemma": "jaurtiarazi",
+        "meaning": "tirar"
+      }
+    ]
+  },
+  {
+    "word": "jaurtiaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jaurtiarazi",
+        "lemma": "jaurtiarazi",
+        "meaning": "tirar"
+      }
+    ]
+  },
+  {
+    "word": "jaurtiarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jaurtiarazi",
+        "lemma": "jaurtiarazi",
+        "meaning": "tirar"
+      }
+    ]
+  },
+  {
+    "word": "jaurtik",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jaurtiki",
+        "lemma": "jaurtiki",
+        "meaning": "lanzar"
+      }
+    ]
+  },
+  {
+    "word": "jaurtikiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jaurtiki",
+        "lemma": "jaurtiki",
+        "meaning": "lanzar"
+      }
+    ]
+  },
+  {
+    "word": "jaurtiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jaurti",
+        "lemma": "jaurti",
+        "meaning": "arrojar"
+      }
+    ]
+  },
+  {
+    "word": "jaurtiktzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jaurtiki",
+        "lemma": "jaurtiki",
+        "meaning": "lanzar"
+      }
+    ]
+  },
+  {
+    "word": "jaurttzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jaurti",
+        "lemma": "jaurti",
+        "meaning": "arrojar"
+      }
+    ]
+  },
+  {
+    "word": "jaus",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jausi",
+        "lemma": "jausi",
+        "meaning": "caer"
+      }
+    ]
+  },
+  {
+    "word": "jausaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jausarazi",
+        "lemma": "jausarazi",
+        "meaning": "caer"
+      }
+    ]
+  },
+  {
+    "word": "jausaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jausarazi",
+        "lemma": "jausarazi",
+        "meaning": "caer"
+      }
+    ]
+  },
+  {
+    "word": "jausarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jausarazi",
+        "lemma": "jausarazi",
+        "meaning": "caer"
+      }
+    ]
+  },
+  {
+    "word": "jausiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jausi",
+        "lemma": "jausi",
+        "meaning": "caer"
+      }
+    ]
+  },
+  {
+    "word": "jausten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jausi",
+        "lemma": "jausi",
+        "meaning": "caer"
+      }
+    ]
+  },
+  {
+    "word": "jauts",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jautsi",
+        "lemma": "jautsi",
+        "meaning": "bajar"
+      }
+    ]
+  },
+  {
+    "word": "jautsiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jautsi",
+        "lemma": "jautsi",
+        "meaning": "bajar"
+      }
+    ]
+  },
+  {
+    "word": "jautsten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jautsi",
+        "lemma": "jautsi",
+        "meaning": "bajar"
+      }
+    ]
+  },
+  {
+    "word": "jauz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jauzi",
+        "lemma": "jauzi",
+        "meaning": "saltar"
+      }
+    ]
+  },
+  {
+    "word": "jauzaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jauzarazi",
+        "lemma": "jauzarazi",
+        "meaning": "saltar"
+      }
+    ]
+  },
+  {
+    "word": "jauzaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jauzarazi",
+        "lemma": "jauzarazi",
+        "meaning": "saltar"
+      }
+    ]
+  },
+  {
+    "word": "jauzarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jauzarazi",
+        "lemma": "jauzarazi",
+        "meaning": "saltar"
+      }
+    ]
+  },
+  {
+    "word": "jauziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jauzi",
+        "lemma": "jauzi",
+        "meaning": "saltar"
+      }
+    ]
+  },
+  {
+    "word": "jauzten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jauzi",
+        "lemma": "jauzi",
+        "meaning": "saltar"
+      }
+    ]
+  },
+  {
+    "word": "jazarraraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jazarrarazi",
+        "lemma": "jazarrarazi",
+        "meaning": "atacar"
+      }
+    ]
+  },
+  {
+    "word": "jazarraraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jazarrarazi",
+        "lemma": "jazarrarazi",
+        "meaning": "atacar"
+      }
+    ]
+  },
+  {
+    "word": "jazarrarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jazarrarazi",
+        "lemma": "jazarrarazi",
+        "meaning": "atacar"
+      }
+    ]
+  },
+  {
+    "word": "jazarriko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jazarri",
+        "lemma": "jazarri",
+        "meaning": "hostigar"
+      }
+    ]
+  },
+  {
+    "word": "jazartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jazarri",
+        "lemma": "jazarri",
+        "meaning": "hostigar"
+      }
+    ]
+  },
+  {
+    "word": "jazoko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jazo",
+        "lemma": "jazo",
+        "meaning": "ocurrir"
+      }
+    ]
+  },
+  {
+    "word": "jazotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jazo",
+        "lemma": "jazo",
+        "meaning": "ocurrir"
+      }
+    ]
+  },
+  {
+    "word": "jelatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jelatu",
+        "lemma": "jelatu",
+        "meaning": "helar"
+      }
+    ]
+  },
+  {
+    "word": "jelatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jelatu",
+        "lemma": "jelatu",
+        "meaning": "helar"
+      }
+    ]
+  },
+  {
+    "word": "jeloskortuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jeloskortu",
+        "lemma": "jeloskortu",
+        "meaning": "volver celoso"
+      }
+    ]
+  },
+  {
+    "word": "jeloskortzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jeloskortu",
+        "lemma": "jeloskortu",
+        "meaning": "volver celoso"
+      }
+    ]
+  },
+  {
+    "word": "jelostuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jelostu",
+        "lemma": "jelostu",
+        "meaning": "envidiar"
+      }
+    ]
+  },
+  {
+    "word": "jelostzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jelostu",
+        "lemma": "jelostu",
+        "meaning": "envidiar"
+      }
+    ]
+  },
+  {
+    "word": "jeltzaletuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jeltzaletu",
+        "lemma": "jeltzaletu",
+        "meaning": "hacer del PNV"
+      }
+    ]
+  },
+  {
+    "word": "jeltzaletzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jeltzaletu",
+        "lemma": "jeltzaletu",
+        "meaning": "hacer del PNV"
+      }
+    ]
+  },
+  {
+    "word": "jendartera",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jendarteratu",
+        "lemma": "jendarteratu",
+        "meaning": "popularizar"
+      }
+    ]
+  },
+  {
+    "word": "jendarteratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jendarteratu",
+        "lemma": "jendarteratu",
+        "meaning": "popularizar"
+      }
+    ]
+  },
+  {
+    "word": "jendarteratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jendarteratu",
+        "lemma": "jendarteratu",
+        "meaning": "popularizar"
+      }
+    ]
+  },
+  {
+    "word": "jendegabe",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jendegabetu",
+        "lemma": "jendegabetu",
+        "meaning": "deshabitar"
+      }
+    ]
+  },
+  {
+    "word": "jendegabetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jendegabetu",
+        "lemma": "jendegabetu",
+        "meaning": "deshabitar"
+      }
+    ]
+  },
+  {
+    "word": "jendegabetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jendegabetu",
+        "lemma": "jendegabetu",
+        "meaning": "deshabitar"
+      }
+    ]
+  },
+  {
+    "word": "jendetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jendetu",
+        "lemma": "jendetu",
+        "meaning": "civilizar"
+      }
+    ]
+  },
+  {
+    "word": "jendetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jendetu",
+        "lemma": "jendetu",
+        "meaning": "civilizar"
+      }
+    ]
+  },
+  {
+    "word": "jendezta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jendeztatu",
+        "lemma": "jendeztatu",
+        "meaning": "poblar"
+      }
+    ]
+  },
+  {
+    "word": "jendeztatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jendeztatu",
+        "lemma": "jendeztatu",
+        "meaning": "poblar"
+      }
+    ]
+  },
+  {
+    "word": "jendeztatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jendeztatu",
+        "lemma": "jendeztatu",
+        "meaning": "poblar"
+      }
+    ]
+  },
+  {
+    "word": "jesar",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jesarri",
+        "lemma": "jesarri",
+        "meaning": "sentar"
+      }
+    ]
+  },
+  {
+    "word": "jesarriko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jesarri",
+        "lemma": "jesarri",
+        "meaning": "sentar"
+      }
+    ]
+  },
+  {
+    "word": "jesartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jesarri",
+        "lemma": "jesarri",
+        "meaning": "sentar"
+      }
+    ]
+  },
+  {
+    "word": "jetz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jetzi",
+        "lemma": "jetzi",
+        "meaning": "ordeñar"
+      }
+    ]
+  },
+  {
+    "word": "jetziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jetzi",
+        "lemma": "jetzi",
+        "meaning": "ordeñar"
+      }
+    ]
+  },
+  {
+    "word": "jetzten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jetzi",
+        "lemma": "jetzi",
+        "meaning": "ordeñar"
+      }
+    ]
+  },
+  {
+    "word": "jinaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jinarazi",
+        "lemma": "jinarazi",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "jinaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jinarazi",
+        "lemma": "jinarazi",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "jinarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jinarazi",
+        "lemma": "jinarazi",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "jingo",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jin",
+        "lemma": "jin",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "jipoituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jipoitu",
+        "lemma": "jipoitu",
+        "meaning": "vapulear"
+      }
+    ]
+  },
+  {
+    "word": "jipoitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jipoitu",
+        "lemma": "jipoitu",
+        "meaning": "vapulear"
+      }
+    ]
+  },
+  {
+    "word": "jirabiratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jirabiratu",
+        "lemma": "jirabiratu",
+        "meaning": "girar"
+      }
+    ]
+  },
+  {
+    "word": "jirabiratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jirabiratu",
+        "lemma": "jirabiratu",
+        "meaning": "girar"
+      }
+    ]
+  },
+  {
+    "word": "jiraraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jirarazi",
+        "lemma": "jirarazi",
+        "meaning": "girar"
+      }
+    ]
+  },
+  {
+    "word": "jiraraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jirarazi",
+        "lemma": "jirarazi",
+        "meaning": "girar"
+      }
+    ]
+  },
+  {
+    "word": "jirarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jirarazi",
+        "lemma": "jirarazi",
+        "meaning": "girar"
+      }
+    ]
+  },
+  {
+    "word": "jiratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jiratu",
+        "lemma": "jiratu",
+        "meaning": "girar"
+      }
+    ]
+  },
+  {
+    "word": "jiratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jiratu",
+        "lemma": "jiratu",
+        "meaning": "girar"
+      }
+    ]
+  },
+  {
+    "word": "jiten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jin",
+        "lemma": "jin",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "joan",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "joan",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "joanaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "joanarazi",
+        "lemma": "joanarazi",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "joanaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "joanarazi",
+        "lemma": "joanarazi",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "joanarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "joanarazi",
+        "lemma": "joanarazi",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "joango",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "joan",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "joaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "joarazi",
+        "lemma": "joarazi",
+        "meaning": "pegar"
+      }
+    ]
+  },
+  {
+    "word": "joaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "joarazi",
+        "lemma": "joarazi",
+        "meaning": "pegar"
+      }
+    ]
+  },
+  {
+    "word": "joarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "joarazi",
+        "lemma": "joarazi",
+        "meaning": "pegar"
+      }
+    ]
+  },
+  {
+    "word": "joaten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "joan",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "jokaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jokarazi",
+        "lemma": "jokarazi",
+        "meaning": "jugar"
+      }
+    ]
+  },
+  {
+    "word": "jokaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jokarazi",
+        "lemma": "jokarazi",
+        "meaning": "jugar"
+      }
+    ]
+  },
+  {
+    "word": "jokarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jokarazi",
+        "lemma": "jokarazi",
+        "meaning": "jugar"
+      }
+    ]
+  },
+  {
+    "word": "jokatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jokatu",
+        "lemma": "jokatu",
+        "meaning": "actuar"
+      }
+    ]
+  },
+  {
+    "word": "jokatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jokatu",
+        "lemma": "jokatu",
+        "meaning": "actuar"
+      }
+    ]
+  },
+  {
+    "word": "jolastuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jolastu",
+        "lemma": "jolastu",
+        "meaning": "jugar"
+      }
+    ]
+  },
+  {
+    "word": "jolastzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jolastu",
+        "lemma": "jolastu",
+        "meaning": "jugar"
+      }
+    ]
+  },
+  {
+    "word": "jorituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "joritu",
+        "lemma": "joritu",
+        "meaning": "aumentar"
+      }
+    ]
+  },
+  {
+    "word": "joritzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "joritu",
+        "lemma": "joritu",
+        "meaning": "aumentar"
+      }
+    ]
+  },
+  {
+    "word": "jorratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jorratu",
+        "lemma": "jorratu",
+        "meaning": "tratar"
+      }
+    ]
+  },
+  {
+    "word": "jorratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jorratu",
+        "lemma": "jorratu",
+        "meaning": "tratar"
+      }
+    ]
+  },
+  {
+    "word": "jos",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "josi",
+        "lemma": "josi",
+        "meaning": "acribillar"
+      }
+    ]
+  },
+  {
+    "word": "josiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "josi",
+        "lemma": "josi",
+        "meaning": "acribillar"
+      }
+    ]
+  },
+  {
+    "word": "josta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jostatu",
+        "lemma": "jostatu",
+        "meaning": "jugar"
+      }
+    ]
+  },
+  {
+    "word": "jostaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jostarazi",
+        "lemma": "jostarazi",
+        "meaning": "coser"
+      }
+    ]
+  },
+  {
+    "word": "jostaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jostarazi",
+        "lemma": "jostarazi",
+        "meaning": "coser"
+      }
+    ]
+  },
+  {
+    "word": "jostarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jostarazi",
+        "lemma": "jostarazi",
+        "meaning": "coser"
+      }
+    ]
+  },
+  {
+    "word": "jostatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jostatu",
+        "lemma": "jostatu",
+        "meaning": "jugar"
+      }
+    ]
+  },
+  {
+    "word": "jostatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jostatu",
+        "lemma": "jostatu",
+        "meaning": "jugar"
+      }
+    ]
+  },
+  {
+    "word": "josten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "josi",
+        "lemma": "josi",
+        "meaning": "acribillar"
+      }
+    ]
+  },
+  {
+    "word": "jotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jo",
+        "lemma": "jo",
+        "meaning": "azotar"
+      }
+    ]
+  },
+  {
+    "word": "jubila",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jubilatu",
+        "lemma": "jubilatu",
+        "meaning": "jubilarse"
+      }
+    ]
+  },
+  {
+    "word": "jubilatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jubilatu",
+        "lemma": "jubilatu",
+        "meaning": "jubilarse"
+      }
+    ]
+  },
+  {
+    "word": "jubilatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jubilatu",
+        "lemma": "jubilatu",
+        "meaning": "jubilarse"
+      }
+    ]
+  },
+  {
+    "word": "judika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "judikatu",
+        "lemma": "judikatu",
+        "meaning": "juzgar"
+      }
+    ]
+  },
+  {
+    "word": "judikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "judikatu",
+        "lemma": "judikatu",
+        "meaning": "juzgar"
+      }
+    ]
+  },
+  {
+    "word": "judikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "judikatu",
+        "lemma": "judikatu",
+        "meaning": "juzgar"
+      }
+    ]
+  },
+  {
+    "word": "juja",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jujatu",
+        "lemma": "jujatu",
+        "meaning": "juzgar"
+      }
+    ]
+  },
+  {
+    "word": "jujaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "jujarazi",
+        "lemma": "jujarazi",
+        "meaning": "juzgar"
+      }
+    ]
+  },
+  {
+    "word": "jujaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jujarazi",
+        "lemma": "jujarazi",
+        "meaning": "juzgar"
+      }
+    ]
+  },
+  {
+    "word": "jujarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jujarazi",
+        "lemma": "jujarazi",
+        "meaning": "juzgar"
+      }
+    ]
+  },
+  {
+    "word": "jujatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "jujatu",
+        "lemma": "jujatu",
+        "meaning": "juzgar"
+      }
+    ]
+  },
+  {
+    "word": "jujatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "jujatu",
+        "lemma": "jujatu",
+        "meaning": "juzgar"
+      }
+    ]
+  },
+  {
+    "word": "juntaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "juntarazi",
+        "lemma": "juntarazi",
+        "meaning": "juntar"
+      }
+    ]
+  },
+  {
+    "word": "juntaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "juntarazi",
+        "lemma": "juntarazi",
+        "meaning": "juntar"
+      }
+    ]
+  },
+  {
+    "word": "juntarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "juntarazi",
+        "lemma": "juntarazi",
+        "meaning": "juntar"
+      }
+    ]
+  },
+  {
+    "word": "juntatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "juntatu",
+        "lemma": "juntatu",
+        "meaning": "juntar"
+      }
+    ]
+  },
+  {
+    "word": "juntatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "juntatu",
+        "lemma": "juntatu",
+        "meaning": "juntar"
+      }
+    ]
+  },
+  {
+    "word": "justifika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "justifikatu",
+        "lemma": "justifikatu",
+        "meaning": "justificar"
+      }
+    ]
+  },
+  {
+    "word": "justifikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "justifikatu",
+        "lemma": "justifikatu",
+        "meaning": "justificar"
+      }
+    ]
+  },
+  {
+    "word": "justifikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "justifikatu",
+        "lemma": "justifikatu",
+        "meaning": "justificar"
+      }
+    ]
+  },
+  {
+    "word": "juzga",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "juzgatu",
+        "lemma": "juzgatu",
+        "meaning": "juzgar"
+      }
+    ]
+  },
+  {
+    "word": "juzgatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "juzgatu",
+        "lemma": "juzgatu",
+        "meaning": "juzgar"
+      }
+    ]
+  },
+  {
+    "word": "juzgatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "juzgatu",
+        "lemma": "juzgatu",
+        "meaning": "juzgar"
+      }
+    ]
+  }
+]

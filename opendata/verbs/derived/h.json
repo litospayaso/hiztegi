@@ -1,0 +1,9011 @@
+[
+  {
+    "word": "habetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "habetu",
+        "lemma": "habetu",
+        "meaning": "apuntalar"
+      }
+    ]
+  },
+  {
+    "word": "habetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "habetu",
+        "lemma": "habetu",
+        "meaning": "apuntalar"
+      }
+    ]
+  },
+  {
+    "word": "hadila",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hadin",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hadinik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hadin",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hagatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hagatu",
+        "lemma": "hagatu",
+        "meaning": "varear"
+      }
+    ]
+  },
+  {
+    "word": "hagatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hagatu",
+        "lemma": "hagatu",
+        "meaning": "varear"
+      }
+    ]
+  },
+  {
+    "word": "hagoa",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hagoatu",
+        "lemma": "hagoatu",
+        "meaning": "extenuar"
+      }
+    ]
+  },
+  {
+    "word": "hagoatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hagoatu",
+        "lemma": "hagoatu",
+        "meaning": "extenuar"
+      }
+    ]
+  },
+  {
+    "word": "hagoatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hagoatu",
+        "lemma": "hagoatu",
+        "meaning": "extenuar"
+      }
+    ]
+  },
+  {
+    "word": "haika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "haikatu",
+        "lemma": "haikatu",
+        "meaning": "levantar"
+      }
+    ]
+  },
+  {
+    "word": "haikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "haikatu",
+        "lemma": "haikatu",
+        "meaning": "levantar"
+      }
+    ]
+  },
+  {
+    "word": "haikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "haikatu",
+        "lemma": "haikatu",
+        "meaning": "levantar"
+      }
+    ]
+  },
+  {
+    "word": "hainbana",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hainbanatu",
+        "lemma": "hainbanatu",
+        "meaning": "prorratear"
+      }
+    ]
+  },
+  {
+    "word": "hainbanatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hainbanatu",
+        "lemma": "hainbanatu",
+        "meaning": "prorratear"
+      }
+    ]
+  },
+  {
+    "word": "hainbanatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hainbanatu",
+        "lemma": "hainbanatu",
+        "meaning": "prorratear"
+      }
+    ]
+  },
+  {
+    "word": "haitekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "haiteke",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "haiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "haizatu",
+        "lemma": "haizatu",
+        "meaning": "ahuyentar"
+      }
+    ]
+  },
+  {
+    "word": "haizaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "haizarazi",
+        "lemma": "haizarazi",
+        "meaning": "ahuyentar"
+      }
+    ]
+  },
+  {
+    "word": "haizaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "haizarazi",
+        "lemma": "haizarazi",
+        "meaning": "ahuyentar"
+      }
+    ]
+  },
+  {
+    "word": "haizarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "haizarazi",
+        "lemma": "haizarazi",
+        "meaning": "ahuyentar"
+      }
+    ]
+  },
+  {
+    "word": "haizatekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "haizateke",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "haizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "haizatu",
+        "lemma": "haizatu",
+        "meaning": "ahuyentar"
+      }
+    ]
+  },
+  {
+    "word": "haizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "haizatu",
+        "lemma": "haizatu",
+        "meaning": "ahuyentar"
+      }
+    ]
+  },
+  {
+    "word": "haizeberri",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "haizeberritu",
+        "lemma": "haizeberritu",
+        "meaning": "renovar"
+      }
+    ]
+  },
+  {
+    "word": "haizeberrituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "haizeberritu",
+        "lemma": "haizeberritu",
+        "meaning": "renovar"
+      }
+    ]
+  },
+  {
+    "word": "haizeberritzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "haizeberritu",
+        "lemma": "haizeberritu",
+        "meaning": "renovar"
+      }
+    ]
+  },
+  {
+    "word": "haizera",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "haizeratu",
+        "lemma": "haizeratu",
+        "meaning": "airear"
+      }
+    ]
+  },
+  {
+    "word": "haizeratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "haizeratu",
+        "lemma": "haizeratu",
+        "meaning": "airear"
+      }
+    ]
+  },
+  {
+    "word": "haizeratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "haizeratu",
+        "lemma": "haizeratu",
+        "meaning": "airear"
+      }
+    ]
+  },
+  {
+    "word": "haizezta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "haizeztatu",
+        "lemma": "haizeztatu",
+        "meaning": "ventilar"
+      }
+    ]
+  },
+  {
+    "word": "haizeztatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "haizeztatu",
+        "lemma": "haizeztatu",
+        "meaning": "ventilar"
+      }
+    ]
+  },
+  {
+    "word": "haizeztatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "haizeztatu",
+        "lemma": "haizeztatu",
+        "meaning": "ventilar"
+      }
+    ]
+  },
+  {
+    "word": "hakidakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hakidake",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "hakidala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hakidan",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "hakidanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hakidan",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "hakiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hakieke",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "hakiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hakien",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "hakienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hakien",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "hakigukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hakiguke",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "hakigula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hakigun",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "hakigunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hakigun",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "hakiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hakioke",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "hakiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hakion",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "hakionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hakion",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "halaka",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "halakatu",
+        "lemma": "halakatu",
+        "meaning": "convertir"
+      }
+    ]
+  },
+  {
+    "word": "halakatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "halakatu",
+        "lemma": "halakatu",
+        "meaning": "convertir"
+      }
+    ]
+  },
+  {
+    "word": "halakatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "halakatu",
+        "lemma": "halakatu",
+        "meaning": "convertir"
+      }
+    ]
+  },
+  {
+    "word": "halogena",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "halogenatu",
+        "lemma": "halogenatu",
+        "meaning": "halogenar"
+      }
+    ]
+  },
+  {
+    "word": "halogenatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "halogenatu",
+        "lemma": "halogenatu",
+        "meaning": "halogenar"
+      }
+    ]
+  },
+  {
+    "word": "halogenatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "halogenatu",
+        "lemma": "halogenatu",
+        "meaning": "halogenar"
+      }
+    ]
+  },
+  {
+    "word": "haluzina",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "haluzinatu",
+        "lemma": "haluzinatu",
+        "meaning": "alucinar"
+      }
+    ]
+  },
+  {
+    "word": "haluzinatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "haluzinatu",
+        "lemma": "haluzinatu",
+        "meaning": "alucinar"
+      }
+    ]
+  },
+  {
+    "word": "haluzinatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "haluzinatu",
+        "lemma": "haluzinatu",
+        "meaning": "alucinar"
+      }
+    ]
+  },
+  {
+    "word": "handiago",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "handiagotu",
+        "lemma": "handiagotu",
+        "meaning": "aumentar"
+      }
+    ]
+  },
+  {
+    "word": "handiagotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "handiagotu",
+        "lemma": "handiagotu",
+        "meaning": "aumentar"
+      }
+    ]
+  },
+  {
+    "word": "handiagotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "handiagotu",
+        "lemma": "handiagotu",
+        "meaning": "aumentar"
+      }
+    ]
+  },
+  {
+    "word": "handiaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "handiarazi",
+        "lemma": "handiarazi",
+        "meaning": "crecer"
+      }
+    ]
+  },
+  {
+    "word": "handiaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "handiarazi",
+        "lemma": "handiarazi",
+        "meaning": "crecer"
+      }
+    ]
+  },
+  {
+    "word": "handiarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "handiarazi",
+        "lemma": "handiarazi",
+        "meaning": "crecer"
+      }
+    ]
+  },
+  {
+    "word": "handiets",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "handietsi",
+        "lemma": "handietsi",
+        "meaning": "elogiar"
+      }
+    ]
+  },
+  {
+    "word": "handietsiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "handietsi",
+        "lemma": "handietsi",
+        "meaning": "elogiar"
+      }
+    ]
+  },
+  {
+    "word": "handietsten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "handietsi",
+        "lemma": "handietsi",
+        "meaning": "elogiar"
+      }
+    ]
+  },
+  {
+    "word": "handikituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "handikitu",
+        "lemma": "handikitu",
+        "meaning": "convertir en señor"
+      }
+    ]
+  },
+  {
+    "word": "handikitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "handikitu",
+        "lemma": "handikitu",
+        "meaning": "convertir en señor"
+      }
+    ]
+  },
+  {
+    "word": "handipuz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "handipuztu",
+        "lemma": "handipuztu",
+        "meaning": "envanecerse"
+      }
+    ]
+  },
+  {
+    "word": "handipuztuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "handipuztu",
+        "lemma": "handipuztu",
+        "meaning": "envanecerse"
+      }
+    ]
+  },
+  {
+    "word": "handipuztzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "handipuztu",
+        "lemma": "handipuztu",
+        "meaning": "envanecerse"
+      }
+    ]
+  },
+  {
+    "word": "handituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "handitu",
+        "lemma": "handitu",
+        "meaning": "crecer"
+      }
+    ]
+  },
+  {
+    "word": "handitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "handitu",
+        "lemma": "handitu",
+        "meaning": "crecer"
+      }
+    ]
+  },
+  {
+    "word": "handizkatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "handizkatu",
+        "lemma": "handizkatu",
+        "meaning": "exagerar"
+      }
+    ]
+  },
+  {
+    "word": "handizkatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "handizkatu",
+        "lemma": "handizkatu",
+        "meaning": "exagerar"
+      }
+    ]
+  },
+  {
+    "word": "hankapera",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hankaperatu",
+        "lemma": "hankaperatu",
+        "meaning": "someter"
+      }
+    ]
+  },
+  {
+    "word": "hankaperatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hankaperatu",
+        "lemma": "hankaperatu",
+        "meaning": "someter"
+      }
+    ]
+  },
+  {
+    "word": "hankaperatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hankaperatu",
+        "lemma": "hankaperatu",
+        "meaning": "someter"
+      }
+    ]
+  },
+  {
+    "word": "hanpa",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hanpatu",
+        "lemma": "hanpatu",
+        "meaning": "hinchar"
+      }
+    ]
+  },
+  {
+    "word": "hanparaz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hanparazi",
+        "lemma": "hanparazi",
+        "meaning": "aumentar"
+      }
+    ]
+  },
+  {
+    "word": "hanparaziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hanparazi",
+        "lemma": "hanparazi",
+        "meaning": "aumentar"
+      }
+    ]
+  },
+  {
+    "word": "hanparazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hanparazi",
+        "lemma": "hanparazi",
+        "meaning": "aumentar"
+      }
+    ]
+  },
+  {
+    "word": "hanpatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hanpatu",
+        "lemma": "hanpatu",
+        "meaning": "hinchar"
+      }
+    ]
+  },
+  {
+    "word": "hanpatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hanpatu",
+        "lemma": "hanpatu",
+        "meaning": "hinchar"
+      }
+    ]
+  },
+  {
+    "word": "hantaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hantarazi",
+        "lemma": "hantarazi",
+        "meaning": "hinchar"
+      }
+    ]
+  },
+  {
+    "word": "hantaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hantarazi",
+        "lemma": "hantarazi",
+        "meaning": "hinchar"
+      }
+    ]
+  },
+  {
+    "word": "hantarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hantarazi",
+        "lemma": "hantarazi",
+        "meaning": "hinchar"
+      }
+    ]
+  },
+  {
+    "word": "hantuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hantu",
+        "lemma": "hantu",
+        "meaning": "hinchar"
+      }
+    ]
+  },
+  {
+    "word": "hantzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hantu",
+        "lemma": "hantu",
+        "meaning": "hinchar"
+      }
+    ]
+  },
+  {
+    "word": "haparka",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "haparkatu",
+        "lemma": "haparkatu",
+        "meaning": "disputar"
+      }
+    ]
+  },
+  {
+    "word": "haparkatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "haparkatu",
+        "lemma": "haparkatu",
+        "meaning": "disputar"
+      }
+    ]
+  },
+  {
+    "word": "haparkatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "haparkatu",
+        "lemma": "haparkatu",
+        "meaning": "disputar"
+      }
+    ]
+  },
+  {
+    "word": "haragituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "haragitu",
+        "lemma": "haragitu",
+        "meaning": "encarnarse"
+      }
+    ]
+  },
+  {
+    "word": "haragitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "haragitu",
+        "lemma": "haragitu",
+        "meaning": "encarnarse"
+      }
+    ]
+  },
+  {
+    "word": "haragizta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "haragiztatu",
+        "lemma": "haragiztatu",
+        "meaning": "encarnarse"
+      }
+    ]
+  },
+  {
+    "word": "haragiztatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "haragiztatu",
+        "lemma": "haragiztatu",
+        "meaning": "encarnarse"
+      }
+    ]
+  },
+  {
+    "word": "haragiztatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "haragiztatu",
+        "lemma": "haragiztatu",
+        "meaning": "encarnarse"
+      }
+    ]
+  },
+  {
+    "word": "haratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "haratu",
+        "lemma": "haratu",
+        "meaning": "ir allá"
+      }
+    ]
+  },
+  {
+    "word": "haratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "haratu",
+        "lemma": "haratu",
+        "meaning": "ir allá"
+      }
+    ]
+  },
+  {
+    "word": "harenga",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "harengatu",
+        "lemma": "harengatu",
+        "meaning": "arengar"
+      }
+    ]
+  },
+  {
+    "word": "harengana",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "harenganatu",
+        "lemma": "harenganatu",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "harenganatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "harenganatu",
+        "lemma": "harenganatu",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "harenganatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "harenganatu",
+        "lemma": "harenganatu",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "harengatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "harengatu",
+        "lemma": "harengatu",
+        "meaning": "arengar"
+      }
+    ]
+  },
+  {
+    "word": "harengatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "harengatu",
+        "lemma": "harengatu",
+        "meaning": "arengar"
+      }
+    ]
+  },
+  {
+    "word": "hargana",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "harganatu",
+        "lemma": "harganatu",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "harganatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "harganatu",
+        "lemma": "harganatu",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "harganatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "harganatu",
+        "lemma": "harganatu",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "harilduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "harildu",
+        "lemma": "harildu",
+        "meaning": "bobinar"
+      }
+    ]
+  },
+  {
+    "word": "harilka",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "harilkatu",
+        "lemma": "harilkatu",
+        "meaning": "devanar"
+      }
+    ]
+  },
+  {
+    "word": "harilkatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "harilkatu",
+        "lemma": "harilkatu",
+        "meaning": "devanar"
+      }
+    ]
+  },
+  {
+    "word": "harilkatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "harilkatu",
+        "lemma": "harilkatu",
+        "meaning": "devanar"
+      }
+    ]
+  },
+  {
+    "word": "hariltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "harildu",
+        "lemma": "harildu",
+        "meaning": "bobinar"
+      }
+    ]
+  },
+  {
+    "word": "harituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "haritu",
+        "lemma": "haritu",
+        "meaning": "hilar"
+      }
+    ]
+  },
+  {
+    "word": "haritzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "haritu",
+        "lemma": "haritu",
+        "meaning": "hilar"
+      }
+    ]
+  },
+  {
+    "word": "harizta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hariztatu",
+        "lemma": "hariztatu",
+        "meaning": "roscar"
+      }
+    ]
+  },
+  {
+    "word": "hariztatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hariztatu",
+        "lemma": "hariztatu",
+        "meaning": "roscar"
+      }
+    ]
+  },
+  {
+    "word": "hariztatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hariztatu",
+        "lemma": "hariztatu",
+        "meaning": "roscar"
+      }
+    ]
+  },
+  {
+    "word": "harmoniza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "harmonizatu",
+        "lemma": "harmonizatu",
+        "meaning": "armonizar"
+      }
+    ]
+  },
+  {
+    "word": "harmonizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "harmonizatu",
+        "lemma": "harmonizatu",
+        "meaning": "armonizar"
+      }
+    ]
+  },
+  {
+    "word": "harmonizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "harmonizatu",
+        "lemma": "harmonizatu",
+        "meaning": "armonizar"
+      }
+    ]
+  },
+  {
+    "word": "harpidetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "harpidetu",
+        "lemma": "harpidetu",
+        "meaning": "suscribir"
+      }
+    ]
+  },
+  {
+    "word": "harpidetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "harpidetu",
+        "lemma": "harpidetu",
+        "meaning": "suscribir"
+      }
+    ]
+  },
+  {
+    "word": "harramazkatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "harramazkatu",
+        "lemma": "harramazkatu",
+        "meaning": "arañar"
+      }
+    ]
+  },
+  {
+    "word": "harramazkatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "harramazkatu",
+        "lemma": "harramazkatu",
+        "meaning": "arañar"
+      }
+    ]
+  },
+  {
+    "word": "harrapa",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "harrapatu",
+        "lemma": "harrapatu",
+        "meaning": "atrapar"
+      }
+    ]
+  },
+  {
+    "word": "harrapakatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "harrapakatu",
+        "lemma": "harrapakatu",
+        "meaning": "coger"
+      }
+    ]
+  },
+  {
+    "word": "harrapakatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "harrapakatu",
+        "lemma": "harrapakatu",
+        "meaning": "coger"
+      }
+    ]
+  },
+  {
+    "word": "harraparaz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "harraparazi",
+        "lemma": "harraparazi",
+        "meaning": "coger"
+      }
+    ]
+  },
+  {
+    "word": "harraparaziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "harraparazi",
+        "lemma": "harraparazi",
+        "meaning": "coger"
+      }
+    ]
+  },
+  {
+    "word": "harraparazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "harraparazi",
+        "lemma": "harraparazi",
+        "meaning": "coger"
+      }
+    ]
+  },
+  {
+    "word": "harrapatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "harrapatu",
+        "lemma": "harrapatu",
+        "meaning": "atrapar"
+      }
+    ]
+  },
+  {
+    "word": "harrapatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "harrapatu",
+        "lemma": "harrapatu",
+        "meaning": "atrapar"
+      }
+    ]
+  },
+  {
+    "word": "harraraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "harrarazi",
+        "lemma": "harrarazi",
+        "meaning": "coger"
+      }
+    ]
+  },
+  {
+    "word": "harraraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "harrarazi",
+        "lemma": "harrarazi",
+        "meaning": "coger"
+      }
+    ]
+  },
+  {
+    "word": "harrarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "harrarazi",
+        "lemma": "harrarazi",
+        "meaning": "coger"
+      }
+    ]
+  },
+  {
+    "word": "harraskatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "harraskatu",
+        "lemma": "harraskatu",
+        "meaning": "rascar"
+      }
+    ]
+  },
+  {
+    "word": "harraskatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "harraskatu",
+        "lemma": "harraskatu",
+        "meaning": "rascar"
+      }
+    ]
+  },
+  {
+    "word": "harresituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "harresitu",
+        "lemma": "harresitu",
+        "meaning": "amurallar"
+      }
+    ]
+  },
+  {
+    "word": "harresitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "harresitu",
+        "lemma": "harresitu",
+        "meaning": "amurallar"
+      }
+    ]
+  },
+  {
+    "word": "harresizta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "harresiztatu",
+        "lemma": "harresiztatu",
+        "meaning": "amurallar"
+      }
+    ]
+  },
+  {
+    "word": "harresiztatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "harresiztatu",
+        "lemma": "harresiztatu",
+        "meaning": "amurallar"
+      }
+    ]
+  },
+  {
+    "word": "harresiztatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "harresiztatu",
+        "lemma": "harresiztatu",
+        "meaning": "amurallar"
+      }
+    ]
+  },
+  {
+    "word": "harriaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "harriarazi",
+        "lemma": "harriarazi",
+        "meaning": "asombrar"
+      }
+    ]
+  },
+  {
+    "word": "harriaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "harriarazi",
+        "lemma": "harriarazi",
+        "meaning": "asombrar"
+      }
+    ]
+  },
+  {
+    "word": "harriarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "harriarazi",
+        "lemma": "harriarazi",
+        "meaning": "asombrar"
+      }
+    ]
+  },
+  {
+    "word": "harrikaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "harrikarazi",
+        "lemma": "harrikarazi",
+        "meaning": "apedrear"
+      }
+    ]
+  },
+  {
+    "word": "harrikaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "harrikarazi",
+        "lemma": "harrikarazi",
+        "meaning": "apedrear"
+      }
+    ]
+  },
+  {
+    "word": "harrikarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "harrikarazi",
+        "lemma": "harrikarazi",
+        "meaning": "apedrear"
+      }
+    ]
+  },
+  {
+    "word": "harrikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "harrikatu",
+        "lemma": "harrikatu",
+        "meaning": "apedrear"
+      }
+    ]
+  },
+  {
+    "word": "harrikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "harrikatu",
+        "lemma": "harrikatu",
+        "meaning": "apedrear"
+      }
+    ]
+  },
+  {
+    "word": "harrituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "harritu",
+        "lemma": "harritu",
+        "meaning": "extrañar"
+      }
+    ]
+  },
+  {
+    "word": "harritzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "harritu",
+        "lemma": "harritu",
+        "meaning": "extrañar"
+      }
+    ]
+  },
+  {
+    "word": "harrizta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "harriztatu",
+        "lemma": "harriztatu",
+        "meaning": "empedrar"
+      }
+    ]
+  },
+  {
+    "word": "harriztatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "harriztatu",
+        "lemma": "harriztatu",
+        "meaning": "empedrar"
+      }
+    ]
+  },
+  {
+    "word": "harriztatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "harriztatu",
+        "lemma": "harriztatu",
+        "meaning": "empedrar"
+      }
+    ]
+  },
+  {
+    "word": "harropuz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "harropuztu",
+        "lemma": "harropuztu",
+        "meaning": "envanecer"
+      }
+    ]
+  },
+  {
+    "word": "harropuztuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "harropuztu",
+        "lemma": "harropuztu",
+        "meaning": "envanecer"
+      }
+    ]
+  },
+  {
+    "word": "harropuztzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "harropuztu",
+        "lemma": "harropuztu",
+        "meaning": "envanecer"
+      }
+    ]
+  },
+  {
+    "word": "harrotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "harrotu",
+        "lemma": "harrotu",
+        "meaning": "encrespar"
+      }
+    ]
+  },
+  {
+    "word": "harrotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "harrotu",
+        "lemma": "harrotu",
+        "meaning": "encrespar"
+      }
+    ]
+  },
+  {
+    "word": "hartarakotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hartarakotu",
+        "lemma": "hartarakotu",
+        "meaning": "preparar"
+      }
+    ]
+  },
+  {
+    "word": "hartarakotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hartarakotu",
+        "lemma": "hartarakotu",
+        "meaning": "preparar"
+      }
+    ]
+  },
+  {
+    "word": "hartaratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hartaratu",
+        "lemma": "hartaratu",
+        "meaning": "impulsar"
+      }
+    ]
+  },
+  {
+    "word": "hartaratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hartaratu",
+        "lemma": "hartaratu",
+        "meaning": "impulsar"
+      }
+    ]
+  },
+  {
+    "word": "hartuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hartu",
+        "lemma": "hartu",
+        "meaning": "adoptar"
+      }
+    ]
+  },
+  {
+    "word": "hartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hartu",
+        "lemma": "hartu",
+        "meaning": "adoptar"
+      }
+    ]
+  },
+  {
+    "word": "hartzi",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hartzitu",
+        "lemma": "hartzitu",
+        "meaning": "fermentar"
+      }
+    ]
+  },
+  {
+    "word": "hartzituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hartzitu",
+        "lemma": "hartzitu",
+        "meaning": "fermentar"
+      }
+    ]
+  },
+  {
+    "word": "hartzitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hartzitu",
+        "lemma": "hartzitu",
+        "meaning": "fermentar"
+      }
+    ]
+  },
+  {
+    "word": "has",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hasi",
+        "lemma": "hasi",
+        "meaning": "empezar"
+      }
+    ]
+  },
+  {
+    "word": "hasaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hasarazi",
+        "lemma": "hasarazi",
+        "meaning": "empezar"
+      }
+    ]
+  },
+  {
+    "word": "hasaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hasarazi",
+        "lemma": "hasarazi",
+        "meaning": "empezar"
+      }
+    ]
+  },
+  {
+    "word": "hasarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hasarazi",
+        "lemma": "hasarazi",
+        "meaning": "empezar"
+      }
+    ]
+  },
+  {
+    "word": "haserrearaz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "haserrearazi",
+        "lemma": "haserrearazi",
+        "meaning": "enfadar"
+      }
+    ]
+  },
+  {
+    "word": "haserrearaziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "haserrearazi",
+        "lemma": "haserrearazi",
+        "meaning": "enfadar"
+      }
+    ]
+  },
+  {
+    "word": "haserrearazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "haserrearazi",
+        "lemma": "haserrearazi",
+        "meaning": "enfadar"
+      }
+    ]
+  },
+  {
+    "word": "haserrekortuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "haserrekortu",
+        "lemma": "haserrekortu",
+        "meaning": "volver irascible"
+      }
+    ]
+  },
+  {
+    "word": "haserrekortzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "haserrekortu",
+        "lemma": "haserrekortu",
+        "meaning": "volver irascible"
+      }
+    ]
+  },
+  {
+    "word": "haserretuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "haserretu",
+        "lemma": "haserretu",
+        "meaning": "enfadar"
+      }
+    ]
+  },
+  {
+    "word": "haserretzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "haserretu",
+        "lemma": "haserretu",
+        "meaning": "enfadar"
+      }
+    ]
+  },
+  {
+    "word": "hasieratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hasieratu",
+        "lemma": "hasieratu",
+        "meaning": "inicializar"
+      }
+    ]
+  },
+  {
+    "word": "hasieratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hasieratu",
+        "lemma": "hasieratu",
+        "meaning": "inicializar"
+      }
+    ]
+  },
+  {
+    "word": "hasiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hasi",
+        "lemma": "hasi",
+        "meaning": "empezar"
+      }
+    ]
+  },
+  {
+    "word": "hastan",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hastandu",
+        "lemma": "hastandu",
+        "meaning": "alejar"
+      }
+    ]
+  },
+  {
+    "word": "hastanduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hastandu",
+        "lemma": "hastandu",
+        "meaning": "alejar"
+      }
+    ]
+  },
+  {
+    "word": "hastantzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hastandu",
+        "lemma": "hastandu",
+        "meaning": "alejar"
+      }
+    ]
+  },
+  {
+    "word": "hasten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hasi",
+        "lemma": "hasi",
+        "meaning": "empezar"
+      }
+    ]
+  },
+  {
+    "word": "hastia",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hastiatu",
+        "lemma": "hastiatu",
+        "meaning": "odiar"
+      }
+    ]
+  },
+  {
+    "word": "hastiaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hastiarazi",
+        "lemma": "hastiarazi",
+        "meaning": "detestar"
+      }
+    ]
+  },
+  {
+    "word": "hastiaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hastiarazi",
+        "lemma": "hastiarazi",
+        "meaning": "detestar"
+      }
+    ]
+  },
+  {
+    "word": "hastiarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hastiarazi",
+        "lemma": "hastiarazi",
+        "meaning": "detestar"
+      }
+    ]
+  },
+  {
+    "word": "hastiatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hastiatu",
+        "lemma": "hastiatu",
+        "meaning": "odiar"
+      }
+    ]
+  },
+  {
+    "word": "hastiatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hastiatu",
+        "lemma": "hastiatu",
+        "meaning": "odiar"
+      }
+    ]
+  },
+  {
+    "word": "hatsalbo",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hatsalbotu",
+        "lemma": "hatsalbotu",
+        "meaning": "jadear"
+      }
+    ]
+  },
+  {
+    "word": "hatsalbotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hatsalbotu",
+        "lemma": "hatsalbotu",
+        "meaning": "jadear"
+      }
+    ]
+  },
+  {
+    "word": "hatsalbotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hatsalbotu",
+        "lemma": "hatsalbotu",
+        "meaning": "jadear"
+      }
+    ]
+  },
+  {
+    "word": "hatsan",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hatsantu",
+        "lemma": "hatsantu",
+        "meaning": "jadear"
+      }
+    ]
+  },
+  {
+    "word": "hatsandi",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hatsanditu",
+        "lemma": "hatsanditu",
+        "meaning": "sofocarse"
+      }
+    ]
+  },
+  {
+    "word": "hatsandituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hatsanditu",
+        "lemma": "hatsanditu",
+        "meaning": "sofocarse"
+      }
+    ]
+  },
+  {
+    "word": "hatsanditzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hatsanditu",
+        "lemma": "hatsanditu",
+        "meaning": "sofocarse"
+      }
+    ]
+  },
+  {
+    "word": "hatsantuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hatsantu",
+        "lemma": "hatsantu",
+        "meaning": "jadear"
+      }
+    ]
+  },
+  {
+    "word": "hatsantzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hatsantu",
+        "lemma": "hatsantu",
+        "meaning": "jadear"
+      }
+    ]
+  },
+  {
+    "word": "hatzaidakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hatzaidake",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hatzaidala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hatzait",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hatzaiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hatzaieke",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hatzaigukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hatzaiguke",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hatzaiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hatzaioke",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hau",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hautu",
+        "lemma": "hautu",
+        "meaning": "elegir"
+      }
+    ]
+  },
+  {
+    "word": "haudala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "haut",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "haukedala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hauket",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "haukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hauke",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "haurdunduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "haurdundu",
+        "lemma": "haurdundu",
+        "meaning": "embarazar"
+      }
+    ]
+  },
+  {
+    "word": "haurduntzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "haurdundu",
+        "lemma": "haurdundu",
+        "meaning": "embarazar"
+      }
+    ]
+  },
+  {
+    "word": "haurgingo",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "haurgin",
+        "lemma": "haurgin",
+        "meaning": "parir"
+      }
+    ]
+  },
+  {
+    "word": "haurgiten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "haurgin",
+        "lemma": "haurgin",
+        "meaning": "parir"
+      }
+    ]
+  },
+  {
+    "word": "haurridetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "haurridetu",
+        "lemma": "haurridetu",
+        "meaning": "hermanar"
+      }
+    ]
+  },
+  {
+    "word": "haurridetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "haurridetu",
+        "lemma": "haurridetu",
+        "meaning": "hermanar"
+      }
+    ]
+  },
+  {
+    "word": "haurtuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "haurtu",
+        "lemma": "haurtu",
+        "meaning": "volverse niño"
+      }
+    ]
+  },
+  {
+    "word": "haurtzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "haurtu",
+        "lemma": "haurtu",
+        "meaning": "volverse niño"
+      }
+    ]
+  },
+  {
+    "word": "haus",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "haustu",
+        "lemma": "haustu",
+        "meaning": "llenarse de polvo"
+      }
+    ]
+  },
+  {
+    "word": "hauskortuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hauskortu",
+        "lemma": "hauskortu",
+        "meaning": "hacer frágil"
+      }
+    ]
+  },
+  {
+    "word": "hauskortzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hauskortu",
+        "lemma": "hauskortu",
+        "meaning": "hacer frágil"
+      }
+    ]
+  },
+  {
+    "word": "hausnartuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hausnartu",
+        "lemma": "hausnartu",
+        "meaning": "reflexionar"
+      }
+    ]
+  },
+  {
+    "word": "hausnartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hausnartu",
+        "lemma": "hausnartu",
+        "meaning": "reflexionar"
+      }
+    ]
+  },
+  {
+    "word": "hauspea",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hauspeatu",
+        "lemma": "hauspeatu",
+        "meaning": "precipitar"
+      }
+    ]
+  },
+  {
+    "word": "hauspeatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hauspeatu",
+        "lemma": "hauspeatu",
+        "meaning": "precipitar"
+      }
+    ]
+  },
+  {
+    "word": "hauspeatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hauspeatu",
+        "lemma": "hauspeatu",
+        "meaning": "precipitar"
+      }
+    ]
+  },
+  {
+    "word": "hauspotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hauspotu",
+        "lemma": "hauspotu",
+        "meaning": "avivar con el fuelle"
+      }
+    ]
+  },
+  {
+    "word": "hauspotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hauspotu",
+        "lemma": "hauspotu",
+        "meaning": "avivar con el fuelle"
+      }
+    ]
+  },
+  {
+    "word": "haustuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "haustu",
+        "lemma": "haustu",
+        "meaning": "llenarse de polvo"
+      }
+    ]
+  },
+  {
+    "word": "haustzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "haustu",
+        "lemma": "haustu",
+        "meaning": "llenarse de polvo"
+      }
+    ]
+  },
+  {
+    "word": "hautaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hautarazi",
+        "lemma": "hautarazi",
+        "meaning": "elegir"
+      }
+    ]
+  },
+  {
+    "word": "hautaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hautarazi",
+        "lemma": "hautarazi",
+        "meaning": "elegir"
+      }
+    ]
+  },
+  {
+    "word": "hautarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hautarazi",
+        "lemma": "hautarazi",
+        "meaning": "elegir"
+      }
+    ]
+  },
+  {
+    "word": "hautatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hautatu",
+        "lemma": "hautatu",
+        "meaning": "elegir"
+      }
+    ]
+  },
+  {
+    "word": "hautatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hautatu",
+        "lemma": "hautatu",
+        "meaning": "elegir"
+      }
+    ]
+  },
+  {
+    "word": "hautemanaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hautemanarazi",
+        "lemma": "hautemanarazi",
+        "meaning": "notar"
+      }
+    ]
+  },
+  {
+    "word": "hautemanaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hautemanarazi",
+        "lemma": "hautemanarazi",
+        "meaning": "notar"
+      }
+    ]
+  },
+  {
+    "word": "hautemanarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hautemanarazi",
+        "lemma": "hautemanarazi",
+        "meaning": "notar"
+      }
+    ]
+  },
+  {
+    "word": "hautemango",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hauteman",
+        "lemma": "hauteman",
+        "meaning": "detectar"
+      }
+    ]
+  },
+  {
+    "word": "hautematen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hauteman",
+        "lemma": "hauteman",
+        "meaning": "detectar"
+      }
+    ]
+  },
+  {
+    "word": "hautets",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hautetsi",
+        "lemma": "hautetsi",
+        "meaning": "elegir"
+      }
+    ]
+  },
+  {
+    "word": "hautetsiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hautetsi",
+        "lemma": "hautetsi",
+        "meaning": "elegir"
+      }
+    ]
+  },
+  {
+    "word": "hautetsten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hautetsi",
+        "lemma": "hautetsi",
+        "meaning": "elegir"
+      }
+    ]
+  },
+  {
+    "word": "hautsaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hautsarazi",
+        "lemma": "hautsarazi",
+        "meaning": "romper"
+      }
+    ]
+  },
+  {
+    "word": "hautsaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hautsarazi",
+        "lemma": "hautsarazi",
+        "meaning": "romper"
+      }
+    ]
+  },
+  {
+    "word": "hautsarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hautsarazi",
+        "lemma": "hautsarazi",
+        "meaning": "romper"
+      }
+    ]
+  },
+  {
+    "word": "hautsezta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hautseztatu",
+        "lemma": "hautseztatu",
+        "meaning": "espolvorear"
+      }
+    ]
+  },
+  {
+    "word": "hautseztatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hautseztatu",
+        "lemma": "hautseztatu",
+        "meaning": "espolvorear"
+      }
+    ]
+  },
+  {
+    "word": "hautseztatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hautseztatu",
+        "lemma": "hautseztatu",
+        "meaning": "espolvorear"
+      }
+    ]
+  },
+  {
+    "word": "hautsiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hautsi",
+        "lemma": "hautsi",
+        "meaning": "batir"
+      }
+    ]
+  },
+  {
+    "word": "hautsten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hautsi",
+        "lemma": "hautsi",
+        "meaning": "batir"
+      }
+    ]
+  },
+  {
+    "word": "hautuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hautu",
+        "lemma": "hautu",
+        "meaning": "elegir"
+      }
+    ]
+  },
+  {
+    "word": "hautzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hautu",
+        "lemma": "hautu",
+        "meaning": "elegir"
+      }
+    ]
+  },
+  {
+    "word": "haxeka",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "haxekatu",
+        "lemma": "haxekatu",
+        "meaning": "empaquetar"
+      }
+    ]
+  },
+  {
+    "word": "haxekatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "haxekatu",
+        "lemma": "haxekatu",
+        "meaning": "empaquetar"
+      }
+    ]
+  },
+  {
+    "word": "haxekatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "haxekatu",
+        "lemma": "haxekatu",
+        "meaning": "empaquetar"
+      }
+    ]
+  },
+  {
+    "word": "haz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hazi",
+        "lemma": "hazi",
+        "meaning": "crecer"
+      }
+    ]
+  },
+  {
+    "word": "hazadala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hazadan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hazadanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hazadan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hazagula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hazagun",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hazagunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hazagun",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hazakedala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hazaket",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hazakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hazake",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hazala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hazan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hazanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hazan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hazaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hazarazi",
+        "lemma": "hazarazi",
+        "meaning": "crecer"
+      }
+    ]
+  },
+  {
+    "word": "hazaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hazarazi",
+        "lemma": "hazarazi",
+        "meaning": "crecer"
+      }
+    ]
+  },
+  {
+    "word": "hazarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hazarazi",
+        "lemma": "hazarazi",
+        "meaning": "crecer"
+      }
+    ]
+  },
+  {
+    "word": "hazatela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hazaten",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hazatenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hazaten",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "haziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hazi",
+        "lemma": "hazi",
+        "meaning": "crecer"
+      }
+    ]
+  },
+  {
+    "word": "hazkatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hazkatu",
+        "lemma": "hazkatu",
+        "meaning": "rascar"
+      }
+    ]
+  },
+  {
+    "word": "hazkatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hazkatu",
+        "lemma": "hazkatu",
+        "meaning": "rascar"
+      }
+    ]
+  },
+  {
+    "word": "haztakatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "haztakatu",
+        "lemma": "haztakatu",
+        "meaning": "tocar"
+      }
+    ]
+  },
+  {
+    "word": "haztakatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "haztakatu",
+        "lemma": "haztakatu",
+        "meaning": "tocar"
+      }
+    ]
+  },
+  {
+    "word": "haztatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "haztatu",
+        "lemma": "haztatu",
+        "meaning": "considerar"
+      }
+    ]
+  },
+  {
+    "word": "haztatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "haztatu",
+        "lemma": "haztatu",
+        "meaning": "considerar"
+      }
+    ]
+  },
+  {
+    "word": "hazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hazi",
+        "lemma": "hazi",
+        "meaning": "crecer"
+      }
+    ]
+  },
+  {
+    "word": "hebainduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hebaindu",
+        "lemma": "hebaindu",
+        "meaning": "golpear"
+      }
+    ]
+  },
+  {
+    "word": "hebaintzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hebaindu",
+        "lemma": "hebaindu",
+        "meaning": "golpear"
+      }
+    ]
+  },
+  {
+    "word": "hebreartuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hebreartu",
+        "lemma": "hebreartu",
+        "meaning": "hebraizar"
+      }
+    ]
+  },
+  {
+    "word": "hebreartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hebreartu",
+        "lemma": "hebreartu",
+        "meaning": "hebraizar"
+      }
+    ]
+  },
+  {
+    "word": "heda",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hedatu",
+        "lemma": "hedatu",
+        "meaning": "extender"
+      }
+    ]
+  },
+  {
+    "word": "hedaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hedarazi",
+        "lemma": "hedarazi",
+        "meaning": "extender"
+      }
+    ]
+  },
+  {
+    "word": "hedaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hedarazi",
+        "lemma": "hedarazi",
+        "meaning": "extender"
+      }
+    ]
+  },
+  {
+    "word": "hedarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hedarazi",
+        "lemma": "hedarazi",
+        "meaning": "extender"
+      }
+    ]
+  },
+  {
+    "word": "hedatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hedatu",
+        "lemma": "hedatu",
+        "meaning": "extender"
+      }
+    ]
+  },
+  {
+    "word": "hedatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hedatu",
+        "lemma": "hedatu",
+        "meaning": "extender"
+      }
+    ]
+  },
+  {
+    "word": "hega",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hegatu",
+        "lemma": "hegatu",
+        "meaning": "volar"
+      }
+    ]
+  },
+  {
+    "word": "hegalda",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hegaldatu",
+        "lemma": "hegaldatu",
+        "meaning": "volar"
+      }
+    ]
+  },
+  {
+    "word": "hegaldakatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hegaldakatu",
+        "lemma": "hegaldakatu",
+        "meaning": "revolotear"
+      }
+    ]
+  },
+  {
+    "word": "hegaldakatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hegaldakatu",
+        "lemma": "hegaldakatu",
+        "meaning": "revolotear"
+      }
+    ]
+  },
+  {
+    "word": "hegaldaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hegaldarazi",
+        "lemma": "hegaldarazi",
+        "meaning": "volar"
+      }
+    ]
+  },
+  {
+    "word": "hegaldaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hegaldarazi",
+        "lemma": "hegaldarazi",
+        "meaning": "volar"
+      }
+    ]
+  },
+  {
+    "word": "hegaldarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hegaldarazi",
+        "lemma": "hegaldarazi",
+        "meaning": "volar"
+      }
+    ]
+  },
+  {
+    "word": "hegaldatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hegaldatu",
+        "lemma": "hegaldatu",
+        "meaning": "volar"
+      }
+    ]
+  },
+  {
+    "word": "hegaldatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hegaldatu",
+        "lemma": "hegaldatu",
+        "meaning": "volar"
+      }
+    ]
+  },
+  {
+    "word": "hegatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hegatu",
+        "lemma": "hegatu",
+        "meaning": "volar"
+      }
+    ]
+  },
+  {
+    "word": "hegatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hegatu",
+        "lemma": "hegatu",
+        "meaning": "volar"
+      }
+    ]
+  },
+  {
+    "word": "hegikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hegikatu",
+        "lemma": "hegikatu",
+        "meaning": "pasar rozando"
+      }
+    ]
+  },
+  {
+    "word": "hegikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hegikatu",
+        "lemma": "hegikatu",
+        "meaning": "pasar rozando"
+      }
+    ]
+  },
+  {
+    "word": "hel",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "heldu",
+        "lemma": "heldu",
+        "meaning": "acogerse"
+      }
+    ]
+  },
+  {
+    "word": "helaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "helarazi",
+        "lemma": "helarazi",
+        "meaning": "llegar"
+      }
+    ]
+  },
+  {
+    "word": "helaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "helarazi",
+        "lemma": "helarazi",
+        "meaning": "llegar"
+      }
+    ]
+  },
+  {
+    "word": "helarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "helarazi",
+        "lemma": "helarazi",
+        "meaning": "llegar"
+      }
+    ]
+  },
+  {
+    "word": "helbidera",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "helbideratu",
+        "lemma": "helbideratu",
+        "meaning": "domiciliar"
+      }
+    ]
+  },
+  {
+    "word": "helbideratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "helbideratu",
+        "lemma": "helbideratu",
+        "meaning": "domiciliar"
+      }
+    ]
+  },
+  {
+    "word": "helbideratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "helbideratu",
+        "lemma": "helbideratu",
+        "meaning": "domiciliar"
+      }
+    ]
+  },
+  {
+    "word": "helduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "heldu",
+        "lemma": "heldu",
+        "meaning": "acogerse"
+      }
+    ]
+  },
+  {
+    "word": "heleniza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "helenizatu",
+        "lemma": "helenizatu",
+        "meaning": "helenizar"
+      }
+    ]
+  },
+  {
+    "word": "helenizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "helenizatu",
+        "lemma": "helenizatu",
+        "meaning": "helenizar"
+      }
+    ]
+  },
+  {
+    "word": "helenizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "helenizatu",
+        "lemma": "helenizatu",
+        "meaning": "helenizar"
+      }
+    ]
+  },
+  {
+    "word": "heltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "heldu",
+        "lemma": "heldu",
+        "meaning": "acogerse"
+      }
+    ]
+  },
+  {
+    "word": "hendila",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hendin",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hendinik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hendin",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "henkidakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "henkidakeen",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "henkidakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "henkidakeen",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "henkidala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "henkidan",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "henkidanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "henkidan",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "henkiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "henkiekeen",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "henkiekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "henkiekeen",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "henkiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "henkien",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "henkienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "henkien",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "henkigukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "henkigukeen",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "henkigukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "henkigukeen",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "henkigula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "henkigun",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "henkigunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "henkigun",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "henkiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "henkiokeen",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "henkiokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "henkiokeen",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "henkiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "henkion",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "henkionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "henkion",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "her",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hertu",
+        "lemma": "hertu",
+        "meaning": "disminuir"
+      }
+    ]
+  },
+  {
+    "word": "herabearaz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "herabearazi",
+        "lemma": "herabearazi",
+        "meaning": "volver tímido"
+      }
+    ]
+  },
+  {
+    "word": "herabearaziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "herabearazi",
+        "lemma": "herabearazi",
+        "meaning": "volver tímido"
+      }
+    ]
+  },
+  {
+    "word": "herabearazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "herabearazi",
+        "lemma": "herabearazi",
+        "meaning": "volver tímido"
+      }
+    ]
+  },
+  {
+    "word": "herabetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "herabetu",
+        "lemma": "herabetu",
+        "meaning": "avergonzar"
+      }
+    ]
+  },
+  {
+    "word": "herabetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "herabetu",
+        "lemma": "herabetu",
+        "meaning": "avergonzar"
+      }
+    ]
+  },
+  {
+    "word": "herakuskiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "herakuskien",
+        "lemma": "irakatsi",
+        "meaning": "enseñar"
+      }
+    ]
+  },
+  {
+    "word": "herakuskienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "herakuskien",
+        "lemma": "irakatsi",
+        "meaning": "enseñar"
+      }
+    ]
+  },
+  {
+    "word": "herakutsala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "herakutsan",
+        "lemma": "irakatsi",
+        "meaning": "enseñar"
+      }
+    ]
+  },
+  {
+    "word": "herakutsanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "herakutsan",
+        "lemma": "irakatsi",
+        "meaning": "enseñar"
+      }
+    ]
+  },
+  {
+    "word": "herbalduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "herbaldu",
+        "lemma": "herbaldu",
+        "meaning": "imposibilitar"
+      }
+    ]
+  },
+  {
+    "word": "herbaltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "herbaldu",
+        "lemma": "herbaldu",
+        "meaning": "imposibilitar"
+      }
+    ]
+  },
+  {
+    "word": "herdoilduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "herdoildu",
+        "lemma": "herdoildu",
+        "meaning": "debilitarse"
+      }
+    ]
+  },
+  {
+    "word": "herdoiltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "herdoildu",
+        "lemma": "herdoildu",
+        "meaning": "debilitarse"
+      }
+    ]
+  },
+  {
+    "word": "hereda",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "heredatu",
+        "lemma": "heredatu",
+        "meaning": "heredar"
+      }
+    ]
+  },
+  {
+    "word": "heredatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "heredatu",
+        "lemma": "heredatu",
+        "meaning": "heredar"
+      }
+    ]
+  },
+  {
+    "word": "heredatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "heredatu",
+        "lemma": "heredatu",
+        "meaning": "heredar"
+      }
+    ]
+  },
+  {
+    "word": "herenkatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "herenkatu",
+        "lemma": "herenkatu",
+        "meaning": "dividir en tres partes"
+      }
+    ]
+  },
+  {
+    "word": "herenkatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "herenkatu",
+        "lemma": "herenkatu",
+        "meaning": "dividir en tres partes"
+      }
+    ]
+  },
+  {
+    "word": "herratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "herratu",
+        "lemma": "herratu",
+        "meaning": "perderse"
+      }
+    ]
+  },
+  {
+    "word": "herratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "herratu",
+        "lemma": "herratu",
+        "meaning": "perderse"
+      }
+    ]
+  },
+  {
+    "word": "herrenduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "herrendu",
+        "lemma": "herrendu",
+        "meaning": "quedar cojo"
+      }
+    ]
+  },
+  {
+    "word": "herrentzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "herrendu",
+        "lemma": "herrendu",
+        "meaning": "quedar cojo"
+      }
+    ]
+  },
+  {
+    "word": "herrestaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "herrestarazi",
+        "lemma": "herrestarazi",
+        "meaning": "arrastrar"
+      }
+    ]
+  },
+  {
+    "word": "herrestaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "herrestarazi",
+        "lemma": "herrestarazi",
+        "meaning": "arrastrar"
+      }
+    ]
+  },
+  {
+    "word": "herrestarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "herrestarazi",
+        "lemma": "herrestarazi",
+        "meaning": "arrastrar"
+      }
+    ]
+  },
+  {
+    "word": "herrestatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "herrestatu",
+        "lemma": "herrestatu",
+        "meaning": "arrastrar"
+      }
+    ]
+  },
+  {
+    "word": "herrestatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "herrestatu",
+        "lemma": "herrestatu",
+        "meaning": "arrastrar"
+      }
+    ]
+  },
+  {
+    "word": "herrikoituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "herrikoitu",
+        "lemma": "herrikoitu",
+        "meaning": "domiciliar"
+      }
+    ]
+  },
+  {
+    "word": "herrikoitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "herrikoitu",
+        "lemma": "herrikoitu",
+        "meaning": "domiciliar"
+      }
+    ]
+  },
+  {
+    "word": "herrira",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "herriratu",
+        "lemma": "herriratu",
+        "meaning": "ir al pueblo"
+      }
+    ]
+  },
+  {
+    "word": "herriratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "herriratu",
+        "lemma": "herriratu",
+        "meaning": "ir al pueblo"
+      }
+    ]
+  },
+  {
+    "word": "herriratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "herriratu",
+        "lemma": "herriratu",
+        "meaning": "ir al pueblo"
+      }
+    ]
+  },
+  {
+    "word": "herritartuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "herritartu",
+        "lemma": "herritartu",
+        "meaning": "nacionalizarse"
+      }
+    ]
+  },
+  {
+    "word": "herritartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "herritartu",
+        "lemma": "herritartu",
+        "meaning": "nacionalizarse"
+      }
+    ]
+  },
+  {
+    "word": "herrizaletuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "herrizaletu",
+        "lemma": "herrizaletu",
+        "meaning": "aficionar al pueblo"
+      }
+    ]
+  },
+  {
+    "word": "herrizaletzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "herrizaletu",
+        "lemma": "herrizaletu",
+        "meaning": "aficionar al pueblo"
+      }
+    ]
+  },
+  {
+    "word": "herronkatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "herronkatu",
+        "lemma": "herronkatu",
+        "meaning": "alinear"
+      }
+    ]
+  },
+  {
+    "word": "herronkatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "herronkatu",
+        "lemma": "herronkatu",
+        "meaning": "alinear"
+      }
+    ]
+  },
+  {
+    "word": "hertsa",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hertsatu",
+        "lemma": "hertsatu",
+        "meaning": "coercer"
+      }
+    ]
+  },
+  {
+    "word": "hertsatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hertsatu",
+        "lemma": "hertsatu",
+        "meaning": "coercer"
+      }
+    ]
+  },
+  {
+    "word": "hertsatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hertsatu",
+        "lemma": "hertsatu",
+        "meaning": "coercer"
+      }
+    ]
+  },
+  {
+    "word": "hertsituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hertsitu",
+        "lemma": "hertsitu",
+        "meaning": "estrechar"
+      }
+    ]
+  },
+  {
+    "word": "hertsitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hertsitu",
+        "lemma": "hertsitu",
+        "meaning": "estrechar"
+      }
+    ]
+  },
+  {
+    "word": "hertuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hertu",
+        "lemma": "hertu",
+        "meaning": "disminuir"
+      }
+    ]
+  },
+  {
+    "word": "hertzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hertu",
+        "lemma": "hertu",
+        "meaning": "disminuir"
+      }
+    ]
+  },
+  {
+    "word": "hesituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hesitu",
+        "lemma": "hesitu",
+        "meaning": "vallar"
+      }
+    ]
+  },
+  {
+    "word": "hesitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hesitu",
+        "lemma": "hesitu",
+        "meaning": "vallar"
+      }
+    ]
+  },
+  {
+    "word": "hetikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hetikatu",
+        "lemma": "hetikatu",
+        "meaning": "enfermar de tisis"
+      }
+    ]
+  },
+  {
+    "word": "hetikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hetikatu",
+        "lemma": "hetikatu",
+        "meaning": "enfermar de tisis"
+      }
+    ]
+  },
+  {
+    "word": "hets",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hetsi",
+        "lemma": "hetsi",
+        "meaning": "cerrar"
+      }
+    ]
+  },
+  {
+    "word": "hetsaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hetsarazi",
+        "lemma": "hetsarazi",
+        "meaning": "cerrar"
+      }
+    ]
+  },
+  {
+    "word": "hetsaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hetsarazi",
+        "lemma": "hetsarazi",
+        "meaning": "cerrar"
+      }
+    ]
+  },
+  {
+    "word": "hetsarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hetsarazi",
+        "lemma": "hetsarazi",
+        "meaning": "cerrar"
+      }
+    ]
+  },
+  {
+    "word": "hetsiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hetsi",
+        "lemma": "hetsi",
+        "meaning": "cerrar"
+      }
+    ]
+  },
+  {
+    "word": "hetsten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hetsi",
+        "lemma": "hetsi",
+        "meaning": "cerrar"
+      }
+    ]
+  },
+  {
+    "word": "heure",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "heuretu",
+        "lemma": "heuretu",
+        "meaning": "apropiarse"
+      }
+    ]
+  },
+  {
+    "word": "heuregana",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "heureganatu",
+        "lemma": "heureganatu",
+        "meaning": "conseguir"
+      }
+    ]
+  },
+  {
+    "word": "heureganatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "heureganatu",
+        "lemma": "heureganatu",
+        "meaning": "conseguir"
+      }
+    ]
+  },
+  {
+    "word": "heureganatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "heureganatu",
+        "lemma": "heureganatu",
+        "meaning": "conseguir"
+      }
+    ]
+  },
+  {
+    "word": "heuretuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "heuretu",
+        "lemma": "heuretu",
+        "meaning": "apropiarse"
+      }
+    ]
+  },
+  {
+    "word": "heuretzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "heuretu",
+        "lemma": "heuretu",
+        "meaning": "apropiarse"
+      }
+    ]
+  },
+  {
+    "word": "hez",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hezi",
+        "lemma": "hezi",
+        "meaning": "educar"
+      }
+    ]
+  },
+  {
+    "word": "hezakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hezakeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hezakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hezakeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hezala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hezan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hezanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hezan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hezetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hezetu",
+        "lemma": "hezetu",
+        "meaning": "humedecer"
+      }
+    ]
+  },
+  {
+    "word": "hezetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hezetu",
+        "lemma": "hezetu",
+        "meaning": "humedecer"
+      }
+    ]
+  },
+  {
+    "word": "heziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hezi",
+        "lemma": "hezi",
+        "meaning": "educar"
+      }
+    ]
+  },
+  {
+    "word": "hezten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hezi",
+        "lemma": "hezi",
+        "meaning": "educar"
+      }
+    ]
+  },
+  {
+    "word": "hezurgabetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hezurgabetu",
+        "lemma": "hezurgabetu",
+        "meaning": "deshuesar"
+      }
+    ]
+  },
+  {
+    "word": "hezurgabetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hezurgabetu",
+        "lemma": "hezurgabetu",
+        "meaning": "deshuesar"
+      }
+    ]
+  },
+  {
+    "word": "hezurmami",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hezurmamitu",
+        "lemma": "hezurmamitu",
+        "meaning": "plasmar"
+      }
+    ]
+  },
+  {
+    "word": "hezurmamituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hezurmamitu",
+        "lemma": "hezurmamitu",
+        "meaning": "plasmar"
+      }
+    ]
+  },
+  {
+    "word": "hezurmamitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hezurmamitu",
+        "lemma": "hezurmamitu",
+        "meaning": "plasmar"
+      }
+    ]
+  },
+  {
+    "word": "hezurtuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hezurtu",
+        "lemma": "hezurtu",
+        "meaning": "calcificar"
+      }
+    ]
+  },
+  {
+    "word": "hezurtzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hezurtu",
+        "lemma": "hezurtu",
+        "meaning": "calcificar"
+      }
+    ]
+  },
+  {
+    "word": "hiberna",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hibernatu",
+        "lemma": "hibernatu",
+        "meaning": "hibernar"
+      }
+    ]
+  },
+  {
+    "word": "hibernatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hibernatu",
+        "lemma": "hibernatu",
+        "meaning": "hibernar"
+      }
+    ]
+  },
+  {
+    "word": "hibernatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hibernatu",
+        "lemma": "hibernatu",
+        "meaning": "hibernar"
+      }
+    ]
+  },
+  {
+    "word": "hibrida",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hibridatu",
+        "lemma": "hibridatu",
+        "meaning": "hibridar"
+      }
+    ]
+  },
+  {
+    "word": "hibridatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hibridatu",
+        "lemma": "hibridatu",
+        "meaning": "hibridar"
+      }
+    ]
+  },
+  {
+    "word": "hibridatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hibridatu",
+        "lemma": "hibridatu",
+        "meaning": "hibridar"
+      }
+    ]
+  },
+  {
+    "word": "hidakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hidakeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hidakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hidakeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hidala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hidan",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hidanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hidan",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hidrata",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hidratatu",
+        "lemma": "hidratatu",
+        "meaning": "hidratar"
+      }
+    ]
+  },
+  {
+    "word": "hidratatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hidratatu",
+        "lemma": "hidratatu",
+        "meaning": "hidratar"
+      }
+    ]
+  },
+  {
+    "word": "hidratatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hidratatu",
+        "lemma": "hidratatu",
+        "meaning": "hidratar"
+      }
+    ]
+  },
+  {
+    "word": "hidrogena",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hidrogenatu",
+        "lemma": "hidrogenatu",
+        "meaning": "hidrogenar"
+      }
+    ]
+  },
+  {
+    "word": "hidrogenatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hidrogenatu",
+        "lemma": "hidrogenatu",
+        "meaning": "hidrogenar"
+      }
+    ]
+  },
+  {
+    "word": "hidrogenatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hidrogenatu",
+        "lemma": "hidrogenatu",
+        "meaning": "hidrogenar"
+      }
+    ]
+  },
+  {
+    "word": "hidroliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hidrolizatu",
+        "lemma": "hidrolizatu",
+        "meaning": "hidrolizar"
+      }
+    ]
+  },
+  {
+    "word": "hidrolizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hidrolizatu",
+        "lemma": "hidrolizatu",
+        "meaning": "hidrolizar"
+      }
+    ]
+  },
+  {
+    "word": "hidrolizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hidrolizatu",
+        "lemma": "hidrolizatu",
+        "meaning": "hidrolizar"
+      }
+    ]
+  },
+  {
+    "word": "hiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hiekeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hiekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hiekeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hien",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hien",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hierarkiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hierarkizatu",
+        "lemma": "hierarkizatu",
+        "meaning": "jerarquizar"
+      }
+    ]
+  },
+  {
+    "word": "hierarkizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hierarkizatu",
+        "lemma": "hierarkizatu",
+        "meaning": "jerarquizar"
+      }
+    ]
+  },
+  {
+    "word": "hierarkizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hierarkizatu",
+        "lemma": "hierarkizatu",
+        "meaning": "jerarquizar"
+      }
+    ]
+  },
+  {
+    "word": "hiezadakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hiezadakeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezadakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hiezadakeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezadala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hiezadan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezadanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hiezadan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezagukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hiezagukeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezagukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hiezagukeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezagula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hiezagun",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezagunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hiezagun",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezaiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hiezaiekeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezaiekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hiezaiekeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezaiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hiezaien",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezaienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hiezaien",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezaiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hiezaiokeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezaiokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hiezaiokeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezaiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hiezaion",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezaionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hiezaion",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezazkidakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hiezazkidakeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezazkidakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hiezazkidakeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezazkidala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hiezazkidan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezazkidanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hiezazkidan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezazkiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hiezazkiekeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezazkiekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hiezazkiekeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezazkiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hiezazkien",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezazkienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hiezazkien",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezazkigukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hiezazkigukeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezazkigukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hiezazkigukeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezazkigula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hiezazkigun",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezazkigunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hiezazkigun",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezazkiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hiezazkiokeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezazkiokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hiezazkiokeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezazkiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hiezazkion",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hiezazkionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hiezazkion",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "higa",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "higatu",
+        "lemma": "higatu",
+        "meaning": "desgastar"
+      }
+    ]
+  },
+  {
+    "word": "higana",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "higanatu",
+        "lemma": "higanatu",
+        "meaning": "conseguir"
+      }
+    ]
+  },
+  {
+    "word": "higanatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "higanatu",
+        "lemma": "higanatu",
+        "meaning": "conseguir"
+      }
+    ]
+  },
+  {
+    "word": "higanatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "higanatu",
+        "lemma": "higanatu",
+        "meaning": "conseguir"
+      }
+    ]
+  },
+  {
+    "word": "higatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "higatu",
+        "lemma": "higatu",
+        "meaning": "desgastar"
+      }
+    ]
+  },
+  {
+    "word": "higatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "higatu",
+        "lemma": "higatu",
+        "meaning": "desgastar"
+      }
+    ]
+  },
+  {
+    "word": "higi",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "higitu",
+        "lemma": "higitu",
+        "meaning": "mover"
+      }
+    ]
+  },
+  {
+    "word": "higiaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "higiarazi",
+        "lemma": "higiarazi",
+        "meaning": "propulsar"
+      }
+    ]
+  },
+  {
+    "word": "higiaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "higiarazi",
+        "lemma": "higiarazi",
+        "meaning": "propulsar"
+      }
+    ]
+  },
+  {
+    "word": "higiarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "higiarazi",
+        "lemma": "higiarazi",
+        "meaning": "propulsar"
+      }
+    ]
+  },
+  {
+    "word": "higieniza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "higienizatu",
+        "lemma": "higienizatu",
+        "meaning": "higienizar"
+      }
+    ]
+  },
+  {
+    "word": "higienizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "higienizatu",
+        "lemma": "higienizatu",
+        "meaning": "higienizar"
+      }
+    ]
+  },
+  {
+    "word": "higienizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "higienizatu",
+        "lemma": "higienizatu",
+        "meaning": "higienizar"
+      }
+    ]
+  },
+  {
+    "word": "higituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "higitu",
+        "lemma": "higitu",
+        "meaning": "mover"
+      }
+    ]
+  },
+  {
+    "word": "higitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "higitu",
+        "lemma": "higitu",
+        "meaning": "mover"
+      }
+    ]
+  },
+  {
+    "word": "higuinaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "higuinarazi",
+        "lemma": "higuinarazi",
+        "meaning": "detestar"
+      }
+    ]
+  },
+  {
+    "word": "higuinaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "higuinarazi",
+        "lemma": "higuinarazi",
+        "meaning": "detestar"
+      }
+    ]
+  },
+  {
+    "word": "higuinarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "higuinarazi",
+        "lemma": "higuinarazi",
+        "meaning": "detestar"
+      }
+    ]
+  },
+  {
+    "word": "higuinduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "higuindu",
+        "lemma": "higuindu",
+        "meaning": "detestar"
+      }
+    ]
+  },
+  {
+    "word": "higuintzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "higuindu",
+        "lemma": "higuindu",
+        "meaning": "detestar"
+      }
+    ]
+  },
+  {
+    "word": "higukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "higukeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "higukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "higukeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "higula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "higun",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "higunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "higun",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hikatu",
+        "lemma": "hikatu",
+        "meaning": "embarrarse"
+      }
+    ]
+  },
+  {
+    "word": "hikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hikatu",
+        "lemma": "hikatu",
+        "meaning": "embarrarse"
+      }
+    ]
+  },
+  {
+    "word": "hilaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hilarazi",
+        "lemma": "hilarazi",
+        "meaning": "matar"
+      }
+    ]
+  },
+  {
+    "word": "hilaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hilarazi",
+        "lemma": "hilarazi",
+        "meaning": "matar"
+      }
+    ]
+  },
+  {
+    "word": "hilarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hilarazi",
+        "lemma": "hilarazi",
+        "meaning": "matar"
+      }
+    ]
+  },
+  {
+    "word": "hilaurtuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hilaurtu",
+        "lemma": "hilaurtu",
+        "meaning": "abortar"
+      }
+    ]
+  },
+  {
+    "word": "hilaurtzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hilaurtu",
+        "lemma": "hilaurtu",
+        "meaning": "abortar"
+      }
+    ]
+  },
+  {
+    "word": "hilduratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hilduratu",
+        "lemma": "hilduratu",
+        "meaning": "mortificar"
+      }
+    ]
+  },
+  {
+    "word": "hilduratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hilduratu",
+        "lemma": "hilduratu",
+        "meaning": "mortificar"
+      }
+    ]
+  },
+  {
+    "word": "hilets",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hiletsi",
+        "lemma": "hiletsi",
+        "meaning": "desahuciar"
+      }
+    ]
+  },
+  {
+    "word": "hiletsiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hiletsi",
+        "lemma": "hiletsi",
+        "meaning": "desahuciar"
+      }
+    ]
+  },
+  {
+    "word": "hiletsten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hiletsi",
+        "lemma": "hiletsi",
+        "meaning": "desahuciar"
+      }
+    ]
+  },
+  {
+    "word": "hilezkortuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hilezkortu",
+        "lemma": "hilezkortu",
+        "meaning": "inmortalizar"
+      }
+    ]
+  },
+  {
+    "word": "hilezkortzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hilezkortu",
+        "lemma": "hilezkortu",
+        "meaning": "inmortalizar"
+      }
+    ]
+  },
+  {
+    "word": "hilgo",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hil",
+        "lemma": "hil",
+        "meaning": "matar"
+      }
+    ]
+  },
+  {
+    "word": "hilobira",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hilobiratu",
+        "lemma": "hilobiratu",
+        "meaning": "enterrar"
+      }
+    ]
+  },
+  {
+    "word": "hilobiratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hilobiratu",
+        "lemma": "hilobiratu",
+        "meaning": "enterrar"
+      }
+    ]
+  },
+  {
+    "word": "hilobiratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hilobiratu",
+        "lemma": "hilobiratu",
+        "meaning": "enterrar"
+      }
+    ]
+  },
+  {
+    "word": "hiloz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hiloztu",
+        "lemma": "hiloztu",
+        "meaning": "dejar cadáver"
+      }
+    ]
+  },
+  {
+    "word": "hiloztuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hiloztu",
+        "lemma": "hiloztu",
+        "meaning": "dejar cadáver"
+      }
+    ]
+  },
+  {
+    "word": "hiloztzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hiloztu",
+        "lemma": "hiloztu",
+        "meaning": "dejar cadáver"
+      }
+    ]
+  },
+  {
+    "word": "hiltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hil",
+        "lemma": "hil",
+        "meaning": "matar"
+      }
+    ]
+  },
+  {
+    "word": "hinderraiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hinderraien",
+        "lemma": "jarraitu",
+        "meaning": "seguir"
+      }
+    ]
+  },
+  {
+    "word": "hinderraienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hinderraien",
+        "lemma": "jarraitu",
+        "meaning": "seguir"
+      }
+    ]
+  },
+  {
+    "word": "hinderraiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hinderraion",
+        "lemma": "jarraitu",
+        "meaning": "seguir"
+      }
+    ]
+  },
+  {
+    "word": "hinderraionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hinderraion",
+        "lemma": "jarraitu",
+        "meaning": "seguir"
+      }
+    ]
+  },
+  {
+    "word": "hindudala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hindudan",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hindudanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hindudan",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hinduela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hinduen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hinduenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hinduen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hindugula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hindugun",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hindugunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hindugun",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hindukedala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hindukedan",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hindukedanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hindukedan",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hindukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hindukeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hindukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hindukeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hindukegula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hindukegun",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hindukegunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hindukegun",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hinduketela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hinduketen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hinduketenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hinduketen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hindutela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hinduten",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hindutenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hinduten",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hintekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hintekeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hintekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hintekeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hintzadala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hintzadan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hintzadanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hintzadan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hintzagula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hintzagun",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hintzagunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hintzagun",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hintzaidakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hintzaidakeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hintzaidakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hintzaidakeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hintzaidala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hintzaidan",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hintzaidanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hintzaidan",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hintzaiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hintzaiekeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hintzaiekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hintzaiekeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hintzaiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hintzaien",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hintzaienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hintzaien",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hintzaigukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hintzaigukeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hintzaigukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hintzaigukeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hintzaigula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hintzaigun",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hintzaigunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hintzaigun",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hintzaiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hintzaiokeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hintzaiokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hintzaiokeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hintzaiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hintzaion",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hintzaionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hintzaion",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hintzakedala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hintzakedan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hintzakedanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hintzakedan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hintzakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hintzakeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hintzakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hintzakeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hintzakegula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hintzakegun",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hintzakegunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hintzakegun",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hintzaketela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hintzaketen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hintzaketenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hintzaketen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hintzala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hintzan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hintzanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hintzan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hintzatekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hintzatekeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hintzatekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hintzatekeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hintzatela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hintzaten",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hintzatenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hintzaten",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hintzela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hintzen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hintzenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hintzen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "hioela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hioen",
+        "lemma": "esan",
+        "meaning": "decir"
+      }
+    ]
+  },
+  {
+    "word": "hioenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hioen",
+        "lemma": "esan",
+        "meaning": "decir"
+      }
+    ]
+  },
+  {
+    "word": "hiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hiokeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hiokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hiokeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hion",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hion",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hipertrofiatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hipertrofiatu",
+        "lemma": "hipertrofiatu",
+        "meaning": "hipertrofiar"
+      }
+    ]
+  },
+  {
+    "word": "hipertrofiatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hipertrofiatu",
+        "lemma": "hipertrofiatu",
+        "meaning": "hipertrofiar"
+      }
+    ]
+  },
+  {
+    "word": "hipnotiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hipnotizatu",
+        "lemma": "hipnotizatu",
+        "meaning": "hipnotizar"
+      }
+    ]
+  },
+  {
+    "word": "hipnotizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hipnotizatu",
+        "lemma": "hipnotizatu",
+        "meaning": "hipnotizar"
+      }
+    ]
+  },
+  {
+    "word": "hipnotizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hipnotizatu",
+        "lemma": "hipnotizatu",
+        "meaning": "hipnotizar"
+      }
+    ]
+  },
+  {
+    "word": "hipokaltzifika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hipokaltzifikatu",
+        "lemma": "hipokaltzifikatu",
+        "meaning": "hipocalcificar"
+      }
+    ]
+  },
+  {
+    "word": "hipokaltzifikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hipokaltzifikatu",
+        "lemma": "hipokaltzifikatu",
+        "meaning": "hipocalcificar"
+      }
+    ]
+  },
+  {
+    "word": "hipokaltzifikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hipokaltzifikatu",
+        "lemma": "hipokaltzifikatu",
+        "meaning": "hipocalcificar"
+      }
+    ]
+  },
+  {
+    "word": "hipostasia",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hipostasiatu",
+        "lemma": "hipostasiatu",
+        "meaning": "hipostasiar"
+      }
+    ]
+  },
+  {
+    "word": "hipostasiatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hipostasiatu",
+        "lemma": "hipostasiatu",
+        "meaning": "hipostasiar"
+      }
+    ]
+  },
+  {
+    "word": "hipostasiatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hipostasiatu",
+        "lemma": "hipostasiatu",
+        "meaning": "hipostasiar"
+      }
+    ]
+  },
+  {
+    "word": "hipotekatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hipotekatu",
+        "lemma": "hipotekatu",
+        "meaning": "hipotecar"
+      }
+    ]
+  },
+  {
+    "word": "hipotekatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hipotekatu",
+        "lemma": "hipotekatu",
+        "meaning": "hipotecar"
+      }
+    ]
+  },
+  {
+    "word": "hire",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hiretu",
+        "lemma": "hiretu",
+        "meaning": "apropiarse"
+      }
+    ]
+  },
+  {
+    "word": "hiregana",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hireganatu",
+        "lemma": "hireganatu",
+        "meaning": "conseguir"
+      }
+    ]
+  },
+  {
+    "word": "hireganatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hireganatu",
+        "lemma": "hireganatu",
+        "meaning": "conseguir"
+      }
+    ]
+  },
+  {
+    "word": "hireganatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hireganatu",
+        "lemma": "hireganatu",
+        "meaning": "conseguir"
+      }
+    ]
+  },
+  {
+    "word": "hiretuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hiretu",
+        "lemma": "hiretu",
+        "meaning": "apropiarse"
+      }
+    ]
+  },
+  {
+    "word": "hiretzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hiretu",
+        "lemma": "hiretu",
+        "meaning": "apropiarse"
+      }
+    ]
+  },
+  {
+    "word": "hiritartuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hiritartu",
+        "lemma": "hiritartu",
+        "meaning": "volver urbano"
+      }
+    ]
+  },
+  {
+    "word": "hiritartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hiritartu",
+        "lemma": "hiritartu",
+        "meaning": "volver urbano"
+      }
+    ]
+  },
+  {
+    "word": "hiro",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hirotu",
+        "lemma": "hirotu",
+        "meaning": "gastar"
+      }
+    ]
+  },
+  {
+    "word": "hiroela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hiroen",
+        "lemma": "iro",
+        "meaning": "hilar (el hilo)"
+      }
+    ]
+  },
+  {
+    "word": "hiroenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hiroen",
+        "lemma": "iro",
+        "meaning": "hilar (el hilo)"
+      }
+    ]
+  },
+  {
+    "word": "hirotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hirotu",
+        "lemma": "hirotu",
+        "meaning": "gastar"
+      }
+    ]
+  },
+  {
+    "word": "hirotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hirotu",
+        "lemma": "hirotu",
+        "meaning": "gastar"
+      }
+    ]
+  },
+  {
+    "word": "hirukoiz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hirukoiztu",
+        "lemma": "hirukoiztu",
+        "meaning": "triplicar"
+      }
+    ]
+  },
+  {
+    "word": "hirukoiztuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hirukoiztu",
+        "lemma": "hirukoiztu",
+        "meaning": "triplicar"
+      }
+    ]
+  },
+  {
+    "word": "hirukoiztzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hirukoiztu",
+        "lemma": "hirukoiztu",
+        "meaning": "triplicar"
+      }
+    ]
+  },
+  {
+    "word": "hirunakatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hirunakatu",
+        "lemma": "hirunakatu",
+        "meaning": "poner de tres en tres"
+      }
+    ]
+  },
+  {
+    "word": "hirunakatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hirunakatu",
+        "lemma": "hirunakatu",
+        "meaning": "poner de tres en tres"
+      }
+    ]
+  },
+  {
+    "word": "his",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "histu",
+        "lemma": "histu",
+        "meaning": "debilitar"
+      }
+    ]
+  },
+  {
+    "word": "hispaniza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hispanizatu",
+        "lemma": "hispanizatu",
+        "meaning": "hispanizar"
+      }
+    ]
+  },
+  {
+    "word": "hispanizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hispanizatu",
+        "lemma": "hispanizatu",
+        "meaning": "hispanizar"
+      }
+    ]
+  },
+  {
+    "word": "hispanizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hispanizatu",
+        "lemma": "hispanizatu",
+        "meaning": "hispanizar"
+      }
+    ]
+  },
+  {
+    "word": "histuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "histu",
+        "lemma": "histu",
+        "meaning": "debilitar"
+      }
+    ]
+  },
+  {
+    "word": "histzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "histu",
+        "lemma": "histu",
+        "meaning": "debilitar"
+      }
+    ]
+  },
+  {
+    "word": "hitsaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hitsarazi",
+        "lemma": "hitsarazi",
+        "meaning": "ensombrecer"
+      }
+    ]
+  },
+  {
+    "word": "hitsaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hitsarazi",
+        "lemma": "hitsarazi",
+        "meaning": "ensombrecer"
+      }
+    ]
+  },
+  {
+    "word": "hitsarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hitsarazi",
+        "lemma": "hitsarazi",
+        "meaning": "ensombrecer"
+      }
+    ]
+  },
+  {
+    "word": "hituela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hituen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hituenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hituen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hituzkeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hituzkeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hituzkeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hituzkeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hitzakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hitzakeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hitzakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hitzakeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hitzala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hitzan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hitzanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hitzan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "hitzar",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hitzartu",
+        "lemma": "hitzartu",
+        "meaning": "apalabrar"
+      }
+    ]
+  },
+  {
+    "word": "hitzartuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hitzartu",
+        "lemma": "hitzartu",
+        "meaning": "apalabrar"
+      }
+    ]
+  },
+  {
+    "word": "hitzartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hitzartu",
+        "lemma": "hitzartu",
+        "meaning": "apalabrar"
+      }
+    ]
+  },
+  {
+    "word": "hitzemango",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hitzeman",
+        "lemma": "hitzeman",
+        "meaning": "prometer"
+      }
+    ]
+  },
+  {
+    "word": "hitzematen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hitzeman",
+        "lemma": "hitzeman",
+        "meaning": "prometer"
+      }
+    ]
+  },
+  {
+    "word": "hizkatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hizkatu",
+        "lemma": "hizkatu",
+        "meaning": "discutir"
+      }
+    ]
+  },
+  {
+    "word": "hizkatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hizkatu",
+        "lemma": "hizkatu",
+        "meaning": "discutir"
+      }
+    ]
+  },
+  {
+    "word": "hizketatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hizketatu",
+        "lemma": "hizketatu",
+        "meaning": "conversar"
+      }
+    ]
+  },
+  {
+    "word": "hizketatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hizketatu",
+        "lemma": "hizketatu",
+        "meaning": "conversar"
+      }
+    ]
+  },
+  {
+    "word": "hizkidakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hizkidakeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hizkidakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hizkidakeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hizkidala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hizkidan",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hizkidanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hizkidan",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hizkiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hizkiekeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hizkiekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hizkiekeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hizkiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hizkien",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hizkienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hizkien",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hizkigukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hizkigukeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hizkigukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hizkigukeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hizkigula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hizkigun",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hizkigunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hizkigun",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hizkiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hizkiokeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hizkiokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hizkiokeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hizkiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hizkion",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hizkionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hizkion",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hobeagotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hobeagotu",
+        "lemma": "hobeagotu",
+        "meaning": "mejorar"
+      }
+    ]
+  },
+  {
+    "word": "hobeagotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hobeagotu",
+        "lemma": "hobeagotu",
+        "meaning": "mejorar"
+      }
+    ]
+  },
+  {
+    "word": "hobekituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hobekitu",
+        "lemma": "hobekitu",
+        "meaning": "mejorar"
+      }
+    ]
+  },
+  {
+    "word": "hobekitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hobekitu",
+        "lemma": "hobekitu",
+        "meaning": "mejorar"
+      }
+    ]
+  },
+  {
+    "word": "hobenduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hobendu",
+        "lemma": "hobendu",
+        "meaning": "inclinar"
+      }
+    ]
+  },
+  {
+    "word": "hobentzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hobendu",
+        "lemma": "hobendu",
+        "meaning": "inclinar"
+      }
+    ]
+  },
+  {
+    "word": "hobera",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hoberatu",
+        "lemma": "hoberatu",
+        "meaning": "mejorar"
+      }
+    ]
+  },
+  {
+    "word": "hoberatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hoberatu",
+        "lemma": "hoberatu",
+        "meaning": "mejorar"
+      }
+    ]
+  },
+  {
+    "word": "hoberatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hoberatu",
+        "lemma": "hoberatu",
+        "meaning": "mejorar"
+      }
+    ]
+  },
+  {
+    "word": "hobets",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hobetsi",
+        "lemma": "hobetsi",
+        "meaning": "preferir"
+      }
+    ]
+  },
+  {
+    "word": "hobetsiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hobetsi",
+        "lemma": "hobetsi",
+        "meaning": "preferir"
+      }
+    ]
+  },
+  {
+    "word": "hobetsten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hobetsi",
+        "lemma": "hobetsi",
+        "meaning": "preferir"
+      }
+    ]
+  },
+  {
+    "word": "hobetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hobetu",
+        "lemma": "hobetu",
+        "meaning": "mejorar"
+      }
+    ]
+  },
+  {
+    "word": "hobetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hobetu",
+        "lemma": "hobetu",
+        "meaning": "mejorar"
+      }
+    ]
+  },
+  {
+    "word": "hobira",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hobiratu",
+        "lemma": "hobiratu",
+        "meaning": "inhumar"
+      }
+    ]
+  },
+  {
+    "word": "hobiratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hobiratu",
+        "lemma": "hobiratu",
+        "meaning": "inhumar"
+      }
+    ]
+  },
+  {
+    "word": "hobiratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hobiratu",
+        "lemma": "hobiratu",
+        "meaning": "inhumar"
+      }
+    ]
+  },
+  {
+    "word": "hodeituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hodeitu",
+        "lemma": "hodeitu",
+        "meaning": "nublar"
+      }
+    ]
+  },
+  {
+    "word": "hodeitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hodeitu",
+        "lemma": "hodeitu",
+        "meaning": "nublar"
+      }
+    ]
+  },
+  {
+    "word": "holaka",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "holakatu",
+        "lemma": "holakatu",
+        "meaning": "convertir"
+      }
+    ]
+  },
+  {
+    "word": "holakatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "holakatu",
+        "lemma": "holakatu",
+        "meaning": "convertir"
+      }
+    ]
+  },
+  {
+    "word": "holakatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "holakatu",
+        "lemma": "holakatu",
+        "meaning": "convertir"
+      }
+    ]
+  },
+  {
+    "word": "homogeneiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "homogeneizatu",
+        "lemma": "homogeneizatu",
+        "meaning": "homogeneizar"
+      }
+    ]
+  },
+  {
+    "word": "homogeneizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "homogeneizatu",
+        "lemma": "homogeneizatu",
+        "meaning": "homogeneizar"
+      }
+    ]
+  },
+  {
+    "word": "homogeneizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "homogeneizatu",
+        "lemma": "homogeneizatu",
+        "meaning": "homogeneizar"
+      }
+    ]
+  },
+  {
+    "word": "homologa",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "homologatu",
+        "lemma": "homologatu",
+        "meaning": "homologar"
+      }
+    ]
+  },
+  {
+    "word": "homologatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "homologatu",
+        "lemma": "homologatu",
+        "meaning": "homologar"
+      }
+    ]
+  },
+  {
+    "word": "homologatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "homologatu",
+        "lemma": "homologatu",
+        "meaning": "homologar"
+      }
+    ]
+  },
+  {
+    "word": "honda",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hondatu",
+        "lemma": "hondatu",
+        "meaning": "estropearse"
+      }
+    ]
+  },
+  {
+    "word": "hondamendira",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hondamendiratu",
+        "lemma": "hondamendiratu",
+        "meaning": "destruir"
+      }
+    ]
+  },
+  {
+    "word": "hondamendiratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hondamendiratu",
+        "lemma": "hondamendiratu",
+        "meaning": "destruir"
+      }
+    ]
+  },
+  {
+    "word": "hondamendiratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hondamendiratu",
+        "lemma": "hondamendiratu",
+        "meaning": "destruir"
+      }
+    ]
+  },
+  {
+    "word": "hondaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hondarazi",
+        "lemma": "hondarazi",
+        "meaning": "arruinar"
+      }
+    ]
+  },
+  {
+    "word": "hondaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hondarazi",
+        "lemma": "hondarazi",
+        "meaning": "arruinar"
+      }
+    ]
+  },
+  {
+    "word": "hondarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hondarazi",
+        "lemma": "hondarazi",
+        "meaning": "arruinar"
+      }
+    ]
+  },
+  {
+    "word": "hondarrera",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hondarreratu",
+        "lemma": "hondarreratu",
+        "meaning": "hundir"
+      }
+    ]
+  },
+  {
+    "word": "hondarreratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hondarreratu",
+        "lemma": "hondarreratu",
+        "meaning": "hundir"
+      }
+    ]
+  },
+  {
+    "word": "hondarreratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hondarreratu",
+        "lemma": "hondarreratu",
+        "meaning": "hundir"
+      }
+    ]
+  },
+  {
+    "word": "hondarrezta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hondarreztatu",
+        "lemma": "hondarreztatu",
+        "meaning": "enarenar"
+      }
+    ]
+  },
+  {
+    "word": "hondarreztatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hondarreztatu",
+        "lemma": "hondarreztatu",
+        "meaning": "enarenar"
+      }
+    ]
+  },
+  {
+    "word": "hondarreztatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hondarreztatu",
+        "lemma": "hondarreztatu",
+        "meaning": "enarenar"
+      }
+    ]
+  },
+  {
+    "word": "hondartuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hondartu",
+        "lemma": "hondartu",
+        "meaning": "encallar"
+      }
+    ]
+  },
+  {
+    "word": "hondartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hondartu",
+        "lemma": "hondartu",
+        "meaning": "encallar"
+      }
+    ]
+  },
+  {
+    "word": "hondatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hondatu",
+        "lemma": "hondatu",
+        "meaning": "estropearse"
+      }
+    ]
+  },
+  {
+    "word": "hondatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hondatu",
+        "lemma": "hondatu",
+        "meaning": "estropearse"
+      }
+    ]
+  },
+  {
+    "word": "hondea",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hondeatu",
+        "lemma": "hondeatu",
+        "meaning": "excavar"
+      }
+    ]
+  },
+  {
+    "word": "hondeatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hondeatu",
+        "lemma": "hondeatu",
+        "meaning": "excavar"
+      }
+    ]
+  },
+  {
+    "word": "hondeatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hondeatu",
+        "lemma": "hondeatu",
+        "meaning": "excavar"
+      }
+    ]
+  },
+  {
+    "word": "hondora",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hondoratu",
+        "lemma": "hondoratu",
+        "meaning": "hundir"
+      }
+    ]
+  },
+  {
+    "word": "hondoratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hondoratu",
+        "lemma": "hondoratu",
+        "meaning": "hundir"
+      }
+    ]
+  },
+  {
+    "word": "hondoratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hondoratu",
+        "lemma": "hondoratu",
+        "meaning": "hundir"
+      }
+    ]
+  },
+  {
+    "word": "horailduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "horaildu",
+        "lemma": "horaildu",
+        "meaning": "amarillear"
+      }
+    ]
+  },
+  {
+    "word": "horailtzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "horaildu",
+        "lemma": "horaildu",
+        "meaning": "amarillear"
+      }
+    ]
+  },
+  {
+    "word": "hordiaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hordiarazi",
+        "lemma": "hordiarazi",
+        "meaning": "emborrachar"
+      }
+    ]
+  },
+  {
+    "word": "hordiaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hordiarazi",
+        "lemma": "hordiarazi",
+        "meaning": "emborrachar"
+      }
+    ]
+  },
+  {
+    "word": "hordiarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hordiarazi",
+        "lemma": "hordiarazi",
+        "meaning": "emborrachar"
+      }
+    ]
+  },
+  {
+    "word": "hordituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "horditu",
+        "lemma": "horditu",
+        "meaning": "emborrachar"
+      }
+    ]
+  },
+  {
+    "word": "horditzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "horditu",
+        "lemma": "horditu",
+        "meaning": "emborrachar"
+      }
+    ]
+  },
+  {
+    "word": "horituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "horitu",
+        "lemma": "horitu",
+        "meaning": "amarillear"
+      }
+    ]
+  },
+  {
+    "word": "horitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "horitu",
+        "lemma": "horitu",
+        "meaning": "amarillear"
+      }
+    ]
+  },
+  {
+    "word": "horiztatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "horiztatu",
+        "lemma": "horiztatu",
+        "meaning": "amarillear"
+      }
+    ]
+  },
+  {
+    "word": "horiztatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "horiztatu",
+        "lemma": "horiztatu",
+        "meaning": "amarillear"
+      }
+    ]
+  },
+  {
+    "word": "hormarteka",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hormartekatu",
+        "lemma": "hormartekatu",
+        "meaning": "emparedar"
+      }
+    ]
+  },
+  {
+    "word": "hormartekatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hormartekatu",
+        "lemma": "hormartekatu",
+        "meaning": "emparedar"
+      }
+    ]
+  },
+  {
+    "word": "hormartekatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hormartekatu",
+        "lemma": "hormartekatu",
+        "meaning": "emparedar"
+      }
+    ]
+  },
+  {
+    "word": "hormatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hormatu",
+        "lemma": "hormatu",
+        "meaning": "helar"
+      }
+    ]
+  },
+  {
+    "word": "hormatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hormatu",
+        "lemma": "hormatu",
+        "meaning": "helar"
+      }
+    ]
+  },
+  {
+    "word": "hormigoituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hormigoitu",
+        "lemma": "hormigoitu",
+        "meaning": "hormigonar"
+      }
+    ]
+  },
+  {
+    "word": "hormigoitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hormigoitu",
+        "lemma": "hormigoitu",
+        "meaning": "hormigonar"
+      }
+    ]
+  },
+  {
+    "word": "hormonatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hormonatu",
+        "lemma": "hormonatu",
+        "meaning": "hormonar"
+      }
+    ]
+  },
+  {
+    "word": "hormonatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hormonatu",
+        "lemma": "hormonatu",
+        "meaning": "hormonar"
+      }
+    ]
+  },
+  {
+    "word": "hornituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hornitu",
+        "lemma": "hornitu",
+        "meaning": "abastecer"
+      }
+    ]
+  },
+  {
+    "word": "hornitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hornitu",
+        "lemma": "hornitu",
+        "meaning": "abastecer"
+      }
+    ]
+  },
+  {
+    "word": "horratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "horratu",
+        "lemma": "horratu",
+        "meaning": "ir ahí"
+      }
+    ]
+  },
+  {
+    "word": "horratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "horratu",
+        "lemma": "horratu",
+        "meaning": "ir ahí"
+      }
+    ]
+  },
+  {
+    "word": "horretara",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "horretaratu",
+        "lemma": "horretaratu",
+        "meaning": "llegar a eso"
+      }
+    ]
+  },
+  {
+    "word": "horretaratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "horretaratu",
+        "lemma": "horretaratu",
+        "meaning": "llegar a eso"
+      }
+    ]
+  },
+  {
+    "word": "horretaratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "horretaratu",
+        "lemma": "horretaratu",
+        "meaning": "llegar a eso"
+      }
+    ]
+  },
+  {
+    "word": "hortzika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hortzikatu",
+        "lemma": "hortzikatu",
+        "meaning": "dentellar"
+      }
+    ]
+  },
+  {
+    "word": "hortzikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hortzikatu",
+        "lemma": "hortzikatu",
+        "meaning": "dentellar"
+      }
+    ]
+  },
+  {
+    "word": "hortzikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hortzikatu",
+        "lemma": "hortzikatu",
+        "meaning": "dentellar"
+      }
+    ]
+  },
+  {
+    "word": "horzgabetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "horzgabetu",
+        "lemma": "horzgabetu",
+        "meaning": "desdentar"
+      }
+    ]
+  },
+  {
+    "word": "horzgabetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "horzgabetu",
+        "lemma": "horzgabetu",
+        "meaning": "desdentar"
+      }
+    ]
+  },
+  {
+    "word": "hosta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hostatu",
+        "lemma": "hostatu",
+        "meaning": "cubrirse de hojas"
+      }
+    ]
+  },
+  {
+    "word": "hostailatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hostailatu",
+        "lemma": "hostailatu",
+        "meaning": "cubrirse de hojas"
+      }
+    ]
+  },
+  {
+    "word": "hostailatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hostailatu",
+        "lemma": "hostailatu",
+        "meaning": "cubrirse de hojas"
+      }
+    ]
+  },
+  {
+    "word": "hostaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hostarazi",
+        "lemma": "hostarazi",
+        "meaning": "cubrir de hojas"
+      }
+    ]
+  },
+  {
+    "word": "hostaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hostarazi",
+        "lemma": "hostarazi",
+        "meaning": "cubrir de hojas"
+      }
+    ]
+  },
+  {
+    "word": "hostarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hostarazi",
+        "lemma": "hostarazi",
+        "meaning": "cubrir de hojas"
+      }
+    ]
+  },
+  {
+    "word": "hostatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hostatu",
+        "lemma": "hostatu",
+        "meaning": "cubrirse de hojas"
+      }
+    ]
+  },
+  {
+    "word": "hostatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hostatu",
+        "lemma": "hostatu",
+        "meaning": "cubrirse de hojas"
+      }
+    ]
+  },
+  {
+    "word": "hostobakan",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hostobakandu",
+        "lemma": "hostobakandu",
+        "meaning": "deshojar"
+      }
+    ]
+  },
+  {
+    "word": "hostobakanduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hostobakandu",
+        "lemma": "hostobakandu",
+        "meaning": "deshojar"
+      }
+    ]
+  },
+  {
+    "word": "hostobakantzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hostobakandu",
+        "lemma": "hostobakandu",
+        "meaning": "deshojar"
+      }
+    ]
+  },
+  {
+    "word": "hostoberri",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hostoberritu",
+        "lemma": "hostoberritu",
+        "meaning": "mudar las hojas"
+      }
+    ]
+  },
+  {
+    "word": "hostoberrituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hostoberritu",
+        "lemma": "hostoberritu",
+        "meaning": "mudar las hojas"
+      }
+    ]
+  },
+  {
+    "word": "hostoberritzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hostoberritu",
+        "lemma": "hostoberritu",
+        "meaning": "mudar las hojas"
+      }
+    ]
+  },
+  {
+    "word": "hostogabetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hostogabetu",
+        "lemma": "hostogabetu",
+        "meaning": "deshojar"
+      }
+    ]
+  },
+  {
+    "word": "hostogabetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hostogabetu",
+        "lemma": "hostogabetu",
+        "meaning": "deshojar"
+      }
+    ]
+  },
+  {
+    "word": "hotzaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hotzarazi",
+        "lemma": "hotzarazi",
+        "meaning": "enfriar"
+      }
+    ]
+  },
+  {
+    "word": "hotzaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hotzarazi",
+        "lemma": "hotzarazi",
+        "meaning": "enfriar"
+      }
+    ]
+  },
+  {
+    "word": "hotzarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hotzarazi",
+        "lemma": "hotzarazi",
+        "meaning": "enfriar"
+      }
+    ]
+  },
+  {
+    "word": "hotzikaratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hotzikaratu",
+        "lemma": "hotzikaratu",
+        "meaning": "estremecer"
+      }
+    ]
+  },
+  {
+    "word": "hotzikaratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hotzikaratu",
+        "lemma": "hotzikaratu",
+        "meaning": "estremecer"
+      }
+    ]
+  },
+  {
+    "word": "hotzilduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hotzildu",
+        "lemma": "hotzildu",
+        "meaning": "templar"
+      }
+    ]
+  },
+  {
+    "word": "hotziltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hotzildu",
+        "lemma": "hotzildu",
+        "meaning": "templar"
+      }
+    ]
+  },
+  {
+    "word": "hoz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hoztu",
+        "lemma": "hoztu",
+        "meaning": "enfriar"
+      }
+    ]
+  },
+  {
+    "word": "hozberaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hozberarazi",
+        "lemma": "hozberarazi",
+        "meaning": "volver friolero"
+      }
+    ]
+  },
+  {
+    "word": "hozberaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hozberarazi",
+        "lemma": "hozberarazi",
+        "meaning": "volver friolero"
+      }
+    ]
+  },
+  {
+    "word": "hozberarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hozberarazi",
+        "lemma": "hozberarazi",
+        "meaning": "volver friolero"
+      }
+    ]
+  },
+  {
+    "word": "hozberatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hozberatu",
+        "lemma": "hozberatu",
+        "meaning": "volver friolero"
+      }
+    ]
+  },
+  {
+    "word": "hozberatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hozberatu",
+        "lemma": "hozberatu",
+        "meaning": "volver friolero"
+      }
+    ]
+  },
+  {
+    "word": "hozituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hozitu",
+        "lemma": "hozitu",
+        "meaning": "germinar"
+      }
+    ]
+  },
+  {
+    "word": "hozitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hozitu",
+        "lemma": "hozitu",
+        "meaning": "germinar"
+      }
+    ]
+  },
+  {
+    "word": "hozkatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hozkatu",
+        "lemma": "hozkatu",
+        "meaning": "mordisquear"
+      }
+    ]
+  },
+  {
+    "word": "hozkatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hozkatu",
+        "lemma": "hozkatu",
+        "meaning": "mordisquear"
+      }
+    ]
+  },
+  {
+    "word": "hozkirrituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hozkirritu",
+        "lemma": "hozkirritu",
+        "meaning": "temblar de frío"
+      }
+    ]
+  },
+  {
+    "word": "hozkirritzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hozkirritu",
+        "lemma": "hozkirritu",
+        "meaning": "temblar de frío"
+      }
+    ]
+  },
+  {
+    "word": "hozkituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hozkitu",
+        "lemma": "hozkitu",
+        "meaning": "dar dentera"
+      }
+    ]
+  },
+  {
+    "word": "hozkitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hozkitu",
+        "lemma": "hozkitu",
+        "meaning": "dar dentera"
+      }
+    ]
+  },
+  {
+    "word": "hozmin",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hozmindu",
+        "lemma": "hozmindu",
+        "meaning": "entumecer"
+      }
+    ]
+  },
+  {
+    "word": "hozminduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hozmindu",
+        "lemma": "hozmindu",
+        "meaning": "entumecer"
+      }
+    ]
+  },
+  {
+    "word": "hozmintzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hozmindu",
+        "lemma": "hozmindu",
+        "meaning": "entumecer"
+      }
+    ]
+  },
+  {
+    "word": "hozpil",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hozpildu",
+        "lemma": "hozpildu",
+        "meaning": "refrescar"
+      }
+    ]
+  },
+  {
+    "word": "hozpilduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hozpildu",
+        "lemma": "hozpildu",
+        "meaning": "refrescar"
+      }
+    ]
+  },
+  {
+    "word": "hozpiltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hozpildu",
+        "lemma": "hozpildu",
+        "meaning": "refrescar"
+      }
+    ]
+  },
+  {
+    "word": "hoztuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hoztu",
+        "lemma": "hoztu",
+        "meaning": "enfriar"
+      }
+    ]
+  },
+  {
+    "word": "hoztzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hoztu",
+        "lemma": "hoztu",
+        "meaning": "enfriar"
+      }
+    ]
+  },
+  {
+    "word": "huela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "huen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "huenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "huen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "hukeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "hukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "hukeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "humaniza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "humanizatu",
+        "lemma": "humanizatu",
+        "meaning": "humanizar"
+      }
+    ]
+  },
+  {
+    "word": "humanizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "humanizatu",
+        "lemma": "humanizatu",
+        "meaning": "humanizar"
+      }
+    ]
+  },
+  {
+    "word": "humanizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "humanizatu",
+        "lemma": "humanizatu",
+        "meaning": "humanizar"
+      }
+    ]
+  },
+  {
+    "word": "hunkiaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hunkiarazi",
+        "lemma": "hunkiarazi",
+        "meaning": "conmover"
+      }
+    ]
+  },
+  {
+    "word": "hunkiaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hunkiarazi",
+        "lemma": "hunkiarazi",
+        "meaning": "conmover"
+      }
+    ]
+  },
+  {
+    "word": "hunkiarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hunkiarazi",
+        "lemma": "hunkiarazi",
+        "meaning": "conmover"
+      }
+    ]
+  },
+  {
+    "word": "hunkituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hunkitu",
+        "lemma": "hunkitu",
+        "meaning": "emocionar"
+      }
+    ]
+  },
+  {
+    "word": "hunkitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hunkitu",
+        "lemma": "hunkitu",
+        "meaning": "emocionar"
+      }
+    ]
+  },
+  {
+    "word": "hupa",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hupatu",
+        "lemma": "hupatu",
+        "meaning": "aupar"
+      }
+    ]
+  },
+  {
+    "word": "hupatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hupatu",
+        "lemma": "hupatu",
+        "meaning": "aupar"
+      }
+    ]
+  },
+  {
+    "word": "hupatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hupatu",
+        "lemma": "hupatu",
+        "meaning": "aupar"
+      }
+    ]
+  },
+  {
+    "word": "hurbilago",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hurbilagotu",
+        "lemma": "hurbilagotu",
+        "meaning": "acercar"
+      }
+    ]
+  },
+  {
+    "word": "hurbilagotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hurbilagotu",
+        "lemma": "hurbilagotu",
+        "meaning": "acercar"
+      }
+    ]
+  },
+  {
+    "word": "hurbilagotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hurbilagotu",
+        "lemma": "hurbilagotu",
+        "meaning": "acercar"
+      }
+    ]
+  },
+  {
+    "word": "hurbilaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hurbilarazi",
+        "lemma": "hurbilarazi",
+        "meaning": "acercar"
+      }
+    ]
+  },
+  {
+    "word": "hurbilaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hurbilarazi",
+        "lemma": "hurbilarazi",
+        "meaning": "acercar"
+      }
+    ]
+  },
+  {
+    "word": "hurbilarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hurbilarazi",
+        "lemma": "hurbilarazi",
+        "meaning": "acercar"
+      }
+    ]
+  },
+  {
+    "word": "hurbilduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hurbildu",
+        "lemma": "hurbildu",
+        "meaning": "acercar"
+      }
+    ]
+  },
+  {
+    "word": "hurbiltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hurbildu",
+        "lemma": "hurbildu",
+        "meaning": "acercar"
+      }
+    ]
+  },
+  {
+    "word": "hurranduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hurrandu",
+        "lemma": "hurrandu",
+        "meaning": "acercar"
+      }
+    ]
+  },
+  {
+    "word": "hurrantzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hurrandu",
+        "lemma": "hurrandu",
+        "meaning": "acercar"
+      }
+    ]
+  },
+  {
+    "word": "hurreratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hurreratu",
+        "lemma": "hurreratu",
+        "meaning": "acercar"
+      }
+    ]
+  },
+  {
+    "word": "hurreratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hurreratu",
+        "lemma": "hurreratu",
+        "meaning": "acercar"
+      }
+    ]
+  },
+  {
+    "word": "hurruparaz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hurruparazi",
+        "lemma": "hurruparazi",
+        "meaning": "absorber"
+      }
+    ]
+  },
+  {
+    "word": "hurruparaziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hurruparazi",
+        "lemma": "hurruparazi",
+        "meaning": "absorber"
+      }
+    ]
+  },
+  {
+    "word": "hurruparazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hurruparazi",
+        "lemma": "hurruparazi",
+        "meaning": "absorber"
+      }
+    ]
+  },
+  {
+    "word": "hurrupatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hurrupatu",
+        "lemma": "hurrupatu",
+        "meaning": "sorber"
+      }
+    ]
+  },
+  {
+    "word": "hurrupatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hurrupatu",
+        "lemma": "hurrupatu",
+        "meaning": "sorber"
+      }
+    ]
+  },
+  {
+    "word": "hus",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hustu",
+        "lemma": "hustu",
+        "meaning": "vaciar"
+      }
+    ]
+  },
+  {
+    "word": "hustuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hustu",
+        "lemma": "hustu",
+        "meaning": "vaciar"
+      }
+    ]
+  },
+  {
+    "word": "hustzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hustu",
+        "lemma": "hustu",
+        "meaning": "vaciar"
+      }
+    ]
+  },
+  {
+    "word": "hutsalduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hutsaldu",
+        "lemma": "hutsaldu",
+        "meaning": "anular"
+      }
+    ]
+  },
+  {
+    "word": "hutsaltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hutsaldu",
+        "lemma": "hutsaldu",
+        "meaning": "anular"
+      }
+    ]
+  },
+  {
+    "word": "hutsaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hutsarazi",
+        "lemma": "hutsarazi",
+        "meaning": "vaciar"
+      }
+    ]
+  },
+  {
+    "word": "hutsaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hutsarazi",
+        "lemma": "hutsarazi",
+        "meaning": "vaciar"
+      }
+    ]
+  },
+  {
+    "word": "hutsarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hutsarazi",
+        "lemma": "hutsarazi",
+        "meaning": "vaciar"
+      }
+    ]
+  },
+  {
+    "word": "hutsera",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "hutseratu",
+        "lemma": "hutseratu",
+        "meaning": "reducir a la nada"
+      }
+    ]
+  },
+  {
+    "word": "hutseratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "hutseratu",
+        "lemma": "hutseratu",
+        "meaning": "reducir a la nada"
+      }
+    ]
+  },
+  {
+    "word": "hutseratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "hutseratu",
+        "lemma": "hutseratu",
+        "meaning": "reducir a la nada"
+      }
+    ]
+  }
+]

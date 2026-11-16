@@ -1,0 +1,68 @@
+[
+  {
+    "word": "randomiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "randomizatu",
+        "lemma": "randomizatu",
+        "meaning": "randomizar"
+      }
+    ]
+  },
+  {
+    "word": "randomizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "randomizatu",
+        "lemma": "randomizatu",
+        "meaning": "randomizar"
+      }
+    ]
+  },
+  {
+    "word": "randomizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "randomizatu",
+        "lemma": "randomizatu",
+        "meaning": "randomizar"
+      }
+    ]
+  },
+  {
+    "word": "robotiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "robotizatu",
+        "lemma": "robotizatu",
+        "meaning": "robotizar"
+      }
+    ]
+  },
+  {
+    "word": "robotizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "robotizatu",
+        "lemma": "robotizatu",
+        "meaning": "robotizar"
+      }
+    ]
+  },
+  {
+    "word": "robotizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "robotizatu",
+        "lemma": "robotizatu",
+        "meaning": "robotizar"
+      }
+    ]
+  }
+]

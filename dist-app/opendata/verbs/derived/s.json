@@ -1,0 +1,5216 @@
+[
+  {
+    "word": "sabelduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sabeldu",
+        "lemma": "sabeldu",
+        "meaning": "abombar"
+      }
+    ]
+  },
+  {
+    "word": "sabelera",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sabeleratu",
+        "lemma": "sabeleratu",
+        "meaning": "comer"
+      }
+    ]
+  },
+  {
+    "word": "sabeleratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sabeleratu",
+        "lemma": "sabeleratu",
+        "meaning": "comer"
+      }
+    ]
+  },
+  {
+    "word": "sabeleratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sabeleratu",
+        "lemma": "sabeleratu",
+        "meaning": "comer"
+      }
+    ]
+  },
+  {
+    "word": "sabeltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sabeldu",
+        "lemma": "sabeldu",
+        "meaning": "abombar"
+      }
+    ]
+  },
+  {
+    "word": "sabotea",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "saboteatu",
+        "lemma": "saboteatu",
+        "meaning": "sabotear"
+      }
+    ]
+  },
+  {
+    "word": "saboteatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "saboteatu",
+        "lemma": "saboteatu",
+        "meaning": "sabotear"
+      }
+    ]
+  },
+  {
+    "word": "saboteatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "saboteatu",
+        "lemma": "saboteatu",
+        "meaning": "sabotear"
+      }
+    ]
+  },
+  {
+    "word": "sagaratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sagaratu",
+        "lemma": "sagaratu",
+        "meaning": "consagrar"
+      }
+    ]
+  },
+  {
+    "word": "sagaratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sagaratu",
+        "lemma": "sagaratu",
+        "meaning": "consagrar"
+      }
+    ]
+  },
+  {
+    "word": "saiaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "saiarazi",
+        "lemma": "saiarazi",
+        "meaning": "intentar"
+      }
+    ]
+  },
+  {
+    "word": "saiaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "saiarazi",
+        "lemma": "saiarazi",
+        "meaning": "intentar"
+      }
+    ]
+  },
+  {
+    "word": "saiarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "saiarazi",
+        "lemma": "saiarazi",
+        "meaning": "intentar"
+      }
+    ]
+  },
+  {
+    "word": "saiatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "saiatu",
+        "lemma": "saiatu",
+        "meaning": "esforzarse"
+      }
+    ]
+  },
+  {
+    "word": "saiatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "saiatu",
+        "lemma": "saiatu",
+        "meaning": "esforzarse"
+      }
+    ]
+  },
+  {
+    "word": "saihes",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "saihestu",
+        "lemma": "saihestu",
+        "meaning": "evitar"
+      }
+    ]
+  },
+  {
+    "word": "saihestuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "saihestu",
+        "lemma": "saihestu",
+        "meaning": "evitar"
+      }
+    ]
+  },
+  {
+    "word": "saihestzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "saihestu",
+        "lemma": "saihestu",
+        "meaning": "evitar"
+      }
+    ]
+  },
+  {
+    "word": "saihetsiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "saihetsi",
+        "lemma": "saihetsi",
+        "meaning": "evitar"
+      }
+    ]
+  },
+  {
+    "word": "saihetsten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "saihetsi",
+        "lemma": "saihetsi",
+        "meaning": "evitar"
+      }
+    ]
+  },
+  {
+    "word": "sailkatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sailkatu",
+        "lemma": "sailkatu",
+        "meaning": "clasificar"
+      }
+    ]
+  },
+  {
+    "word": "sailkatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sailkatu",
+        "lemma": "sailkatu",
+        "meaning": "clasificar"
+      }
+    ]
+  },
+  {
+    "word": "sainduets",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sainduetsi",
+        "lemma": "sainduetsi",
+        "meaning": "santificar"
+      }
+    ]
+  },
+  {
+    "word": "sainduetsiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sainduetsi",
+        "lemma": "sainduetsi",
+        "meaning": "santificar"
+      }
+    ]
+  },
+  {
+    "word": "sainduetsten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sainduetsi",
+        "lemma": "sainduetsi",
+        "meaning": "santificar"
+      }
+    ]
+  },
+  {
+    "word": "saka",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sakatu",
+        "lemma": "sakatu",
+        "meaning": "pulsar"
+      }
+    ]
+  },
+  {
+    "word": "sakabana",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sakabanatu",
+        "lemma": "sakabanatu",
+        "meaning": "dispersar"
+      }
+    ]
+  },
+  {
+    "word": "sakabanatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sakabanatu",
+        "lemma": "sakabanatu",
+        "meaning": "dispersar"
+      }
+    ]
+  },
+  {
+    "word": "sakabanatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sakabanatu",
+        "lemma": "sakabanatu",
+        "meaning": "dispersar"
+      }
+    ]
+  },
+  {
+    "word": "sakatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sakatu",
+        "lemma": "sakatu",
+        "meaning": "pulsar"
+      }
+    ]
+  },
+  {
+    "word": "sakatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sakatu",
+        "lemma": "sakatu",
+        "meaning": "pulsar"
+      }
+    ]
+  },
+  {
+    "word": "sakelara",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sakelaratu",
+        "lemma": "sakelaratu",
+        "meaning": "embolsar"
+      }
+    ]
+  },
+  {
+    "word": "sakelaratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sakelaratu",
+        "lemma": "sakelaratu",
+        "meaning": "embolsar"
+      }
+    ]
+  },
+  {
+    "word": "sakelaratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sakelaratu",
+        "lemma": "sakelaratu",
+        "meaning": "embolsar"
+      }
+    ]
+  },
+  {
+    "word": "sakonago",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sakonagotu",
+        "lemma": "sakonagotu",
+        "meaning": "profundizar"
+      }
+    ]
+  },
+  {
+    "word": "sakonagotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sakonagotu",
+        "lemma": "sakonagotu",
+        "meaning": "profundizar"
+      }
+    ]
+  },
+  {
+    "word": "sakonagotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sakonagotu",
+        "lemma": "sakonagotu",
+        "meaning": "profundizar"
+      }
+    ]
+  },
+  {
+    "word": "sakonduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sakondu",
+        "lemma": "sakondu",
+        "meaning": "profundizar"
+      }
+    ]
+  },
+  {
+    "word": "sakontzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sakondu",
+        "lemma": "sakondu",
+        "meaning": "profundizar"
+      }
+    ]
+  },
+  {
+    "word": "sakraliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sakralizatu",
+        "lemma": "sakralizatu",
+        "meaning": "sacralizar"
+      }
+    ]
+  },
+  {
+    "word": "sakralizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sakralizatu",
+        "lemma": "sakralizatu",
+        "meaning": "sacralizar"
+      }
+    ]
+  },
+  {
+    "word": "sakralizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sakralizatu",
+        "lemma": "sakralizatu",
+        "meaning": "sacralizar"
+      }
+    ]
+  },
+  {
+    "word": "sakrifika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sakrifikatu",
+        "lemma": "sakrifikatu",
+        "meaning": "sacrificarse"
+      }
+    ]
+  },
+  {
+    "word": "sakrifikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sakrifikatu",
+        "lemma": "sakrifikatu",
+        "meaning": "sacrificarse"
+      }
+    ]
+  },
+  {
+    "word": "sakrifikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sakrifikatu",
+        "lemma": "sakrifikatu",
+        "meaning": "sacrificarse"
+      }
+    ]
+  },
+  {
+    "word": "sal",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "saldu",
+        "lemma": "saldu",
+        "meaning": "vender"
+      }
+    ]
+  },
+  {
+    "word": "salaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "salarazi",
+        "lemma": "salarazi",
+        "meaning": "denunciar"
+      }
+    ]
+  },
+  {
+    "word": "salaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "salarazi",
+        "lemma": "salarazi",
+        "meaning": "denunciar"
+      }
+    ]
+  },
+  {
+    "word": "salarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "salarazi",
+        "lemma": "salarazi",
+        "meaning": "denunciar"
+      }
+    ]
+  },
+  {
+    "word": "salatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "salatu",
+        "lemma": "salatu",
+        "meaning": "acusar"
+      }
+    ]
+  },
+  {
+    "word": "salatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "salatu",
+        "lemma": "salatu",
+        "meaning": "acusar"
+      }
+    ]
+  },
+  {
+    "word": "salbaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "salbarazi",
+        "lemma": "salbarazi",
+        "meaning": "salvar"
+      }
+    ]
+  },
+  {
+    "word": "salbaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "salbarazi",
+        "lemma": "salbarazi",
+        "meaning": "salvar"
+      }
+    ]
+  },
+  {
+    "word": "salbarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "salbarazi",
+        "lemma": "salbarazi",
+        "meaning": "salvar"
+      }
+    ]
+  },
+  {
+    "word": "salbatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "salbatu",
+        "lemma": "salbatu",
+        "meaning": "salvar"
+      }
+    ]
+  },
+  {
+    "word": "salbatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "salbatu",
+        "lemma": "salbatu",
+        "meaning": "salvar"
+      }
+    ]
+  },
+  {
+    "word": "salbuespenduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "salbuespendu",
+        "lemma": "salbuespendu",
+        "meaning": "exceptuar"
+      }
+    ]
+  },
+  {
+    "word": "salbuespentzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "salbuespendu",
+        "lemma": "salbuespendu",
+        "meaning": "exceptuar"
+      }
+    ]
+  },
+  {
+    "word": "salbuets",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "salbuetsi",
+        "lemma": "salbuetsi",
+        "meaning": "exceptuar"
+      }
+    ]
+  },
+  {
+    "word": "salbuetsiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "salbuetsi",
+        "lemma": "salbuetsi",
+        "meaning": "exceptuar"
+      }
+    ]
+  },
+  {
+    "word": "salbuetsten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "salbuetsi",
+        "lemma": "salbuetsi",
+        "meaning": "exceptuar"
+      }
+    ]
+  },
+  {
+    "word": "salduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "saldu",
+        "lemma": "saldu",
+        "meaning": "vender"
+      }
+    ]
+  },
+  {
+    "word": "saleros",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "salerosi",
+        "lemma": "salerosi",
+        "meaning": "comerciar"
+      }
+    ]
+  },
+  {
+    "word": "salerosiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "salerosi",
+        "lemma": "salerosi",
+        "meaning": "comerciar"
+      }
+    ]
+  },
+  {
+    "word": "salerosten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "salerosi",
+        "lemma": "salerosi",
+        "meaning": "comerciar"
+      }
+    ]
+  },
+  {
+    "word": "salmodiatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "salmodiatu",
+        "lemma": "salmodiatu",
+        "meaning": "salmodiar"
+      }
+    ]
+  },
+  {
+    "word": "salmodiatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "salmodiatu",
+        "lemma": "salmodiatu",
+        "meaning": "salmodiar"
+      }
+    ]
+  },
+  {
+    "word": "salta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "saltatu",
+        "lemma": "saltatu",
+        "meaning": "saltar"
+      }
+    ]
+  },
+  {
+    "word": "saltaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "saltarazi",
+        "lemma": "saltarazi",
+        "meaning": "saltar"
+      }
+    ]
+  },
+  {
+    "word": "saltaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "saltarazi",
+        "lemma": "saltarazi",
+        "meaning": "saltar"
+      }
+    ]
+  },
+  {
+    "word": "saltarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "saltarazi",
+        "lemma": "saltarazi",
+        "meaning": "saltar"
+      }
+    ]
+  },
+  {
+    "word": "saltatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "saltatu",
+        "lemma": "saltatu",
+        "meaning": "saltar"
+      }
+    ]
+  },
+  {
+    "word": "saltatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "saltatu",
+        "lemma": "saltatu",
+        "meaning": "saltar"
+      }
+    ]
+  },
+  {
+    "word": "saltea",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "salteatu",
+        "lemma": "salteatu",
+        "meaning": "saltear"
+      }
+    ]
+  },
+  {
+    "word": "salteatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "salteatu",
+        "lemma": "salteatu",
+        "meaning": "saltear"
+      }
+    ]
+  },
+  {
+    "word": "salteatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "salteatu",
+        "lemma": "salteatu",
+        "meaning": "saltear"
+      }
+    ]
+  },
+  {
+    "word": "saltsatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "saltsatu",
+        "lemma": "saltsatu",
+        "meaning": "poner en salsa"
+      }
+    ]
+  },
+  {
+    "word": "saltsatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "saltsatu",
+        "lemma": "saltsatu",
+        "meaning": "poner en salsa"
+      }
+    ]
+  },
+  {
+    "word": "saltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "saldu",
+        "lemma": "saldu",
+        "meaning": "vender"
+      }
+    ]
+  },
+  {
+    "word": "saminaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "saminarazi",
+        "lemma": "saminarazi",
+        "meaning": "amargar"
+      }
+    ]
+  },
+  {
+    "word": "saminaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "saminarazi",
+        "lemma": "saminarazi",
+        "meaning": "amargar"
+      }
+    ]
+  },
+  {
+    "word": "saminarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "saminarazi",
+        "lemma": "saminarazi",
+        "meaning": "amargar"
+      }
+    ]
+  },
+  {
+    "word": "saminduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "samindu",
+        "lemma": "samindu",
+        "meaning": "apenar"
+      }
+    ]
+  },
+  {
+    "word": "samintzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "samindu",
+        "lemma": "samindu",
+        "meaning": "apenar"
+      }
+    ]
+  },
+  {
+    "word": "samurraraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "samurrarazi",
+        "lemma": "samurrarazi",
+        "meaning": "enternecer"
+      }
+    ]
+  },
+  {
+    "word": "samurraraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "samurrarazi",
+        "lemma": "samurrarazi",
+        "meaning": "enternecer"
+      }
+    ]
+  },
+  {
+    "word": "samurrarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "samurrarazi",
+        "lemma": "samurrarazi",
+        "meaning": "enternecer"
+      }
+    ]
+  },
+  {
+    "word": "samurtuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "samurtu",
+        "lemma": "samurtu",
+        "meaning": "ablandar"
+      }
+    ]
+  },
+  {
+    "word": "samurtzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "samurtu",
+        "lemma": "samurtu",
+        "meaning": "ablandar"
+      }
+    ]
+  },
+  {
+    "word": "sanea",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "saneatu",
+        "lemma": "saneatu",
+        "meaning": "sanear"
+      }
+    ]
+  },
+  {
+    "word": "saneatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "saneatu",
+        "lemma": "saneatu",
+        "meaning": "sanear"
+      }
+    ]
+  },
+  {
+    "word": "saneatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "saneatu",
+        "lemma": "saneatu",
+        "meaning": "sanear"
+      }
+    ]
+  },
+  {
+    "word": "sangra",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sangratu",
+        "lemma": "sangratu",
+        "meaning": "sangrar"
+      }
+    ]
+  },
+  {
+    "word": "sangratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sangratu",
+        "lemma": "sangratu",
+        "meaning": "sangrar"
+      }
+    ]
+  },
+  {
+    "word": "sangratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sangratu",
+        "lemma": "sangratu",
+        "meaning": "sangrar"
+      }
+    ]
+  },
+  {
+    "word": "santifika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "santifikatu",
+        "lemma": "santifikatu",
+        "meaning": "santificar"
+      }
+    ]
+  },
+  {
+    "word": "santifikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "santifikatu",
+        "lemma": "santifikatu",
+        "meaning": "santificar"
+      }
+    ]
+  },
+  {
+    "word": "santifikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "santifikatu",
+        "lemma": "santifikatu",
+        "meaning": "santificar"
+      }
+    ]
+  },
+  {
+    "word": "santutuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "santutu",
+        "lemma": "santutu",
+        "meaning": "santificar"
+      }
+    ]
+  },
+  {
+    "word": "santutzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "santutu",
+        "lemma": "santutu",
+        "meaning": "santificar"
+      }
+    ]
+  },
+  {
+    "word": "saponifika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "saponifikatu",
+        "lemma": "saponifikatu",
+        "meaning": "saponificar"
+      }
+    ]
+  },
+  {
+    "word": "saponifikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "saponifikatu",
+        "lemma": "saponifikatu",
+        "meaning": "saponificar"
+      }
+    ]
+  },
+  {
+    "word": "saponifikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "saponifikatu",
+        "lemma": "saponifikatu",
+        "meaning": "saponificar"
+      }
+    ]
+  },
+  {
+    "word": "sar",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sartu",
+        "lemma": "sartu",
+        "meaning": "entrar"
+      }
+    ]
+  },
+  {
+    "word": "sara",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "saratu",
+        "lemma": "saratu",
+        "meaning": "escardar"
+      }
+    ]
+  },
+  {
+    "word": "saratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "saratu",
+        "lemma": "saratu",
+        "meaning": "escardar"
+      }
+    ]
+  },
+  {
+    "word": "saratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "saratu",
+        "lemma": "saratu",
+        "meaning": "escardar"
+      }
+    ]
+  },
+  {
+    "word": "sardetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sardetu",
+        "lemma": "sardetu",
+        "meaning": "bifurcarse"
+      }
+    ]
+  },
+  {
+    "word": "sardetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sardetu",
+        "lemma": "sardetu",
+        "meaning": "bifurcarse"
+      }
+    ]
+  },
+  {
+    "word": "sarera",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sareratu",
+        "lemma": "sareratu",
+        "meaning": "meterse en la red"
+      }
+    ]
+  },
+  {
+    "word": "sareratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sareratu",
+        "lemma": "sareratu",
+        "meaning": "meterse en la red"
+      }
+    ]
+  },
+  {
+    "word": "sareratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sareratu",
+        "lemma": "sareratu",
+        "meaning": "meterse en la red"
+      }
+    ]
+  },
+  {
+    "word": "saretuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "saretu",
+        "lemma": "saretu",
+        "meaning": "desgastarse"
+      }
+    ]
+  },
+  {
+    "word": "saretzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "saretu",
+        "lemma": "saretu",
+        "meaning": "desgastarse"
+      }
+    ]
+  },
+  {
+    "word": "sargorituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sargoritu",
+        "lemma": "sargoritu",
+        "meaning": "abochornar"
+      }
+    ]
+  },
+  {
+    "word": "sargoritzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sargoritu",
+        "lemma": "sargoritu",
+        "meaning": "abochornar"
+      }
+    ]
+  },
+  {
+    "word": "sarituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "saritu",
+        "lemma": "saritu",
+        "meaning": "premiar"
+      }
+    ]
+  },
+  {
+    "word": "saritzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "saritu",
+        "lemma": "saritu",
+        "meaning": "premiar"
+      }
+    ]
+  },
+  {
+    "word": "sarizta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sariztatu",
+        "lemma": "sariztatu",
+        "meaning": "premiar"
+      }
+    ]
+  },
+  {
+    "word": "sariztatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sariztatu",
+        "lemma": "sariztatu",
+        "meaning": "premiar"
+      }
+    ]
+  },
+  {
+    "word": "sariztatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sariztatu",
+        "lemma": "sariztatu",
+        "meaning": "premiar"
+      }
+    ]
+  },
+  {
+    "word": "sarraraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sarrarazi",
+        "lemma": "sarrarazi",
+        "meaning": "entrar"
+      }
+    ]
+  },
+  {
+    "word": "sarraraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sarrarazi",
+        "lemma": "sarrarazi",
+        "meaning": "entrar"
+      }
+    ]
+  },
+  {
+    "word": "sarrarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sarrarazi",
+        "lemma": "sarrarazi",
+        "meaning": "entrar"
+      }
+    ]
+  },
+  {
+    "word": "sarraskituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sarraskitu",
+        "lemma": "sarraskitu",
+        "meaning": "masacrar"
+      }
+    ]
+  },
+  {
+    "word": "sarraskitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sarraskitu",
+        "lemma": "sarraskitu",
+        "meaning": "masacrar"
+      }
+    ]
+  },
+  {
+    "word": "sartuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sartu",
+        "lemma": "sartu",
+        "meaning": "entrar"
+      }
+    ]
+  },
+  {
+    "word": "sartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sartu",
+        "lemma": "sartu",
+        "meaning": "entrar"
+      }
+    ]
+  },
+  {
+    "word": "sas",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sastu",
+        "lemma": "sastu",
+        "meaning": "abonar"
+      }
+    ]
+  },
+  {
+    "word": "sasituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sasitu",
+        "lemma": "sasitu",
+        "meaning": "llenar de zarzas"
+      }
+    ]
+  },
+  {
+    "word": "sasitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sasitu",
+        "lemma": "sasitu",
+        "meaning": "llenar de zarzas"
+      }
+    ]
+  },
+  {
+    "word": "saskira",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "saskiratu",
+        "lemma": "saskiratu",
+        "meaning": "encestar"
+      }
+    ]
+  },
+  {
+    "word": "saskiratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "saskiratu",
+        "lemma": "saskiratu",
+        "meaning": "encestar"
+      }
+    ]
+  },
+  {
+    "word": "saskiratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "saskiratu",
+        "lemma": "saskiratu",
+        "meaning": "encestar"
+      }
+    ]
+  },
+  {
+    "word": "sasta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sastatu",
+        "lemma": "sastatu",
+        "meaning": "apuñalar"
+      }
+    ]
+  },
+  {
+    "word": "sastaka",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sastakatu",
+        "lemma": "sastakatu",
+        "meaning": "apuñalar"
+      }
+    ]
+  },
+  {
+    "word": "sastakatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sastakatu",
+        "lemma": "sastakatu",
+        "meaning": "apuñalar"
+      }
+    ]
+  },
+  {
+    "word": "sastakatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sastakatu",
+        "lemma": "sastakatu",
+        "meaning": "apuñalar"
+      }
+    ]
+  },
+  {
+    "word": "sastatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sastatu",
+        "lemma": "sastatu",
+        "meaning": "apuñalar"
+      }
+    ]
+  },
+  {
+    "word": "sastatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sastatu",
+        "lemma": "sastatu",
+        "meaning": "apuñalar"
+      }
+    ]
+  },
+  {
+    "word": "sastuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sastu",
+        "lemma": "sastu",
+        "meaning": "abonar"
+      }
+    ]
+  },
+  {
+    "word": "sastzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sastu",
+        "lemma": "sastu",
+        "meaning": "abonar"
+      }
+    ]
+  },
+  {
+    "word": "sataniza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "satanizatu",
+        "lemma": "satanizatu",
+        "meaning": "satanizar"
+      }
+    ]
+  },
+  {
+    "word": "satanizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "satanizatu",
+        "lemma": "satanizatu",
+        "meaning": "satanizar"
+      }
+    ]
+  },
+  {
+    "word": "satanizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "satanizatu",
+        "lemma": "satanizatu",
+        "meaning": "satanizar"
+      }
+    ]
+  },
+  {
+    "word": "sateliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "satelizatu",
+        "lemma": "satelizatu",
+        "meaning": "satelizar"
+      }
+    ]
+  },
+  {
+    "word": "satelizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "satelizatu",
+        "lemma": "satelizatu",
+        "meaning": "satelizar"
+      }
+    ]
+  },
+  {
+    "word": "satelizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "satelizatu",
+        "lemma": "satelizatu",
+        "meaning": "satelizar"
+      }
+    ]
+  },
+  {
+    "word": "satina",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "satinatu",
+        "lemma": "satinatu",
+        "meaning": "satinar"
+      }
+    ]
+  },
+  {
+    "word": "satinatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "satinatu",
+        "lemma": "satinatu",
+        "meaning": "satinar"
+      }
+    ]
+  },
+  {
+    "word": "satinatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "satinatu",
+        "lemma": "satinatu",
+        "meaning": "satinar"
+      }
+    ]
+  },
+  {
+    "word": "satiriza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "satirizatu",
+        "lemma": "satirizatu",
+        "meaning": "satirizar"
+      }
+    ]
+  },
+  {
+    "word": "satirizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "satirizatu",
+        "lemma": "satirizatu",
+        "meaning": "satirizar"
+      }
+    ]
+  },
+  {
+    "word": "satirizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "satirizatu",
+        "lemma": "satirizatu",
+        "meaning": "satirizar"
+      }
+    ]
+  },
+  {
+    "word": "satsutuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "satsutu",
+        "lemma": "satsutu",
+        "meaning": "ensuciarse"
+      }
+    ]
+  },
+  {
+    "word": "satsutzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "satsutu",
+        "lemma": "satsutu",
+        "meaning": "ensuciarse"
+      }
+    ]
+  },
+  {
+    "word": "sedimenta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sedimentatu",
+        "lemma": "sedimentatu",
+        "meaning": "sedimentar"
+      }
+    ]
+  },
+  {
+    "word": "sedimentatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sedimentatu",
+        "lemma": "sedimentatu",
+        "meaning": "sedimentar"
+      }
+    ]
+  },
+  {
+    "word": "sedimentatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sedimentatu",
+        "lemma": "sedimentatu",
+        "meaning": "sedimentar"
+      }
+    ]
+  },
+  {
+    "word": "seduzi",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "seduzitu",
+        "lemma": "seduzitu",
+        "meaning": "seducir"
+      }
+    ]
+  },
+  {
+    "word": "seduzituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "seduzitu",
+        "lemma": "seduzitu",
+        "meaning": "seducir"
+      }
+    ]
+  },
+  {
+    "word": "seduzitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "seduzitu",
+        "lemma": "seduzitu",
+        "meaning": "seducir"
+      }
+    ]
+  },
+  {
+    "word": "segatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "segatu",
+        "lemma": "segatu",
+        "meaning": "guadañar"
+      }
+    ]
+  },
+  {
+    "word": "segatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "segatu",
+        "lemma": "segatu",
+        "meaning": "guadañar"
+      }
+    ]
+  },
+  {
+    "word": "segi",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "segitu",
+        "lemma": "segitu",
+        "meaning": "seguir"
+      }
+    ]
+  },
+  {
+    "word": "segituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "segitu",
+        "lemma": "segitu",
+        "meaning": "seguir"
+      }
+    ]
+  },
+  {
+    "word": "segitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "segitu",
+        "lemma": "segitu",
+        "meaning": "seguir"
+      }
+    ]
+  },
+  {
+    "word": "segmenta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "segmentatu",
+        "lemma": "segmentatu",
+        "meaning": "segmentar"
+      }
+    ]
+  },
+  {
+    "word": "segmentatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "segmentatu",
+        "lemma": "segmentatu",
+        "meaning": "segmentar"
+      }
+    ]
+  },
+  {
+    "word": "segmentatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "segmentatu",
+        "lemma": "segmentatu",
+        "meaning": "segmentar"
+      }
+    ]
+  },
+  {
+    "word": "segurta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "segurtatu",
+        "lemma": "segurtatu",
+        "meaning": "asegurar"
+      }
+    ]
+  },
+  {
+    "word": "segurtatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "segurtatu",
+        "lemma": "segurtatu",
+        "meaning": "asegurar"
+      }
+    ]
+  },
+  {
+    "word": "segurtatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "segurtatu",
+        "lemma": "segurtatu",
+        "meaning": "asegurar"
+      }
+    ]
+  },
+  {
+    "word": "seikoiz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "seikoiztu",
+        "lemma": "seikoiztu",
+        "meaning": "sextuplicar"
+      }
+    ]
+  },
+  {
+    "word": "seikoiztuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "seikoiztu",
+        "lemma": "seikoiztu",
+        "meaning": "sextuplicar"
+      }
+    ]
+  },
+  {
+    "word": "seikoiztzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "seikoiztu",
+        "lemma": "seikoiztu",
+        "meaning": "sextuplicar"
+      }
+    ]
+  },
+  {
+    "word": "seinala",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "seinalatu",
+        "lemma": "seinalatu",
+        "meaning": "señalar"
+      }
+    ]
+  },
+  {
+    "word": "seinalaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "seinalarazi",
+        "lemma": "seinalarazi",
+        "meaning": "señalar"
+      }
+    ]
+  },
+  {
+    "word": "seinalaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "seinalarazi",
+        "lemma": "seinalarazi",
+        "meaning": "señalar"
+      }
+    ]
+  },
+  {
+    "word": "seinalarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "seinalarazi",
+        "lemma": "seinalarazi",
+        "meaning": "señalar"
+      }
+    ]
+  },
+  {
+    "word": "seinalatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "seinalatu",
+        "lemma": "seinalatu",
+        "meaning": "señalar"
+      }
+    ]
+  },
+  {
+    "word": "seinalatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "seinalatu",
+        "lemma": "seinalatu",
+        "meaning": "señalar"
+      }
+    ]
+  },
+  {
+    "word": "seinalezta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "seinaleztatu",
+        "lemma": "seinaleztatu",
+        "meaning": "señalizar"
+      }
+    ]
+  },
+  {
+    "word": "seinaleztatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "seinaleztatu",
+        "lemma": "seinaleztatu",
+        "meaning": "señalizar"
+      }
+    ]
+  },
+  {
+    "word": "seinaleztatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "seinaleztatu",
+        "lemma": "seinaleztatu",
+        "meaning": "señalizar"
+      }
+    ]
+  },
+  {
+    "word": "sekuentziatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sekuentziatu",
+        "lemma": "sekuentziatu",
+        "meaning": "secuenciar"
+      }
+    ]
+  },
+  {
+    "word": "sekuentziatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sekuentziatu",
+        "lemma": "sekuentziatu",
+        "meaning": "secuenciar"
+      }
+    ]
+  },
+  {
+    "word": "sekulariza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sekularizatu",
+        "lemma": "sekularizatu",
+        "meaning": "secularizar"
+      }
+    ]
+  },
+  {
+    "word": "sekularizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sekularizatu",
+        "lemma": "sekularizatu",
+        "meaning": "secularizar"
+      }
+    ]
+  },
+  {
+    "word": "sekularizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sekularizatu",
+        "lemma": "sekularizatu",
+        "meaning": "secularizar"
+      }
+    ]
+  },
+  {
+    "word": "selekziona",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "selekzionatu",
+        "lemma": "selekzionatu",
+        "meaning": "seleccionar"
+      }
+    ]
+  },
+  {
+    "word": "selekzionatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "selekzionatu",
+        "lemma": "selekzionatu",
+        "meaning": "seleccionar"
+      }
+    ]
+  },
+  {
+    "word": "selekzionatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "selekzionatu",
+        "lemma": "selekzionatu",
+        "meaning": "seleccionar"
+      }
+    ]
+  },
+  {
+    "word": "senartuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "senartu",
+        "lemma": "senartu",
+        "meaning": "casar"
+      }
+    ]
+  },
+  {
+    "word": "senartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "senartu",
+        "lemma": "senartu",
+        "meaning": "casar"
+      }
+    ]
+  },
+  {
+    "word": "senda",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sendatu",
+        "lemma": "sendatu",
+        "meaning": "curar"
+      }
+    ]
+  },
+  {
+    "word": "sendaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sendarazi",
+        "lemma": "sendarazi",
+        "meaning": "curar"
+      }
+    ]
+  },
+  {
+    "word": "sendaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sendarazi",
+        "lemma": "sendarazi",
+        "meaning": "curar"
+      }
+    ]
+  },
+  {
+    "word": "sendarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sendarazi",
+        "lemma": "sendarazi",
+        "meaning": "curar"
+      }
+    ]
+  },
+  {
+    "word": "sendatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sendatu",
+        "lemma": "sendatu",
+        "meaning": "curar"
+      }
+    ]
+  },
+  {
+    "word": "sendatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sendatu",
+        "lemma": "sendatu",
+        "meaning": "curar"
+      }
+    ]
+  },
+  {
+    "word": "sendets",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sendetsi",
+        "lemma": "sendetsi",
+        "meaning": "confirmar"
+      }
+    ]
+  },
+  {
+    "word": "sendetsiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sendetsi",
+        "lemma": "sendetsi",
+        "meaning": "confirmar"
+      }
+    ]
+  },
+  {
+    "word": "sendetsten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sendetsi",
+        "lemma": "sendetsi",
+        "meaning": "confirmar"
+      }
+    ]
+  },
+  {
+    "word": "sendoago",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sendoagotu",
+        "lemma": "sendoagotu",
+        "meaning": "fortalecer"
+      }
+    ]
+  },
+  {
+    "word": "sendoagotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sendoagotu",
+        "lemma": "sendoagotu",
+        "meaning": "fortalecer"
+      }
+    ]
+  },
+  {
+    "word": "sendoagotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sendoagotu",
+        "lemma": "sendoagotu",
+        "meaning": "fortalecer"
+      }
+    ]
+  },
+  {
+    "word": "sendotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sendotu",
+        "lemma": "sendotu",
+        "meaning": "fortalecer"
+      }
+    ]
+  },
+  {
+    "word": "sendotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sendotu",
+        "lemma": "sendotu",
+        "meaning": "fortalecer"
+      }
+    ]
+  },
+  {
+    "word": "senera",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "seneratu",
+        "lemma": "seneratu",
+        "meaning": "recobrar el sentido"
+      }
+    ]
+  },
+  {
+    "word": "seneratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "seneratu",
+        "lemma": "seneratu",
+        "meaning": "recobrar el sentido"
+      }
+    ]
+  },
+  {
+    "word": "seneratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "seneratu",
+        "lemma": "seneratu",
+        "meaning": "recobrar el sentido"
+      }
+    ]
+  },
+  {
+    "word": "senidetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "senidetu",
+        "lemma": "senidetu",
+        "meaning": "hermanar"
+      }
+    ]
+  },
+  {
+    "word": "senidetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "senidetu",
+        "lemma": "senidetu",
+        "meaning": "hermanar"
+      }
+    ]
+  },
+  {
+    "word": "senti",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sentitu",
+        "lemma": "sentitu",
+        "meaning": "sentir"
+      }
+    ]
+  },
+  {
+    "word": "sentiaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sentiarazi",
+        "lemma": "sentiarazi",
+        "meaning": "sentir"
+      }
+    ]
+  },
+  {
+    "word": "sentiaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sentiarazi",
+        "lemma": "sentiarazi",
+        "meaning": "sentir"
+      }
+    ]
+  },
+  {
+    "word": "sentiarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sentiarazi",
+        "lemma": "sentiarazi",
+        "meaning": "sentir"
+      }
+    ]
+  },
+  {
+    "word": "sentikortuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sentikortu",
+        "lemma": "sentikortu",
+        "meaning": "ofenderse"
+      }
+    ]
+  },
+  {
+    "word": "sentikortzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sentikortu",
+        "lemma": "sentikortu",
+        "meaning": "ofenderse"
+      }
+    ]
+  },
+  {
+    "word": "sentimentaliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sentimentalizatu",
+        "lemma": "sentimentalizatu",
+        "meaning": "sentimentalizar"
+      }
+    ]
+  },
+  {
+    "word": "sentimentalizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sentimentalizatu",
+        "lemma": "sentimentalizatu",
+        "meaning": "sentimentalizar"
+      }
+    ]
+  },
+  {
+    "word": "sentimentalizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sentimentalizatu",
+        "lemma": "sentimentalizatu",
+        "meaning": "sentimentalizar"
+      }
+    ]
+  },
+  {
+    "word": "sentituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sentitu",
+        "lemma": "sentitu",
+        "meaning": "sentir"
+      }
+    ]
+  },
+  {
+    "word": "sentitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sentitu",
+        "lemma": "sentitu",
+        "meaning": "sentir"
+      }
+    ]
+  },
+  {
+    "word": "sentsibiliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sentsibilizatu",
+        "lemma": "sentsibilizatu",
+        "meaning": "sensibilizar"
+      }
+    ]
+  },
+  {
+    "word": "sentsibilizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sentsibilizatu",
+        "lemma": "sentsibilizatu",
+        "meaning": "sensibilizar"
+      }
+    ]
+  },
+  {
+    "word": "sentsibilizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sentsibilizatu",
+        "lemma": "sentsibilizatu",
+        "meaning": "sensibilizar"
+      }
+    ]
+  },
+  {
+    "word": "separa",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "separatu",
+        "lemma": "separatu",
+        "meaning": "separar"
+      }
+    ]
+  },
+  {
+    "word": "separatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "separatu",
+        "lemma": "separatu",
+        "meaning": "separar"
+      }
+    ]
+  },
+  {
+    "word": "separatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "separatu",
+        "lemma": "separatu",
+        "meaning": "separar"
+      }
+    ]
+  },
+  {
+    "word": "serigrafiatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "serigrafiatu",
+        "lemma": "serigrafiatu",
+        "meaning": "serigrafiar"
+      }
+    ]
+  },
+  {
+    "word": "serigrafiatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "serigrafiatu",
+        "lemma": "serigrafiatu",
+        "meaning": "serigrafiar"
+      }
+    ]
+  },
+  {
+    "word": "seroratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "seroratu",
+        "lemma": "seroratu",
+        "meaning": "hacerse monja"
+      }
+    ]
+  },
+  {
+    "word": "seroratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "seroratu",
+        "lemma": "seroratu",
+        "meaning": "hacerse monja"
+      }
+    ]
+  },
+  {
+    "word": "setatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "setatu",
+        "lemma": "setatu",
+        "meaning": "obstinarse"
+      }
+    ]
+  },
+  {
+    "word": "setatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "setatu",
+        "lemma": "setatu",
+        "meaning": "obstinarse"
+      }
+    ]
+  },
+  {
+    "word": "setia",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "setiatu",
+        "lemma": "setiatu",
+        "meaning": "sitiar"
+      }
+    ]
+  },
+  {
+    "word": "setiatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "setiatu",
+        "lemma": "setiatu",
+        "meaning": "sitiar"
+      }
+    ]
+  },
+  {
+    "word": "setiatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "setiatu",
+        "lemma": "setiatu",
+        "meaning": "sitiar"
+      }
+    ]
+  },
+  {
+    "word": "sexualiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sexualizatu",
+        "lemma": "sexualizatu",
+        "meaning": "sexualizar"
+      }
+    ]
+  },
+  {
+    "word": "sexualizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sexualizatu",
+        "lemma": "sexualizatu",
+        "meaning": "sexualizar"
+      }
+    ]
+  },
+  {
+    "word": "sexualizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sexualizatu",
+        "lemma": "sexualizatu",
+        "meaning": "sexualizar"
+      }
+    ]
+  },
+  {
+    "word": "sifoituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sifoitu",
+        "lemma": "sifoitu",
+        "meaning": "sifonar"
+      }
+    ]
+  },
+  {
+    "word": "sifoitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sifoitu",
+        "lemma": "sifoitu",
+        "meaning": "sifonar"
+      }
+    ]
+  },
+  {
+    "word": "sika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sikatu",
+        "lemma": "sikatu",
+        "meaning": "secar"
+      }
+    ]
+  },
+  {
+    "word": "sikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sikatu",
+        "lemma": "sikatu",
+        "meaning": "secar"
+      }
+    ]
+  },
+  {
+    "word": "sikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sikatu",
+        "lemma": "sikatu",
+        "meaning": "secar"
+      }
+    ]
+  },
+  {
+    "word": "silora",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "siloratu",
+        "lemma": "siloratu",
+        "meaning": "ensilar"
+      }
+    ]
+  },
+  {
+    "word": "siloratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "siloratu",
+        "lemma": "siloratu",
+        "meaning": "ensilar"
+      }
+    ]
+  },
+  {
+    "word": "siloratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "siloratu",
+        "lemma": "siloratu",
+        "meaning": "ensilar"
+      }
+    ]
+  },
+  {
+    "word": "simaurtuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "simaurtu",
+        "lemma": "simaurtu",
+        "meaning": "abonar"
+      }
+    ]
+  },
+  {
+    "word": "simaurtzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "simaurtu",
+        "lemma": "simaurtu",
+        "meaning": "abonar"
+      }
+    ]
+  },
+  {
+    "word": "simula",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "simulatu",
+        "lemma": "simulatu",
+        "meaning": "simular"
+      }
+    ]
+  },
+  {
+    "word": "simulatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "simulatu",
+        "lemma": "simulatu",
+        "meaning": "simular"
+      }
+    ]
+  },
+  {
+    "word": "simulatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "simulatu",
+        "lemma": "simulatu",
+        "meaning": "simular"
+      }
+    ]
+  },
+  {
+    "word": "sina",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sinatu",
+        "lemma": "sinatu",
+        "meaning": "firmar"
+      }
+    ]
+  },
+  {
+    "word": "sinaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sinarazi",
+        "lemma": "sinarazi",
+        "meaning": "firmar"
+      }
+    ]
+  },
+  {
+    "word": "sinaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sinarazi",
+        "lemma": "sinarazi",
+        "meaning": "firmar"
+      }
+    ]
+  },
+  {
+    "word": "sinarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sinarazi",
+        "lemma": "sinarazi",
+        "meaning": "firmar"
+      }
+    ]
+  },
+  {
+    "word": "sinatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sinatu",
+        "lemma": "sinatu",
+        "meaning": "firmar"
+      }
+    ]
+  },
+  {
+    "word": "sinatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sinatu",
+        "lemma": "sinatu",
+        "meaning": "firmar"
+      }
+    ]
+  },
+  {
+    "word": "sinboliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sinbolizatu",
+        "lemma": "sinbolizatu",
+        "meaning": "simbolizar"
+      }
+    ]
+  },
+  {
+    "word": "sinbolizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sinbolizatu",
+        "lemma": "sinbolizatu",
+        "meaning": "simbolizar"
+      }
+    ]
+  },
+  {
+    "word": "sinbolizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sinbolizatu",
+        "lemma": "sinbolizatu",
+        "meaning": "simbolizar"
+      }
+    ]
+  },
+  {
+    "word": "sindika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sindikatu",
+        "lemma": "sindikatu",
+        "meaning": "sindicar"
+      }
+    ]
+  },
+  {
+    "word": "sindikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sindikatu",
+        "lemma": "sindikatu",
+        "meaning": "sindicar"
+      }
+    ]
+  },
+  {
+    "word": "sindikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sindikatu",
+        "lemma": "sindikatu",
+        "meaning": "sindicar"
+      }
+    ]
+  },
+  {
+    "word": "sinesta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sinestatu",
+        "lemma": "sinestatu",
+        "meaning": "creer"
+      }
+    ]
+  },
+  {
+    "word": "sinestatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sinestatu",
+        "lemma": "sinestatu",
+        "meaning": "creer"
+      }
+    ]
+  },
+  {
+    "word": "sinestatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sinestatu",
+        "lemma": "sinestatu",
+        "meaning": "creer"
+      }
+    ]
+  },
+  {
+    "word": "sinets",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sinetsi",
+        "lemma": "sinetsi",
+        "meaning": "creer"
+      }
+    ]
+  },
+  {
+    "word": "sinetsaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sinetsarazi",
+        "lemma": "sinetsarazi",
+        "meaning": "creer"
+      }
+    ]
+  },
+  {
+    "word": "sinetsaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sinetsarazi",
+        "lemma": "sinetsarazi",
+        "meaning": "creer"
+      }
+    ]
+  },
+  {
+    "word": "sinetsarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sinetsarazi",
+        "lemma": "sinetsarazi",
+        "meaning": "creer"
+      }
+    ]
+  },
+  {
+    "word": "sinetsiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sinetsi",
+        "lemma": "sinetsi",
+        "meaning": "creer"
+      }
+    ]
+  },
+  {
+    "word": "sinetsten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sinetsi",
+        "lemma": "sinetsi",
+        "meaning": "creer"
+      }
+    ]
+  },
+  {
+    "word": "sinis",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sinistu",
+        "lemma": "sinistu",
+        "meaning": "creer"
+      }
+    ]
+  },
+  {
+    "word": "sinistuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sinistu",
+        "lemma": "sinistu",
+        "meaning": "creer"
+      }
+    ]
+  },
+  {
+    "word": "sinistzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sinistu",
+        "lemma": "sinistu",
+        "meaning": "creer"
+      }
+    ]
+  },
+  {
+    "word": "sinkopatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sinkopatu",
+        "lemma": "sinkopatu",
+        "meaning": "sincopar"
+      }
+    ]
+  },
+  {
+    "word": "sinkopatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sinkopatu",
+        "lemma": "sinkopatu",
+        "meaning": "sincopar"
+      }
+    ]
+  },
+  {
+    "word": "sinkroniza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sinkronizatu",
+        "lemma": "sinkronizatu",
+        "meaning": "sincronizar"
+      }
+    ]
+  },
+  {
+    "word": "sinkronizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sinkronizatu",
+        "lemma": "sinkronizatu",
+        "meaning": "sincronizar"
+      }
+    ]
+  },
+  {
+    "word": "sinkronizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sinkronizatu",
+        "lemma": "sinkronizatu",
+        "meaning": "sincronizar"
+      }
+    ]
+  },
+  {
+    "word": "sinpletuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sinpletu",
+        "lemma": "sinpletu",
+        "meaning": "simplificar"
+      }
+    ]
+  },
+  {
+    "word": "sinpletzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sinpletu",
+        "lemma": "sinpletu",
+        "meaning": "simplificar"
+      }
+    ]
+  },
+  {
+    "word": "sinplifika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sinplifikatu",
+        "lemma": "sinplifikatu",
+        "meaning": "simplificar"
+      }
+    ]
+  },
+  {
+    "word": "sinplifikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sinplifikatu",
+        "lemma": "sinplifikatu",
+        "meaning": "simplificar"
+      }
+    ]
+  },
+  {
+    "word": "sinplifikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sinplifikatu",
+        "lemma": "sinplifikatu",
+        "meaning": "simplificar"
+      }
+    ]
+  },
+  {
+    "word": "sinteriza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sinterizatu",
+        "lemma": "sinterizatu",
+        "meaning": "sinterizar"
+      }
+    ]
+  },
+  {
+    "word": "sinterizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sinterizatu",
+        "lemma": "sinterizatu",
+        "meaning": "sinterizar"
+      }
+    ]
+  },
+  {
+    "word": "sinterizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sinterizatu",
+        "lemma": "sinterizatu",
+        "meaning": "sinterizar"
+      }
+    ]
+  },
+  {
+    "word": "sintetiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sintetizatu",
+        "lemma": "sintetizatu",
+        "meaning": "sintetizar"
+      }
+    ]
+  },
+  {
+    "word": "sintetizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sintetizatu",
+        "lemma": "sintetizatu",
+        "meaning": "sintetizar"
+      }
+    ]
+  },
+  {
+    "word": "sintetizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sintetizatu",
+        "lemma": "sintetizatu",
+        "meaning": "sintetizar"
+      }
+    ]
+  },
+  {
+    "word": "sintoniza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sintonizatu",
+        "lemma": "sintonizatu",
+        "meaning": "sintonizar"
+      }
+    ]
+  },
+  {
+    "word": "sintonizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sintonizatu",
+        "lemma": "sintonizatu",
+        "meaning": "sintonizar"
+      }
+    ]
+  },
+  {
+    "word": "sintonizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sintonizatu",
+        "lemma": "sintonizatu",
+        "meaning": "sintonizar"
+      }
+    ]
+  },
+  {
+    "word": "sistematiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sistematizatu",
+        "lemma": "sistematizatu",
+        "meaning": "sistematizar"
+      }
+    ]
+  },
+  {
+    "word": "sistematizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sistematizatu",
+        "lemma": "sistematizatu",
+        "meaning": "sistematizar"
+      }
+    ]
+  },
+  {
+    "word": "sistematizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sistematizatu",
+        "lemma": "sistematizatu",
+        "meaning": "sistematizar"
+      }
+    ]
+  },
+  {
+    "word": "soberatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "soberatu",
+        "lemma": "soberatu",
+        "meaning": "ahorrar"
+      }
+    ]
+  },
+  {
+    "word": "soberatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "soberatu",
+        "lemma": "soberatu",
+        "meaning": "ahorrar"
+      }
+    ]
+  },
+  {
+    "word": "sobratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sobratu",
+        "lemma": "sobratu",
+        "meaning": "ahorrar"
+      }
+    ]
+  },
+  {
+    "word": "sobratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sobratu",
+        "lemma": "sobratu",
+        "meaning": "ahorrar"
+      }
+    ]
+  },
+  {
+    "word": "sodomiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sodomizatu",
+        "lemma": "sodomizatu",
+        "meaning": "sodomizar"
+      }
+    ]
+  },
+  {
+    "word": "sodomizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sodomizatu",
+        "lemma": "sodomizatu",
+        "meaning": "sodomizar"
+      }
+    ]
+  },
+  {
+    "word": "sodomizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sodomizatu",
+        "lemma": "sodomizatu",
+        "meaning": "sodomizar"
+      }
+    ]
+  },
+  {
+    "word": "sofistikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sofistikatu",
+        "lemma": "sofistikatu",
+        "meaning": "sofisticar"
+      }
+    ]
+  },
+  {
+    "word": "sofistikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sofistikatu",
+        "lemma": "sofistikatu",
+        "meaning": "sofisticar"
+      }
+    ]
+  },
+  {
+    "word": "soilduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "soildu",
+        "lemma": "soildu",
+        "meaning": "despoblar"
+      }
+    ]
+  },
+  {
+    "word": "soiltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "soildu",
+        "lemma": "soildu",
+        "meaning": "despoblar"
+      }
+    ]
+  },
+  {
+    "word": "sokorri",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sokorritu",
+        "lemma": "sokorritu",
+        "meaning": "socorrer"
+      }
+    ]
+  },
+  {
+    "word": "sokorrituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sokorritu",
+        "lemma": "sokorritu",
+        "meaning": "socorrer"
+      }
+    ]
+  },
+  {
+    "word": "sokorritzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sokorritu",
+        "lemma": "sokorritu",
+        "meaning": "socorrer"
+      }
+    ]
+  },
+  {
+    "word": "solasta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "solastatu",
+        "lemma": "solastatu",
+        "meaning": "conversar"
+      }
+    ]
+  },
+  {
+    "word": "solastatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "solastatu",
+        "lemma": "solastatu",
+        "meaning": "conversar"
+      }
+    ]
+  },
+  {
+    "word": "solastatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "solastatu",
+        "lemma": "solastatu",
+        "meaning": "conversar"
+      }
+    ]
+  },
+  {
+    "word": "solda",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "soldatu",
+        "lemma": "soldatu",
+        "meaning": "soldar"
+      }
+    ]
+  },
+  {
+    "word": "soldatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "soldatu",
+        "lemma": "soldatu",
+        "meaning": "soldar"
+      }
+    ]
+  },
+  {
+    "word": "soldatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "soldatu",
+        "lemma": "soldatu",
+        "meaning": "soldar"
+      }
+    ]
+  },
+  {
+    "word": "solfea",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "solfeatu",
+        "lemma": "solfeatu",
+        "meaning": "solfear"
+      }
+    ]
+  },
+  {
+    "word": "solfeatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "solfeatu",
+        "lemma": "solfeatu",
+        "meaning": "solfear"
+      }
+    ]
+  },
+  {
+    "word": "solfeatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "solfeatu",
+        "lemma": "solfeatu",
+        "meaning": "solfear"
+      }
+    ]
+  },
+  {
+    "word": "solidotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "solidotu",
+        "lemma": "solidotu",
+        "meaning": "solidificar"
+      }
+    ]
+  },
+  {
+    "word": "solidotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "solidotu",
+        "lemma": "solidotu",
+        "meaning": "solidificar"
+      }
+    ]
+  },
+  {
+    "word": "solta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "soltatu",
+        "lemma": "soltatu",
+        "meaning": "soltar"
+      }
+    ]
+  },
+  {
+    "word": "soltatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "soltatu",
+        "lemma": "soltatu",
+        "meaning": "soltar"
+      }
+    ]
+  },
+  {
+    "word": "soltatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "soltatu",
+        "lemma": "soltatu",
+        "meaning": "soltar"
+      }
+    ]
+  },
+  {
+    "word": "soluziona",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "soluzionatu",
+        "lemma": "soluzionatu",
+        "meaning": "solucionar"
+      }
+    ]
+  },
+  {
+    "word": "soluzionatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "soluzionatu",
+        "lemma": "soluzionatu",
+        "meaning": "solucionar"
+      }
+    ]
+  },
+  {
+    "word": "soluzionatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "soluzionatu",
+        "lemma": "soluzionatu",
+        "meaning": "solucionar"
+      }
+    ]
+  },
+  {
+    "word": "soraioaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "soraioarazi",
+        "lemma": "soraioarazi",
+        "meaning": "insensibilizar"
+      }
+    ]
+  },
+  {
+    "word": "soraioaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "soraioarazi",
+        "lemma": "soraioarazi",
+        "meaning": "insensibilizar"
+      }
+    ]
+  },
+  {
+    "word": "soraioarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "soraioarazi",
+        "lemma": "soraioarazi",
+        "meaning": "insensibilizar"
+      }
+    ]
+  },
+  {
+    "word": "soraiotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "soraiotu",
+        "lemma": "soraiotu",
+        "meaning": "insensibilizar"
+      }
+    ]
+  },
+  {
+    "word": "soraiotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "soraiotu",
+        "lemma": "soraiotu",
+        "meaning": "insensibilizar"
+      }
+    ]
+  },
+  {
+    "word": "sorbaldara",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sorbaldaratu",
+        "lemma": "sorbaldaratu",
+        "meaning": "poner sobre los hombros"
+      }
+    ]
+  },
+  {
+    "word": "sorbaldaratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sorbaldaratu",
+        "lemma": "sorbaldaratu",
+        "meaning": "poner sobre los hombros"
+      }
+    ]
+  },
+  {
+    "word": "sorbaldaratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sorbaldaratu",
+        "lemma": "sorbaldaratu",
+        "meaning": "poner sobre los hombros"
+      }
+    ]
+  },
+  {
+    "word": "sorberri",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sorberritu",
+        "lemma": "sorberritu",
+        "meaning": "recrear"
+      }
+    ]
+  },
+  {
+    "word": "sorberrituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sorberritu",
+        "lemma": "sorberritu",
+        "meaning": "recrear"
+      }
+    ]
+  },
+  {
+    "word": "sorberritzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sorberritu",
+        "lemma": "sorberritu",
+        "meaning": "recrear"
+      }
+    ]
+  },
+  {
+    "word": "sorginduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sorgindu",
+        "lemma": "sorgindu",
+        "meaning": "embrujar"
+      }
+    ]
+  },
+  {
+    "word": "sorgintzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sorgindu",
+        "lemma": "sorgindu",
+        "meaning": "embrujar"
+      }
+    ]
+  },
+  {
+    "word": "sorgortuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sorgortu",
+        "lemma": "sorgortu",
+        "meaning": "insensibilizar"
+      }
+    ]
+  },
+  {
+    "word": "sorgortzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sorgortu",
+        "lemma": "sorgortu",
+        "meaning": "insensibilizar"
+      }
+    ]
+  },
+  {
+    "word": "sorots",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sorotsi",
+        "lemma": "sorotsi",
+        "meaning": "socorrer"
+      }
+    ]
+  },
+  {
+    "word": "sorotsiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sorotsi",
+        "lemma": "sorotsi",
+        "meaning": "socorrer"
+      }
+    ]
+  },
+  {
+    "word": "sorotsten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sorotsi",
+        "lemma": "sorotsi",
+        "meaning": "socorrer"
+      }
+    ]
+  },
+  {
+    "word": "sorraraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sorrarazi",
+        "lemma": "sorrarazi",
+        "meaning": "originar"
+      }
+    ]
+  },
+  {
+    "word": "sorraraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sorrarazi",
+        "lemma": "sorrarazi",
+        "meaning": "originar"
+      }
+    ]
+  },
+  {
+    "word": "sorrarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sorrarazi",
+        "lemma": "sorrarazi",
+        "meaning": "originar"
+      }
+    ]
+  },
+  {
+    "word": "sortatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sortatu",
+        "lemma": "sortatu",
+        "meaning": "cargar"
+      }
+    ]
+  },
+  {
+    "word": "sortatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sortatu",
+        "lemma": "sortatu",
+        "meaning": "cargar"
+      }
+    ]
+  },
+  {
+    "word": "sortuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sortu",
+        "lemma": "sortu",
+        "meaning": "causar"
+      }
+    ]
+  },
+  {
+    "word": "sortzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sortu",
+        "lemma": "sortu",
+        "meaning": "causar"
+      }
+    ]
+  },
+  {
+    "word": "sosega",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sosegatu",
+        "lemma": "sosegatu",
+        "meaning": "sosegar"
+      }
+    ]
+  },
+  {
+    "word": "sosegatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sosegatu",
+        "lemma": "sosegatu",
+        "meaning": "sosegar"
+      }
+    ]
+  },
+  {
+    "word": "sosegatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sosegatu",
+        "lemma": "sosegatu",
+        "meaning": "sosegar"
+      }
+    ]
+  },
+  {
+    "word": "sostenga",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sostengatu",
+        "lemma": "sostengatu",
+        "meaning": "sostener"
+      }
+    ]
+  },
+  {
+    "word": "sostengatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sostengatu",
+        "lemma": "sostengatu",
+        "meaning": "sostener"
+      }
+    ]
+  },
+  {
+    "word": "sostengatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sostengatu",
+        "lemma": "sostengatu",
+        "meaning": "sostener"
+      }
+    ]
+  },
+  {
+    "word": "sotilduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sotildu",
+        "lemma": "sotildu",
+        "meaning": "refinar"
+      }
+    ]
+  },
+  {
+    "word": "sotiltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sotildu",
+        "lemma": "sotildu",
+        "meaning": "refinar"
+      }
+    ]
+  },
+  {
+    "word": "sozializa",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sozializatu",
+        "lemma": "sozializatu",
+        "meaning": "socializar"
+      }
+    ]
+  },
+  {
+    "word": "sozializatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sozializatu",
+        "lemma": "sozializatu",
+        "meaning": "socializar"
+      }
+    ]
+  },
+  {
+    "word": "sozializatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sozializatu",
+        "lemma": "sozializatu",
+        "meaning": "socializar"
+      }
+    ]
+  },
+  {
+    "word": "subentziona",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "subentzionatu",
+        "lemma": "subentzionatu",
+        "meaning": "subvencionar"
+      }
+    ]
+  },
+  {
+    "word": "subentzionatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "subentzionatu",
+        "lemma": "subentzionatu",
+        "meaning": "subvencionar"
+      }
+    ]
+  },
+  {
+    "word": "subentzionatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "subentzionatu",
+        "lemma": "subentzionatu",
+        "meaning": "subvencionar"
+      }
+    ]
+  },
+  {
+    "word": "subera",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "suberatu",
+        "lemma": "suberatu",
+        "meaning": "recocer"
+      }
+    ]
+  },
+  {
+    "word": "suberatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "suberatu",
+        "lemma": "suberatu",
+        "meaning": "recocer"
+      }
+    ]
+  },
+  {
+    "word": "suberatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "suberatu",
+        "lemma": "suberatu",
+        "meaning": "recocer"
+      }
+    ]
+  },
+  {
+    "word": "sublima",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sublimatu",
+        "lemma": "sublimatu",
+        "meaning": "sublimar"
+      }
+    ]
+  },
+  {
+    "word": "sublimatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sublimatu",
+        "lemma": "sublimatu",
+        "meaning": "sublimar"
+      }
+    ]
+  },
+  {
+    "word": "sublimatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sublimatu",
+        "lemma": "sublimatu",
+        "meaning": "sublimar"
+      }
+    ]
+  },
+  {
+    "word": "subroga",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "subrogatu",
+        "lemma": "subrogatu",
+        "meaning": "subrogar"
+      }
+    ]
+  },
+  {
+    "word": "subrogatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "subrogatu",
+        "lemma": "subrogatu",
+        "meaning": "subrogar"
+      }
+    ]
+  },
+  {
+    "word": "subrogatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "subrogatu",
+        "lemma": "subrogatu",
+        "meaning": "subrogar"
+      }
+    ]
+  },
+  {
+    "word": "subsidia",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "subsidiatu",
+        "lemma": "subsidiatu",
+        "meaning": "subsidiar"
+      }
+    ]
+  },
+  {
+    "word": "subsidiatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "subsidiatu",
+        "lemma": "subsidiatu",
+        "meaning": "subsidiar"
+      }
+    ]
+  },
+  {
+    "word": "subsidiatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "subsidiatu",
+        "lemma": "subsidiatu",
+        "meaning": "subsidiar"
+      }
+    ]
+  },
+  {
+    "word": "substantiba",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "substantibatu",
+        "lemma": "substantibatu",
+        "meaning": "sustantivar"
+      }
+    ]
+  },
+  {
+    "word": "substantibatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "substantibatu",
+        "lemma": "substantibatu",
+        "meaning": "sustantivar"
+      }
+    ]
+  },
+  {
+    "word": "substantibatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "substantibatu",
+        "lemma": "substantibatu",
+        "meaning": "sustantivar"
+      }
+    ]
+  },
+  {
+    "word": "substantziatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "substantziatu",
+        "lemma": "substantziatu",
+        "meaning": "sustanciar"
+      }
+    ]
+  },
+  {
+    "word": "substantziatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "substantziatu",
+        "lemma": "substantziatu",
+        "meaning": "sustanciar"
+      }
+    ]
+  },
+  {
+    "word": "subsumi",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "subsumitu",
+        "lemma": "subsumitu",
+        "meaning": "subsumir"
+      }
+    ]
+  },
+  {
+    "word": "subsumituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "subsumitu",
+        "lemma": "subsumitu",
+        "meaning": "subsumir"
+      }
+    ]
+  },
+  {
+    "word": "subsumitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "subsumitu",
+        "lemma": "subsumitu",
+        "meaning": "subsumir"
+      }
+    ]
+  },
+  {
+    "word": "sudurkarituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sudurkaritu",
+        "lemma": "sudurkaritu",
+        "meaning": "nasalizar"
+      }
+    ]
+  },
+  {
+    "word": "sudurkaritzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sudurkaritu",
+        "lemma": "sudurkaritu",
+        "meaning": "nasalizar"
+      }
+    ]
+  },
+  {
+    "word": "suerta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "suertatu",
+        "lemma": "suertatu",
+        "meaning": "ocurrir"
+      }
+    ]
+  },
+  {
+    "word": "suertatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "suertatu",
+        "lemma": "suertatu",
+        "meaning": "ocurrir"
+      }
+    ]
+  },
+  {
+    "word": "suertatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "suertatu",
+        "lemma": "suertatu",
+        "meaning": "ocurrir"
+      }
+    ]
+  },
+  {
+    "word": "suezti",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sueztitu",
+        "lemma": "sueztitu",
+        "meaning": "rehogar"
+      }
+    ]
+  },
+  {
+    "word": "sueztituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sueztitu",
+        "lemma": "sueztitu",
+        "meaning": "rehogar"
+      }
+    ]
+  },
+  {
+    "word": "sueztitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sueztitu",
+        "lemma": "sueztitu",
+        "meaning": "rehogar"
+      }
+    ]
+  },
+  {
+    "word": "sufixa",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sufixatu",
+        "lemma": "sufixatu",
+        "meaning": "sufijar"
+      }
+    ]
+  },
+  {
+    "word": "sufixatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sufixatu",
+        "lemma": "sufixatu",
+        "meaning": "sufijar"
+      }
+    ]
+  },
+  {
+    "word": "sufixatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sufixatu",
+        "lemma": "sufixatu",
+        "meaning": "sufijar"
+      }
+    ]
+  },
+  {
+    "word": "sufrezta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sufreztatu",
+        "lemma": "sufreztatu",
+        "meaning": "azufrar"
+      }
+    ]
+  },
+  {
+    "word": "sufreztatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sufreztatu",
+        "lemma": "sufreztatu",
+        "meaning": "azufrar"
+      }
+    ]
+  },
+  {
+    "word": "sufreztatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sufreztatu",
+        "lemma": "sufreztatu",
+        "meaning": "azufrar"
+      }
+    ]
+  },
+  {
+    "word": "sufri",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sufritu",
+        "lemma": "sufritu",
+        "meaning": "sufrir"
+      }
+    ]
+  },
+  {
+    "word": "sufriaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sufriarazi",
+        "lemma": "sufriarazi",
+        "meaning": "sufrir"
+      }
+    ]
+  },
+  {
+    "word": "sufriaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sufriarazi",
+        "lemma": "sufriarazi",
+        "meaning": "sufrir"
+      }
+    ]
+  },
+  {
+    "word": "sufriarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sufriarazi",
+        "lemma": "sufriarazi",
+        "meaning": "sufrir"
+      }
+    ]
+  },
+  {
+    "word": "sufrituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sufritu",
+        "lemma": "sufritu",
+        "meaning": "sufrir"
+      }
+    ]
+  },
+  {
+    "word": "sufritzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sufritu",
+        "lemma": "sufritu",
+        "meaning": "sufrir"
+      }
+    ]
+  },
+  {
+    "word": "sugarasta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sugarastatu",
+        "lemma": "sugarastatu",
+        "meaning": "chamuscar"
+      }
+    ]
+  },
+  {
+    "word": "sugarastatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sugarastatu",
+        "lemma": "sugarastatu",
+        "meaning": "chamuscar"
+      }
+    ]
+  },
+  {
+    "word": "sugarastatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sugarastatu",
+        "lemma": "sugarastatu",
+        "meaning": "chamuscar"
+      }
+    ]
+  },
+  {
+    "word": "sugartuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sugartu",
+        "lemma": "sugartu",
+        "meaning": "inflamar"
+      }
+    ]
+  },
+  {
+    "word": "sugartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sugartu",
+        "lemma": "sugartu",
+        "meaning": "inflamar"
+      }
+    ]
+  },
+  {
+    "word": "sugestiona",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sugestionatu",
+        "lemma": "sugestionatu",
+        "meaning": "sugestionar"
+      }
+    ]
+  },
+  {
+    "word": "sugestionatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sugestionatu",
+        "lemma": "sugestionatu",
+        "meaning": "sugestionar"
+      }
+    ]
+  },
+  {
+    "word": "sugestionatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sugestionatu",
+        "lemma": "sugestionatu",
+        "meaning": "sugestionar"
+      }
+    ]
+  },
+  {
+    "word": "suizidatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "suizidatu",
+        "lemma": "suizidatu",
+        "meaning": "suicidar"
+      }
+    ]
+  },
+  {
+    "word": "suizidatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "suizidatu",
+        "lemma": "suizidatu",
+        "meaning": "suicidar"
+      }
+    ]
+  },
+  {
+    "word": "sukalda",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sukaldatu",
+        "lemma": "sukaldatu",
+        "meaning": "cocinar"
+      }
+    ]
+  },
+  {
+    "word": "sukaldatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sukaldatu",
+        "lemma": "sukaldatu",
+        "meaning": "cocinar"
+      }
+    ]
+  },
+  {
+    "word": "sukaldatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sukaldatu",
+        "lemma": "sukaldatu",
+        "meaning": "cocinar"
+      }
+    ]
+  },
+  {
+    "word": "sulfata",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sulfatatu",
+        "lemma": "sulfatatu",
+        "meaning": "sulfatar"
+      }
+    ]
+  },
+  {
+    "word": "sulfatatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sulfatatu",
+        "lemma": "sulfatatu",
+        "meaning": "sulfatar"
+      }
+    ]
+  },
+  {
+    "word": "sulfatatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sulfatatu",
+        "lemma": "sulfatatu",
+        "meaning": "sulfatar"
+      }
+    ]
+  },
+  {
+    "word": "sulfura",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sulfuratu",
+        "lemma": "sulfuratu",
+        "meaning": "sulfurar"
+      }
+    ]
+  },
+  {
+    "word": "sulfuratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sulfuratu",
+        "lemma": "sulfuratu",
+        "meaning": "sulfurar"
+      }
+    ]
+  },
+  {
+    "word": "sulfuratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sulfuratu",
+        "lemma": "sulfuratu",
+        "meaning": "sulfurar"
+      }
+    ]
+  },
+  {
+    "word": "sumaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sumarazi",
+        "lemma": "sumarazi",
+        "meaning": "notar"
+      }
+    ]
+  },
+  {
+    "word": "sumaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sumarazi",
+        "lemma": "sumarazi",
+        "meaning": "notar"
+      }
+    ]
+  },
+  {
+    "word": "sumarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sumarazi",
+        "lemma": "sumarazi",
+        "meaning": "notar"
+      }
+    ]
+  },
+  {
+    "word": "sumatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sumatu",
+        "lemma": "sumatu",
+        "meaning": "notar"
+      }
+    ]
+  },
+  {
+    "word": "sumatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sumatu",
+        "lemma": "sumatu",
+        "meaning": "notar"
+      }
+    ]
+  },
+  {
+    "word": "suminduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sumindu",
+        "lemma": "sumindu",
+        "meaning": "enfurecer"
+      }
+    ]
+  },
+  {
+    "word": "suminkortuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "suminkortu",
+        "lemma": "suminkortu",
+        "meaning": "volver irritable"
+      }
+    ]
+  },
+  {
+    "word": "suminkortzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "suminkortu",
+        "lemma": "suminkortu",
+        "meaning": "volver irritable"
+      }
+    ]
+  },
+  {
+    "word": "sumintzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sumindu",
+        "lemma": "sumindu",
+        "meaning": "enfurecer"
+      }
+    ]
+  },
+  {
+    "word": "suntsi",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "suntsitu",
+        "lemma": "suntsitu",
+        "meaning": "destruir"
+      }
+    ]
+  },
+  {
+    "word": "suntsiaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "suntsiarazi",
+        "lemma": "suntsiarazi",
+        "meaning": "destruir"
+      }
+    ]
+  },
+  {
+    "word": "suntsiaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "suntsiarazi",
+        "lemma": "suntsiarazi",
+        "meaning": "destruir"
+      }
+    ]
+  },
+  {
+    "word": "suntsiarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "suntsiarazi",
+        "lemma": "suntsiarazi",
+        "meaning": "destruir"
+      }
+    ]
+  },
+  {
+    "word": "suntsituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "suntsitu",
+        "lemma": "suntsitu",
+        "meaning": "destruir"
+      }
+    ]
+  },
+  {
+    "word": "suntsitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "suntsitu",
+        "lemma": "suntsitu",
+        "meaning": "destruir"
+      }
+    ]
+  },
+  {
+    "word": "suposa",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "suposatu",
+        "lemma": "suposatu",
+        "meaning": "suponer"
+      }
+    ]
+  },
+  {
+    "word": "suposatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "suposatu",
+        "lemma": "suposatu",
+        "meaning": "suponer"
+      }
+    ]
+  },
+  {
+    "word": "suposatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "suposatu",
+        "lemma": "suposatu",
+        "meaning": "suponer"
+      }
+    ]
+  },
+  {
+    "word": "susal",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "susaldu",
+        "lemma": "susaldu",
+        "meaning": "encelarse"
+      }
+    ]
+  },
+  {
+    "word": "susalduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "susaldu",
+        "lemma": "susaldu",
+        "meaning": "encelarse"
+      }
+    ]
+  },
+  {
+    "word": "susaltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "susaldu",
+        "lemma": "susaldu",
+        "meaning": "encelarse"
+      }
+    ]
+  },
+  {
+    "word": "susma",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "susmatu",
+        "lemma": "susmatu",
+        "meaning": "sospechar"
+      }
+    ]
+  },
+  {
+    "word": "susmaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "susmarazi",
+        "lemma": "susmarazi",
+        "meaning": "sospechar"
+      }
+    ]
+  },
+  {
+    "word": "susmaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "susmarazi",
+        "lemma": "susmarazi",
+        "meaning": "sospechar"
+      }
+    ]
+  },
+  {
+    "word": "susmarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "susmarazi",
+        "lemma": "susmarazi",
+        "meaning": "sospechar"
+      }
+    ]
+  },
+  {
+    "word": "susmatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "susmatu",
+        "lemma": "susmatu",
+        "meaning": "sospechar"
+      }
+    ]
+  },
+  {
+    "word": "susmatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "susmatu",
+        "lemma": "susmatu",
+        "meaning": "sospechar"
+      }
+    ]
+  },
+  {
+    "word": "suspendi",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "suspenditu",
+        "lemma": "suspenditu",
+        "meaning": "suspender"
+      }
+    ]
+  },
+  {
+    "word": "suspendituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "suspenditu",
+        "lemma": "suspenditu",
+        "meaning": "suspender"
+      }
+    ]
+  },
+  {
+    "word": "suspenditzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "suspenditu",
+        "lemma": "suspenditu",
+        "meaning": "suspender"
+      }
+    ]
+  },
+  {
+    "word": "susper",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "suspertu",
+        "lemma": "suspertu",
+        "meaning": "recuperar"
+      }
+    ]
+  },
+  {
+    "word": "susperraraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "susperrarazi",
+        "lemma": "susperrarazi",
+        "meaning": "animar"
+      }
+    ]
+  },
+  {
+    "word": "susperraraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "susperrarazi",
+        "lemma": "susperrarazi",
+        "meaning": "animar"
+      }
+    ]
+  },
+  {
+    "word": "susperrarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "susperrarazi",
+        "lemma": "susperrarazi",
+        "meaning": "animar"
+      }
+    ]
+  },
+  {
+    "word": "suspertuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "suspertu",
+        "lemma": "suspertu",
+        "meaning": "recuperar"
+      }
+    ]
+  },
+  {
+    "word": "suspertzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "suspertu",
+        "lemma": "suspertu",
+        "meaning": "recuperar"
+      }
+    ]
+  },
+  {
+    "word": "susta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "sustatu",
+        "lemma": "sustatu",
+        "meaning": "promover"
+      }
+    ]
+  },
+  {
+    "word": "sustatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sustatu",
+        "lemma": "sustatu",
+        "meaning": "promover"
+      }
+    ]
+  },
+  {
+    "word": "sustatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sustatu",
+        "lemma": "sustatu",
+        "meaning": "promover"
+      }
+    ]
+  },
+  {
+    "word": "sustraituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sustraitu",
+        "lemma": "sustraitu",
+        "meaning": "arraigar"
+      }
+    ]
+  },
+  {
+    "word": "sustraitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sustraitu",
+        "lemma": "sustraitu",
+        "meaning": "arraigar"
+      }
+    ]
+  },
+  {
+    "word": "sutuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "sutu",
+        "lemma": "sutu",
+        "meaning": "encolerizar"
+      }
+    ]
+  },
+  {
+    "word": "sutzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "sutu",
+        "lemma": "sutu",
+        "meaning": "encolerizar"
+      }
+    ]
+  }
+]

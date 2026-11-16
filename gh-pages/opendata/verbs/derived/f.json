@@ -1,0 +1,2576 @@
+[
+  {
+    "word": "fabrikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fabrikatu",
+        "lemma": "fabrikatu",
+        "meaning": "fabricar"
+      }
+    ]
+  },
+  {
+    "word": "fabrikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fabrikatu",
+        "lemma": "fabrikatu",
+        "meaning": "fabricar"
+      }
+    ]
+  },
+  {
+    "word": "fagozita",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "fagozitatu",
+        "lemma": "fagozitatu",
+        "meaning": "fagocitar"
+      }
+    ]
+  },
+  {
+    "word": "fagozitatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fagozitatu",
+        "lemma": "fagozitatu",
+        "meaning": "fagocitar"
+      }
+    ]
+  },
+  {
+    "word": "fagozitatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fagozitatu",
+        "lemma": "fagozitatu",
+        "meaning": "fagocitar"
+      }
+    ]
+  },
+  {
+    "word": "fakturatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fakturatu",
+        "lemma": "fakturatu",
+        "meaning": "facturar"
+      }
+    ]
+  },
+  {
+    "word": "fakturatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fakturatu",
+        "lemma": "fakturatu",
+        "meaning": "facturar"
+      }
+    ]
+  },
+  {
+    "word": "fakulta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "fakultatu",
+        "lemma": "fakultatu",
+        "meaning": "facultar"
+      }
+    ]
+  },
+  {
+    "word": "fakultatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fakultatu",
+        "lemma": "fakultatu",
+        "meaning": "facultar"
+      }
+    ]
+  },
+  {
+    "word": "fakultatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fakultatu",
+        "lemma": "fakultatu",
+        "meaning": "facultar"
+      }
+    ]
+  },
+  {
+    "word": "faltaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "faltarazi",
+        "lemma": "faltarazi",
+        "meaning": "faltar"
+      }
+    ]
+  },
+  {
+    "word": "faltaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "faltarazi",
+        "lemma": "faltarazi",
+        "meaning": "faltar"
+      }
+    ]
+  },
+  {
+    "word": "faltarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "faltarazi",
+        "lemma": "faltarazi",
+        "meaning": "faltar"
+      }
+    ]
+  },
+  {
+    "word": "faltatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "faltatu",
+        "lemma": "faltatu",
+        "meaning": "faltar"
+      }
+    ]
+  },
+  {
+    "word": "faltatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "faltatu",
+        "lemma": "faltatu",
+        "meaning": "faltar"
+      }
+    ]
+  },
+  {
+    "word": "faltsifika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "faltsifikatu",
+        "lemma": "faltsifikatu",
+        "meaning": "falsificar"
+      }
+    ]
+  },
+  {
+    "word": "faltsifikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "faltsifikatu",
+        "lemma": "faltsifikatu",
+        "meaning": "falsificar"
+      }
+    ]
+  },
+  {
+    "word": "faltsifikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "faltsifikatu",
+        "lemma": "faltsifikatu",
+        "meaning": "falsificar"
+      }
+    ]
+  },
+  {
+    "word": "faltsutuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "faltsutu",
+        "lemma": "faltsutu",
+        "meaning": "falsear"
+      }
+    ]
+  },
+  {
+    "word": "faltsutzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "faltsutu",
+        "lemma": "faltsutu",
+        "meaning": "falsear"
+      }
+    ]
+  },
+  {
+    "word": "famatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "famatu",
+        "lemma": "famatu",
+        "meaning": "dar fama"
+      }
+    ]
+  },
+  {
+    "word": "famatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "famatu",
+        "lemma": "famatu",
+        "meaning": "dar fama"
+      }
+    ]
+  },
+  {
+    "word": "familiatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "familiatu",
+        "lemma": "familiatu",
+        "meaning": "formar una familia"
+      }
+    ]
+  },
+  {
+    "word": "familiatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "familiatu",
+        "lemma": "familiatu",
+        "meaning": "formar una familia"
+      }
+    ]
+  },
+  {
+    "word": "fanatiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "fanatizatu",
+        "lemma": "fanatizatu",
+        "meaning": "fanatizar"
+      }
+    ]
+  },
+  {
+    "word": "fanatizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fanatizatu",
+        "lemma": "fanatizatu",
+        "meaning": "fanatizar"
+      }
+    ]
+  },
+  {
+    "word": "fanatizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fanatizatu",
+        "lemma": "fanatizatu",
+        "meaning": "fanatizar"
+      }
+    ]
+  },
+  {
+    "word": "farfuila",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "farfuilatu",
+        "lemma": "farfuilatu",
+        "meaning": "farfullar"
+      }
+    ]
+  },
+  {
+    "word": "farfuilatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "farfuilatu",
+        "lemma": "farfuilatu",
+        "meaning": "farfullar"
+      }
+    ]
+  },
+  {
+    "word": "farfuilatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "farfuilatu",
+        "lemma": "farfuilatu",
+        "meaning": "farfullar"
+      }
+    ]
+  },
+  {
+    "word": "fedegabetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fedegabetu",
+        "lemma": "fedegabetu",
+        "meaning": "perder la fe"
+      }
+    ]
+  },
+  {
+    "word": "fedegabetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fedegabetu",
+        "lemma": "fedegabetu",
+        "meaning": "perder la fe"
+      }
+    ]
+  },
+  {
+    "word": "federa",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "federatu",
+        "lemma": "federatu",
+        "meaning": "federarse"
+      }
+    ]
+  },
+  {
+    "word": "federaliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "federalizatu",
+        "lemma": "federalizatu",
+        "meaning": "federalizar"
+      }
+    ]
+  },
+  {
+    "word": "federalizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "federalizatu",
+        "lemma": "federalizatu",
+        "meaning": "federalizar"
+      }
+    ]
+  },
+  {
+    "word": "federalizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "federalizatu",
+        "lemma": "federalizatu",
+        "meaning": "federalizar"
+      }
+    ]
+  },
+  {
+    "word": "federatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "federatu",
+        "lemma": "federatu",
+        "meaning": "federarse"
+      }
+    ]
+  },
+  {
+    "word": "federatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "federatu",
+        "lemma": "federatu",
+        "meaning": "federarse"
+      }
+    ]
+  },
+  {
+    "word": "feminiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "feminizatu",
+        "lemma": "feminizatu",
+        "meaning": "feminizar"
+      }
+    ]
+  },
+  {
+    "word": "feminizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "feminizatu",
+        "lemma": "feminizatu",
+        "meaning": "feminizar"
+      }
+    ]
+  },
+  {
+    "word": "feminizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "feminizatu",
+        "lemma": "feminizatu",
+        "meaning": "feminizar"
+      }
+    ]
+  },
+  {
+    "word": "ferekatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ferekatu",
+        "lemma": "ferekatu",
+        "meaning": "acariciar"
+      }
+    ]
+  },
+  {
+    "word": "ferekatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ferekatu",
+        "lemma": "ferekatu",
+        "meaning": "acariciar"
+      }
+    ]
+  },
+  {
+    "word": "ferratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ferratu",
+        "lemma": "ferratu",
+        "meaning": "herrar"
+      }
+    ]
+  },
+  {
+    "word": "ferratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ferratu",
+        "lemma": "ferratu",
+        "meaning": "herrar"
+      }
+    ]
+  },
+  {
+    "word": "feudaliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "feudalizatu",
+        "lemma": "feudalizatu",
+        "meaning": "feudalizar"
+      }
+    ]
+  },
+  {
+    "word": "feudalizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "feudalizatu",
+        "lemma": "feudalizatu",
+        "meaning": "feudalizar"
+      }
+    ]
+  },
+  {
+    "word": "feudalizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "feudalizatu",
+        "lemma": "feudalizatu",
+        "meaning": "feudalizar"
+      }
+    ]
+  },
+  {
+    "word": "fida",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "fidatu",
+        "lemma": "fidatu",
+        "meaning": "confiar"
+      }
+    ]
+  },
+  {
+    "word": "fidagaiz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "fidagaiztu",
+        "lemma": "fidagaiztu",
+        "meaning": "desconfiar"
+      }
+    ]
+  },
+  {
+    "word": "fidagaiztuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fidagaiztu",
+        "lemma": "fidagaiztu",
+        "meaning": "desconfiar"
+      }
+    ]
+  },
+  {
+    "word": "fidagaiztzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fidagaiztu",
+        "lemma": "fidagaiztu",
+        "meaning": "desconfiar"
+      }
+    ]
+  },
+  {
+    "word": "fidatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fidatu",
+        "lemma": "fidatu",
+        "meaning": "confiar"
+      }
+    ]
+  },
+  {
+    "word": "fidatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fidatu",
+        "lemma": "fidatu",
+        "meaning": "confiar"
+      }
+    ]
+  },
+  {
+    "word": "fideliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "fidelizatu",
+        "lemma": "fidelizatu",
+        "meaning": "fidelizar"
+      }
+    ]
+  },
+  {
+    "word": "fidelizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fidelizatu",
+        "lemma": "fidelizatu",
+        "meaning": "fidelizar"
+      }
+    ]
+  },
+  {
+    "word": "fidelizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fidelizatu",
+        "lemma": "fidelizatu",
+        "meaning": "fidelizar"
+      }
+    ]
+  },
+  {
+    "word": "filma",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "filmatu",
+        "lemma": "filmatu",
+        "meaning": "filmar"
+      }
+    ]
+  },
+  {
+    "word": "filmatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "filmatu",
+        "lemma": "filmatu",
+        "meaning": "filmar"
+      }
+    ]
+  },
+  {
+    "word": "filmatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "filmatu",
+        "lemma": "filmatu",
+        "meaning": "filmar"
+      }
+    ]
+  },
+  {
+    "word": "filosofa",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "filosofatu",
+        "lemma": "filosofatu",
+        "meaning": "filosofar"
+      }
+    ]
+  },
+  {
+    "word": "filosofatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "filosofatu",
+        "lemma": "filosofatu",
+        "meaning": "filosofar"
+      }
+    ]
+  },
+  {
+    "word": "filosofatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "filosofatu",
+        "lemma": "filosofatu",
+        "meaning": "filosofar"
+      }
+    ]
+  },
+  {
+    "word": "filtra",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "filtratu",
+        "lemma": "filtratu",
+        "meaning": "filtrar"
+      }
+    ]
+  },
+  {
+    "word": "filtratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "filtratu",
+        "lemma": "filtratu",
+        "meaning": "filtrar"
+      }
+    ]
+  },
+  {
+    "word": "filtratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "filtratu",
+        "lemma": "filtratu",
+        "meaning": "filtrar"
+      }
+    ]
+  },
+  {
+    "word": "finantzatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "finantzatu",
+        "lemma": "finantzatu",
+        "meaning": "financiar"
+      }
+    ]
+  },
+  {
+    "word": "finantzatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "finantzatu",
+        "lemma": "finantzatu",
+        "meaning": "financiar"
+      }
+    ]
+  },
+  {
+    "word": "finduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "findu",
+        "lemma": "findu",
+        "meaning": "refinar"
+      }
+    ]
+  },
+  {
+    "word": "fini",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "finitu",
+        "lemma": "finitu",
+        "meaning": "terminar"
+      }
+    ]
+  },
+  {
+    "word": "finituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "finitu",
+        "lemma": "finitu",
+        "meaning": "terminar"
+      }
+    ]
+  },
+  {
+    "word": "finitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "finitu",
+        "lemma": "finitu",
+        "meaning": "terminar"
+      }
+    ]
+  },
+  {
+    "word": "finkaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "finkarazi",
+        "lemma": "finkarazi",
+        "meaning": "fortalecer"
+      }
+    ]
+  },
+  {
+    "word": "finkaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "finkarazi",
+        "lemma": "finkarazi",
+        "meaning": "fortalecer"
+      }
+    ]
+  },
+  {
+    "word": "finkarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "finkarazi",
+        "lemma": "finkarazi",
+        "meaning": "fortalecer"
+      }
+    ]
+  },
+  {
+    "word": "finkatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "finkatu",
+        "lemma": "finkatu",
+        "meaning": "fijar"
+      }
+    ]
+  },
+  {
+    "word": "finkatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "finkatu",
+        "lemma": "finkatu",
+        "meaning": "fijar"
+      }
+    ]
+  },
+  {
+    "word": "fintzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "findu",
+        "lemma": "findu",
+        "meaning": "refinar"
+      }
+    ]
+  },
+  {
+    "word": "firurika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "firurikatu",
+        "lemma": "firurikatu",
+        "meaning": "girar"
+      }
+    ]
+  },
+  {
+    "word": "firurikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "firurikatu",
+        "lemma": "firurikatu",
+        "meaning": "girar"
+      }
+    ]
+  },
+  {
+    "word": "firurikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "firurikatu",
+        "lemma": "firurikatu",
+        "meaning": "girar"
+      }
+    ]
+  },
+  {
+    "word": "fisiona",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "fisionatu",
+        "lemma": "fisionatu",
+        "meaning": "fisionar"
+      }
+    ]
+  },
+  {
+    "word": "fisionatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fisionatu",
+        "lemma": "fisionatu",
+        "meaning": "fisionar"
+      }
+    ]
+  },
+  {
+    "word": "fisionatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fisionatu",
+        "lemma": "fisionatu",
+        "meaning": "fisionar"
+      }
+    ]
+  },
+  {
+    "word": "fiskaliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "fiskalizatu",
+        "lemma": "fiskalizatu",
+        "meaning": "fiscalizar"
+      }
+    ]
+  },
+  {
+    "word": "fiskalizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fiskalizatu",
+        "lemma": "fiskalizatu",
+        "meaning": "fiscalizar"
+      }
+    ]
+  },
+  {
+    "word": "fiskalizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fiskalizatu",
+        "lemma": "fiskalizatu",
+        "meaning": "fiscalizar"
+      }
+    ]
+  },
+  {
+    "word": "fitxatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fitxatu",
+        "lemma": "fitxatu",
+        "meaning": "fichar"
+      }
+    ]
+  },
+  {
+    "word": "fitxatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fitxatu",
+        "lemma": "fitxatu",
+        "meaning": "fichar"
+      }
+    ]
+  },
+  {
+    "word": "flaka",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "flakatu",
+        "lemma": "flakatu",
+        "meaning": "adelgazar"
+      }
+    ]
+  },
+  {
+    "word": "flakaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "flakarazi",
+        "lemma": "flakarazi",
+        "meaning": "debilitar"
+      }
+    ]
+  },
+  {
+    "word": "flakaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "flakarazi",
+        "lemma": "flakarazi",
+        "meaning": "debilitar"
+      }
+    ]
+  },
+  {
+    "word": "flakarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "flakarazi",
+        "lemma": "flakarazi",
+        "meaning": "debilitar"
+      }
+    ]
+  },
+  {
+    "word": "flakatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "flakatu",
+        "lemma": "flakatu",
+        "meaning": "adelgazar"
+      }
+    ]
+  },
+  {
+    "word": "flakatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "flakatu",
+        "lemma": "flakatu",
+        "meaning": "adelgazar"
+      }
+    ]
+  },
+  {
+    "word": "flanbea",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "flanbeatu",
+        "lemma": "flanbeatu",
+        "meaning": "flambear"
+      }
+    ]
+  },
+  {
+    "word": "flanbeatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "flanbeatu",
+        "lemma": "flanbeatu",
+        "meaning": "flambear"
+      }
+    ]
+  },
+  {
+    "word": "flanbeatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "flanbeatu",
+        "lemma": "flanbeatu",
+        "meaning": "flambear"
+      }
+    ]
+  },
+  {
+    "word": "flaskora",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "flaskoratu",
+        "lemma": "flaskoratu",
+        "meaning": "enfrascar"
+      }
+    ]
+  },
+  {
+    "word": "flaskoratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "flaskoratu",
+        "lemma": "flaskoratu",
+        "meaning": "enfrascar"
+      }
+    ]
+  },
+  {
+    "word": "flaskoratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "flaskoratu",
+        "lemma": "flaskoratu",
+        "meaning": "enfrascar"
+      }
+    ]
+  },
+  {
+    "word": "flexiona",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "flexionatu",
+        "lemma": "flexionatu",
+        "meaning": "flexionar"
+      }
+    ]
+  },
+  {
+    "word": "flexionatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "flexionatu",
+        "lemma": "flexionatu",
+        "meaning": "flexionar"
+      }
+    ]
+  },
+  {
+    "word": "flexionatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "flexionatu",
+        "lemma": "flexionatu",
+        "meaning": "flexionar"
+      }
+    ]
+  },
+  {
+    "word": "flirtea",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "flirteatu",
+        "lemma": "flirteatu",
+        "meaning": "flirtear"
+      }
+    ]
+  },
+  {
+    "word": "flirteatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "flirteatu",
+        "lemma": "flirteatu",
+        "meaning": "flirtear"
+      }
+    ]
+  },
+  {
+    "word": "flirteatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "flirteatu",
+        "lemma": "flirteatu",
+        "meaning": "flirtear"
+      }
+    ]
+  },
+  {
+    "word": "flotaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "flotarazi",
+        "lemma": "flotarazi",
+        "meaning": "flotar"
+      }
+    ]
+  },
+  {
+    "word": "flotaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "flotarazi",
+        "lemma": "flotarazi",
+        "meaning": "flotar"
+      }
+    ]
+  },
+  {
+    "word": "flotarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "flotarazi",
+        "lemma": "flotarazi",
+        "meaning": "flotar"
+      }
+    ]
+  },
+  {
+    "word": "flotatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "flotatu",
+        "lemma": "flotatu",
+        "meaning": "flotar"
+      }
+    ]
+  },
+  {
+    "word": "flotatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "flotatu",
+        "lemma": "flotatu",
+        "meaning": "flotar"
+      }
+    ]
+  },
+  {
+    "word": "fluidiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "fluidizatu",
+        "lemma": "fluidizatu",
+        "meaning": "fluidificar"
+      }
+    ]
+  },
+  {
+    "word": "fluidizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fluidizatu",
+        "lemma": "fluidizatu",
+        "meaning": "fluidificar"
+      }
+    ]
+  },
+  {
+    "word": "fluidizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fluidizatu",
+        "lemma": "fluidizatu",
+        "meaning": "fluidificar"
+      }
+    ]
+  },
+  {
+    "word": "fluktua",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "fluktuatu",
+        "lemma": "fluktuatu",
+        "meaning": "fluctuar"
+      }
+    ]
+  },
+  {
+    "word": "fluktuatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fluktuatu",
+        "lemma": "fluktuatu",
+        "meaning": "fluctuar"
+      }
+    ]
+  },
+  {
+    "word": "fluktuatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fluktuatu",
+        "lemma": "fluktuatu",
+        "meaning": "fluctuar"
+      }
+    ]
+  },
+  {
+    "word": "fokaliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "fokalizatu",
+        "lemma": "fokalizatu",
+        "meaning": "enfocar"
+      }
+    ]
+  },
+  {
+    "word": "fokalizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fokalizatu",
+        "lemma": "fokalizatu",
+        "meaning": "enfocar"
+      }
+    ]
+  },
+  {
+    "word": "fokalizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fokalizatu",
+        "lemma": "fokalizatu",
+        "meaning": "enfocar"
+      }
+    ]
+  },
+  {
+    "word": "fokura",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "fokuratu",
+        "lemma": "fokuratu",
+        "meaning": "enfocar"
+      }
+    ]
+  },
+  {
+    "word": "fokuratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fokuratu",
+        "lemma": "fokuratu",
+        "meaning": "enfocar"
+      }
+    ]
+  },
+  {
+    "word": "fokuratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fokuratu",
+        "lemma": "fokuratu",
+        "meaning": "enfocar"
+      }
+    ]
+  },
+  {
+    "word": "folia",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "foliatu",
+        "lemma": "foliatu",
+        "meaning": "foliar"
+      }
+    ]
+  },
+  {
+    "word": "foliatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "foliatu",
+        "lemma": "foliatu",
+        "meaning": "foliar"
+      }
+    ]
+  },
+  {
+    "word": "foliatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "foliatu",
+        "lemma": "foliatu",
+        "meaning": "foliar"
+      }
+    ]
+  },
+  {
+    "word": "forjatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "forjatu",
+        "lemma": "forjatu",
+        "meaning": "forjar"
+      }
+    ]
+  },
+  {
+    "word": "forjatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "forjatu",
+        "lemma": "forjatu",
+        "meaning": "forjar"
+      }
+    ]
+  },
+  {
+    "word": "formalda",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "formaldatu",
+        "lemma": "formaldatu",
+        "meaning": "transformarse"
+      }
+    ]
+  },
+  {
+    "word": "formaldatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "formaldatu",
+        "lemma": "formaldatu",
+        "meaning": "transformarse"
+      }
+    ]
+  },
+  {
+    "word": "formaldatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "formaldatu",
+        "lemma": "formaldatu",
+        "meaning": "transformarse"
+      }
+    ]
+  },
+  {
+    "word": "formalduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "formaldu",
+        "lemma": "formaldu",
+        "meaning": "formalizar"
+      }
+    ]
+  },
+  {
+    "word": "formaliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "formalizatu",
+        "lemma": "formalizatu",
+        "meaning": "formalizar"
+      }
+    ]
+  },
+  {
+    "word": "formalizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "formalizatu",
+        "lemma": "formalizatu",
+        "meaning": "formalizar"
+      }
+    ]
+  },
+  {
+    "word": "formalizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "formalizatu",
+        "lemma": "formalizatu",
+        "meaning": "formalizar"
+      }
+    ]
+  },
+  {
+    "word": "formaltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "formaldu",
+        "lemma": "formaldu",
+        "meaning": "formalizar"
+      }
+    ]
+  },
+  {
+    "word": "formatea",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "formateatu",
+        "lemma": "formateatu",
+        "meaning": "formatear"
+      }
+    ]
+  },
+  {
+    "word": "formateatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "formateatu",
+        "lemma": "formateatu",
+        "meaning": "formatear"
+      }
+    ]
+  },
+  {
+    "word": "formateatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "formateatu",
+        "lemma": "formateatu",
+        "meaning": "formatear"
+      }
+    ]
+  },
+  {
+    "word": "formatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "formatu",
+        "lemma": "formatu",
+        "meaning": "formarse"
+      }
+    ]
+  },
+  {
+    "word": "formatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "formatu",
+        "lemma": "formatu",
+        "meaning": "formarse"
+      }
+    ]
+  },
+  {
+    "word": "formulatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "formulatu",
+        "lemma": "formulatu",
+        "meaning": "formular"
+      }
+    ]
+  },
+  {
+    "word": "formulatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "formulatu",
+        "lemma": "formulatu",
+        "meaning": "formular"
+      }
+    ]
+  },
+  {
+    "word": "fornika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "fornikatu",
+        "lemma": "fornikatu",
+        "meaning": "fornicar"
+      }
+    ]
+  },
+  {
+    "word": "fornikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fornikatu",
+        "lemma": "fornikatu",
+        "meaning": "fornicar"
+      }
+    ]
+  },
+  {
+    "word": "fornikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fornikatu",
+        "lemma": "fornikatu",
+        "meaning": "fornicar"
+      }
+    ]
+  },
+  {
+    "word": "forra",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "forratu",
+        "lemma": "forratu",
+        "meaning": "forrar"
+      }
+    ]
+  },
+  {
+    "word": "forratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "forratu",
+        "lemma": "forratu",
+        "meaning": "forrar"
+      }
+    ]
+  },
+  {
+    "word": "forratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "forratu",
+        "lemma": "forratu",
+        "meaning": "forrar"
+      }
+    ]
+  },
+  {
+    "word": "fortunatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fortunatu",
+        "lemma": "fortunatu",
+        "meaning": "coincidir"
+      }
+    ]
+  },
+  {
+    "word": "fortunatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fortunatu",
+        "lemma": "fortunatu",
+        "meaning": "coincidir"
+      }
+    ]
+  },
+  {
+    "word": "fosfata",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "fosfatatu",
+        "lemma": "fosfatatu",
+        "meaning": "fosfatar"
+      }
+    ]
+  },
+  {
+    "word": "fosfatatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fosfatatu",
+        "lemma": "fosfatatu",
+        "meaning": "fosfatar"
+      }
+    ]
+  },
+  {
+    "word": "fosfatatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fosfatatu",
+        "lemma": "fosfatatu",
+        "meaning": "fosfatar"
+      }
+    ]
+  },
+  {
+    "word": "fosilduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fosildu",
+        "lemma": "fosildu",
+        "meaning": "fosilizar"
+      }
+    ]
+  },
+  {
+    "word": "fosiliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "fosilizatu",
+        "lemma": "fosilizatu",
+        "meaning": "fosilizarse"
+      }
+    ]
+  },
+  {
+    "word": "fosilizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fosilizatu",
+        "lemma": "fosilizatu",
+        "meaning": "fosilizarse"
+      }
+    ]
+  },
+  {
+    "word": "fosilizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fosilizatu",
+        "lemma": "fosilizatu",
+        "meaning": "fosilizarse"
+      }
+    ]
+  },
+  {
+    "word": "fosiltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fosildu",
+        "lemma": "fosildu",
+        "meaning": "fosilizar"
+      }
+    ]
+  },
+  {
+    "word": "fotograba",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "fotograbatu",
+        "lemma": "fotograbatu",
+        "meaning": "fotograbar"
+      }
+    ]
+  },
+  {
+    "word": "fotograbatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fotograbatu",
+        "lemma": "fotograbatu",
+        "meaning": "fotograbar"
+      }
+    ]
+  },
+  {
+    "word": "fotograbatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fotograbatu",
+        "lemma": "fotograbatu",
+        "meaning": "fotograbar"
+      }
+    ]
+  },
+  {
+    "word": "fotografiatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fotografiatu",
+        "lemma": "fotografiatu",
+        "meaning": "fotografiar"
+      }
+    ]
+  },
+  {
+    "word": "fotografiatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fotografiatu",
+        "lemma": "fotografiatu",
+        "meaning": "fotografiar"
+      }
+    ]
+  },
+  {
+    "word": "fotokopiatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fotokopiatu",
+        "lemma": "fotokopiatu",
+        "meaning": "fotocopiar"
+      }
+    ]
+  },
+  {
+    "word": "fotokopiatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fotokopiatu",
+        "lemma": "fotokopiatu",
+        "meaning": "fotocopiar"
+      }
+    ]
+  },
+  {
+    "word": "fotolitografiatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fotolitografiatu",
+        "lemma": "fotolitografiatu",
+        "meaning": "fotolitografiar"
+      }
+    ]
+  },
+  {
+    "word": "fotolitografiatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fotolitografiatu",
+        "lemma": "fotolitografiatu",
+        "meaning": "fotolitografiar"
+      }
+    ]
+  },
+  {
+    "word": "fraidetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fraidetu",
+        "lemma": "fraidetu",
+        "meaning": "hacerse fraile"
+      }
+    ]
+  },
+  {
+    "word": "fraidetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fraidetu",
+        "lemma": "fraidetu",
+        "meaning": "hacerse fraile"
+      }
+    ]
+  },
+  {
+    "word": "frantsestuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "frantsestu",
+        "lemma": "frantsestu",
+        "meaning": "afrancesarse"
+      }
+    ]
+  },
+  {
+    "word": "frantsestzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "frantsestu",
+        "lemma": "frantsestu",
+        "meaning": "afrancesarse"
+      }
+    ]
+  },
+  {
+    "word": "frasea",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "fraseatu",
+        "lemma": "fraseatu",
+        "meaning": "frasear"
+      }
+    ]
+  },
+  {
+    "word": "fraseatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fraseatu",
+        "lemma": "fraseatu",
+        "meaning": "frasear"
+      }
+    ]
+  },
+  {
+    "word": "fraseatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fraseatu",
+        "lemma": "fraseatu",
+        "meaning": "frasear"
+      }
+    ]
+  },
+  {
+    "word": "frena",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "frenatu",
+        "lemma": "frenatu",
+        "meaning": "frenar"
+      }
+    ]
+  },
+  {
+    "word": "frenatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "frenatu",
+        "lemma": "frenatu",
+        "meaning": "frenar"
+      }
+    ]
+  },
+  {
+    "word": "frenatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "frenatu",
+        "lemma": "frenatu",
+        "meaning": "frenar"
+      }
+    ]
+  },
+  {
+    "word": "fresatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fresatu",
+        "lemma": "fresatu",
+        "meaning": "fresar"
+      }
+    ]
+  },
+  {
+    "word": "fresatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fresatu",
+        "lemma": "fresatu",
+        "meaning": "fresar"
+      }
+    ]
+  },
+  {
+    "word": "freska",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "freskatu",
+        "lemma": "freskatu",
+        "meaning": "refrescarse"
+      }
+    ]
+  },
+  {
+    "word": "freskatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "freskatu",
+        "lemma": "freskatu",
+        "meaning": "refrescarse"
+      }
+    ]
+  },
+  {
+    "word": "freskatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "freskatu",
+        "lemma": "freskatu",
+        "meaning": "refrescarse"
+      }
+    ]
+  },
+  {
+    "word": "friji",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "frijitu",
+        "lemma": "frijitu",
+        "meaning": "freír"
+      }
+    ]
+  },
+  {
+    "word": "frijiaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "frijiarazi",
+        "lemma": "frijiarazi",
+        "meaning": "freír"
+      }
+    ]
+  },
+  {
+    "word": "frijiaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "frijiarazi",
+        "lemma": "frijiarazi",
+        "meaning": "freír"
+      }
+    ]
+  },
+  {
+    "word": "frijiarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "frijiarazi",
+        "lemma": "frijiarazi",
+        "meaning": "freír"
+      }
+    ]
+  },
+  {
+    "word": "frijituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "frijitu",
+        "lemma": "frijitu",
+        "meaning": "freír"
+      }
+    ]
+  },
+  {
+    "word": "frijitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "frijitu",
+        "lemma": "frijitu",
+        "meaning": "freír"
+      }
+    ]
+  },
+  {
+    "word": "frogaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "frogarazi",
+        "lemma": "frogarazi",
+        "meaning": "probar"
+      }
+    ]
+  },
+  {
+    "word": "frogaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "frogarazi",
+        "lemma": "frogarazi",
+        "meaning": "probar"
+      }
+    ]
+  },
+  {
+    "word": "frogarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "frogarazi",
+        "lemma": "frogarazi",
+        "meaning": "probar"
+      }
+    ]
+  },
+  {
+    "word": "frogatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "frogatu",
+        "lemma": "frogatu",
+        "meaning": "probar"
+      }
+    ]
+  },
+  {
+    "word": "frogatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "frogatu",
+        "lemma": "frogatu",
+        "meaning": "probar"
+      }
+    ]
+  },
+  {
+    "word": "frustra",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "frustratu",
+        "lemma": "frustratu",
+        "meaning": "frustrarse"
+      }
+    ]
+  },
+  {
+    "word": "frustratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "frustratu",
+        "lemma": "frustratu",
+        "meaning": "frustrarse"
+      }
+    ]
+  },
+  {
+    "word": "frustratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "frustratu",
+        "lemma": "frustratu",
+        "meaning": "frustrarse"
+      }
+    ]
+  },
+  {
+    "word": "fuma",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "fumatu",
+        "lemma": "fumatu",
+        "meaning": "fumar"
+      }
+    ]
+  },
+  {
+    "word": "fumatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fumatu",
+        "lemma": "fumatu",
+        "meaning": "fumar"
+      }
+    ]
+  },
+  {
+    "word": "fumatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fumatu",
+        "lemma": "fumatu",
+        "meaning": "fumar"
+      }
+    ]
+  },
+  {
+    "word": "fumiga",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "fumigatu",
+        "lemma": "fumigatu",
+        "meaning": "fumigar"
+      }
+    ]
+  },
+  {
+    "word": "fumigatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fumigatu",
+        "lemma": "fumigatu",
+        "meaning": "fumigar"
+      }
+    ]
+  },
+  {
+    "word": "fumigatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fumigatu",
+        "lemma": "fumigatu",
+        "meaning": "fumigar"
+      }
+    ]
+  },
+  {
+    "word": "funda",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "fundatu",
+        "lemma": "fundatu",
+        "meaning": "fundar"
+      }
+    ]
+  },
+  {
+    "word": "fundatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fundatu",
+        "lemma": "fundatu",
+        "meaning": "fundar"
+      }
+    ]
+  },
+  {
+    "word": "fundatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fundatu",
+        "lemma": "fundatu",
+        "meaning": "fundar"
+      }
+    ]
+  },
+  {
+    "word": "fundi",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "funditu",
+        "lemma": "funditu",
+        "meaning": "fundir"
+      }
+    ]
+  },
+  {
+    "word": "fundiaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "fundiarazi",
+        "lemma": "fundiarazi",
+        "meaning": "fundir"
+      }
+    ]
+  },
+  {
+    "word": "fundiaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fundiarazi",
+        "lemma": "fundiarazi",
+        "meaning": "fundir"
+      }
+    ]
+  },
+  {
+    "word": "fundiarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fundiarazi",
+        "lemma": "fundiarazi",
+        "meaning": "fundir"
+      }
+    ]
+  },
+  {
+    "word": "fundituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "funditu",
+        "lemma": "funditu",
+        "meaning": "fundir"
+      }
+    ]
+  },
+  {
+    "word": "funditzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "funditu",
+        "lemma": "funditu",
+        "meaning": "fundir"
+      }
+    ]
+  },
+  {
+    "word": "funtsa",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "funtsatu",
+        "lemma": "funtsatu",
+        "meaning": "fundamentarse"
+      }
+    ]
+  },
+  {
+    "word": "funtsatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "funtsatu",
+        "lemma": "funtsatu",
+        "meaning": "fundamentarse"
+      }
+    ]
+  },
+  {
+    "word": "funtsatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "funtsatu",
+        "lemma": "funtsatu",
+        "meaning": "fundamentarse"
+      }
+    ]
+  },
+  {
+    "word": "funtziona",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "funtzionatu",
+        "lemma": "funtzionatu",
+        "meaning": "funcionar"
+      }
+    ]
+  },
+  {
+    "word": "funtzionaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "funtzionarazi",
+        "lemma": "funtzionarazi",
+        "meaning": "funcionar"
+      }
+    ]
+  },
+  {
+    "word": "funtzionaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "funtzionarazi",
+        "lemma": "funtzionarazi",
+        "meaning": "funcionar"
+      }
+    ]
+  },
+  {
+    "word": "funtzionarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "funtzionarazi",
+        "lemma": "funtzionarazi",
+        "meaning": "funcionar"
+      }
+    ]
+  },
+  {
+    "word": "funtzionatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "funtzionatu",
+        "lemma": "funtzionatu",
+        "meaning": "funcionar"
+      }
+    ]
+  },
+  {
+    "word": "funtzionatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "funtzionatu",
+        "lemma": "funtzionatu",
+        "meaning": "funcionar"
+      }
+    ]
+  },
+  {
+    "word": "fusila",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "fusilatu",
+        "lemma": "fusilatu",
+        "meaning": "fusilar"
+      }
+    ]
+  },
+  {
+    "word": "fusilaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "fusilarazi",
+        "lemma": "fusilarazi",
+        "meaning": "fusilar"
+      }
+    ]
+  },
+  {
+    "word": "fusilaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fusilarazi",
+        "lemma": "fusilarazi",
+        "meaning": "fusilar"
+      }
+    ]
+  },
+  {
+    "word": "fusilarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fusilarazi",
+        "lemma": "fusilarazi",
+        "meaning": "fusilar"
+      }
+    ]
+  },
+  {
+    "word": "fusilatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fusilatu",
+        "lemma": "fusilatu",
+        "meaning": "fusilar"
+      }
+    ]
+  },
+  {
+    "word": "fusilatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fusilatu",
+        "lemma": "fusilatu",
+        "meaning": "fusilar"
+      }
+    ]
+  },
+  {
+    "word": "fusiona",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "fusionatu",
+        "lemma": "fusionatu",
+        "meaning": "fusionar"
+      }
+    ]
+  },
+  {
+    "word": "fusionatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "fusionatu",
+        "lemma": "fusionatu",
+        "meaning": "fusionar"
+      }
+    ]
+  },
+  {
+    "word": "fusionatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "fusionatu",
+        "lemma": "fusionatu",
+        "meaning": "fusionar"
+      }
+    ]
+  },
+  {
+    "word": "futi",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "futitu",
+        "lemma": "futitu",
+        "meaning": "burlarse"
+      }
+    ]
+  },
+  {
+    "word": "futituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "futitu",
+        "lemma": "futitu",
+        "meaning": "burlarse"
+      }
+    ]
+  },
+  {
+    "word": "futitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "futitu",
+        "lemma": "futitu",
+        "meaning": "burlarse"
+      }
+    ]
+  }
+]

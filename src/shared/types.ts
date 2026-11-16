@@ -100,7 +100,24 @@ export interface VerbAnalysis {
   source: VerbSource;
 }
 
+export type VerbDerivationType =
+  | 'root'
+  | 'future'
+  | 'habitual'
+  | 'completive-en'
+  | 'completive-enik'
+  | 'completive-la';
+
+export interface VerbDerivation {
+  type: VerbDerivationType;
+  from: string;
+  lemma: string;
+  meaning?: string;
+  baseAnalysis?: VerbAnalysis;
+}
+
 export interface VerbEntry {
   word: string;
   analyses: VerbAnalysis[];
+  derivations?: VerbDerivation[];
 }

@@ -1,0 +1,2356 @@
+[
+  {
+    "word": "ubelduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ubeldu",
+        "lemma": "ubeldu",
+        "meaning": "amoratar"
+      }
+    ]
+  },
+  {
+    "word": "ubeltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ubeldu",
+        "lemma": "ubeldu",
+        "meaning": "amoratar"
+      }
+    ]
+  },
+  {
+    "word": "ufatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ufatu",
+        "lemma": "ufatu",
+        "meaning": "soplar"
+      }
+    ]
+  },
+  {
+    "word": "ufatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ufatu",
+        "lemma": "ufatu",
+        "meaning": "soplar"
+      }
+    ]
+  },
+  {
+    "word": "ugal",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "ugaldu",
+        "lemma": "ugaldu",
+        "meaning": "aumentar"
+      }
+    ]
+  },
+  {
+    "word": "ugalaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "ugalarazi",
+        "lemma": "ugalarazi",
+        "meaning": "proliferar"
+      }
+    ]
+  },
+  {
+    "word": "ugalaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ugalarazi",
+        "lemma": "ugalarazi",
+        "meaning": "proliferar"
+      }
+    ]
+  },
+  {
+    "word": "ugalarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ugalarazi",
+        "lemma": "ugalarazi",
+        "meaning": "proliferar"
+      }
+    ]
+  },
+  {
+    "word": "ugalduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ugaldu",
+        "lemma": "ugaldu",
+        "meaning": "aumentar"
+      }
+    ]
+  },
+  {
+    "word": "ugaltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ugaldu",
+        "lemma": "ugaldu",
+        "meaning": "aumentar"
+      }
+    ]
+  },
+  {
+    "word": "ugariago",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "ugariagotu",
+        "lemma": "ugariagotu",
+        "meaning": "aumentar"
+      }
+    ]
+  },
+  {
+    "word": "ugariagotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ugariagotu",
+        "lemma": "ugariagotu",
+        "meaning": "aumentar"
+      }
+    ]
+  },
+  {
+    "word": "ugariagotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ugariagotu",
+        "lemma": "ugariagotu",
+        "meaning": "aumentar"
+      }
+    ]
+  },
+  {
+    "word": "ugariaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "ugariarazi",
+        "lemma": "ugariarazi",
+        "meaning": "proliferar"
+      }
+    ]
+  },
+  {
+    "word": "ugariaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ugariarazi",
+        "lemma": "ugariarazi",
+        "meaning": "proliferar"
+      }
+    ]
+  },
+  {
+    "word": "ugariarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ugariarazi",
+        "lemma": "ugariarazi",
+        "meaning": "proliferar"
+      }
+    ]
+  },
+  {
+    "word": "ugarituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ugaritu",
+        "lemma": "ugaritu",
+        "meaning": "multiplicar"
+      }
+    ]
+  },
+  {
+    "word": "ugaritzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ugaritu",
+        "lemma": "ugaritu",
+        "meaning": "multiplicar"
+      }
+    ]
+  },
+  {
+    "word": "ugertuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ugertu",
+        "lemma": "ugertu",
+        "meaning": "enroñar"
+      }
+    ]
+  },
+  {
+    "word": "ugertzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ugertu",
+        "lemma": "ugertu",
+        "meaning": "enroñar"
+      }
+    ]
+  },
+  {
+    "word": "uhertuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "uhertu",
+        "lemma": "uhertu",
+        "meaning": "enturbiar"
+      }
+    ]
+  },
+  {
+    "word": "uhertzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "uhertu",
+        "lemma": "uhertu",
+        "meaning": "enturbiar"
+      }
+    ]
+  },
+  {
+    "word": "uhinduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "uhindu",
+        "lemma": "uhindu",
+        "meaning": "ondular"
+      }
+    ]
+  },
+  {
+    "word": "uhintzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "uhindu",
+        "lemma": "uhindu",
+        "meaning": "ondular"
+      }
+    ]
+  },
+  {
+    "word": "uka",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "ukatu",
+        "lemma": "ukatu",
+        "meaning": "negar"
+      }
+    ]
+  },
+  {
+    "word": "ukabilduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ukabildu",
+        "lemma": "ukabildu",
+        "meaning": "dar puñetazos"
+      }
+    ]
+  },
+  {
+    "word": "ukabilkatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ukabilkatu",
+        "lemma": "ukabilkatu",
+        "meaning": "dar puñetazos"
+      }
+    ]
+  },
+  {
+    "word": "ukabilkatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ukabilkatu",
+        "lemma": "ukabilkatu",
+        "meaning": "dar puñetazos"
+      }
+    ]
+  },
+  {
+    "word": "ukabiltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ukabildu",
+        "lemma": "ukabildu",
+        "meaning": "dar puñetazos"
+      }
+    ]
+  },
+  {
+    "word": "ukaldikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ukaldikatu",
+        "lemma": "ukaldikatu",
+        "meaning": "golpear"
+      }
+    ]
+  },
+  {
+    "word": "ukaldikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ukaldikatu",
+        "lemma": "ukaldikatu",
+        "meaning": "golpear"
+      }
+    ]
+  },
+  {
+    "word": "ukango",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ukan",
+        "lemma": "ukan",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "ukaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "ukarazi",
+        "lemma": "ukarazi",
+        "meaning": "negar"
+      }
+    ]
+  },
+  {
+    "word": "ukaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ukarazi",
+        "lemma": "ukarazi",
+        "meaning": "negar"
+      }
+    ]
+  },
+  {
+    "word": "ukarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ukarazi",
+        "lemma": "ukarazi",
+        "meaning": "negar"
+      }
+    ]
+  },
+  {
+    "word": "ukaten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ukan",
+        "lemma": "ukan",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "ukatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ukatu",
+        "lemma": "ukatu",
+        "meaning": "negar"
+      }
+    ]
+  },
+  {
+    "word": "ukatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ukatu",
+        "lemma": "ukatu",
+        "meaning": "negar"
+      }
+    ]
+  },
+  {
+    "word": "ukiaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "ukiarazi",
+        "lemma": "ukiarazi",
+        "meaning": "tocar"
+      }
+    ]
+  },
+  {
+    "word": "ukiaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ukiarazi",
+        "lemma": "ukiarazi",
+        "meaning": "tocar"
+      }
+    ]
+  },
+  {
+    "word": "ukiarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ukiarazi",
+        "lemma": "ukiarazi",
+        "meaning": "tocar"
+      }
+    ]
+  },
+  {
+    "word": "ukituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ukitu",
+        "lemma": "ukitu",
+        "meaning": "emocionar"
+      }
+    ]
+  },
+  {
+    "word": "ukitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ukitu",
+        "lemma": "ukitu",
+        "meaning": "emocionar"
+      }
+    ]
+  },
+  {
+    "word": "ukondotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ukondotu",
+        "lemma": "ukondotu",
+        "meaning": "acodar"
+      }
+    ]
+  },
+  {
+    "word": "ukondotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ukondotu",
+        "lemma": "ukondotu",
+        "meaning": "acodar"
+      }
+    ]
+  },
+  {
+    "word": "uler",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "ulertu",
+        "lemma": "ulertu",
+        "meaning": "entender"
+      }
+    ]
+  },
+  {
+    "word": "ulertaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "ulertarazi",
+        "lemma": "ulertarazi",
+        "meaning": "entender"
+      }
+    ]
+  },
+  {
+    "word": "ulertaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ulertarazi",
+        "lemma": "ulertarazi",
+        "meaning": "entender"
+      }
+    ]
+  },
+  {
+    "word": "ulertarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ulertarazi",
+        "lemma": "ulertarazi",
+        "meaning": "entender"
+      }
+    ]
+  },
+  {
+    "word": "ulertuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ulertu",
+        "lemma": "ulertu",
+        "meaning": "entender"
+      }
+    ]
+  },
+  {
+    "word": "ulertzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ulertu",
+        "lemma": "ulertu",
+        "meaning": "entender"
+      }
+    ]
+  },
+  {
+    "word": "ultzeratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ultzeratu",
+        "lemma": "ultzeratu",
+        "meaning": "ulcerar"
+      }
+    ]
+  },
+  {
+    "word": "ultzeratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ultzeratu",
+        "lemma": "ultzeratu",
+        "meaning": "ulcerar"
+      }
+    ]
+  },
+  {
+    "word": "uma",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "umatu",
+        "lemma": "umatu",
+        "meaning": "ablandar"
+      }
+    ]
+  },
+  {
+    "word": "umatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "umatu",
+        "lemma": "umatu",
+        "meaning": "ablandar"
+      }
+    ]
+  },
+  {
+    "word": "umatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "umatu",
+        "lemma": "umatu",
+        "meaning": "ablandar"
+      }
+    ]
+  },
+  {
+    "word": "umelduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "umeldu",
+        "lemma": "umeldu",
+        "meaning": "humedecer"
+      }
+    ]
+  },
+  {
+    "word": "umeltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "umeldu",
+        "lemma": "umeldu",
+        "meaning": "humedecer"
+      }
+    ]
+  },
+  {
+    "word": "umetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "umetu",
+        "lemma": "umetu",
+        "meaning": "aniñar"
+      }
+    ]
+  },
+  {
+    "word": "umetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "umetu",
+        "lemma": "umetu",
+        "meaning": "aniñar"
+      }
+    ]
+  },
+  {
+    "word": "umilduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "umildu",
+        "lemma": "umildu",
+        "meaning": "volver humilde"
+      }
+    ]
+  },
+  {
+    "word": "umilia",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "umiliatu",
+        "lemma": "umiliatu",
+        "meaning": "humillar"
+      }
+    ]
+  },
+  {
+    "word": "umiliatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "umiliatu",
+        "lemma": "umiliatu",
+        "meaning": "humillar"
+      }
+    ]
+  },
+  {
+    "word": "umiliatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "umiliatu",
+        "lemma": "umiliatu",
+        "meaning": "humillar"
+      }
+    ]
+  },
+  {
+    "word": "umiltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "umildu",
+        "lemma": "umildu",
+        "meaning": "volver humilde"
+      }
+    ]
+  },
+  {
+    "word": "umotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "umotu",
+        "lemma": "umotu",
+        "meaning": "madurar"
+      }
+    ]
+  },
+  {
+    "word": "umotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "umotu",
+        "lemma": "umotu",
+        "meaning": "madurar"
+      }
+    ]
+  },
+  {
+    "word": "una",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "unatu",
+        "lemma": "unatu",
+        "meaning": "cansar"
+      }
+    ]
+  },
+  {
+    "word": "unaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "unarazi",
+        "lemma": "unarazi",
+        "meaning": "cansar"
+      }
+    ]
+  },
+  {
+    "word": "unaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "unarazi",
+        "lemma": "unarazi",
+        "meaning": "cansar"
+      }
+    ]
+  },
+  {
+    "word": "unarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "unarazi",
+        "lemma": "unarazi",
+        "meaning": "cansar"
+      }
+    ]
+  },
+  {
+    "word": "unatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "unatu",
+        "lemma": "unatu",
+        "meaning": "cansar"
+      }
+    ]
+  },
+  {
+    "word": "unatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "unatu",
+        "lemma": "unatu",
+        "meaning": "cansar"
+      }
+    ]
+  },
+  {
+    "word": "uni",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "unitu",
+        "lemma": "unitu",
+        "meaning": "alimentar"
+      }
+    ]
+  },
+  {
+    "word": "unibertsaliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "unibertsalizatu",
+        "lemma": "unibertsalizatu",
+        "meaning": "universalizar"
+      }
+    ]
+  },
+  {
+    "word": "unibertsalizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "unibertsalizatu",
+        "lemma": "unibertsalizatu",
+        "meaning": "universalizar"
+      }
+    ]
+  },
+  {
+    "word": "unibertsalizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "unibertsalizatu",
+        "lemma": "unibertsalizatu",
+        "meaning": "universalizar"
+      }
+    ]
+  },
+  {
+    "word": "uniforma",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "uniformatu",
+        "lemma": "uniformatu",
+        "meaning": "uniformar"
+      }
+    ]
+  },
+  {
+    "word": "uniformatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "uniformatu",
+        "lemma": "uniformatu",
+        "meaning": "uniformar"
+      }
+    ]
+  },
+  {
+    "word": "uniformatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "uniformatu",
+        "lemma": "uniformatu",
+        "meaning": "uniformar"
+      }
+    ]
+  },
+  {
+    "word": "unituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "unitu",
+        "lemma": "unitu",
+        "meaning": "alimentar"
+      }
+    ]
+  },
+  {
+    "word": "unitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "unitu",
+        "lemma": "unitu",
+        "meaning": "alimentar"
+      }
+    ]
+  },
+  {
+    "word": "upelera",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "upeleratu",
+        "lemma": "upeleratu",
+        "meaning": "encubar"
+      }
+    ]
+  },
+  {
+    "word": "upeleratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "upeleratu",
+        "lemma": "upeleratu",
+        "meaning": "encubar"
+      }
+    ]
+  },
+  {
+    "word": "upeleratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "upeleratu",
+        "lemma": "upeleratu",
+        "meaning": "encubar"
+      }
+    ]
+  },
+  {
+    "word": "urardotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urardotu",
+        "lemma": "urardotu",
+        "meaning": "desnaturalizar"
+      }
+    ]
+  },
+  {
+    "word": "urardotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urardotu",
+        "lemma": "urardotu",
+        "meaning": "desnaturalizar"
+      }
+    ]
+  },
+  {
+    "word": "urbaniza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "urbanizatu",
+        "lemma": "urbanizatu",
+        "meaning": "urbanizar"
+      }
+    ]
+  },
+  {
+    "word": "urbanizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urbanizatu",
+        "lemma": "urbanizatu",
+        "meaning": "urbanizar"
+      }
+    ]
+  },
+  {
+    "word": "urbanizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urbanizatu",
+        "lemma": "urbanizatu",
+        "meaning": "urbanizar"
+      }
+    ]
+  },
+  {
+    "word": "urberri",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "urberritu",
+        "lemma": "urberritu",
+        "meaning": "aclarar"
+      }
+    ]
+  },
+  {
+    "word": "urberrituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urberritu",
+        "lemma": "urberritu",
+        "meaning": "aclarar"
+      }
+    ]
+  },
+  {
+    "word": "urberritzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urberritu",
+        "lemma": "urberritu",
+        "meaning": "aclarar"
+      }
+    ]
+  },
+  {
+    "word": "urdailera",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "urdaileratu",
+        "lemma": "urdaileratu",
+        "meaning": "llevar al estómago"
+      }
+    ]
+  },
+  {
+    "word": "urdaileratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urdaileratu",
+        "lemma": "urdaileratu",
+        "meaning": "llevar al estómago"
+      }
+    ]
+  },
+  {
+    "word": "urdaileratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urdaileratu",
+        "lemma": "urdaileratu",
+        "meaning": "llevar al estómago"
+      }
+    ]
+  },
+  {
+    "word": "urdinduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urdindu",
+        "lemma": "urdindu",
+        "meaning": "azulear"
+      }
+    ]
+  },
+  {
+    "word": "urdintzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urdindu",
+        "lemma": "urdindu",
+        "meaning": "azulear"
+      }
+    ]
+  },
+  {
+    "word": "urdurituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urduritu",
+        "lemma": "urduritu",
+        "meaning": "poner nervioso"
+      }
+    ]
+  },
+  {
+    "word": "urduritzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urduritu",
+        "lemma": "urduritu",
+        "meaning": "poner nervioso"
+      }
+    ]
+  },
+  {
+    "word": "urezta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "ureztatu",
+        "lemma": "ureztatu",
+        "meaning": "regar"
+      }
+    ]
+  },
+  {
+    "word": "ureztatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ureztatu",
+        "lemma": "ureztatu",
+        "meaning": "regar"
+      }
+    ]
+  },
+  {
+    "word": "ureztatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ureztatu",
+        "lemma": "ureztatu",
+        "meaning": "regar"
+      }
+    ]
+  },
+  {
+    "word": "urgainera",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "urgaineratu",
+        "lemma": "urgaineratu",
+        "meaning": "emerger"
+      }
+    ]
+  },
+  {
+    "word": "urgaineratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urgaineratu",
+        "lemma": "urgaineratu",
+        "meaning": "emerger"
+      }
+    ]
+  },
+  {
+    "word": "urgaineratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urgaineratu",
+        "lemma": "urgaineratu",
+        "meaning": "emerger"
+      }
+    ]
+  },
+  {
+    "word": "urkaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "urkarazi",
+        "lemma": "urkarazi",
+        "meaning": "ahorcar"
+      }
+    ]
+  },
+  {
+    "word": "urkaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urkarazi",
+        "lemma": "urkarazi",
+        "meaning": "ahorcar"
+      }
+    ]
+  },
+  {
+    "word": "urkarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urkarazi",
+        "lemma": "urkarazi",
+        "meaning": "ahorcar"
+      }
+    ]
+  },
+  {
+    "word": "urkatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urkatu",
+        "lemma": "urkatu",
+        "meaning": "ahorcar"
+      }
+    ]
+  },
+  {
+    "word": "urkatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urkatu",
+        "lemma": "urkatu",
+        "meaning": "ahorcar"
+      }
+    ]
+  },
+  {
+    "word": "urkilatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urkilatu",
+        "lemma": "urkilatu",
+        "meaning": "ahorquillar"
+      }
+    ]
+  },
+  {
+    "word": "urkilatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urkilatu",
+        "lemma": "urkilatu",
+        "meaning": "ahorquillar"
+      }
+    ]
+  },
+  {
+    "word": "urpe",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "urpetu",
+        "lemma": "urpetu",
+        "meaning": "anegar"
+      }
+    ]
+  },
+  {
+    "word": "urpera",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "urperatu",
+        "lemma": "urperatu",
+        "meaning": "hundir"
+      }
+    ]
+  },
+  {
+    "word": "urperatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urperatu",
+        "lemma": "urperatu",
+        "meaning": "hundir"
+      }
+    ]
+  },
+  {
+    "word": "urperatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urperatu",
+        "lemma": "urperatu",
+        "meaning": "hundir"
+      }
+    ]
+  },
+  {
+    "word": "urpetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urpetu",
+        "lemma": "urpetu",
+        "meaning": "anegar"
+      }
+    ]
+  },
+  {
+    "word": "urpetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urpetu",
+        "lemma": "urpetu",
+        "meaning": "anegar"
+      }
+    ]
+  },
+  {
+    "word": "urra",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "urratu",
+        "lemma": "urratu",
+        "meaning": "desgarrar"
+      }
+    ]
+  },
+  {
+    "word": "urraraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "urrarazi",
+        "lemma": "urrarazi",
+        "meaning": "desgarrar"
+      }
+    ]
+  },
+  {
+    "word": "urraraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urrarazi",
+        "lemma": "urrarazi",
+        "meaning": "desgarrar"
+      }
+    ]
+  },
+  {
+    "word": "urrarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urrarazi",
+        "lemma": "urrarazi",
+        "meaning": "desgarrar"
+      }
+    ]
+  },
+  {
+    "word": "urratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urratu",
+        "lemma": "urratu",
+        "meaning": "desgarrar"
+      }
+    ]
+  },
+  {
+    "word": "urratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urratu",
+        "lemma": "urratu",
+        "meaning": "desgarrar"
+      }
+    ]
+  },
+  {
+    "word": "urren",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "urrendu",
+        "lemma": "urrendu",
+        "meaning": "acabar"
+      }
+    ]
+  },
+  {
+    "word": "urrenduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urrendu",
+        "lemma": "urrendu",
+        "meaning": "acabar"
+      }
+    ]
+  },
+  {
+    "word": "urrentzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urrendu",
+        "lemma": "urrendu",
+        "meaning": "acabar"
+      }
+    ]
+  },
+  {
+    "word": "urrezta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "urreztatu",
+        "lemma": "urreztatu",
+        "meaning": "dorar"
+      }
+    ]
+  },
+  {
+    "word": "urreztatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urreztatu",
+        "lemma": "urreztatu",
+        "meaning": "dorar"
+      }
+    ]
+  },
+  {
+    "word": "urreztatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urreztatu",
+        "lemma": "urreztatu",
+        "meaning": "dorar"
+      }
+    ]
+  },
+  {
+    "word": "urrikal",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "urrikaldu",
+        "lemma": "urrikaldu",
+        "meaning": "compadecerse"
+      }
+    ]
+  },
+  {
+    "word": "urrikalaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "urrikalarazi",
+        "lemma": "urrikalarazi",
+        "meaning": "compadecer"
+      }
+    ]
+  },
+  {
+    "word": "urrikalaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urrikalarazi",
+        "lemma": "urrikalarazi",
+        "meaning": "compadecer"
+      }
+    ]
+  },
+  {
+    "word": "urrikalarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urrikalarazi",
+        "lemma": "urrikalarazi",
+        "meaning": "compadecer"
+      }
+    ]
+  },
+  {
+    "word": "urrikalduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urrikaldu",
+        "lemma": "urrikaldu",
+        "meaning": "compadecerse"
+      }
+    ]
+  },
+  {
+    "word": "urrikaltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urrikaldu",
+        "lemma": "urrikaldu",
+        "meaning": "compadecerse"
+      }
+    ]
+  },
+  {
+    "word": "urrinduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urrindu",
+        "lemma": "urrindu",
+        "meaning": "atufar"
+      }
+    ]
+  },
+  {
+    "word": "urrintzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urrindu",
+        "lemma": "urrindu",
+        "meaning": "atufar"
+      }
+    ]
+  },
+  {
+    "word": "urrituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urritu",
+        "lemma": "urritu",
+        "meaning": "disminuir"
+      }
+    ]
+  },
+  {
+    "word": "urritzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urritu",
+        "lemma": "urritu",
+        "meaning": "disminuir"
+      }
+    ]
+  },
+  {
+    "word": "urrumatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urrumatu",
+        "lemma": "urrumatu",
+        "meaning": "arrullar"
+      }
+    ]
+  },
+  {
+    "word": "urrumatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urrumatu",
+        "lemma": "urrumatu",
+        "meaning": "arrullar"
+      }
+    ]
+  },
+  {
+    "word": "urrunaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "urrunarazi",
+        "lemma": "urrunarazi",
+        "meaning": "alejar"
+      }
+    ]
+  },
+  {
+    "word": "urrunaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urrunarazi",
+        "lemma": "urrunarazi",
+        "meaning": "alejar"
+      }
+    ]
+  },
+  {
+    "word": "urrunarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urrunarazi",
+        "lemma": "urrunarazi",
+        "meaning": "alejar"
+      }
+    ]
+  },
+  {
+    "word": "urrunduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urrundu",
+        "lemma": "urrundu",
+        "meaning": "alejar"
+      }
+    ]
+  },
+  {
+    "word": "urruntzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urrundu",
+        "lemma": "urrundu",
+        "meaning": "alejar"
+      }
+    ]
+  },
+  {
+    "word": "urrutiratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urrutiratu",
+        "lemma": "urrutiratu",
+        "meaning": "alejar"
+      }
+    ]
+  },
+  {
+    "word": "urrutiratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urrutiratu",
+        "lemma": "urrutiratu",
+        "meaning": "alejar"
+      }
+    ]
+  },
+  {
+    "word": "urrutituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urrutitu",
+        "lemma": "urrutitu",
+        "meaning": "alejar"
+      }
+    ]
+  },
+  {
+    "word": "urrutitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urrutitu",
+        "lemma": "urrutitu",
+        "meaning": "alejar"
+      }
+    ]
+  },
+  {
+    "word": "urtaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "urtarazi",
+        "lemma": "urtarazi",
+        "meaning": "fundir"
+      }
+    ]
+  },
+  {
+    "word": "urtaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urtarazi",
+        "lemma": "urtarazi",
+        "meaning": "fundir"
+      }
+    ]
+  },
+  {
+    "word": "urtarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urtarazi",
+        "lemma": "urtarazi",
+        "meaning": "fundir"
+      }
+    ]
+  },
+  {
+    "word": "urtuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "urtu",
+        "lemma": "urtu",
+        "meaning": "derretir"
+      }
+    ]
+  },
+  {
+    "word": "urtzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "urtu",
+        "lemma": "urtu",
+        "meaning": "derretir"
+      }
+    ]
+  },
+  {
+    "word": "usa",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "usatu",
+        "lemma": "usatu",
+        "meaning": "utilizar"
+      }
+    ]
+  },
+  {
+    "word": "usainduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "usaindu",
+        "lemma": "usaindu",
+        "meaning": "olfatear"
+      }
+    ]
+  },
+  {
+    "word": "usaintzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "usaindu",
+        "lemma": "usaindu",
+        "meaning": "olfatear"
+      }
+    ]
+  },
+  {
+    "word": "usainzta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "usainztatu",
+        "lemma": "usainztatu",
+        "meaning": "perfumar"
+      }
+    ]
+  },
+  {
+    "word": "usainztatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "usainztatu",
+        "lemma": "usainztatu",
+        "meaning": "perfumar"
+      }
+    ]
+  },
+  {
+    "word": "usainztatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "usainztatu",
+        "lemma": "usainztatu",
+        "meaning": "perfumar"
+      }
+    ]
+  },
+  {
+    "word": "usatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "usatu",
+        "lemma": "usatu",
+        "meaning": "utilizar"
+      }
+    ]
+  },
+  {
+    "word": "usatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "usatu",
+        "lemma": "usatu",
+        "meaning": "utilizar"
+      }
+    ]
+  },
+  {
+    "word": "usnaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "usnarazi",
+        "lemma": "usnarazi",
+        "meaning": "oler"
+      }
+    ]
+  },
+  {
+    "word": "usnaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "usnarazi",
+        "lemma": "usnarazi",
+        "meaning": "oler"
+      }
+    ]
+  },
+  {
+    "word": "usnarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "usnarazi",
+        "lemma": "usnarazi",
+        "meaning": "oler"
+      }
+    ]
+  },
+  {
+    "word": "usnatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "usnatu",
+        "lemma": "usnatu",
+        "meaning": "olfatear"
+      }
+    ]
+  },
+  {
+    "word": "usnatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "usnatu",
+        "lemma": "usnatu",
+        "meaning": "olfatear"
+      }
+    ]
+  },
+  {
+    "word": "ustelaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "ustelarazi",
+        "lemma": "ustelarazi",
+        "meaning": "pudrir"
+      }
+    ]
+  },
+  {
+    "word": "ustelaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ustelarazi",
+        "lemma": "ustelarazi",
+        "meaning": "pudrir"
+      }
+    ]
+  },
+  {
+    "word": "ustelarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ustelarazi",
+        "lemma": "ustelarazi",
+        "meaning": "pudrir"
+      }
+    ]
+  },
+  {
+    "word": "ustelduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "usteldu",
+        "lemma": "usteldu",
+        "meaning": "corromper"
+      }
+    ]
+  },
+  {
+    "word": "usteltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "usteldu",
+        "lemma": "usteldu",
+        "meaning": "corromper"
+      }
+    ]
+  },
+  {
+    "word": "ustia",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "ustiatu",
+        "lemma": "ustiatu",
+        "meaning": "explotar"
+      }
+    ]
+  },
+  {
+    "word": "ustiatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ustiatu",
+        "lemma": "ustiatu",
+        "meaning": "explotar"
+      }
+    ]
+  },
+  {
+    "word": "ustiatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ustiatu",
+        "lemma": "ustiatu",
+        "meaning": "explotar"
+      }
+    ]
+  },
+  {
+    "word": "usufrukta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "usufruktatu",
+        "lemma": "usufruktatu",
+        "meaning": "usufructuar"
+      }
+    ]
+  },
+  {
+    "word": "usufruktatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "usufruktatu",
+        "lemma": "usufruktatu",
+        "meaning": "usufructuar"
+      }
+    ]
+  },
+  {
+    "word": "usufruktatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "usufruktatu",
+        "lemma": "usufruktatu",
+        "meaning": "usufructuar"
+      }
+    ]
+  },
+  {
+    "word": "usurpa",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "usurpatu",
+        "lemma": "usurpatu",
+        "meaning": "usurpar"
+      }
+    ]
+  },
+  {
+    "word": "usurpatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "usurpatu",
+        "lemma": "usurpatu",
+        "meaning": "usurpar"
+      }
+    ]
+  },
+  {
+    "word": "usurpatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "usurpatu",
+        "lemma": "usurpatu",
+        "meaning": "usurpar"
+      }
+    ]
+  },
+  {
+    "word": "utz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "utzi",
+        "lemma": "utzi",
+        "meaning": "dejar"
+      }
+    ]
+  },
+  {
+    "word": "utzaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "utzarazi",
+        "lemma": "utzarazi",
+        "meaning": "dejar"
+      }
+    ]
+  },
+  {
+    "word": "utzaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "utzarazi",
+        "lemma": "utzarazi",
+        "meaning": "dejar"
+      }
+    ]
+  },
+  {
+    "word": "utzarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "utzarazi",
+        "lemma": "utzarazi",
+        "meaning": "dejar"
+      }
+    ]
+  },
+  {
+    "word": "utziets",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "utzietsi",
+        "lemma": "utzietsi",
+        "meaning": "abandonar"
+      }
+    ]
+  },
+  {
+    "word": "utzietsiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "utzietsi",
+        "lemma": "utzietsi",
+        "meaning": "abandonar"
+      }
+    ]
+  },
+  {
+    "word": "utzietsten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "utzietsi",
+        "lemma": "utzietsi",
+        "meaning": "abandonar"
+      }
+    ]
+  },
+  {
+    "word": "utziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "utzi",
+        "lemma": "utzi",
+        "meaning": "dejar"
+      }
+    ]
+  },
+  {
+    "word": "uxa",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "uxatu",
+        "lemma": "uxatu",
+        "meaning": "espantar"
+      }
+    ]
+  },
+  {
+    "word": "uxar",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "uxartu",
+        "lemma": "uxartu",
+        "meaning": "hozar"
+      }
+    ]
+  },
+  {
+    "word": "uxartuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "uxartu",
+        "lemma": "uxartu",
+        "meaning": "hozar"
+      }
+    ]
+  },
+  {
+    "word": "uxartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "uxartu",
+        "lemma": "uxartu",
+        "meaning": "hozar"
+      }
+    ]
+  },
+  {
+    "word": "uxatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "uxatu",
+        "lemma": "uxatu",
+        "meaning": "espantar"
+      }
+    ]
+  },
+  {
+    "word": "uxatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "uxatu",
+        "lemma": "uxatu",
+        "meaning": "espantar"
+      }
+    ]
+  },
+  {
+    "word": "uzkail",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "uzkaili",
+        "lemma": "uzkaili",
+        "meaning": "volcar"
+      }
+    ]
+  },
+  {
+    "word": "uzkailiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "uzkaili",
+        "lemma": "uzkaili",
+        "meaning": "volcar"
+      }
+    ]
+  },
+  {
+    "word": "uzkailtzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "uzkaili",
+        "lemma": "uzkaili",
+        "meaning": "volcar"
+      }
+    ]
+  },
+  {
+    "word": "uzkurtuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "uzkurtu",
+        "lemma": "uzkurtu",
+        "meaning": "contraerse"
+      }
+    ]
+  },
+  {
+    "word": "uzkurtzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "uzkurtu",
+        "lemma": "uzkurtu",
+        "meaning": "contraerse"
+      }
+    ]
+  },
+  {
+    "word": "uztar",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "uztartu",
+        "lemma": "uztartu",
+        "meaning": "unir"
+      }
+    ]
+  },
+  {
+    "word": "uztarpera",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "uztarperatu",
+        "lemma": "uztarperatu",
+        "meaning": "dominar"
+      }
+    ]
+  },
+  {
+    "word": "uztarperatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "uztarperatu",
+        "lemma": "uztarperatu",
+        "meaning": "dominar"
+      }
+    ]
+  },
+  {
+    "word": "uztarperatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "uztarperatu",
+        "lemma": "uztarperatu",
+        "meaning": "dominar"
+      }
+    ]
+  },
+  {
+    "word": "uztarpetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "uztarpetu",
+        "lemma": "uztarpetu",
+        "meaning": "dominar"
+      }
+    ]
+  },
+  {
+    "word": "uztarpetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "uztarpetu",
+        "lemma": "uztarpetu",
+        "meaning": "dominar"
+      }
+    ]
+  },
+  {
+    "word": "uztartuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "uztartu",
+        "lemma": "uztartu",
+        "meaning": "unir"
+      }
+    ]
+  },
+  {
+    "word": "uztartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "uztartu",
+        "lemma": "uztartu",
+        "meaning": "unir"
+      }
+    ]
+  },
+  {
+    "word": "uztatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "uztatu",
+        "lemma": "uztatu",
+        "meaning": "cosechar"
+      }
+    ]
+  },
+  {
+    "word": "uztatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "uztatu",
+        "lemma": "uztatu",
+        "meaning": "cosechar"
+      }
+    ]
+  },
+  {
+    "word": "uzten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "utzi",
+        "lemma": "utzi",
+        "meaning": "dejar"
+      }
+    ]
+  }
+]

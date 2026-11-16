@@ -1,0 +1,10442 @@
+[
+  {
+    "word": "nabariaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nabariarazi",
+        "lemma": "nabariarazi",
+        "meaning": "notar"
+      }
+    ]
+  },
+  {
+    "word": "nabariaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nabariarazi",
+        "lemma": "nabariarazi",
+        "meaning": "notar"
+      }
+    ]
+  },
+  {
+    "word": "nabariarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nabariarazi",
+        "lemma": "nabariarazi",
+        "meaning": "notar"
+      }
+    ]
+  },
+  {
+    "word": "nabarituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nabaritu",
+        "lemma": "nabaritu",
+        "meaning": "notar"
+      }
+    ]
+  },
+  {
+    "word": "nabaritzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nabaritu",
+        "lemma": "nabaritu",
+        "meaning": "notar"
+      }
+    ]
+  },
+  {
+    "word": "nabarmenaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nabarmenarazi",
+        "lemma": "nabarmenarazi",
+        "meaning": "destacar"
+      }
+    ]
+  },
+  {
+    "word": "nabarmenaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nabarmenarazi",
+        "lemma": "nabarmenarazi",
+        "meaning": "destacar"
+      }
+    ]
+  },
+  {
+    "word": "nabarmenarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nabarmenarazi",
+        "lemma": "nabarmenarazi",
+        "meaning": "destacar"
+      }
+    ]
+  },
+  {
+    "word": "nabarmenduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nabarmendu",
+        "lemma": "nabarmendu",
+        "meaning": "destacar"
+      }
+    ]
+  },
+  {
+    "word": "nabarmentzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nabarmendu",
+        "lemma": "nabarmendu",
+        "meaning": "destacar"
+      }
+    ]
+  },
+  {
+    "word": "nabartuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nabartu",
+        "lemma": "nabartu",
+        "meaning": "abigarrar"
+      }
+    ]
+  },
+  {
+    "word": "nabartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nabartu",
+        "lemma": "nabartu",
+        "meaning": "abigarrar"
+      }
+    ]
+  },
+  {
+    "word": "nabiga",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nabigatu",
+        "lemma": "nabigatu",
+        "meaning": "navegar"
+      }
+    ]
+  },
+  {
+    "word": "nabigatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nabigatu",
+        "lemma": "nabigatu",
+        "meaning": "navegar"
+      }
+    ]
+  },
+  {
+    "word": "nabigatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nabigatu",
+        "lemma": "nabigatu",
+        "meaning": "navegar"
+      }
+    ]
+  },
+  {
+    "word": "nabilela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nabilen",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nabilenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nabilen",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nabilkeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nabilke",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nabilkiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nabilkieke",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nabilkiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nabilkien",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nabilkienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nabilkien",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nabilkiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nabilkioke",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nabilkizuekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nabilkizueke",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nabilkizuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nabilkizuen",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nabilkizuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nabilkizuen",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nabilkizukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nabilkizuke",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nadila",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nadin",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nadinik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nadin",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nagiaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nagiarazi",
+        "lemma": "nagiarazi",
+        "meaning": "convertir en perezoso"
+      }
+    ]
+  },
+  {
+    "word": "nagiaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nagiarazi",
+        "lemma": "nagiarazi",
+        "meaning": "convertir en perezoso"
+      }
+    ]
+  },
+  {
+    "word": "nagiarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nagiarazi",
+        "lemma": "nagiarazi",
+        "meaning": "convertir en perezoso"
+      }
+    ]
+  },
+  {
+    "word": "nagituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nagitu",
+        "lemma": "nagitu",
+        "meaning": "emperezar"
+      }
+    ]
+  },
+  {
+    "word": "nagitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nagitu",
+        "lemma": "nagitu",
+        "meaning": "emperezar"
+      }
+    ]
+  },
+  {
+    "word": "nagoela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nago",
+        "lemma": "egon",
+        "meaning": "estar"
+      },
+      {
+        "type": "completive-la",
+        "from": "nagoen",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nagoenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nagoen",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nagokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nagoke",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nagokiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nagokieke",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nagokiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nagokien",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nagokienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nagokien",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nagokiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nagokioke",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nagokizuekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nagokizueke",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nagokizuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nagokizuen",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nagokizuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nagokizuen",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nagokizukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nagokizuke",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nagusiaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nagusiarazi",
+        "lemma": "nagusiarazi",
+        "meaning": "prevalecer"
+      }
+    ]
+  },
+  {
+    "word": "nagusiaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nagusiarazi",
+        "lemma": "nagusiarazi",
+        "meaning": "prevalecer"
+      }
+    ]
+  },
+  {
+    "word": "nagusiarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nagusiarazi",
+        "lemma": "nagusiarazi",
+        "meaning": "prevalecer"
+      }
+    ]
+  },
+  {
+    "word": "nagusituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nagusitu",
+        "lemma": "nagusitu",
+        "meaning": "hacerse mayor"
+      }
+    ]
+  },
+  {
+    "word": "nagusitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nagusitu",
+        "lemma": "nagusitu",
+        "meaning": "hacerse mayor"
+      }
+    ]
+  },
+  {
+    "word": "nahas",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nahasi",
+        "lemma": "nahasi",
+        "meaning": "alterar"
+      },
+      {
+        "type": "root",
+        "from": "nahastu",
+        "lemma": "nahastu",
+        "meaning": "alterar"
+      }
+    ]
+  },
+  {
+    "word": "nahasaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nahasarazi",
+        "lemma": "nahasarazi",
+        "meaning": "turbar"
+      }
+    ]
+  },
+  {
+    "word": "nahasaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nahasarazi",
+        "lemma": "nahasarazi",
+        "meaning": "turbar"
+      }
+    ]
+  },
+  {
+    "word": "nahasarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nahasarazi",
+        "lemma": "nahasarazi",
+        "meaning": "turbar"
+      }
+    ]
+  },
+  {
+    "word": "nahasiko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nahasi",
+        "lemma": "nahasi",
+        "meaning": "alterar"
+      }
+    ]
+  },
+  {
+    "word": "nahaspilatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nahaspilatu",
+        "lemma": "nahaspilatu",
+        "meaning": "alborotar"
+      }
+    ]
+  },
+  {
+    "word": "nahaspilatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nahaspilatu",
+        "lemma": "nahaspilatu",
+        "meaning": "alborotar"
+      }
+    ]
+  },
+  {
+    "word": "nahasta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nahastatu",
+        "lemma": "nahastatu",
+        "meaning": "mezclar"
+      }
+    ]
+  },
+  {
+    "word": "nahastatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nahastatu",
+        "lemma": "nahastatu",
+        "meaning": "mezclar"
+      }
+    ]
+  },
+  {
+    "word": "nahastatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nahastatu",
+        "lemma": "nahastatu",
+        "meaning": "mezclar"
+      }
+    ]
+  },
+  {
+    "word": "nahastekatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nahastekatu",
+        "lemma": "nahastekatu",
+        "meaning": "mezclar"
+      }
+    ]
+  },
+  {
+    "word": "nahastekatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nahastekatu",
+        "lemma": "nahastekatu",
+        "meaning": "mezclar"
+      }
+    ]
+  },
+  {
+    "word": "nahasten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nahasi",
+        "lemma": "nahasi",
+        "meaning": "alterar"
+      }
+    ]
+  },
+  {
+    "word": "nahastuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nahastu",
+        "lemma": "nahastu",
+        "meaning": "alterar"
+      }
+    ]
+  },
+  {
+    "word": "nahastzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nahastu",
+        "lemma": "nahastu",
+        "meaning": "alterar"
+      }
+    ]
+  },
+  {
+    "word": "nahigabetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nahigabetu",
+        "lemma": "nahigabetu",
+        "meaning": "disgustar"
+      }
+    ]
+  },
+  {
+    "word": "nahigabetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nahigabetu",
+        "lemma": "nahigabetu",
+        "meaning": "disgustar"
+      }
+    ]
+  },
+  {
+    "word": "nahika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nahikatu",
+        "lemma": "nahikatu",
+        "meaning": "querer"
+      }
+    ]
+  },
+  {
+    "word": "nahikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nahikatu",
+        "lemma": "nahikatu",
+        "meaning": "querer"
+      }
+    ]
+  },
+  {
+    "word": "nahikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nahikatu",
+        "lemma": "nahikatu",
+        "meaning": "querer"
+      }
+    ]
+  },
+  {
+    "word": "nahikotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nahikotu",
+        "lemma": "nahikotu",
+        "meaning": "satisfacer"
+      }
+    ]
+  },
+  {
+    "word": "nahikotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nahikotu",
+        "lemma": "nahikotu",
+        "meaning": "satisfacer"
+      }
+    ]
+  },
+  {
+    "word": "naitekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "naiteke",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "naizatekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "naizateke",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "naizela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "naiz",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nakaiz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nakaiztu",
+        "lemma": "nakaiztu",
+        "meaning": "asquear"
+      }
+    ]
+  },
+  {
+    "word": "nakaiztuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nakaiztu",
+        "lemma": "nakaiztu",
+        "meaning": "asquear"
+      }
+    ]
+  },
+  {
+    "word": "nakaiztzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nakaiztu",
+        "lemma": "nakaiztu",
+        "meaning": "asquear"
+      }
+    ]
+  },
+  {
+    "word": "nakarkeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nakarke",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nakarrela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nakar",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nakiakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nakiake",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nakiala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nakian",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nakianik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nakian",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nakiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nakieke",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nakiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nakien",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nakienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nakien",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nakinakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nakinake",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nakinala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nakinan",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nakinanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nakinan",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nakiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nakioke",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nakiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nakion",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nakionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nakion",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nakizuekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nakizueke",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nakizuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nakizuen",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nakizuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nakizuen",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nakizukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nakizuke",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nakizula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nakizun",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nakizunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nakizun",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "narabilkeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "narabilke",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "naramakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "naramake",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "nardaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nardarazi",
+        "lemma": "nardarazi",
+        "meaning": "asquear"
+      }
+    ]
+  },
+  {
+    "word": "nardaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nardarazi",
+        "lemma": "nardarazi",
+        "meaning": "asquear"
+      }
+    ]
+  },
+  {
+    "word": "nardarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nardarazi",
+        "lemma": "nardarazi",
+        "meaning": "asquear"
+      }
+    ]
+  },
+  {
+    "word": "nardatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nardatu",
+        "lemma": "nardatu",
+        "meaning": "asquear"
+      }
+    ]
+  },
+  {
+    "word": "nardatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nardatu",
+        "lemma": "nardatu",
+        "meaning": "asquear"
+      }
+    ]
+  },
+  {
+    "word": "naretuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "naretu",
+        "lemma": "naretu",
+        "meaning": "calmar"
+      }
+    ]
+  },
+  {
+    "word": "naretzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "naretu",
+        "lemma": "naretu",
+        "meaning": "calmar"
+      }
+    ]
+  },
+  {
+    "word": "narkotiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "narkotizatu",
+        "lemma": "narkotizatu",
+        "meaning": "narcotizar"
+      }
+    ]
+  },
+  {
+    "word": "narkotizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "narkotizatu",
+        "lemma": "narkotizatu",
+        "meaning": "narcotizar"
+      }
+    ]
+  },
+  {
+    "word": "narkotizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "narkotizatu",
+        "lemma": "narkotizatu",
+        "meaning": "narcotizar"
+      }
+    ]
+  },
+  {
+    "word": "naroakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "naroake",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "narotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "narotu",
+        "lemma": "narotu",
+        "meaning": "enriquecer"
+      }
+    ]
+  },
+  {
+    "word": "narotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "narotu",
+        "lemma": "narotu",
+        "meaning": "enriquecer"
+      }
+    ]
+  },
+  {
+    "word": "narrastuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "narrastu",
+        "lemma": "narrastu",
+        "meaning": "arrastrar"
+      }
+    ]
+  },
+  {
+    "word": "narrastzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "narrastu",
+        "lemma": "narrastu",
+        "meaning": "arrastrar"
+      }
+    ]
+  },
+  {
+    "word": "narria",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "narriatu",
+        "lemma": "narriatu",
+        "meaning": "deteriorar"
+      }
+    ]
+  },
+  {
+    "word": "narriatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "narriatu",
+        "lemma": "narriatu",
+        "meaning": "deteriorar"
+      }
+    ]
+  },
+  {
+    "word": "narriatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "narriatu",
+        "lemma": "narriatu",
+        "meaning": "deteriorar"
+      }
+    ]
+  },
+  {
+    "word": "narrita",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "narritatu",
+        "lemma": "narritatu",
+        "meaning": "irritar"
+      }
+    ]
+  },
+  {
+    "word": "narritatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "narritatu",
+        "lemma": "narritatu",
+        "meaning": "irritar"
+      }
+    ]
+  },
+  {
+    "word": "narritatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "narritatu",
+        "lemma": "narritatu",
+        "meaning": "irritar"
+      }
+    ]
+  },
+  {
+    "word": "nasaituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nasaitu",
+        "lemma": "nasaitu",
+        "meaning": "tranquilizar"
+      }
+    ]
+  },
+  {
+    "word": "nasaitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nasaitu",
+        "lemma": "nasaitu",
+        "meaning": "tranquilizar"
+      }
+    ]
+  },
+  {
+    "word": "natorkeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "natorke",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "natorkiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "natorkieke",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "natorkiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "natorkien",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "natorkienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "natorkien",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "natorkiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "natorkioke",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "natorkizuekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "natorkizueke",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "natorkizuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "natorkizuen",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "natorkizuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "natorkizuen",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "natorkizukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "natorkizuke",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "natorrela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nator",
+        "lemma": "etorri",
+        "meaning": "venir"
+      },
+      {
+        "type": "completive-la",
+        "from": "natorren",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "natorrenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "natorren",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "naturaliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "naturalizatu",
+        "lemma": "naturalizatu",
+        "meaning": "naturalizar"
+      }
+    ]
+  },
+  {
+    "word": "naturalizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "naturalizatu",
+        "lemma": "naturalizatu",
+        "meaning": "naturalizar"
+      }
+    ]
+  },
+  {
+    "word": "naturalizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "naturalizatu",
+        "lemma": "naturalizatu",
+        "meaning": "naturalizar"
+      }
+    ]
+  },
+  {
+    "word": "natzaiakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "natzaiake",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "natzaiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "natzaieke",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "natzaila",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "natzain",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "natzainakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "natzainake",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "natzainik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "natzain",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "natzaiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "natzaioke",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "natzaizuekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "natzaizueke",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "natzaizukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "natzaizuke",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "naukakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "naukake",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "naukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nauke",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "naukela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nauken",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "naukenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nauken",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "naula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "naun",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "naunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "naun",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nausa",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nausatu",
+        "lemma": "nausatu",
+        "meaning": "burlar"
+      }
+    ]
+  },
+  {
+    "word": "nausatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nausatu",
+        "lemma": "nausatu",
+        "meaning": "burlar"
+      }
+    ]
+  },
+  {
+    "word": "nausatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nausatu",
+        "lemma": "nausatu",
+        "meaning": "burlar"
+      }
+    ]
+  },
+  {
+    "word": "nazaala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nazaan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nazaanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nazaan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nazakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nazake",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nazakela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nazaken",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nazakenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nazaken",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nazala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nazan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nazanala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nazanan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nazananik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nazanan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nazanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nazan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nazatela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nazaten",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nazatenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nazaten",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nazazuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nazazuen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nazazuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nazazuen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nazazula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nazazun",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nazazunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nazazun",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nazionaliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nazionalizatu",
+        "lemma": "nazionalizatu",
+        "meaning": "nacionalizar"
+      }
+    ]
+  },
+  {
+    "word": "nazionalizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nazionalizatu",
+        "lemma": "nazionalizatu",
+        "meaning": "nacionalizar"
+      }
+    ]
+  },
+  {
+    "word": "nazionalizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nazionalizatu",
+        "lemma": "nazionalizatu",
+        "meaning": "nacionalizar"
+      }
+    ]
+  },
+  {
+    "word": "nazkatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nazkatu",
+        "lemma": "nazkatu",
+        "meaning": "asquear"
+      }
+    ]
+  },
+  {
+    "word": "nazkatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nazkatu",
+        "lemma": "nazkatu",
+        "meaning": "asquear"
+      }
+    ]
+  },
+  {
+    "word": "negartuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "negartu",
+        "lemma": "negartu",
+        "meaning": "llorar"
+      }
+    ]
+  },
+  {
+    "word": "negartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "negartu",
+        "lemma": "negartu",
+        "meaning": "llorar"
+      }
+    ]
+  },
+  {
+    "word": "negiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "negien",
+        "lemma": "egin",
+        "meaning": "hacer"
+      }
+    ]
+  },
+  {
+    "word": "negienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "negien",
+        "lemma": "egin",
+        "meaning": "hacer"
+      }
+    ]
+  },
+  {
+    "word": "negikeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "negikeen",
+        "lemma": "egin",
+        "meaning": "hacer"
+      }
+    ]
+  },
+  {
+    "word": "negikeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "negikeen",
+        "lemma": "egin",
+        "meaning": "hacer"
+      }
+    ]
+  },
+  {
+    "word": "negitzakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "negitzakeen",
+        "lemma": "egin",
+        "meaning": "hacer"
+      }
+    ]
+  },
+  {
+    "word": "negitzakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "negitzakeen",
+        "lemma": "egin",
+        "meaning": "hacer"
+      }
+    ]
+  },
+  {
+    "word": "negitzala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "negitzan",
+        "lemma": "egin",
+        "meaning": "hacer"
+      }
+    ]
+  },
+  {
+    "word": "negitzanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "negitzan",
+        "lemma": "egin",
+        "meaning": "hacer"
+      }
+    ]
+  },
+  {
+    "word": "negozia",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "negoziatu",
+        "lemma": "negoziatu",
+        "meaning": "negociar"
+      }
+    ]
+  },
+  {
+    "word": "negoziatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "negoziatu",
+        "lemma": "negoziatu",
+        "meaning": "negociar"
+      }
+    ]
+  },
+  {
+    "word": "negoziatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "negoziatu",
+        "lemma": "negoziatu",
+        "meaning": "negociar"
+      }
+    ]
+  },
+  {
+    "word": "negutuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "negutu",
+        "lemma": "negutu",
+        "meaning": "hacer tiempo de invierno"
+      }
+    ]
+  },
+  {
+    "word": "negutzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "negutu",
+        "lemma": "negutu",
+        "meaning": "hacer tiempo de invierno"
+      }
+    ]
+  },
+  {
+    "word": "neka",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nekatu",
+        "lemma": "nekatu",
+        "meaning": "cansar"
+      }
+    ]
+  },
+  {
+    "word": "nekaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nekarazi",
+        "lemma": "nekarazi",
+        "meaning": "cansar"
+      }
+    ]
+  },
+  {
+    "word": "nekaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nekarazi",
+        "lemma": "nekarazi",
+        "meaning": "cansar"
+      }
+    ]
+  },
+  {
+    "word": "nekarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nekarazi",
+        "lemma": "nekarazi",
+        "meaning": "cansar"
+      }
+    ]
+  },
+  {
+    "word": "nekarkeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekarkeen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarkeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekarkeen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarkiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekarkiekeen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarkiekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekarkiekeen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarkiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekarkien",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarkienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekarkien",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarkiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekarkiokeen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarkiokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekarkiokeen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarkiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekarkion",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarkionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekarkion",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarkizuekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekarkizuekeen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarkizuekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekarkizuekeen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarkizuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekarkizuen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarkizuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekarkizuen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarkizukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekarkizukeen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarkizukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekarkizukeen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarkizula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekarkizun",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarkizunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekarkizun",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarrela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekarren",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarrenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekarren",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekartzala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekartzan",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekartzanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekartzan",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarzkeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekarzkeen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarzkeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekarzkeen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarzkiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekarzkiekeen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarzkiekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekarzkiekeen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarzkiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekarzkien",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarzkienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekarzkien",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarzkiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekarzkiokeen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarzkiokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekarzkiokeen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarzkiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekarzkion",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarzkionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekarzkion",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarzkizuekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekarzkizuekeen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarzkizuekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekarzkizuekeen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarzkizuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekarzkizuen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarzkizuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekarzkizuen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarzkizukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekarzkizukeen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarzkizukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekarzkizukeen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarzkizula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekarzkizun",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekarzkizunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekarzkizun",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nekatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nekatu",
+        "lemma": "nekatu",
+        "meaning": "cansar"
+      }
+    ]
+  },
+  {
+    "word": "nekatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nekatu",
+        "lemma": "nekatu",
+        "meaning": "cansar"
+      }
+    ]
+  },
+  {
+    "word": "nekiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekien",
+        "lemma": "jakin",
+        "meaning": "saber"
+      }
+    ]
+  },
+  {
+    "word": "nekienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekien",
+        "lemma": "jakin",
+        "meaning": "saber"
+      }
+    ]
+  },
+  {
+    "word": "nekikeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekikeen",
+        "lemma": "jakin",
+        "meaning": "saber"
+      }
+    ]
+  },
+  {
+    "word": "nekikeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekikeen",
+        "lemma": "jakin",
+        "meaning": "saber"
+      }
+    ]
+  },
+  {
+    "word": "nekizkiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekizkien",
+        "lemma": "jakin",
+        "meaning": "saber"
+      }
+    ]
+  },
+  {
+    "word": "nekizkienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekizkien",
+        "lemma": "jakin",
+        "meaning": "saber"
+      }
+    ]
+  },
+  {
+    "word": "nekizkikeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekizkikeen",
+        "lemma": "jakin",
+        "meaning": "saber"
+      }
+    ]
+  },
+  {
+    "word": "nekizkikeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekizkikeen",
+        "lemma": "jakin",
+        "meaning": "saber"
+      }
+    ]
+  },
+  {
+    "word": "nekrosa",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nekrosatu",
+        "lemma": "nekrosatu",
+        "meaning": "necrosar"
+      }
+    ]
+  },
+  {
+    "word": "nekrosatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nekrosatu",
+        "lemma": "nekrosatu",
+        "meaning": "necrosar"
+      }
+    ]
+  },
+  {
+    "word": "nekrosatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nekrosatu",
+        "lemma": "nekrosatu",
+        "meaning": "necrosar"
+      }
+    ]
+  },
+  {
+    "word": "nekusakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekusakeen",
+        "lemma": "ikusi",
+        "meaning": "ver"
+      }
+    ]
+  },
+  {
+    "word": "nekusakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekusakeen",
+        "lemma": "ikusi",
+        "meaning": "ver"
+      }
+    ]
+  },
+  {
+    "word": "nekusala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekusan",
+        "lemma": "ikusi",
+        "meaning": "ver"
+      }
+    ]
+  },
+  {
+    "word": "nekusanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekusan",
+        "lemma": "ikusi",
+        "meaning": "ver"
+      }
+    ]
+  },
+  {
+    "word": "nekuskiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekuskien",
+        "lemma": "ikusi",
+        "meaning": "ver"
+      }
+    ]
+  },
+  {
+    "word": "nekuskienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekuskien",
+        "lemma": "ikusi",
+        "meaning": "ver"
+      }
+    ]
+  },
+  {
+    "word": "nekuskikeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nekuskikeen",
+        "lemma": "ikusi",
+        "meaning": "ver"
+      }
+    ]
+  },
+  {
+    "word": "nekuskikeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nekuskikeen",
+        "lemma": "ikusi",
+        "meaning": "ver"
+      }
+    ]
+  },
+  {
+    "word": "nenbilela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nenbilen",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nenbilenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nenbilen",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nenbilkeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nenbilkeen",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nenbilkeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nenbilkeen",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nenbilkiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nenbilkiekeen",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nenbilkiekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nenbilkiekeen",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nenbilkiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nenbilkien",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nenbilkienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nenbilkien",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nenbilkiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nenbilkiokeen",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nenbilkiokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nenbilkiokeen",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nenbilkiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nenbilkion",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nenbilkionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nenbilkion",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nenbilkizuekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nenbilkizuekeen",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nenbilkizuekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nenbilkizuekeen",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nenbilkizuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nenbilkizuen",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nenbilkizuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nenbilkizuen",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nenbilkizukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nenbilkizukeen",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nenbilkizukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nenbilkizukeen",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nenbilkizula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nenbilkizun",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nenbilkizunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nenbilkizun",
+        "lemma": "ibili",
+        "meaning": "andar"
+      }
+    ]
+  },
+  {
+    "word": "nendila",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nendin",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nendinik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nendin",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nengoela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nengoen",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nengoenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nengoen",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nengokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nengokeen",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nengokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nengokeen",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nengokiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nengokiekeen",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nengokiekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nengokiekeen",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nengokiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nengokien",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nengokienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nengokien",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nengokiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nengokiokeen",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nengokiokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nengokiokeen",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nengokiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nengokion",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nengokionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nengokion",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nengokizuekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nengokizuekeen",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nengokizuekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nengokizuekeen",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nengokizuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nengokizuen",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nengokizuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nengokizuen",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nengokizukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nengokizukeen",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nengokizukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nengokizukeen",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nengokizula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nengokizun",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nengokizunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nengokizun",
+        "lemma": "egon",
+        "meaning": "estar"
+      }
+    ]
+  },
+  {
+    "word": "nenkiakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nenkiakeen",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nenkiakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nenkiakeen",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nenkiala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nenkian",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nenkianik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nenkian",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nenkiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nenkiekeen",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nenkiekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nenkiekeen",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nenkiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nenkien",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      },
+      {
+        "type": "completive-la",
+        "from": "nenkien",
+        "lemma": "ekin",
+        "meaning": "insistir, ponerse a"
+      }
+    ]
+  },
+  {
+    "word": "nenkienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nenkien",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      },
+      {
+        "type": "completive-enik",
+        "from": "nenkien",
+        "lemma": "ekin",
+        "meaning": "insistir, ponerse a"
+      }
+    ]
+  },
+  {
+    "word": "nenkinakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nenkinakeen",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nenkinakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nenkinakeen",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nenkinala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nenkinan",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nenkinanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nenkinan",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nenkiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nenkiokeen",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nenkiokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nenkiokeen",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nenkiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nenkion",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      },
+      {
+        "type": "completive-la",
+        "from": "nenkion",
+        "lemma": "ekin",
+        "meaning": "insistir, ponerse a"
+      }
+    ]
+  },
+  {
+    "word": "nenkionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nenkion",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      },
+      {
+        "type": "completive-enik",
+        "from": "nenkion",
+        "lemma": "ekin",
+        "meaning": "insistir, ponerse a"
+      }
+    ]
+  },
+  {
+    "word": "nenkizuekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nenkizuekeen",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nenkizuekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nenkizuekeen",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nenkizuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nenkizuen",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nenkizuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nenkizuen",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nenkizukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nenkizukeen",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nenkizukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nenkizukeen",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nenkizula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nenkizun",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nenkizunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nenkizun",
+        "lemma": "edin",
+        "meaning": "poder (auxiliar)"
+      }
+    ]
+  },
+  {
+    "word": "nentorkeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nentorkeen",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "nentorkeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nentorkeen",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "nentorkiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nentorkiekeen",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "nentorkiekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nentorkiekeen",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "nentorkiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nentorkien",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "nentorkienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nentorkien",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "nentorkiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nentorkiokeen",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "nentorkiokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nentorkiokeen",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "nentorkiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nentorkion",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "nentorkionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nentorkion",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "nentorkizuekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nentorkizuekeen",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "nentorkizuekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nentorkizuekeen",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "nentorkizuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nentorkizuen",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "nentorkizuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nentorkizuen",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "nentorkizukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nentorkizukeen",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "nentorkizukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nentorkizukeen",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "nentorkizula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nentorkizun",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "nentorkizunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nentorkizun",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "nentorrela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nentorren",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "nentorrenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nentorren",
+        "lemma": "etorri",
+        "meaning": "venir"
+      }
+    ]
+  },
+  {
+    "word": "nentxekiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nentxekien",
+        "lemma": "atxeki",
+        "meaning": "adherirse, pegarse"
+      }
+    ]
+  },
+  {
+    "word": "nentxekienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nentxekien",
+        "lemma": "atxeki",
+        "meaning": "adherirse, pegarse"
+      }
+    ]
+  },
+  {
+    "word": "nentxekiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nentxekion",
+        "lemma": "atxeki",
+        "meaning": "adherirse, pegarse"
+      }
+    ]
+  },
+  {
+    "word": "nentxekionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nentxekion",
+        "lemma": "atxeki",
+        "meaning": "adherirse, pegarse"
+      }
+    ]
+  },
+  {
+    "word": "nentxekizuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nentxekizuen",
+        "lemma": "atxeki",
+        "meaning": "adherirse, pegarse"
+      }
+    ]
+  },
+  {
+    "word": "nentxekizuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nentxekizuen",
+        "lemma": "atxeki",
+        "meaning": "adherirse, pegarse"
+      }
+    ]
+  },
+  {
+    "word": "nentxekizula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nentxekizun",
+        "lemma": "atxeki",
+        "meaning": "adherirse, pegarse"
+      }
+    ]
+  },
+  {
+    "word": "nentxekizunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nentxekizun",
+        "lemma": "atxeki",
+        "meaning": "adherirse, pegarse"
+      }
+    ]
+  },
+  {
+    "word": "nentzala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nentzan",
+        "lemma": "etzan",
+        "meaning": "tumbarse"
+      }
+    ]
+  },
+  {
+    "word": "nentzanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nentzan",
+        "lemma": "etzan",
+        "meaning": "tumbarse"
+      }
+    ]
+  },
+  {
+    "word": "nentzuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nentzuen",
+        "lemma": "entzun",
+        "meaning": "oír"
+      }
+    ]
+  },
+  {
+    "word": "nentzuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nentzuen",
+        "lemma": "entzun",
+        "meaning": "oír"
+      }
+    ]
+  },
+  {
+    "word": "nentzukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nentzukeen",
+        "lemma": "entzun",
+        "meaning": "oír"
+      }
+    ]
+  },
+  {
+    "word": "nentzukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nentzukeen",
+        "lemma": "entzun",
+        "meaning": "oír"
+      }
+    ]
+  },
+  {
+    "word": "nentzuzkiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nentzuzkien",
+        "lemma": "entzun",
+        "meaning": "oír"
+      }
+    ]
+  },
+  {
+    "word": "nentzuzkienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nentzuzkien",
+        "lemma": "entzun",
+        "meaning": "oír"
+      }
+    ]
+  },
+  {
+    "word": "nentzuzkikeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nentzuzkikeen",
+        "lemma": "entzun",
+        "meaning": "oír"
+      }
+    ]
+  },
+  {
+    "word": "nentzuzkikeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nentzuzkikeen",
+        "lemma": "entzun",
+        "meaning": "oír"
+      }
+    ]
+  },
+  {
+    "word": "nerabilela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nerabilen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nerabilen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilkeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nerabilkeen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilkeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nerabilkeen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilkiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nerabilkiekeen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilkiekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nerabilkiekeen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilkiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nerabilkien",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilkienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nerabilkien",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilkiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nerabilkiokeen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilkiokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nerabilkiokeen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilkiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nerabilkion",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilkionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nerabilkion",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilkizuekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nerabilkizuekeen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilkizuekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nerabilkizuekeen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilkizuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nerabilkizuen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilkizuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nerabilkizuen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilkizukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nerabilkizukeen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilkizukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nerabilkizukeen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilkizula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nerabilkizun",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilkizunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nerabilkizun",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabiltzala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nerabiltzan",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabiltzanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nerabiltzan",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilzkeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nerabilzkeen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilzkeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nerabilzkeen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilzkiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nerabilzkiekeen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilzkiekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nerabilzkiekeen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilzkiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nerabilzkien",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilzkienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nerabilzkien",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilzkiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nerabilzkiokeen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilzkiokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nerabilzkiokeen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilzkiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nerabilzkion",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilzkionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nerabilzkion",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilzkizuekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nerabilzkizuekeen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilzkizuekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nerabilzkizuekeen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilzkizuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nerabilzkizuen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilzkizuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nerabilzkizuen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilzkizukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nerabilzkizukeen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilzkizukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nerabilzkizukeen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilzkizula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nerabilzkizun",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerabilzkizunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nerabilzkizun",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "nerakuskiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nerakuskien",
+        "lemma": "irakatsi",
+        "meaning": "enseñar"
+      }
+    ]
+  },
+  {
+    "word": "nerakuskienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nerakuskien",
+        "lemma": "irakatsi",
+        "meaning": "enseñar"
+      }
+    ]
+  },
+  {
+    "word": "nerakutsala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nerakutsan",
+        "lemma": "irakatsi",
+        "meaning": "enseñar"
+      }
+    ]
+  },
+  {
+    "word": "nerakutsanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nerakutsan",
+        "lemma": "irakatsi",
+        "meaning": "enseñar"
+      }
+    ]
+  },
+  {
+    "word": "neramakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neramakeen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neramakeen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramakiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neramakiekeen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramakiekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neramakiekeen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramakiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neramakien",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramakienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neramakien",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramakiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neramakiokeen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramakiokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neramakiokeen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramakiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neramakion",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramakionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neramakion",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramakizuekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neramakizuekeen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramakizuekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neramakizuekeen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramakizuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neramakizuen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramakizuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neramakizuen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramakizukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neramakizukeen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramakizukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neramakizukeen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramakizula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neramakizun",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramakizunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neramakizun",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neraman",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neraman",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramatzala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neramatzan",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramatzanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neramatzan",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramazkeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neramazkeen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramazkeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neramazkeen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramazkiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neramazkiekeen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramazkiekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neramazkiekeen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramazkiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neramazkien",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramazkienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neramazkien",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramazkiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neramazkiokeen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramazkiokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neramazkiokeen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramazkiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neramazkion",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramazkionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neramazkion",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramazkizuekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neramazkizuekeen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramazkizuekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neramazkizuekeen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramazkizuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neramazkizuen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramazkizuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neramazkizuen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramazkizukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neramazkizukeen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramazkizukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neramazkizukeen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramazkizula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neramazkizun",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neramazkizunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neramazkizun",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neritzela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neritzen",
+        "lemma": "iritzi",
+        "meaning": "opinar, parecer"
+      }
+    ]
+  },
+  {
+    "word": "neritzenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neritzen",
+        "lemma": "iritzi",
+        "meaning": "opinar, parecer"
+      }
+    ]
+  },
+  {
+    "word": "neritzola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neritzon",
+        "lemma": "iritzi",
+        "meaning": "opinar, parecer"
+      }
+    ]
+  },
+  {
+    "word": "neritzonik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neritzon",
+        "lemma": "iritzi",
+        "meaning": "opinar, parecer"
+      }
+    ]
+  },
+  {
+    "word": "neritzuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neritzuen",
+        "lemma": "iritzi",
+        "meaning": "opinar, parecer"
+      }
+    ]
+  },
+  {
+    "word": "neritzuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neritzuen",
+        "lemma": "iritzi",
+        "meaning": "opinar, parecer"
+      }
+    ]
+  },
+  {
+    "word": "neritzula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neritzun",
+        "lemma": "iritzi",
+        "meaning": "opinar, parecer"
+      }
+    ]
+  },
+  {
+    "word": "neritzunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neritzun",
+        "lemma": "iritzi",
+        "meaning": "opinar, parecer"
+      }
+    ]
+  },
+  {
+    "word": "neroakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neroakeen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neroakeen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroakiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neroakiekeen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroakiekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neroakiekeen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroakiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neroakien",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroakienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neroakien",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroakiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neroakiokeen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroakiokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neroakiokeen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroakiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neroakion",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroakionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neroakion",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroakizuekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neroakizuekeen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroakizuekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neroakizuekeen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroakizuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neroakizuen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroakizuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neroakizuen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroakizukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neroakizukeen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroakizukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neroakizukeen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroakizula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neroakizun",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroakizunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neroakizun",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neroan",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neroan",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroatzala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neroatzan",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroatzanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neroatzan",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroazkeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neroazkeen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroazkeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neroazkeen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroazkiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neroazkiekeen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroazkiekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neroazkiekeen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroazkiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neroazkien",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroazkienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neroazkien",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroazkiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neroazkiokeen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroazkiokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neroazkiokeen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroazkiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neroazkion",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroazkionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neroazkion",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroazkizuekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neroazkizuekeen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroazkizuekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neroazkizuekeen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroazkizuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neroazkizuen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroazkizuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neroazkizuen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroazkizukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neroazkizukeen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroazkizukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neroazkizukeen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroazkizula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neroazkizun",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neroazkizunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neroazkizun",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "neskazahartuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "neskazahartu",
+        "lemma": "neskazahartu",
+        "meaning": "quedar soltera"
+      }
+    ]
+  },
+  {
+    "word": "neskazahartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "neskazahartu",
+        "lemma": "neskazahartu",
+        "meaning": "quedar soltera"
+      }
+    ]
+  },
+  {
+    "word": "neukakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neukakeen",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "neukakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neukakeen",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "neukala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neukan",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "neukanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neukan",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "neur",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "neurtu",
+        "lemma": "neurtu",
+        "meaning": "medir"
+      }
+    ]
+  },
+  {
+    "word": "neure",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "neuretu",
+        "lemma": "neuretu",
+        "meaning": "conseguir"
+      }
+    ]
+  },
+  {
+    "word": "neuregana",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "neureganatu",
+        "lemma": "neureganatu",
+        "meaning": "conseguir"
+      }
+    ]
+  },
+  {
+    "word": "neureganatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "neureganatu",
+        "lemma": "neureganatu",
+        "meaning": "conseguir"
+      }
+    ]
+  },
+  {
+    "word": "neureganatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "neureganatu",
+        "lemma": "neureganatu",
+        "meaning": "conseguir"
+      }
+    ]
+  },
+  {
+    "word": "neuretuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "neuretu",
+        "lemma": "neuretu",
+        "meaning": "conseguir"
+      }
+    ]
+  },
+  {
+    "word": "neuretzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "neuretu",
+        "lemma": "neuretu",
+        "meaning": "conseguir"
+      }
+    ]
+  },
+  {
+    "word": "neurotiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "neurotizatu",
+        "lemma": "neurotizatu",
+        "meaning": "neurotizar"
+      }
+    ]
+  },
+  {
+    "word": "neurotizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "neurotizatu",
+        "lemma": "neurotizatu",
+        "meaning": "neurotizar"
+      }
+    ]
+  },
+  {
+    "word": "neurotizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "neurotizatu",
+        "lemma": "neurotizatu",
+        "meaning": "neurotizar"
+      }
+    ]
+  },
+  {
+    "word": "neurriratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "neurriratu",
+        "lemma": "neurriratu",
+        "meaning": "moderar"
+      }
+    ]
+  },
+  {
+    "word": "neurriratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "neurriratu",
+        "lemma": "neurriratu",
+        "meaning": "moderar"
+      }
+    ]
+  },
+  {
+    "word": "neurtuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "neurtu",
+        "lemma": "neurtu",
+        "meaning": "medir"
+      }
+    ]
+  },
+  {
+    "word": "neurtzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "neurtu",
+        "lemma": "neurtu",
+        "meaning": "medir"
+      }
+    ]
+  },
+  {
+    "word": "neutraliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "neutralizatu",
+        "lemma": "neutralizatu",
+        "meaning": "neutralizar"
+      }
+    ]
+  },
+  {
+    "word": "neutralizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "neutralizatu",
+        "lemma": "neutralizatu",
+        "meaning": "neutralizar"
+      }
+    ]
+  },
+  {
+    "word": "neutralizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "neutralizatu",
+        "lemma": "neutralizatu",
+        "meaning": "neutralizar"
+      }
+    ]
+  },
+  {
+    "word": "neuzkakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neuzkakeen",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "neuzkakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neuzkakeen",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "neuzkala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "neuzkan",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "neuzkanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "neuzkan",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nezaguela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nezaguen",
+        "lemma": "ezagutu",
+        "meaning": "conocer"
+      }
+    ]
+  },
+  {
+    "word": "nezaguenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nezaguen",
+        "lemma": "ezagutu",
+        "meaning": "conocer"
+      }
+    ]
+  },
+  {
+    "word": "nezaguzkiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nezaguzkien",
+        "lemma": "ezagutu",
+        "meaning": "conocer"
+      }
+    ]
+  },
+  {
+    "word": "nezaguzkienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nezaguzkien",
+        "lemma": "ezagutu",
+        "meaning": "conocer"
+      }
+    ]
+  },
+  {
+    "word": "nezakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nezakeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nezakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nezakeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nezala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nezan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nezanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nezan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niakeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "niakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niakeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "niala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nian",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nianik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nian",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nibela",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nibelatu",
+        "lemma": "nibelatu",
+        "meaning": "nivelar"
+      }
+    ]
+  },
+  {
+    "word": "nibelatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nibelatu",
+        "lemma": "nibelatu",
+        "meaning": "nivelar"
+      }
+    ]
+  },
+  {
+    "word": "nibelatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nibelatu",
+        "lemma": "nibelatu",
+        "meaning": "nivelar"
+      }
+    ]
+  },
+  {
+    "word": "niekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niekeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "niekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niekeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "niela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nien",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nien",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "niezaakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niezaakeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezaakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niezaakeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezaala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niezaan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezaanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niezaan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezaiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niezaiekeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezaiekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niezaiekeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezaiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niezaien",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezaienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niezaien",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezaiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niezaiokeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezaiokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niezaiokeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezaiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niezaion",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezaionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niezaion",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezanakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niezanakeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezanakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niezanakeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezanala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niezanan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezananik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niezanan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazkiakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niezazkiakeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazkiakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niezazkiakeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazkiala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niezazkian",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazkianik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niezazkian",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazkiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niezazkiekeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazkiekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niezazkiekeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazkiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niezazkien",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazkienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niezazkien",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazkinakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niezazkinakeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazkinakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niezazkinakeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazkinala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niezazkinan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazkinanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niezazkinan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazkiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niezazkiokeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazkiokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niezazkiokeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazkiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niezazkion",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazkionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niezazkion",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazkizuekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niezazkizuekeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazkizuekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niezazkizuekeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazkizuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niezazkizuen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazkizuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niezazkizuen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazkizukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niezazkizukeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazkizukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niezazkizukeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazkizula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niezazkizun",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazkizunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niezazkizun",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazuekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niezazuekeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazuekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niezazuekeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niezazuen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niezazuen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niezazukeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niezazukeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niezazun",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "niezazunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niezazun",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nigana",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "niganatu",
+        "lemma": "niganatu",
+        "meaning": "conseguir"
+      }
+    ]
+  },
+  {
+    "word": "niganatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "niganatu",
+        "lemma": "niganatu",
+        "meaning": "conseguir"
+      }
+    ]
+  },
+  {
+    "word": "niganatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "niganatu",
+        "lemma": "niganatu",
+        "meaning": "conseguir"
+      }
+    ]
+  },
+  {
+    "word": "niharduela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niharduen",
+        "lemma": "jardun",
+        "meaning": "dedicarse, ocuparse"
+      }
+    ]
+  },
+  {
+    "word": "niharduenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niharduen",
+        "lemma": "jardun",
+        "meaning": "dedicarse, ocuparse"
+      }
+    ]
+  },
+  {
+    "word": "nihardukala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nihardukan",
+        "lemma": "iharduki",
+        "meaning": "responder/contestar"
+      }
+    ]
+  },
+  {
+    "word": "nihardukanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nihardukan",
+        "lemma": "iharduki",
+        "meaning": "responder/contestar"
+      }
+    ]
+  },
+  {
+    "word": "nikelezta",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nikeleztatu",
+        "lemma": "nikeleztatu",
+        "meaning": "niquelar"
+      }
+    ]
+  },
+  {
+    "word": "nikeleztatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nikeleztatu",
+        "lemma": "nikeleztatu",
+        "meaning": "niquelar"
+      }
+    ]
+  },
+  {
+    "word": "nikeleztatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nikeleztatu",
+        "lemma": "nikeleztatu",
+        "meaning": "niquelar"
+      }
+    ]
+  },
+  {
+    "word": "ninakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninakeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "ninakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninakeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "ninala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninan",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "ninanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninan",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindekarkeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindekarkeen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nindekarkeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindekarkeen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nindekarketela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindekarketen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nindekarketenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindekarketen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nindekarkezuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindekarkezuen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nindekarkezuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindekarkezuen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nindekarkezula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindekarkezun",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nindekarkezunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindekarkezun",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nindekarrela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindekarren",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nindekarrenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindekarren",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nindekartela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindekarten",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nindekartenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindekarten",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nindekarzuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindekarzuen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nindekarzuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindekarzuen",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nindekarzula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindekarzun",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "nindekarzunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindekarzun",
+        "lemma": "ekarri",
+        "meaning": "traer"
+      }
+    ]
+  },
+  {
+    "word": "ninderabilela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderabilen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "ninderabilenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderabilen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "ninderabilkeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderabilkeen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "ninderabilkeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderabilkeen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "ninderabilketela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderabilketen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "ninderabilketenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderabilketen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "ninderabilkezuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderabilkezuen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "ninderabilkezuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderabilkezuen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "ninderabilkezula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderabilkezun",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "ninderabilkezunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderabilkezun",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "ninderabiltela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderabilten",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "ninderabiltenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderabilten",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "ninderabilzuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderabilzuen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "ninderabilzuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderabilzuen",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "ninderabilzula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderabilzun",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "ninderabilzunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderabilzun",
+        "lemma": "erabili",
+        "meaning": "usar, utilizar"
+      }
+    ]
+  },
+  {
+    "word": "ninderamakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderamakeen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderamakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderamakeen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderamaketela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderamaketen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderamaketenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderamaketen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderamakezuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderamakezuen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderamakezuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderamakezuen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderamakezula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderamakezun",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderamakezunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderamakezun",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderamala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderaman",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderamanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderaman",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderamatela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderamaten",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderamatenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderamaten",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderamazuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderamazuen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderamazuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderamazuen",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderamazula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderamazun",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderamazunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderamazun",
+        "lemma": "eraman",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderoakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderoakeen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderoakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderoakeen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderoaketela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderoaketen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderoaketenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderoaketen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderoakezuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderoakezuen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderoakezuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderoakezuen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderoakezula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderoakezun",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderoakezunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderoakezun",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderoala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderoan",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderoanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderoan",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderoatela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderoaten",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderoatenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderoaten",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderoazuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderoazuen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderoazuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderoazuen",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderoazula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderoazun",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderoazunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderoazun",
+        "lemma": "eroan",
+        "meaning": "llevar"
+      }
+    ]
+  },
+  {
+    "word": "ninderraiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderraien",
+        "lemma": "jarraiki",
+        "meaning": "seguir"
+      },
+      {
+        "type": "completive-la",
+        "from": "ninderraien",
+        "lemma": "jarraitu",
+        "meaning": "seguir"
+      }
+    ]
+  },
+  {
+    "word": "ninderraienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderraien",
+        "lemma": "jarraiki",
+        "meaning": "seguir"
+      },
+      {
+        "type": "completive-enik",
+        "from": "ninderraien",
+        "lemma": "jarraitu",
+        "meaning": "seguir"
+      }
+    ]
+  },
+  {
+    "word": "ninderraiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderraion",
+        "lemma": "jarraiki",
+        "meaning": "seguir"
+      },
+      {
+        "type": "completive-la",
+        "from": "ninderraion",
+        "lemma": "jarraitu",
+        "meaning": "seguir"
+      }
+    ]
+  },
+  {
+    "word": "ninderraionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderraion",
+        "lemma": "jarraiki",
+        "meaning": "seguir"
+      },
+      {
+        "type": "completive-enik",
+        "from": "ninderraion",
+        "lemma": "jarraitu",
+        "meaning": "seguir"
+      }
+    ]
+  },
+  {
+    "word": "ninderraizuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderraizuen",
+        "lemma": "jarraiki",
+        "meaning": "seguir"
+      }
+    ]
+  },
+  {
+    "word": "ninderraizuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderraizuen",
+        "lemma": "jarraiki",
+        "meaning": "seguir"
+      }
+    ]
+  },
+  {
+    "word": "ninderraizula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninderraizun",
+        "lemma": "jarraiki",
+        "meaning": "seguir"
+      }
+    ]
+  },
+  {
+    "word": "ninderraizunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninderraizun",
+        "lemma": "jarraiki",
+        "meaning": "seguir"
+      }
+    ]
+  },
+  {
+    "word": "nindezagula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindezagun",
+        "lemma": "ezagutu",
+        "meaning": "conocer"
+      }
+    ]
+  },
+  {
+    "word": "nindezagunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindezagun",
+        "lemma": "ezagutu",
+        "meaning": "conocer"
+      }
+    ]
+  },
+  {
+    "word": "nindezagutela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindezaguten",
+        "lemma": "ezagutu",
+        "meaning": "conocer"
+      }
+    ]
+  },
+  {
+    "word": "nindezagutenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindezaguten",
+        "lemma": "ezagutu",
+        "meaning": "conocer"
+      }
+    ]
+  },
+  {
+    "word": "nindezaguzuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindezaguzuen",
+        "lemma": "ezagutu",
+        "meaning": "conocer"
+      }
+    ]
+  },
+  {
+    "word": "nindezaguzuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindezaguzuen",
+        "lemma": "ezagutu",
+        "meaning": "conocer"
+      }
+    ]
+  },
+  {
+    "word": "nindezaguzula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindezaguzun",
+        "lemma": "ezagutu",
+        "meaning": "conocer"
+      }
+    ]
+  },
+  {
+    "word": "nindezaguzunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindezaguzun",
+        "lemma": "ezagutu",
+        "meaning": "conocer"
+      }
+    ]
+  },
+  {
+    "word": "nindoakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindoakeen",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "nindoakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindoakeen",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "nindoakiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindoakiekeen",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "nindoakiekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindoakiekeen",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "nindoakiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindoakien",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "nindoakienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindoakien",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "nindoakiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindoakiokeen",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "nindoakiokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindoakiokeen",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "nindoakiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindoakion",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "nindoakionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindoakion",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "nindoakizuekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindoakizuekeen",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "nindoakizuekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindoakizuekeen",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "nindoakizuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindoakizuen",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "nindoakizuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindoakizuen",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "nindoakizukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindoakizukeen",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "nindoakizukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindoakizukeen",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "nindoakizula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindoakizun",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "nindoakizunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindoakizun",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "nindoala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindoan",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "nindoanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindoan",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "ninduala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninduan",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "ninduanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninduan",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "ninduela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninduen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "ninduenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninduen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindukakeen",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindukakeen",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukaketela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindukaketen",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukaketenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindukaketen",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukakezuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindukakezuen",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukakezuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindukakezuen",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukakezula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindukakezun",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukakezunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindukakezun",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindukan",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindukan",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukatela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindukaten",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukatenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindukaten",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukazuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindukazuen",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukazuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindukazuen",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukazula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindukazun",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukazunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindukazun",
+        "lemma": "eduki",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukeala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindukean",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukeanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindukean",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindukeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindukeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukenala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindukenan",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukenanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindukenan",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "ninduketela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninduketen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "ninduketenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninduketen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukezuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindukezuen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukezuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindukezuen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukezula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindukezun",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindukezunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindukezun",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindunala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nindunan",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindunanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nindunan",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindutela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninduten",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nindutenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninduten",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "ninduzuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninduzuen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "ninduzuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninduzuen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "ninduzula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "ninduzun",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "ninduzunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "ninduzun",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "ninika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "ninikatu",
+        "lemma": "ninikatu",
+        "meaning": "brotar"
+      }
+    ]
+  },
+  {
+    "word": "ninikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ninikatu",
+        "lemma": "ninikatu",
+        "meaning": "brotar"
+      }
+    ]
+  },
+  {
+    "word": "ninikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ninikatu",
+        "lemma": "ninikatu",
+        "meaning": "brotar"
+      }
+    ]
+  },
+  {
+    "word": "nintekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintekeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintekeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzaala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzaan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nintzaanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzaan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nintzaiakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzaiakeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzaiakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzaiakeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzaiala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzaian",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzaianik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzaian",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzaiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzaiekeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzaiekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzaiekeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzaiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzaien",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzaienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzaien",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzainakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzainakeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzainakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzainakeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzainala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzainan",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzainanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzainan",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzaiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzaiokeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzaiokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzaiokeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzaiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzaion",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzaionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzaion",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzaizuekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzaizuekeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzaizuekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzaizuekeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzaizuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzaizuen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzaizuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzaizuen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzaizukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzaizukeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzaizukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzaizukeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzaizula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzaizun",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzaizunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzaizun",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzakeala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzakean",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nintzakeanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzakean",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nintzakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzakeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nintzakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzakeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nintzakenala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzakenan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nintzakenanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzakenan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nintzaketela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzaketen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nintzaketenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzaketen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nintzakezuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzakezuen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nintzakezuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzakezuen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nintzakezula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzakezun",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nintzakezunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzakezun",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nintzala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nintzanala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzanan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nintzananik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzanan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nintzanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nintzatekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzatekeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzatekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzatekeen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzatela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzaten",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nintzatenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzaten",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nintzazuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzazuen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nintzazuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzazuen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nintzazula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzazun",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nintzazunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzazun",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nintzela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nintzen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nintzenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nintzen",
+        "lemma": "izan",
+        "meaning": "ser/estar"
+      }
+    ]
+  },
+  {
+    "word": "nioela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nioen",
+        "lemma": "esan",
+        "meaning": "decir"
+      },
+      {
+        "type": "completive-la",
+        "from": "nioen",
+        "lemma": "io",
+        "meaning": "decir"
+      }
+    ]
+  },
+  {
+    "word": "nioenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nioen",
+        "lemma": "esan",
+        "meaning": "decir"
+      },
+      {
+        "type": "completive-enik",
+        "from": "nioen",
+        "lemma": "io",
+        "meaning": "decir"
+      }
+    ]
+  },
+  {
+    "word": "nioezela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nioezen",
+        "lemma": "io",
+        "meaning": "decir"
+      }
+    ]
+  },
+  {
+    "word": "nioezenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nioezen",
+        "lemma": "io",
+        "meaning": "decir"
+      }
+    ]
+  },
+  {
+    "word": "niokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niokeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "niokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niokeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "niola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nion",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nion",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "niotsela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niotsen",
+        "lemma": "io",
+        "meaning": "decir"
+      }
+    ]
+  },
+  {
+    "word": "niotsenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niotsen",
+        "lemma": "io",
+        "meaning": "decir"
+      }
+    ]
+  },
+  {
+    "word": "niotsezela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niotsezen",
+        "lemma": "io",
+        "meaning": "decir"
+      }
+    ]
+  },
+  {
+    "word": "niotsezenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niotsezen",
+        "lemma": "io",
+        "meaning": "decir"
+      }
+    ]
+  },
+  {
+    "word": "niotsola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niotson",
+        "lemma": "io",
+        "meaning": "decir"
+      }
+    ]
+  },
+  {
+    "word": "niotsonik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niotson",
+        "lemma": "io",
+        "meaning": "decir"
+      }
+    ]
+  },
+  {
+    "word": "niotsozela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niotsozen",
+        "lemma": "io",
+        "meaning": "decir"
+      }
+    ]
+  },
+  {
+    "word": "niotsozenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niotsozen",
+        "lemma": "io",
+        "meaning": "decir"
+      }
+    ]
+  },
+  {
+    "word": "niotsuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niotsuen",
+        "lemma": "io",
+        "meaning": "decir"
+      }
+    ]
+  },
+  {
+    "word": "niotsuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niotsuen",
+        "lemma": "io",
+        "meaning": "decir"
+      }
+    ]
+  },
+  {
+    "word": "niotsuezela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niotsuezen",
+        "lemma": "io",
+        "meaning": "decir"
+      }
+    ]
+  },
+  {
+    "word": "niotsuezenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niotsuezen",
+        "lemma": "io",
+        "meaning": "decir"
+      }
+    ]
+  },
+  {
+    "word": "niotsula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niotsun",
+        "lemma": "io",
+        "meaning": "decir"
+      }
+    ]
+  },
+  {
+    "word": "niotsunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niotsun",
+        "lemma": "io",
+        "meaning": "decir"
+      }
+    ]
+  },
+  {
+    "word": "niotsuzela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niotsuzen",
+        "lemma": "io",
+        "meaning": "decir"
+      }
+    ]
+  },
+  {
+    "word": "niotsuzenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niotsuzen",
+        "lemma": "io",
+        "meaning": "decir"
+      }
+    ]
+  },
+  {
+    "word": "nirauela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nirauen",
+        "lemma": "iraun",
+        "meaning": "durar"
+      }
+    ]
+  },
+  {
+    "word": "nirauenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nirauen",
+        "lemma": "iraun",
+        "meaning": "durar"
+      }
+    ]
+  },
+  {
+    "word": "nire",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "niretu",
+        "lemma": "niretu",
+        "meaning": "conseguir"
+      }
+    ]
+  },
+  {
+    "word": "niregana",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nireganatu",
+        "lemma": "nireganatu",
+        "meaning": "conseguir"
+      }
+    ]
+  },
+  {
+    "word": "nireganatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nireganatu",
+        "lemma": "nireganatu",
+        "meaning": "conseguir"
+      }
+    ]
+  },
+  {
+    "word": "nireganatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nireganatu",
+        "lemma": "nireganatu",
+        "meaning": "conseguir"
+      }
+    ]
+  },
+  {
+    "word": "niretuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "niretu",
+        "lemma": "niretu",
+        "meaning": "conseguir"
+      }
+    ]
+  },
+  {
+    "word": "niretzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "niretu",
+        "lemma": "niretu",
+        "meaning": "conseguir"
+      }
+    ]
+  },
+  {
+    "word": "niroela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "niroen",
+        "lemma": "iro",
+        "meaning": "hilar (el hilo)"
+      }
+    ]
+  },
+  {
+    "word": "niroenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "niroen",
+        "lemma": "iro",
+        "meaning": "hilar (el hilo)"
+      }
+    ]
+  },
+  {
+    "word": "nirudiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nirudien",
+        "lemma": "irudi",
+        "meaning": "parecer"
+      }
+    ]
+  },
+  {
+    "word": "nirudienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nirudien",
+        "lemma": "irudi",
+        "meaning": "parecer"
+      }
+    ]
+  },
+  {
+    "word": "nitrata",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nitratatu",
+        "lemma": "nitratatu",
+        "meaning": "nitratar"
+      }
+    ]
+  },
+  {
+    "word": "nitratatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nitratatu",
+        "lemma": "nitratatu",
+        "meaning": "nitratar"
+      }
+    ]
+  },
+  {
+    "word": "nitratatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nitratatu",
+        "lemma": "nitratatu",
+        "meaning": "nitratar"
+      }
+    ]
+  },
+  {
+    "word": "nitrifika",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nitrifikatu",
+        "lemma": "nitrifikatu",
+        "meaning": "nitrificar"
+      }
+    ]
+  },
+  {
+    "word": "nitrifikatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nitrifikatu",
+        "lemma": "nitrifikatu",
+        "meaning": "nitrificar"
+      }
+    ]
+  },
+  {
+    "word": "nitrifikatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nitrifikatu",
+        "lemma": "nitrifikatu",
+        "meaning": "nitrificar"
+      }
+    ]
+  },
+  {
+    "word": "nitrogena",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nitrogenatu",
+        "lemma": "nitrogenatu",
+        "meaning": "nitrogenar"
+      }
+    ]
+  },
+  {
+    "word": "nitrogenatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nitrogenatu",
+        "lemma": "nitrogenatu",
+        "meaning": "nitrogenar"
+      }
+    ]
+  },
+  {
+    "word": "nitrogenatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nitrogenatu",
+        "lemma": "nitrogenatu",
+        "meaning": "nitrogenar"
+      }
+    ]
+  },
+  {
+    "word": "nitrura",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nitruratu",
+        "lemma": "nitruratu",
+        "meaning": "nitrurar"
+      }
+    ]
+  },
+  {
+    "word": "nitruratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nitruratu",
+        "lemma": "nitruratu",
+        "meaning": "nitrurar"
+      }
+    ]
+  },
+  {
+    "word": "nitruratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nitruratu",
+        "lemma": "nitruratu",
+        "meaning": "nitrurar"
+      }
+    ]
+  },
+  {
+    "word": "nituela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nituen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nituenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nituen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nituzkeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nituzkeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nituzkeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nituzkeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nitzakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nitzakeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nitzakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nitzakeen",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nitzala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nitzan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nitzanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nitzan",
+        "lemma": "ezan",
+        "meaning": "tener (con dativo)"
+      }
+    ]
+  },
+  {
+    "word": "nizkiakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nizkiakeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizkiakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nizkiakeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizkiala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nizkian",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizkianik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nizkian",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizkiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nizkiekeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizkiekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nizkiekeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizkiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nizkien",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizkienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nizkien",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizkinakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nizkinakeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizkinakeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nizkinakeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizkinala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nizkinan",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizkinanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nizkinan",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizkiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nizkiokeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizkiokeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nizkiokeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizkiola",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nizkion",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizkionik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nizkion",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizkizuekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nizkizuekeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizkizuekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nizkizuekeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizkizuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nizkizuen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizkizuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nizkizuen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizkizukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nizkizukeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizkizukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nizkizukeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizkizula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nizkizun",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizkizunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nizkizun",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizuekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nizuekeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizuekeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nizuekeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nizuen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nizuen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nizukeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nizukeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizula",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nizun",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nizunik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nizun",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "noakeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "noake",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "noakiekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "noakieke",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "noakiela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "noakien",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "noakienik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "noakien",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "noakiokeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "noakioke",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "noakizuekeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "noakizueke",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "noakizuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "noakizuen",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "noakizuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "noakizuen",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "noakizukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "noakizuke",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "noala",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "noan",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "noanik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "noan",
+        "lemma": "joan",
+        "meaning": "ir"
+      }
+    ]
+  },
+  {
+    "word": "noba",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nobatu",
+        "lemma": "nobatu",
+        "meaning": "novar"
+      }
+    ]
+  },
+  {
+    "word": "nobatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nobatu",
+        "lemma": "nobatu",
+        "meaning": "novar"
+      }
+    ]
+  },
+  {
+    "word": "nobatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nobatu",
+        "lemma": "nobatu",
+        "meaning": "novar"
+      }
+    ]
+  },
+  {
+    "word": "nobelatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nobelatu",
+        "lemma": "nobelatu",
+        "meaning": "novelar"
+      }
+    ]
+  },
+  {
+    "word": "nobelatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nobelatu",
+        "lemma": "nobelatu",
+        "meaning": "novelar"
+      }
+    ]
+  },
+  {
+    "word": "nobletuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nobletu",
+        "lemma": "nobletu",
+        "meaning": "ennoblecer"
+      }
+    ]
+  },
+  {
+    "word": "nobletzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nobletu",
+        "lemma": "nobletu",
+        "meaning": "ennoblecer"
+      }
+    ]
+  },
+  {
+    "word": "nokea",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nokeatu",
+        "lemma": "nokeatu",
+        "meaning": "noquear"
+      }
+    ]
+  },
+  {
+    "word": "nokeatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nokeatu",
+        "lemma": "nokeatu",
+        "meaning": "noquear"
+      }
+    ]
+  },
+  {
+    "word": "nokeatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nokeatu",
+        "lemma": "nokeatu",
+        "meaning": "noquear"
+      }
+    ]
+  },
+  {
+    "word": "nominaliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nominalizatu",
+        "lemma": "nominalizatu",
+        "meaning": "nominalizar"
+      }
+    ]
+  },
+  {
+    "word": "nominalizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nominalizatu",
+        "lemma": "nominalizatu",
+        "meaning": "nominalizar"
+      }
+    ]
+  },
+  {
+    "word": "nominalizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nominalizatu",
+        "lemma": "nominalizatu",
+        "meaning": "nominalizar"
+      }
+    ]
+  },
+  {
+    "word": "nor",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nortu",
+        "lemma": "nortu",
+        "meaning": "encarnar"
+      }
+    ]
+  },
+  {
+    "word": "norabidera",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "norabideratu",
+        "lemma": "norabideratu",
+        "meaning": "dirigir"
+      }
+    ]
+  },
+  {
+    "word": "norabideratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "norabideratu",
+        "lemma": "norabideratu",
+        "meaning": "dirigir"
+      }
+    ]
+  },
+  {
+    "word": "norabideratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "norabideratu",
+        "lemma": "norabideratu",
+        "meaning": "dirigir"
+      }
+    ]
+  },
+  {
+    "word": "norberegana",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "norbereganatu",
+        "lemma": "norbereganatu",
+        "meaning": "apropiarse"
+      }
+    ]
+  },
+  {
+    "word": "norbereganatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "norbereganatu",
+        "lemma": "norbereganatu",
+        "meaning": "apropiarse"
+      }
+    ]
+  },
+  {
+    "word": "norbereganatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "norbereganatu",
+        "lemma": "norbereganatu",
+        "meaning": "apropiarse"
+      }
+    ]
+  },
+  {
+    "word": "normalduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "normaldu",
+        "lemma": "normaldu",
+        "meaning": "normalizar"
+      }
+    ]
+  },
+  {
+    "word": "normaliza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "normalizatu",
+        "lemma": "normalizatu",
+        "meaning": "normalizar"
+      }
+    ]
+  },
+  {
+    "word": "normalizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "normalizatu",
+        "lemma": "normalizatu",
+        "meaning": "normalizar"
+      }
+    ]
+  },
+  {
+    "word": "normalizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "normalizatu",
+        "lemma": "normalizatu",
+        "meaning": "normalizar"
+      }
+    ]
+  },
+  {
+    "word": "normaltzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "normaldu",
+        "lemma": "normaldu",
+        "meaning": "normalizar"
+      }
+    ]
+  },
+  {
+    "word": "normatibiza",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "normatibizatu",
+        "lemma": "normatibizatu",
+        "meaning": "normativizar"
+      }
+    ]
+  },
+  {
+    "word": "normatibizatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "normatibizatu",
+        "lemma": "normatibizatu",
+        "meaning": "normativizar"
+      }
+    ]
+  },
+  {
+    "word": "normatibizatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "normatibizatu",
+        "lemma": "normatibizatu",
+        "meaning": "normativizar"
+      }
+    ]
+  },
+  {
+    "word": "nortuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nortu",
+        "lemma": "nortu",
+        "meaning": "encarnar"
+      }
+    ]
+  },
+  {
+    "word": "nortzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nortu",
+        "lemma": "nortu",
+        "meaning": "encarnar"
+      }
+    ]
+  },
+  {
+    "word": "nozi",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "nozitu",
+        "lemma": "nozitu",
+        "meaning": "soportar"
+      }
+    ]
+  },
+  {
+    "word": "noziaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "noziarazi",
+        "lemma": "noziarazi",
+        "meaning": "sufrir"
+      }
+    ]
+  },
+  {
+    "word": "noziaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "noziarazi",
+        "lemma": "noziarazi",
+        "meaning": "sufrir"
+      }
+    ]
+  },
+  {
+    "word": "noziarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "noziarazi",
+        "lemma": "noziarazi",
+        "meaning": "sufrir"
+      }
+    ]
+  },
+  {
+    "word": "nozituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "nozitu",
+        "lemma": "nozitu",
+        "meaning": "soportar"
+      }
+    ]
+  },
+  {
+    "word": "nozitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "nozitu",
+        "lemma": "nozitu",
+        "meaning": "soportar"
+      }
+    ]
+  },
+  {
+    "word": "nuela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nuen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nuenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nuen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nukeela",
+    "derivations": [
+      {
+        "type": "completive-la",
+        "from": "nukeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "nukeenik",
+    "derivations": [
+      {
+        "type": "completive-enik",
+        "from": "nukeen",
+        "lemma": "edun",
+        "meaning": "tener"
+      }
+    ]
+  },
+  {
+    "word": "ñabartuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ñabartu",
+        "lemma": "ñabartu",
+        "meaning": "abigarrar"
+      }
+    ]
+  },
+  {
+    "word": "ñabartzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ñabartu",
+        "lemma": "ñabartu",
+        "meaning": "abigarrar"
+      }
+    ]
+  },
+  {
+    "word": "ñarrotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ñarrotu",
+        "lemma": "ñarrotu",
+        "meaning": "encoger"
+      }
+    ]
+  },
+  {
+    "word": "ñarrotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ñarrotu",
+        "lemma": "ñarrotu",
+        "meaning": "encoger"
+      }
+    ]
+  },
+  {
+    "word": "ñimiñotuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ñimiñotu",
+        "lemma": "ñimiñotu",
+        "meaning": "empequeñecer"
+      }
+    ]
+  },
+  {
+    "word": "ñimiñotzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ñimiñotu",
+        "lemma": "ñimiñotu",
+        "meaning": "empequeñecer"
+      }
+    ]
+  },
+  {
+    "word": "ñirñir",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "ñirñirtu",
+        "lemma": "ñirñirtu",
+        "meaning": "brillar"
+      }
+    ]
+  },
+  {
+    "word": "ñirñirtuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "ñirñirtu",
+        "lemma": "ñirñirtu",
+        "meaning": "brillar"
+      }
+    ]
+  },
+  {
+    "word": "ñirñirtzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "ñirñirtu",
+        "lemma": "ñirñirtu",
+        "meaning": "brillar"
+      }
+    ]
+  }
+]

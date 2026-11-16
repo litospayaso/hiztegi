@@ -296,6 +296,53 @@ describe('page-reading Component Spec:', () => {
     expect(tooltipShadow?.querySelector('.translations')).to.equal(null);
   });
 
+  it('opens the tooltip with a derived verb entry', async () => {
+    const verbEntry: VerbEntry = {
+      word: 'zenekiela',
+      analyses: [],
+      derivations: [
+        {
+          type: 'completive-la',
+          from: 'zenekien',
+          lemma: 'jakin',
+          meaning: 'saber',
+          baseAnalysis: {
+            lemma: 'jakin',
+            kind: 'synthetic',
+            paradigm: 'nor-nork',
+            tense: 'iragan',
+            mode: 'ahala',
+            persons: { nor: 'hura', nork: 'zu' },
+            meaning: 'saber',
+            source: { name: 'SEG', url: 'https://www.ehu.eus/seg/' },
+          },
+        },
+      ],
+    };
+    const api: PageReadingApi = {
+      ...defaultApi(),
+      loadVerbIndex: async () => new Set(['zenekiela']),
+      lookupVerb: async word => (word === 'zenekiela' ? verbEntry : undefined),
+    };
+    await createPage(api);
+    await waitFor(() => shadow.querySelector('component-text-reader') !== null);
+    readerEl().dispatchEvent(
+      new CustomEvent('word-click', {
+        detail: { word: 'zenekiela', x: 100, y: 200 },
+        bubbles: true,
+        composed: true,
+      })
+    );
+    await waitFor(() => tooltipEl() !== null);
+    await waitFor(() => tooltipTitle() === 'zenekiela');
+    const tooltipShadow = tooltipEl()?.shadowRoot;
+    expect(tooltipShadow?.querySelector('.badge')?.textContent).to.equal('Verbo');
+    expect(tooltipShadow?.querySelector('.verb-lemma')?.textContent).to.include(
+      'Completivo -la de zenekien'
+    );
+    expect(tooltipShadow?.querySelector('.verb-tags')?.textContent).to.include('nork: zu');
+  });
+
   it('pre-fills the dictionary form with the Open Data translation', async () => {
     const api: PageReadingApi = {
       ...defaultApi(),

@@ -311,6 +311,81 @@ describe('component-word-tooltip Component Spec:', () => {
     expect(source?.querySelector('a')?.getAttribute('href')).to.equal('https://www.ehu.eus/seg/');
   });
 
+  it('renders verb derivations with base form, lemma and base analysis', async () => {
+    const derivedVerbEntry: VerbEntry = {
+      word: 'zenekiela',
+      analyses: [],
+      derivations: [
+        {
+          type: 'completive-la',
+          from: 'zenekien',
+          lemma: 'jakin',
+          meaning: 'saber',
+          baseAnalysis: {
+            lemma: 'jakin',
+            kind: 'synthetic',
+            paradigm: 'nor-nork',
+            tense: 'iragan',
+            mode: 'ahala',
+            persons: { nor: 'hura', nork: 'zu' },
+            meaning: 'saber',
+            source: { name: 'SEG', url: 'https://www.ehu.eus/seg/' },
+          },
+        },
+      ],
+    };
+    await createTooltip(
+      'zenekiela',
+      undefined,
+      40,
+      40,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      derivedVerbEntry
+    );
+    expect(shadow.querySelector('.badge')?.textContent).to.equal('Verbo');
+    expect(shadow.querySelector('.verb-lemma')?.textContent).to.include('Completivo -la de zenekien');
+    expect(shadow.querySelector('.verb-lemma')?.textContent).to.include('saber');
+    const tags = shadow.querySelector('.verb-tags')?.textContent ?? '';
+    expect(tags).to.include('forma base: zenekien');
+    expect(tags).to.include('lema: jakin');
+    expect(tags).to.include('pasado');
+    expect(tags).to.include('nork: zu');
+    expect(shadow.querySelector('.verb-source')?.textContent).to.include('SEG');
+    expect(shadow.querySelector('.verb-analyses')?.textContent).to.include('Completivo -la');
+  });
+
+  it('renders a completive -en label for the same word form', async () => {
+    const derivedVerbEntry: VerbEntry = {
+      word: 'datorren',
+      analyses: [],
+      derivations: [
+        {
+          type: 'completive-en',
+          from: 'datorren',
+          lemma: 'etorri',
+          meaning: 'venir',
+        },
+      ],
+    };
+    await createTooltip(
+      'datorren',
+      undefined,
+      40,
+      40,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      derivedVerbEntry
+    );
+    expect(shadow.querySelector('.verb-lemma')?.textContent).to.include(
+      'Completivo -en (misma forma que datorren)'
+    );
+  });
+
   it('prefers a personal entry over a verb entry', async () => {
     await createTooltip(
       'dut',
@@ -360,6 +435,34 @@ describe('component-word-tooltip Component Spec:', () => {
     buttonByText('Añadir al diccionario')?.click();
     await (element as unknown as ComponentWordTooltip).updateComplete;
     expect(detail).to.deep.equal({ word: 'etxe', translation: 'casa' });
+  });
+
+  it('emits open-add-modal with the derivation lemma and meaning', async () => {
+    const derivedVerbEntry: VerbEntry = {
+      word: 'etorriko',
+      analyses: [],
+      derivations: [
+        { type: 'future', from: 'etorri', lemma: 'etorri', meaning: 'venir' },
+      ],
+    };
+    await createTooltip(
+      'etorriko',
+      undefined,
+      40,
+      40,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      derivedVerbEntry
+    );
+    let detail: { word: string; translation?: string } | undefined;
+    element.addEventListener('open-add-modal', (event: Event) => {
+      detail = (event as CustomEvent<{ word: string; translation?: string }>).detail;
+    });
+    buttonByText('Añadir al diccionario')?.click();
+    await (element as unknown as ComponentWordTooltip).updateComplete;
+    expect(detail).to.deep.equal({ word: 'etorri', translation: 'venir' });
   });
 
   it('shows suffix and case info with base form', async () => {

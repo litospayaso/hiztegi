@@ -40,6 +40,29 @@ const verbEntry: VerbEntry = {
   ],
 };
 
+const derivedVerbEntry: VerbEntry = {
+  word: 'zenekiela',
+  analyses: [],
+  derivations: [
+    {
+      type: 'completive-la',
+      from: 'zenekien',
+      lemma: 'jakin',
+      meaning: 'saber',
+      baseAnalysis: {
+        lemma: 'jakin',
+        kind: 'synthetic',
+        paradigm: 'nor-nork',
+        tense: 'iragan',
+        mode: 'ahala',
+        persons: { nor: 'hura', nork: 'zu' },
+        meaning: 'saber',
+        source: { name: 'SEG', url: 'https://www.ehu.eus/seg/' },
+      },
+    },
+  ],
+};
+
 const meta = {
   title: 'Components/component-word-tooltip',
   tags: ['autodocs'],
@@ -92,6 +115,17 @@ export const withVerbEntry: Story = {
     <component-word-tooltip
       word="dut"
       .verbEntry=${verbEntry}
+      x=${120}
+      y=${80}
+    ></component-word-tooltip>
+  `,
+};
+
+export const withDerivedVerbEntry: Story = {
+  render: () => html`
+    <component-word-tooltip
+      word="zenekiela"
+      .verbEntry=${derivedVerbEntry}
       x=${120}
       y=${80}
     ></component-word-tooltip>

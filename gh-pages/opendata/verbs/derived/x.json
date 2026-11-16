@@ -1,0 +1,805 @@
+[
+  {
+    "word": "xaboituko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xaboitu",
+        "lemma": "xaboitu",
+        "meaning": "enjabonar"
+      }
+    ]
+  },
+  {
+    "word": "xaboitzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xaboitu",
+        "lemma": "xaboitu",
+        "meaning": "enjabonar"
+      }
+    ]
+  },
+  {
+    "word": "xabona",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "xabonatu",
+        "lemma": "xabonatu",
+        "meaning": "jabonar"
+      }
+    ]
+  },
+  {
+    "word": "xabonatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xabonatu",
+        "lemma": "xabonatu",
+        "meaning": "jabonar"
+      }
+    ]
+  },
+  {
+    "word": "xabonatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xabonatu",
+        "lemma": "xabonatu",
+        "meaning": "jabonar"
+      }
+    ]
+  },
+  {
+    "word": "xafarra",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "xafarratu",
+        "lemma": "xafarratu",
+        "meaning": "enjuagar"
+      }
+    ]
+  },
+  {
+    "word": "xafarratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xafarratu",
+        "lemma": "xafarratu",
+        "meaning": "enjuagar"
+      }
+    ]
+  },
+  {
+    "word": "xafarratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xafarratu",
+        "lemma": "xafarratu",
+        "meaning": "enjuagar"
+      }
+    ]
+  },
+  {
+    "word": "xaflatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xaflatu",
+        "lemma": "xaflatu",
+        "meaning": "chapar"
+      }
+    ]
+  },
+  {
+    "word": "xaflatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xaflatu",
+        "lemma": "xaflatu",
+        "meaning": "chapar"
+      }
+    ]
+  },
+  {
+    "word": "xahuaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "xahuarazi",
+        "lemma": "xahuarazi",
+        "meaning": "gastar"
+      }
+    ]
+  },
+  {
+    "word": "xahuaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xahuarazi",
+        "lemma": "xahuarazi",
+        "meaning": "gastar"
+      }
+    ]
+  },
+  {
+    "word": "xahuarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xahuarazi",
+        "lemma": "xahuarazi",
+        "meaning": "gastar"
+      }
+    ]
+  },
+  {
+    "word": "xahutuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xahutu",
+        "lemma": "xahutu",
+        "meaning": "gastar"
+      }
+    ]
+  },
+  {
+    "word": "xahutzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xahutu",
+        "lemma": "xahutu",
+        "meaning": "gastar"
+      }
+    ]
+  },
+  {
+    "word": "xanpainduko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xanpaindu",
+        "lemma": "xanpaindu",
+        "meaning": "achampañar"
+      }
+    ]
+  },
+  {
+    "word": "xanpaintzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xanpaindu",
+        "lemma": "xanpaindu",
+        "meaning": "achampañar"
+      }
+    ]
+  },
+  {
+    "word": "xaramelatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xaramelatu",
+        "lemma": "xaramelatu",
+        "meaning": "cantar"
+      }
+    ]
+  },
+  {
+    "word": "xaramelatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xaramelatu",
+        "lemma": "xaramelatu",
+        "meaning": "cantar"
+      }
+    ]
+  },
+  {
+    "word": "xarmatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xarmatu",
+        "lemma": "xarmatu",
+        "meaning": "seducir"
+      }
+    ]
+  },
+  {
+    "word": "xarmatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xarmatu",
+        "lemma": "xarmatu",
+        "meaning": "seducir"
+      }
+    ]
+  },
+  {
+    "word": "xaxa",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "xaxatu",
+        "lemma": "xaxatu",
+        "meaning": "azuzar"
+      }
+    ]
+  },
+  {
+    "word": "xaxatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xaxatu",
+        "lemma": "xaxatu",
+        "meaning": "azuzar"
+      }
+    ]
+  },
+  {
+    "word": "xaxatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xaxatu",
+        "lemma": "xaxatu",
+        "meaning": "azuzar"
+      }
+    ]
+  },
+  {
+    "word": "xeda",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "xedatu",
+        "lemma": "xedatu",
+        "meaning": "determinar"
+      }
+    ]
+  },
+  {
+    "word": "xedatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xedatu",
+        "lemma": "xedatu",
+        "meaning": "determinar"
+      }
+    ]
+  },
+  {
+    "word": "xedatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xedatu",
+        "lemma": "xedatu",
+        "meaning": "determinar"
+      }
+    ]
+  },
+  {
+    "word": "xeha",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "xehatu",
+        "lemma": "xehatu",
+        "meaning": "deshacer"
+      }
+    ]
+  },
+  {
+    "word": "xehaka",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "xehakatu",
+        "lemma": "xehakatu",
+        "meaning": "trocear"
+      }
+    ]
+  },
+  {
+    "word": "xehakaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "xehakarazi",
+        "lemma": "xehakarazi",
+        "meaning": "detallar"
+      }
+    ]
+  },
+  {
+    "word": "xehakaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xehakarazi",
+        "lemma": "xehakarazi",
+        "meaning": "detallar"
+      }
+    ]
+  },
+  {
+    "word": "xehakarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xehakarazi",
+        "lemma": "xehakarazi",
+        "meaning": "detallar"
+      }
+    ]
+  },
+  {
+    "word": "xehakatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xehakatu",
+        "lemma": "xehakatu",
+        "meaning": "trocear"
+      }
+    ]
+  },
+  {
+    "word": "xehakatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xehakatu",
+        "lemma": "xehakatu",
+        "meaning": "trocear"
+      }
+    ]
+  },
+  {
+    "word": "xeharaz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "xeharazi",
+        "lemma": "xeharazi",
+        "meaning": "destruir"
+      }
+    ]
+  },
+  {
+    "word": "xeharaziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xeharazi",
+        "lemma": "xeharazi",
+        "meaning": "destruir"
+      }
+    ]
+  },
+  {
+    "word": "xeharazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xeharazi",
+        "lemma": "xeharazi",
+        "meaning": "destruir"
+      }
+    ]
+  },
+  {
+    "word": "xehatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xehatu",
+        "lemma": "xehatu",
+        "meaning": "deshacer"
+      }
+    ]
+  },
+  {
+    "word": "xehatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xehatu",
+        "lemma": "xehatu",
+        "meaning": "deshacer"
+      }
+    ]
+  },
+  {
+    "word": "xerkatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xerkatu",
+        "lemma": "xerkatu",
+        "meaning": "buscar"
+      }
+    ]
+  },
+  {
+    "word": "xerkatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xerkatu",
+        "lemma": "xerkatu",
+        "meaning": "buscar"
+      }
+    ]
+  },
+  {
+    "word": "xerratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xerratu",
+        "lemma": "xerratu",
+        "meaning": "filetear"
+      }
+    ]
+  },
+  {
+    "word": "xerratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xerratu",
+        "lemma": "xerratu",
+        "meaning": "filetear"
+      }
+    ]
+  },
+  {
+    "word": "xiringatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xiringatu",
+        "lemma": "xiringatu",
+        "meaning": "inyectar"
+      }
+    ]
+  },
+  {
+    "word": "xiringatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xiringatu",
+        "lemma": "xiringatu",
+        "meaning": "inyectar"
+      }
+    ]
+  },
+  {
+    "word": "xixela",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "xixelatu",
+        "lemma": "xixelatu",
+        "meaning": "esculpir"
+      }
+    ]
+  },
+  {
+    "word": "xixelatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xixelatu",
+        "lemma": "xixelatu",
+        "meaning": "esculpir"
+      }
+    ]
+  },
+  {
+    "word": "xixelatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xixelatu",
+        "lemma": "xixelatu",
+        "meaning": "esculpir"
+      }
+    ]
+  },
+  {
+    "word": "xixka",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "xixkatu",
+        "lemma": "xixkatu",
+        "meaning": "escamotear"
+      }
+    ]
+  },
+  {
+    "word": "xixkatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xixkatu",
+        "lemma": "xixkatu",
+        "meaning": "escamotear"
+      }
+    ]
+  },
+  {
+    "word": "xixkatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xixkatu",
+        "lemma": "xixkatu",
+        "meaning": "escamotear"
+      }
+    ]
+  },
+  {
+    "word": "xora",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "xoratu",
+        "lemma": "xoratu",
+        "meaning": "enloquecer"
+      }
+    ]
+  },
+  {
+    "word": "xoratuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xoratu",
+        "lemma": "xoratu",
+        "meaning": "enloquecer"
+      }
+    ]
+  },
+  {
+    "word": "xoratzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xoratu",
+        "lemma": "xoratu",
+        "meaning": "enloquecer"
+      }
+    ]
+  },
+  {
+    "word": "xuka",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "xukatu",
+        "lemma": "xukatu",
+        "meaning": "escurrir"
+      }
+    ]
+  },
+  {
+    "word": "xukaraz",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "xukarazi",
+        "lemma": "xukarazi",
+        "meaning": "secar"
+      }
+    ]
+  },
+  {
+    "word": "xukaraziko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xukarazi",
+        "lemma": "xukarazi",
+        "meaning": "secar"
+      }
+    ]
+  },
+  {
+    "word": "xukarazten",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xukarazi",
+        "lemma": "xukarazi",
+        "meaning": "secar"
+      }
+    ]
+  },
+  {
+    "word": "xukatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xukatu",
+        "lemma": "xukatu",
+        "meaning": "escurrir"
+      }
+    ]
+  },
+  {
+    "word": "xukatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xukatu",
+        "lemma": "xukatu",
+        "meaning": "escurrir"
+      }
+    ]
+  },
+  {
+    "word": "xumetuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xumetu",
+        "lemma": "xumetu",
+        "meaning": "disminuir"
+      }
+    ]
+  },
+  {
+    "word": "xumetzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xumetu",
+        "lemma": "xumetu",
+        "meaning": "disminuir"
+      }
+    ]
+  },
+  {
+    "word": "xurga",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "xurgatu",
+        "lemma": "xurgatu",
+        "meaning": "succionar"
+      }
+    ]
+  },
+  {
+    "word": "xurgaka",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "xurgakatu",
+        "lemma": "xurgakatu",
+        "meaning": "chupetear"
+      }
+    ]
+  },
+  {
+    "word": "xurgakatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xurgakatu",
+        "lemma": "xurgakatu",
+        "meaning": "chupetear"
+      }
+    ]
+  },
+  {
+    "word": "xurgakatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xurgakatu",
+        "lemma": "xurgakatu",
+        "meaning": "chupetear"
+      }
+    ]
+  },
+  {
+    "word": "xurgatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xurgatu",
+        "lemma": "xurgatu",
+        "meaning": "succionar"
+      }
+    ]
+  },
+  {
+    "word": "xurgatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xurgatu",
+        "lemma": "xurgatu",
+        "meaning": "succionar"
+      }
+    ]
+  },
+  {
+    "word": "xurrupa",
+    "derivations": [
+      {
+        "type": "root",
+        "from": "xurrupatu",
+        "lemma": "xurrupatu",
+        "meaning": "chupar"
+      }
+    ]
+  },
+  {
+    "word": "xurrupatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xurrupatu",
+        "lemma": "xurrupatu",
+        "meaning": "chupar"
+      }
+    ]
+  },
+  {
+    "word": "xurrupatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xurrupatu",
+        "lemma": "xurrupatu",
+        "meaning": "chupar"
+      }
+    ]
+  },
+  {
+    "word": "xuxurlatuko",
+    "derivations": [
+      {
+        "type": "future",
+        "from": "xuxurlatu",
+        "lemma": "xuxurlatu",
+        "meaning": "susurrar"
+      }
+    ]
+  },
+  {
+    "word": "xuxurlatzen",
+    "derivations": [
+      {
+        "type": "habitual",
+        "from": "xuxurlatu",
+        "lemma": "xuxurlatu",
+        "meaning": "susurrar"
+      }
+    ]
+  }
+]
